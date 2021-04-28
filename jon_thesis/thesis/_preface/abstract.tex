@@ -1,0 +1,36 @@
+\chapter*{Abstract\markboth{Abstract}{Abstract}}
+% Mark 'Abstract' both even and odd markers
+    
+ 
+
+High-throughput genome-sequencing initiatives have caused an exponential growth in the magnitude of public sequence databases. By contrast, the number of experimentally resolved atomic-resolution structures, although also rising rapidly,  lags far behind. As automated computational methodologies improve, both knowledge-based and \abinitio\ modelling techniques are becoming increasingly important for high-quality structural assignment.
+Comparative modelling is currently the most successful and high-throughput technique.
+
+Advances in comparative modelling will involve improvements in the 
+identification of suitable template structures; their alignment and identification of structural equivalence; the building and evaluation of undefined 
+regions; and final-model verification and refinement. During this research, a novel method has been developed to predict structurally undefined regions, which are commonly surface-loops and must be built in the absence of homology information. 
+
+In order to calibrate a modelling method, test-sets and simulation tools are required. To this end, a highly refined database of PDB-derived structures has been produced, with a complementary  sub-database of structurally variable regions.
+To facilitate algorithm development, an extensive modular software framework has also been created, in sole collaboration with Mike\ Tyka. This framework, named \pd, encompasses significant functionality, including both modern modelling and simulation methods. In addition, tools are provided  for  data analysis and structural visualisation.
+
+\pd\ was ultimately used as the foundation of a multi-tier surface-loop modelling method, \arcus. The foundation-tier rapidly searches available conformational space, using a representative set of  \mainchain\ torsion-angles.\ These were parametised using high-quality experimental data. Following filtering, viable candidate structures are passed to each successive tier for refinement. The final structures are evaluated, using \amberff\ and the \gbsa\ solvation model, following a Cartesian conjugate-gradient energy minimisation.
+
+Finally, in the most comprehensive study of its kind in the literature, \arcus\ and a number of other recently published surface remodelling algorithms, were tested in parallel using the structural database.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

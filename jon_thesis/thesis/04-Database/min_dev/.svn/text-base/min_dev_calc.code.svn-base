@@ -1,0 +1,108 @@
+        private static void setToOptimalAllAtomRot( MatrixRotation rot, PSMolContainer mol1, PSMolContainer mol2 )
+        {
+            List<Position> a1 = new List<Position>();
+            List<Position> a2 = new List<Position>();
+
+            for (int j = 0; j < mol1.Count; j++)
+            {
+                Molecule aa = mol1[j];
+                Molecule aa2 = mol2[j];
+                for (int k = 0; k < aa.Count; k++)
+                {
+                    if (aa[k].atomPrimitive.Element != 'H')
+                    {
+                        Atom a = aa[k];
+                        Atom b = aa2.AtomOfType(a.PDBType);
+                        a1.Add( new Position(a) );
+                        a2.Add( new Position(b) );
+                    }
+                }
+            }
+
+            int[] equiv = new int[a1.Count];
+            for (int i = 0; i < equiv.Length; i++)
+            {
+                equiv[i] = i;
+            }
+
+            rot.setToOptimalRotation(a1.ToArray(), a2.ToArray(), equiv);
+        }
+
+        private static void cRMSVersus()
+        {
+            //string mod = "_d";
+            string mod = "";
+
+            string root = @"C:\_share\Common\";
+            string pre = root + "pdb" + mod + "\\";
+            string post = root + "min" + mod + "\\";
+
+            DirectoryInfo di = new DirectoryInfo(pre);
+            FileInfo[] files = di.GetFiles("*.pdb");
+
+            PSAlignManager man = new PSAlignManager(AlignmentMethod.Geometric, 400 );
+
+            List<double> rms = new List<double>();
+            List<string> names = new List<string>();
+
+            for (int i = 0; i < files.Length; i++)
+            {
+                Console.Write('.');
+
+                string namestem = Path.GetFileNameWithoutExtension(files[i].Name);
+                string minFile = post + namestem + ".min.pdb";
+                if( !File.Exists(minFile) )throw new Exception();
+
+                PDB filePre = new PDB( files[i].FullName, true );
+                PDB fileMin = new PDB( minFile, true );
+
+                PolyPeptide pP = filePre.particleSystem.MemberAt(0) as PolyPeptide;
+                pP.DoGeometrixCenter();
+                PolyPeptide pM = fileMin.particleSystem.MemberAt(0) as PolyPeptide;
+                pM.DoGeometrixCenter();
+
+                //man.ResetPSMolContainers("bob", 
+                //    new AlignSourceDefinition( filePre.particleSystem, 0 ), 
+                //    new AlignSourceDefinition( fileMin.particleSystem, 0 ) );
+                //man.PerformAlignment();
+
+                //PDB.SaveNew(after + namestem + ".pdb", man.SystemDefinition.particleSystem);
+
+                MatrixRotation rot = new MatrixRotation();
+                setToOptimalAllAtomRot(rot, pP, pM);
+                rot.transform(pM.Atoms);
+
+                double sum = 0.0;
+                double count = 0.0;
+                for (int j = 0; j < pP.Count; j++)
+                {
+                    Molecule aa = pP[j];
+                    Molecule aa2 = pM[j];
+                    for (int k = 0; k < aa.Count; k++)
+                    {
+                        if (aa[k].atomPrimitive.Element != 'H')
+                        {
+                            Atom a = aa[k];
+                            Atom b = aa2.AtomOfType(a.PDBType);
+                            double d = a.distanceSquaredTo(b);
+                            sum += d;
+                            count += 1.0;
+                        }
+                    }
+                }
+
+                rms.Add( Math.Sqrt(sum / count) );
+                names.Add(namestem);
+            }
+
+            StreamWriter rw = new StreamWriter(root + "res.csv");
+            for (int i = 0; i < rms.Count; i++)
+            {
+                rw.WriteLine(names[i] + "," + rms[i]);
+            }
+            rw.Close();
+        }
+
+        public static void Test()
+        {
+            cRMSVersus();

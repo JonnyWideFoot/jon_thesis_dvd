@@ -1,0 +1,177 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{99A68F31-6FB7-491D-9F7F-21415D963E50}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>AppLayer</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UoB.AppLayer</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\_Compile\AppLayer\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\_Compile\AppLayer\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Origin, Version=7.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\uobframework\_Common\Origin\Interop.Origin.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0. CommonTasks\CommonTasksHolder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="10. Petra\Petra.cs" />
+    <Compile Include="10. Petra\PetraInvoke.cs" />
+    <Compile Include="10. Petra\Petra_Process.cs" />
+    <Compile Include="11. Cloop\Cloop.cs" />
+    <Compile Include="11. Cloop\CloopInvoke.cs" />
+    <Compile Include="11. Cloop\Cloop_Process.cs" />
+    <Compile Include="12. Mine\MineInvoke.cs" />
+    <Compile Include="12. Mine\Mine_Process.cs" />
+    <Compile Include="13. Decoy\Decoy.cs" />
+    <Compile Include="13. Decoy\DecoyInvoke.cs" />
+    <Compile Include="14. Arcus\Arcus.cs" />
+    <Compile Include="14. Arcus\ArcusInvoke.cs" />
+    <Compile Include="14. Arcus\Arcus_process.cs" />
+    <Compile Include="1c. RamachandranAnalysis\RamachandranAnalysisInvoke.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="3. Plop\Plop.cs" />
+    <Compile Include="3. Plop\PlopInvoke.cs" />
+    <Compile Include="3. Plop\Plop_Process.cs" />
+    <Compile Include="4. LoopBuilderStage1\DSSPLoopDefFileGeneration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="4. LoopBuilderStage1\LoopBuilderStage1Invoke.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="5. LeastLikelyNativeLoop\AssessNative.cs" />
+    <Compile Include="5. LeastLikelyNativeLoop\LeastLikelyNativeLoopInvoke.cs" />
+    <Compile Include="7. Modeller\Modeller.cs" />
+    <Compile Include="7. Modeller\ModellerDopeRun.cs" />
+    <Compile Include="7. Modeller\ModellerInvoke.cs" />
+    <Compile Include="7. Modeller\Modeller_Process.cs" />
+    <Compile Include="8. Rapper\Rapper.cs" />
+    <Compile Include="8. Rapper\RapperInvoke.cs" />
+    <Compile Include="8. Rapper\Rapper_Process.cs" />
+    <Compile Include="9. FilterDevel\Filter.cs" />
+    <Compile Include="9. FilterDevel\FilterInvoke.cs" />
+    <Compile Include="AppLayerBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="6. FileConverter\FileConversion.cs" />
+    <Compile Include="6. FileConverter\FileConverterInvoke.cs" />
+    <Compile Include="IAppLayer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tester.cs" />
+    <Compile Include="_common\LoopCluster.cs" />
+    <Compile Include="_common\LoopStatAnalyse.cs" />
+    <Compile Include="_INVOKE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="App.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\uobframework\trunk\Core\Core.csproj">
+      <Project>{94609263-E31C-44CD-9C7B-8D343C87572C}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\uobframework\trunk\External\External.csproj">
+      <Project>{A56CD313-F7FC-435E-8F7D-AC5DD8077F9B}</Project>
+      <Name>External</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\uobframework\trunk\Methodology\Methodology.csproj">
+      <Project>{950ECB50-2611-4545-9567-D4974ED5569F}</Project>
+      <Name>Methodology</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Compression\Compression.csproj">
+      <Project>{F75751D7-1F42-4821-A8D0-5E569F46068B}</Project>
+      <Name>Compression</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1d. AngleSetFitting\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

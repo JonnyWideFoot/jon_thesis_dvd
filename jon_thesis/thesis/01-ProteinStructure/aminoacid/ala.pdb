@@ -1,0 +1,33 @@
+COMPND    Title                                                       
+REMARK   1  PDB:    10    11    12    13  
+REMARK   1 MMOD:     9    11    12    13 /
+HETATM    1  NP2 UNK A   1      -2.755   4.704   0.161 -0.26 -0.26   0
+HETATM    2  C03 UNK A   1      -1.566   4.476  -0.658  0.22  0.22   0
+HETATM    3  C04 UNK A   1      -1.543   5.723  -1.510  0.44  0.44   0
+HETATM    4  O05 UNK A   1      -2.672   6.237  -1.684 -0.71 -0.71   0
+HETATM    5  OM7 UNK A   1      -0.442   6.153  -1.884 -0.71 -0.71   0
+HETATM    6  C10 UNK A   1      -1.693   3.225  -1.530 -0.08 -0.08   0
+HETATM    7  H01 UNK A   1      -3.359   5.161  -0.526  0.31  0.31   0
+HETATM    8  H06 UNK A   1      -3.152   3.873   0.554  0.31  0.31   0
+HETATM    9  H08 UNK A   1      -0.672   4.415  -0.036  0.05  0.05   0
+HETATM   10  H09 UNK A   1      -2.528   5.424   0.824  0.31  0.31   0
+HETATM   11  H11 UNK A   1      -1.757   2.334  -0.906  0.04  0.04   0
+HETATM   12  H12 UNK A   1      -2.579   3.296  -2.162  0.04  0.04   0
+HETATM   13  H13 UNK A   1      -0.812   3.150  -2.170  0.04  0.04   0
+CONECT    1    2    7    8   10
+CONECT    2    1    3    9    6
+CONECT    3    2    5
+CONECT    3    4
+CONECT    3    4
+CONECT    4    3
+CONECT    4    3
+CONECT    5    3
+CONECT    6    2   11   12   13
+CONECT    7    1
+CONECT    8    1
+CONECT    9    2
+CONECT   10    1
+CONECT   11    6
+CONECT   12    6
+CONECT   13    6
+END

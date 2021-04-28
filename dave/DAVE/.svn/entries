@@ -1,0 +1,137 @@
+8
+
+dir
+6
+https://compbio.bris.ac.uk/svn/dave/DAVE
+https://compbio.bris.ac.uk/svn/dave
+
+
+
+2006-03-07T12:36:44.431413Z
+5
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+80b7b37a-33f5-b640-bab6-762617d897e3
+
+Dialog
+dir
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-11-26T00:21:59.078125Z
+9782eeb4e3450835b798779bd2a64d6b
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+
+Revisions.txt
+file
+
+
+
+
+2007-11-26T00:21:59.078125Z
+78230f1d8f018377b80d5cc5fdeed681
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+
+Documents
+dir
+
+ToolWindows
+dir
+
+DAVEMainForm.resx
+file
+
+
+
+
+2007-11-26T00:21:59.078125Z
+4cd1101f0a2b131e03aa546737bcffba
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2007-11-26T00:21:59.078125Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+has-props
+
+DAVE file associations.reg
+file
+
+
+
+
+2007-11-26T00:21:59.078125Z
+b1821029807a40fdb3fffe30862243eb
+2006-03-07T12:36:44.431413Z
+5
+jr0407
+
+DAVE.csproj.user
+file
+
+
+
+
+2007-11-26T00:21:59.093750Z
+0138ae31ff35679bcf00437186798d13
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+
+Properties
+dir
+
+DAVEMainForm.cs
+file
+
+
+
+
+2007-11-26T00:21:59.093750Z
+612ce80dc946ad6aba7f1c2d3df9df11
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+
+DAVE.csproj
+file
+
+
+
+
+2007-11-26T00:21:59.093750Z
+f2cdd8434c8c6282142379d236be7676
+2006-03-07T12:31:49.482274Z
+1
+jr0407
+

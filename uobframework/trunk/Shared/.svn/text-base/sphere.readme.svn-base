@@ -1,0 +1,48 @@
+http://www.research.att.com/~njas/electrons/
+
+Minimal Energy Arrangements of Points on a Sphere
+R. H. Hardin, N. J. A. Sloane and W. D. Smith
+A library of arrangements of points on a sphere with (conjecturally) minimal 1/r potential.
+
+    * How should one place n points on a sphere so as to minimize the potential energy
+
+      Sum 1 / dist(P_i, P_j )
+
+      This directory contains putatively optimal arrangements for n = 4, ..., 132.
+
+    * Reference:
+      R. H. Hardin, N. J. A. Sloane and W. D. Smith, Spherical Codes, book in preparation.
+      
+*Jons* code to get csv format and PDB format for sphere viewing:      
+string datFile = @"D:\_source\uobframework\trunk\Shared\single_line_data_from_web.txt";
+StreamReader re = new StreamReader(datFile);
+
+List<Position> pos = new List<Position>();
+
+string line;
+while ( true )
+{
+	if(null == (line = re.ReadLine())) break;
+	double x = Double.Parse(line);
+	if (null == (line = re.ReadLine())) break;
+	double y = Double.Parse(line);
+	if (null == (line = re.ReadLine())) break;
+	double z = Double.Parse(line);
+	pos.Add(new Position(x, y, z));
+}
+
+re.Close();
+
+StreamWriter rw = new StreamWriter(@"D:\_source\uobframework\trunk\Shared\sphere3.csv");
+StreamWriter rwPDB = new StreamWriter(@"D:\_source\uobframework\trunk\Shared\sphere3.pdb");
+double fac = 30;
+for (int i = 0; i < pos.Count; i++)
+{
+	rw.WriteLine("{0:F5},{1:F5},{2:F5}", pos[i].x, pos[i].y, pos[i].z);
+	rwPDB.WriteLine("ATOM  {0,5:D}  N   MOL A   1    {1,8:F3}{2,8:F3}{3,8:F3}  1.00  1.00           N", 
+	  i, pos[i].x * fac, pos[i].y * fac, pos[i].z * fac);                
+}
+rw.Close();
+rwPDB.Close();
+
+return;

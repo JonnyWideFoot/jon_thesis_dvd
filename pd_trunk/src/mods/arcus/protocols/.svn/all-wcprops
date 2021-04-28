@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pdPrime/!svn/ver/43/src/mods/arcus/protocols
+END
+arcus_replay.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pdPrime/!svn/ver/43/src/mods/arcus/protocols/arcus_replay.h
+END
+arcus_main.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pdPrime/!svn/ver/43/src/mods/arcus/protocols/arcus_main.h
+END
+arcus_base.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pdPrime/!svn/ver/31/src/mods/arcus/protocols/arcus_base.cpp
+END
+arcus_refiner.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pdPrime/!svn/ver/43/src/mods/arcus/protocols/arcus_refiner.cpp
+END
+arcus_refiner.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/pdPrime/!svn/ver/43/src/mods/arcus/protocols/arcus_refiner.h
+END

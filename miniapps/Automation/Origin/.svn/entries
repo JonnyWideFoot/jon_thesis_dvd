@@ -1,0 +1,89 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Automation/Origin
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2005-05-25T14:24:34.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Origin.sln
+file
+
+
+
+
+2006-03-07T15:54:55.093750Z
+243a13484e9442b00aba8efed77ba0ea
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Form1.resx
+file
+
+
+
+
+2005-05-26T17:59:28.000000Z
+de592ccaf6b7bcc21a5a04a73a5ee39e
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Origin.csproj
+file
+
+
+
+
+2006-03-07T15:54:36.828125Z
+6306b591a40cd3f151d9aaa34d48a924
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Form1.cs
+file
+
+
+
+
+2005-07-18T14:39:00.000000Z
+59ead2249aa015b176e7eb30d7df0df3
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2005-05-25T14:24:34.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+

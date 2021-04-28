@@ -1,0 +1,114 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Automation/Excel
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2005-05-16T16:35:04.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+AutoExcel.sln
+file
+
+
+
+
+2006-03-07T15:44:00.343750Z
+9aeb6622668cf478617c45f61e5d8535
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Form1.resx
+file
+
+
+
+
+2005-05-16T18:53:10.000000Z
+0dee5c2688b6d5bbee58cfe5b0439768
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+example.csv
+file
+
+
+
+
+2006-03-07T16:32:39.875000Z
+e8f8ba508fa0d031cc98073adc5bc556
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+AutoExcel.csproj
+file
+
+
+
+
+2006-03-07T15:46:12.234375Z
+274f9ac8ada85895fdbe9626e9ed1b99
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Form1.cs
+file
+
+
+
+
+2006-03-07T16:32:04.421875Z
+333a808b7cee23ef6d29c8ce6ec78528
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2005-05-16T16:35:04.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+Office Interop Wrapper Files - oxppia.exe
+file
+
+
+
+
+2005-05-16T16:46:26.000000Z
+7029dfc6af7a62705c0e61acc587a6c8
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+

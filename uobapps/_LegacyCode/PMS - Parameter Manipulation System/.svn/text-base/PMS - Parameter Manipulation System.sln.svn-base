@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMS - Parameter Manipulation System", "PMS - Parameter Manipulation System.csproj", "{2222CB1D-B139-416F-98B2-D2A0FFD1F4D9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Research", "..\Research\Research.csproj", "{80623367-BCB0-4A5D-9A15-5DAFAFD6E2C4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "..\Generic\Generic.csproj", "{D5030E8B-76E9-49BF-96AC-21C4480ED94F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2222CB1D-B139-416F-98B2-D2A0FFD1F4D9}.Debug.ActiveCfg = Debug|.NET
+		{2222CB1D-B139-416F-98B2-D2A0FFD1F4D9}.Debug.Build.0 = Debug|.NET
+		{2222CB1D-B139-416F-98B2-D2A0FFD1F4D9}.Release.ActiveCfg = Release|.NET
+		{2222CB1D-B139-416F-98B2-D2A0FFD1F4D9}.Release.Build.0 = Release|.NET
+		{80623367-BCB0-4A5D-9A15-5DAFAFD6E2C4}.Debug.ActiveCfg = Debug|.NET
+		{80623367-BCB0-4A5D-9A15-5DAFAFD6E2C4}.Debug.Build.0 = Debug|.NET
+		{80623367-BCB0-4A5D-9A15-5DAFAFD6E2C4}.Release.ActiveCfg = Release|.NET
+		{80623367-BCB0-4A5D-9A15-5DAFAFD6E2C4}.Release.Build.0 = Release|.NET
+		{D5030E8B-76E9-49BF-96AC-21C4480ED94F}.Debug.ActiveCfg = Debug|.NET
+		{D5030E8B-76E9-49BF-96AC-21C4480ED94F}.Debug.Build.0 = Debug|.NET
+		{D5030E8B-76E9-49BF-96AC-21C4480ED94F}.Release.ActiveCfg = Release|.NET
+		{D5030E8B-76E9-49BF-96AC-21C4480ED94F}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

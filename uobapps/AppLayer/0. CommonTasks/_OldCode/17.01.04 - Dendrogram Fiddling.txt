@@ -1,0 +1,12 @@
+
+			//DendroTree tt = new DendroTree( @"c:\bla.ph" );
+			DendroTree t = new DendroTree( @"c:\jonout.ph" );
+			EndNode node1 = t.scanForNode( "1a02_N_577-678");
+			EndNode node2 = t.scanForNode( "1imh_C_368-467");
+			ParentedNode nodeParent = t.scanForCommonParent( node1, node2 );
+
+			DendroTree t = new DendroTree( @"c:\all_13-10-04.ph" );
+			EndNode node1 = t.scanForNode( "1fn4_B_110-206" );
+			EndNode node2 = t.scanForNode( "1hzh_K_115-226" );
+			ParentedNode nodeParent = t.scanForCommonParent( node1, node2 );
+            ParentedNode.PrintContainedEndNodesToFile( @"c:\subFam1.list", nodeParent );

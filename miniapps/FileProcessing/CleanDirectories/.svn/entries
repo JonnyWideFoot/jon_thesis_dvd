@@ -1,0 +1,77 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/FileProcessing/CleanDirectories
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2006-02-01T12:57:03.125000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+CleanDirectories.cs
+file
+
+
+
+
+2006-02-01T12:57:03.140625Z
+924d16d99925965a8825c5ee2948eac1
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2006-02-01T12:57:03.125000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+CleanDirectories.sln
+file
+
+
+
+
+2006-03-07T13:22:17.015625Z
+ff1beca5560ee0f8bde8ff919962d1f6
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+CleanDirectories.csproj
+file
+
+
+
+
+2006-03-07T13:24:26.109375Z
+842c4883f6ce851b2400af90f24a84cc
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

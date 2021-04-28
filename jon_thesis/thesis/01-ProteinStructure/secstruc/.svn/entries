@@ -1,0 +1,73 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure/secstruc
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-06-03T19:40:09.249375Z
+69
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+antiparallel_strand.png
+file
+
+
+
+
+2007-11-26T00:22:28.593750Z
+cef7b97a427db0e1d96f430960657eba
+2007-06-03T19:40:09.249375Z
+69
+jr0407
+has-props
+
+helix
+dir
+
+parallel_strand.png
+file
+
+
+
+
+2007-11-26T00:22:28.593750Z
+325a10baf1b2a9531a3839bf8fe34078
+2007-06-03T19:40:09.249375Z
+69
+jr0407
+has-props
+
+strand
+dir
+
+helix.png
+file
+
+
+
+
+2007-11-26T00:22:28.593750Z
+1e19b271e45b57589e3589064a2f7fae
+2007-06-03T19:40:09.249375Z
+69
+jr0407
+has-props
+

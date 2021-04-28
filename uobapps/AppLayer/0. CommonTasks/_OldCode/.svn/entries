@@ -1,0 +1,196 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/0.%20CommonTasks/_OldCode
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+15.09.04 - ist.aln file from .list file.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+b04d013e9dae0475e5763b1e4e4fde5e
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - PDB List Generation.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+b66fa32452742de5b9d0c39344c9e6a0
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+12.10.04 - reget IG database from file ID with new PDB parser.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+d55d6e9c3098035ad553ca2f6c8327e3
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - aln file concatenation.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+d5874c18f97b62889d54948274afac3b
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+12.10.04 - perform rebuild on all IGs in database.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+c131945fed9a2831aa9ed410af472506
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - View Align Report.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+c591edff2c5b5c61474df9003549aefe
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - IG Domain FASTA file generation.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+5da084a59ca4f755594512ccef40864d
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - Align all files in a directory.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+2efc9bbf69828c1d105a62d053160730
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - Dendrogram Fiddling.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+c0c4d4a8d734952bd4e225121ad2d92a
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+15.09.04 - make aln file one line per PDB.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+8f014b9eee02cd3c94d84acb2472ad7f
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+13.09.04 - generate subFamily list files.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+289003ad55f48935be9ec463ba425bb9
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - IG Domain FASTA file generation - More Simple.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+7e48e6224c309e9743adfa1613a0ea3b
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+12.10.04 - Check for overlapping fragments.txt
+file
+
+
+
+
+2006-09-23T12:35:47.828125Z
+65618556e3ba58053da84533daf8ad61
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+17.01.04 - PH domain file sorter.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+5884324dd58a68eba62c7044a352fbc1
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+20.09.04 - concat align files.txt
+file
+
+
+
+
+2006-09-23T12:35:47.843750Z
+20349907b9290aecccce5db14204e733
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+

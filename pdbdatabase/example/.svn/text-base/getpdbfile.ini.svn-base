@@ -1,0 +1,4 @@
+prestring=http://www.rcsb.org/pdb/cgi/export.cgi/
+midstring=.pdb?format=PDB&pdbId=
+poststring=&compression=None
+targetdir=pdb/

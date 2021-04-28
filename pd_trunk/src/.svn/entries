@@ -1,0 +1,130 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/src
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2008-01-13T01:04:50.224583Z
+58
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+mmlib
+dir
+
+tools
+dir
+
+config.h.in
+file
+
+
+
+
+2007-11-29T23:45:01.062841Z
+47cc20c20f76c66247b591cbafcbedd7
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+mods
+dir
+
+Makefile.in
+file
+
+
+
+
+2007-11-29T23:45:01.062841Z
+24080039f3e690d985abb2a3a6cc03ab
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+pd
+dir
+
+Doxyfile
+file
+
+
+
+
+2007-11-29T23:45:01.062841Z
+4dbecb093f6e67a9734b48b8301d9b7d
+2007-11-15T23:52:54.345452Z
+17
+mt0226
+
+doc
+dir
+
+scratch
+dir
+
+RENAME.log
+file
+
+
+
+
+2007-11-29T23:45:01.062841Z
+fa459259aa63fa9f38acf25a11ce03ee
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+Makefile.am
+file
+
+
+
+
+2007-11-29T23:45:01.062841Z
+b6f65da4501213951205acbf9538618f
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+Makefile.manual
+file
+
+
+
+
+2007-11-29T23:45:01.078466Z
+8f9058c85c65cd278e4e5b75d2e27e88
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+Makefile.icc
+file
+
+
+
+
+2007-11-29T23:45:01.094091Z
+6fb1e653e435f1fa63aecc54ce3c85cf
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+

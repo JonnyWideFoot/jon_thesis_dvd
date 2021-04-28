@@ -1,0 +1,163 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/branches/UobFramework-2.0.0.0/Core
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+Exceptions.cs
+file
+
+
+
+
+2007-11-26T00:24:31.750000Z
+ef5f614923f520aac311f27e88ccf76e
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Core.csproj
+file
+
+
+
+
+2007-11-26T00:24:31.750000Z
+0e0112c044573c639109439180ee323e
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+Primitives
+dir
+
+CoreIni.cs
+file
+
+
+
+
+2007-11-26T00:24:31.750000Z
+07673c7066b576e7562de111079f2aeb
+2006-02-10T15:03:02.174875Z
+16
+jr0407
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-11-26T00:24:31.750000Z
+a9368359b6abd964dd2fb0128a5bd923
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+
+CoreInterfaces.cs
+file
+
+
+
+
+2007-11-26T00:24:31.750000Z
+9e2ba04c18ec32922b7f5f7822bf27bc
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Tools
+dir
+
+Structure
+dir
+
+FastRandom.cs
+file
+
+
+
+
+2007-11-26T00:24:31.781250Z
+e5b1e1d2f69186189d9fe1d23b6e7bc2
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+ForceField
+dir
+
+Core.csproj.user
+file
+
+
+
+
+2007-11-26T00:24:31.781250Z
+13665a9f37fc3231c3011e8a3782abb6
+2005-11-10T12:48:50.328125Z
+13
+jr0407
+
+MoveSets
+dir
+
+Download
+dir
+
+FileIO
+dir
+
+Sequence
+dir
+
+Data
+dir
+
+CoreDelegates.cs
+file
+
+
+
+
+2007-11-26T00:24:31.781250Z
+9dab5485e04454c92308aa181ab6f10b
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+CoreEventArgs.cs
+file
+
+
+
+
+2007-11-26T00:24:31.781250Z
+b60c942ce68a3b6f49d129572a6c58dc
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

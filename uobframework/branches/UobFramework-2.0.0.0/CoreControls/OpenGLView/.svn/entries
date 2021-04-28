@@ -1,0 +1,106 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/branches/UobFramework-2.0.0.0/CoreControls/OpenGLView
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+IRenderable.cs
+file
+
+
+
+
+2007-11-26T00:24:36.109375Z
+0a41cb39d11e146d9af802912e13737c
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+GLView.cs
+file
+
+
+
+
+2007-11-26T00:24:36.109375Z
+432cfc841fb4ac0f77fd2560648adc95
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Janus_Renderer.cs
+file
+
+
+
+
+2007-11-26T00:24:36.109375Z
+ef6e79adc6d36dc094cf5ba9aca7df39
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Primitives
+dir
+
+GLEnvironment.cs
+file
+
+
+
+
+2007-11-26T00:24:36.109375Z
+da3d97196655780c20236fecd667d1ac
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+RenderManagers
+dir
+
+GLView.resx
+file
+
+
+
+
+2007-11-26T00:24:36.109375Z
+afa66a87615e70cb7024206ab844bc66
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Perspective.cs
+file
+
+
+
+
+2007-11-26T00:24:36.109375Z
+21da28b6c107e16d609e384e5649a67c
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

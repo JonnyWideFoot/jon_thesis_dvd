@@ -1,0 +1,52 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/4.%20LoopBuilderStage1
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-05-26T16:48:51.921875Z
+65
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+DSSPLoopDefFileGeneration.cs
+file
+
+
+
+
+2007-05-30T17:05:16.562500Z
+23fa5ff866a00a54888baf3ccf4d2778
+2007-05-26T16:48:51.921875Z
+65
+jr0407
+
+LoopBuilderStage1Invoke.cs
+file
+
+
+
+
+2007-05-30T17:05:16.578125Z
+67dffc8ffd095871f90da1d87a44d14f
+2007-05-26T16:48:51.921875Z
+65
+jr0407
+

@@ -1,0 +1,85 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/py
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-12-09T19:47:33.397125Z
+38
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+frag
+dir
+
+tools
+dir
+
+benchmark.py
+file
+
+
+
+
+2007-11-29T23:45:01.672216Z
+bf0c000ffcb8dc5be7489b95132e20d8
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+minimise.py
+file
+
+
+
+
+2007-11-29T23:45:01.687841Z
+2c6c7412de942daf3386a4cd864d28da
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+pdb
+dir
+
+makeexamples.sh
+file
+
+
+
+
+2007-11-29T23:45:01.687841Z
+3863b03c9c1e5b5c267920a75b4efa81
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+tra_interaction.py
+file
+
+
+
+
+2007-11-29T23:45:01.687841Z
+ce223efc6ce0769b6a4b3135c2e52e5e
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+

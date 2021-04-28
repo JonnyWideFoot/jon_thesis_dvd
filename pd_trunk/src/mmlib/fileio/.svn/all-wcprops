@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pdPrime/!svn/ver/58/src/mmlib/fileio
+END
+outtra.fwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/outtra.fwd.h
+END
+psfdcd.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/psfdcd.cpp
+END
+pdb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pdPrime/!svn/ver/58/src/mmlib/fileio/pdb.cpp
+END
+infile.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pdPrime/!svn/ver/45/src/mmlib/fileio/infile.cpp
+END
+psfdcd.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/psfdcd.h
+END
+tra.fwd.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/tra.fwd.h
+END
+pdb.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/pdb.h
+END
+tratypes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pdPrime/!svn/ver/45/src/mmlib/fileio/tratypes.cpp
+END
+infile.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/infile.h
+END
+outtra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/outtra.cpp
+END
+tratypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pdPrime/!svn/ver/52/src/mmlib/fileio/tratypes.h
+END
+outtra.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/outtra.h
+END
+trablocks.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/43/src/mmlib/fileio/trablocks.cpp
+END
+tra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/pdPrime/!svn/ver/47/src/mmlib/fileio/tra.cpp
+END
+trablocks.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pdPrime/!svn/ver/45/src/mmlib/fileio/trablocks.h
+END
+tra.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/pdPrime/!svn/ver/47/src/mmlib/fileio/tra.h
+END

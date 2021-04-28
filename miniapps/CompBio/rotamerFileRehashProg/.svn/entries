@@ -1,0 +1,65 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/CompBio/rotamerFileRehashProg
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2004-06-08T23:20:18.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ConsoleApplication1.csproj
+file
+
+
+
+
+2004-06-08T23:20:18.000000Z
+7d50817a7a9919c283e9021bb4e79d15
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2004-06-08T23:20:18.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+Class1.cs
+file
+
+
+
+
+2004-06-09T15:31:42.000000Z
+213bbd405b55f97d3bdcae241ba2194b
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

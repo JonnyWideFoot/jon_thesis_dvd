@@ -1,0 +1,124 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/CoreControls
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+OpenGLView
+dir
+
+PS_Render
+dir
+
+Dendrogram
+dir
+
+Builder
+dir
+
+CoreControls.csproj.user
+file
+
+
+
+
+2007-11-26T00:24:06.796875Z
+9d67fa72d30949dae78065dcb928ac60
+2005-11-10T12:48:50.328125Z
+13
+jr0407
+
+ToolWindows
+dir
+
+Properties
+dir
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-11-26T00:24:06.796875Z
+17e31c97d5d2d6257f6a6e5a2257cf90
+2006-03-07T15:56:20.839307Z
+20
+jr0407
+
+DialogBoxes
+dir
+
+Documents
+dir
+
+Controls
+dir
+
+ClipboardControl.cs
+file
+
+
+
+
+2007-11-26T00:24:06.796875Z
+1df14eee69a776160a3f25a9a3a90251
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Images
+dir
+
+TraInterface
+dir
+
+Reporting
+dir
+
+RecentFileListManager.cs
+file
+
+
+
+
+2007-11-26T00:24:06.828125Z
+d5f98fac037e4e107f09b03068e8df1b
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+CoreControls.csproj
+file
+
+
+
+
+2007-11-26T00:24:06.828125Z
+db48f42da38c19c30aad22b3a55bdaf7
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+

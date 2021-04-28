@@ -1,0 +1,47 @@
+
+			string pathOut = @"C:\_Gen Ig Database 01.10.04\newOut\";
+			string pathSource = @"C:\_Gen Ig Database 01.10.04\SourcePDB\";
+			string listPath = @"C:\_Gen Ig Database 01.10.04\_Sequence analysis\Seqres derived sequences\";
+			DirectoryInfo allListFilesFolder = new DirectoryInfo( listPath );
+			FileInfo[] allListFiles = allListFilesFolder.GetFiles( "*.list" );
+
+
+			//StreamWriter rw = new StreamWriter(@"C:\bbb.txty");
+
+			for( int i = 0; i < allListFiles.Length; i++ )
+			{
+				FASTA f = new FASTA();
+
+				StreamReader re = new StreamReader(allListFiles[i].FullName);
+				
+				string line;
+				while( null != ( line = re.ReadLine() ) )
+				{
+					string pdbID = line.Substring(0,4);
+					char chainID = line[5];
+
+					string range = line.Substring(7,line.Length-7);
+					string[] rangeParts = range.Split('-');
+					int startID = int.Parse( rangeParts[0] );
+					int endID = int.Parse( rangeParts[1] );
+
+					if( chainID == '-' )
+					{
+						chainID = ' ';
+					}
+
+					PDB file = new PDB( pathSource + pdbID + ".pdb", true );
+					PDBSequence s = (PDBSequence)file.SequenceInfo;
+					// need to get the PDBIDs for the database and parse for the correct chainID
+					f.AddSequence( line, s.getSEQRESSeq( chainID, startID, endID ) );
+					//rw.Write( s.getSEQRESSeq( chainID, startID, endID ) );
+					//rw.Write( "\r\n\r\n\r\n\r\n" );
+				}	
+
+				f.WriteFile( allListFiles[i].FullName.Substring(0,allListFiles[i].FullName.Length - 5 ) + ".ali" );
+			}
+
+			//rw.Close();
+
+		
+			return;

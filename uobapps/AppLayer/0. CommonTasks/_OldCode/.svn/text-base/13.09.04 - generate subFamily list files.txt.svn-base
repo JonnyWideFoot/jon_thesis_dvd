@@ -1,0 +1,26 @@
+			DendroTree t = new DendroTree( @"c:\jonout.ph" );
+
+			EndNode node1 = t.scanForNode( "1fn4_B_110-206" );
+			EndNode node2 = t.scanForNode( "1hzh_K_115-226" );
+			ParentedNode nodeParent = t.scanForCommonParent( node1, node2 );
+            ParentedNode.PrintContainedEndNodesToFile( @"c:\subFam1.list", nodeParent );
+
+			node1 = t.scanForNode( "2hmi_D_3-122" );
+			node2 = t.scanForNode( "1baf_H_1-113" );
+			nodeParent = t.scanForCommonParent( node1, node2 );
+			ParentedNode.PrintContainedEndNodesToFile( @"c:\subFam2.list", nodeParent );
+
+			node1 = t.scanForNode( "1nca_H_1-112" );
+			node2 = t.scanForNode( "2jel_H_1-112" );
+			nodeParent = t.scanForCommonParent( node1, node2 );
+			ParentedNode.PrintContainedEndNodesToFile( @"c:\subFam3.list", nodeParent );
+
+			node1 = t.scanForNode( "1bzq_M_1203-1319" );
+			node2 = t.scanForNode( "1ots_C_3-120" );
+			nodeParent = t.scanForCommonParent( node1, node2 );
+			ParentedNode.PrintContainedEndNodesToFile( @"c:\subFam4.list", nodeParent );
+
+			node1 = t.scanForNode( "1it9_L_2-111" );
+			node2 = t.scanForNode( "1bvk_A_1-108" );
+			nodeParent = t.scanForCommonParent( node1, node2 );
+			ParentedNode.PrintContainedEndNodesToFile( @"c:\subFam5.list", nodeParent );

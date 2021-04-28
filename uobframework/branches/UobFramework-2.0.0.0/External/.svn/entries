@@ -1,0 +1,70 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/branches/UobFramework-2.0.0.0/External
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-11-26T00:24:07.781250Z
+719168e4e0642e82850e9e7b14f47ed0
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+
+Minimisation
+dir
+
+External.csproj
+file
+
+
+
+
+2007-11-26T00:24:07.781250Z
+d32abf7b3670c305fb3f27c6537f7fbe
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+Common
+dir
+
+External.csproj.user
+file
+
+
+
+
+2007-11-26T00:24:07.781250Z
+68b6bcff2b665d856a55243a46422858
+2005-11-10T12:48:50.328125Z
+13
+jr0407
+

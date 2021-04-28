@@ -1,0 +1,69 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-09-30T10:35:34.688000Z
+81
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+Compression
+dir
+
+AngleSetViewer
+dir
+
+Tester
+dir
+
+Shared
+dir
+
+overlord
+dir
+
+AppLayer
+dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode/AppLayer
+10
+
+_LegacyCode
+dir
+

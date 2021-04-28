@@ -1,0 +1,217 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{744043BA-B34C-4C34-99A3-E5D6E8722D7E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DAVE</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UoB.DAVE</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\_Compile\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Core, Version=2.0.0.21669, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreControls, Version=2.0.0.21700, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\CoreControls.dll</HintPath>
+    </Reference>
+    <Reference Include="DockingSuite, Version=0.9.6.0, Culture=neutral, PublicKeyToken=f7035374aed2c173">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\Divil\DockingSuite.dll</HintPath>
+    </Reference>
+    <Reference Include="External, Version=2.0.0.21671, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\External.dll</HintPath>
+    </Reference>
+    <Reference Include="NPlot, Version=0.9.9.2, Culture=neutral, PublicKeyToken=4eda430eb4395eb1">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\NPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="SandBar, Version=1.0.8.0, Culture=neutral, PublicKeyToken=75b7ec17dd7c14c3">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\Divil\SandBar.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="Tao.FreeGlut, Version=2.2.0.0, Culture=neutral, PublicKeyToken=6e602a6ad6c0d06d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\Tao.FreeGlut.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=1ca010269a4501ef">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl.ExtensionLoader, Version=1.5.0.3, Culture=neutral, PublicKeyToken=aaade445f4a3f192">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\Tao.OpenGl.ExtensionLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl.Glu, Version=1.5.0.3, Culture=neutral, PublicKeyToken=3661ea75021374b5">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\Tao.OpenGl.Glu.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.3, Culture=neutral, PublicKeyToken=701104b2da67a104">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\uobframework\_Common\UobFramework-2.0.0.0\Tao.Platform.Windows.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Content Include="Revisions.txt" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAVEMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialog\PDBCacheOpenWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\DendroViewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\DirectoryViewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\ModelViewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\PDBViewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\PSViewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\TraViewDoc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DAVEMainForm.resx">
+      <DependentUpon>DAVEMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialog\PDBCacheOpenWindow.resx">
+      <DependentUpon>PDBCacheOpenWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\DendroViewDoc.resx">
+      <DependentUpon>DendroViewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\DirectoryViewDoc.resx">
+      <DependentUpon>DirectoryViewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\ModelViewDoc.resx">
+      <DependentUpon>ModelViewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\PDBViewDoc.resx">
+      <DependentUpon>PDBViewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\PSViewDoc.resx">
+      <DependentUpon>PSViewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\TraViewDoc.resx">
+      <DependentUpon>TraViewDoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ToolWindows\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

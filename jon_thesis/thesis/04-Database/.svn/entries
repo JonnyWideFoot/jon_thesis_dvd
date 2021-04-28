@@ -1,0 +1,64 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/04-Database
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T22:31:50.762904Z
+206
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+CullPDBCounts
+dir
+
+min_dev
+dir
+
+soft_sphere
+dir
+
+database.tex
+file
+
+
+
+
+2008-02-01T08:30:56.500000Z
+89315eec9db085e02c892cf118b98e28
+2007-12-26T22:31:50.762904Z
+206
+jr0407
+
+img_protdb
+dir
+
+allowed
+dir
+
+disallowed
+dir
+
+img_loopdb
+dir
+
+nmr
+dir
+

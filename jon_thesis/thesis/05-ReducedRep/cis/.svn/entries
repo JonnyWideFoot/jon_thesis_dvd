@@ -1,0 +1,73 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/05-ReducedRep/cis
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-08-13T03:03:49.084625Z
+125
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+propcis
+dir
+
+omega_dist_proonly.pdf
+file
+
+
+
+
+2007-11-26T00:35:43.453125Z
+0cc3c3df717f2f16c45d16ec2771d392
+2007-08-13T03:03:49.084625Z
+125
+jr0407
+has-props
+
+propcis.pdf
+file
+
+
+
+
+2007-11-26T00:35:43.453125Z
+005dba7b36d69b5287c24eb1c74f23d8
+2007-08-13T03:03:49.084625Z
+125
+jr0407
+has-props
+
+omega
+dir
+
+omega_dist_allNoPro.pdf
+file
+
+
+
+
+2007-11-26T00:35:43.453125Z
+9885c9d72762386583d6c3335aaf6fb8
+2007-08-13T03:03:49.084625Z
+125
+jr0407
+has-props
+

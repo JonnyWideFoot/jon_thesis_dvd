@@ -1,0 +1,79 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/branches/UobFramework-2.0.0.0/Core/Sequence
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2005-11-10T12:48:50.328125Z
+13
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+SequenceInputTypes.cs
+file
+
+
+
+
+2007-11-26T00:24:29.875000Z
+f05bf65ffd173c06028bd6342b9e6628
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+StandardResidues.cs
+file
+
+
+
+
+2007-11-26T00:24:29.890625Z
+076418ff0effaab513f83e8596c1773a
+2005-10-24T15:34:20.675774Z
+6
+jr0407
+
+Sequence.cs
+file
+
+
+
+
+2007-11-26T00:24:29.890625Z
+54b2989682ce888731eabc810b1330bb
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Alignment
+dir
+
+StandardSeqTools.cs
+file
+
+
+
+
+2007-11-26T00:24:29.890625Z
+c1778922a91a570465faf31b8b390168
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

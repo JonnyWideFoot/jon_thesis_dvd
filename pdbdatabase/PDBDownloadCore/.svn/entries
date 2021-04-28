@@ -1,0 +1,79 @@
+8
+
+dir
+8
+https://compbio.bris.ac.uk/svn/pdbdatabase/PDBDownloadCore
+https://compbio.bris.ac.uk/svn/pdbdatabase
+
+
+
+2006-06-23T13:05:44.911375Z
+2
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5629cfab-e2fe-214f-a4a1-1a82b3184546
+
+iniRead.cs
+file
+
+
+
+
+2006-10-15T15:27:37.657441Z
+fd384941485ec0184cb583f4b5ff4bc0
+2006-06-19T11:58:00.953125Z
+1
+jr0407
+
+DownloadDefinition.cs
+file
+
+
+
+
+2006-10-15T15:27:37.673066Z
+52fa0ca5058b1505fab44798c9d56c43
+2006-06-19T11:58:00.953125Z
+1
+jr0407
+
+PDBDownloadCore.csproj
+file
+
+
+
+
+2006-10-15T15:27:37.673066Z
+6322d42101649781a9e4d65718307249
+2006-06-19T11:58:00.953125Z
+1
+jr0407
+
+DownloadManager.cs
+file
+
+
+
+
+2006-10-15T15:27:37.688691Z
+098297c6be52a8d1d1bb99d76a573c40
+2006-06-23T13:05:44.911375Z
+2
+jr0407
+
+Properties
+dir
+

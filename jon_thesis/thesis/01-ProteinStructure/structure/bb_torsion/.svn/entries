@@ -1,0 +1,54 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure/structure/bb_torsion
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+bb_torsion.pspimage
+file
+
+
+
+
+2007-11-26T00:19:29.593750Z
+72ec809e3897bce9ddf45201e22cc03b
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+has-props
+
+bb_torsion_3.pse
+file
+
+
+
+
+2007-11-26T00:19:29.593750Z
+6d916895e9191c4731b9778728555846
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+has-props
+

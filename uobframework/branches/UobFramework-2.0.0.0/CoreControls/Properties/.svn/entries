@@ -1,0 +1,52 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/branches/UobFramework-2.0.0.0/CoreControls/Properties
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-02-10T15:03:02.174875Z
+16
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+Resources.resx
+file
+
+
+
+
+2007-11-26T00:24:43.468750Z
+fc75f378d77f29ee452970be2bf081e1
+2006-02-10T15:03:02.174875Z
+16
+jr0407
+
+Resources.Designer.cs
+file
+
+
+
+
+2007-11-26T00:24:43.468750Z
+d215361258635cea4631797b1d5de515
+2006-02-10T15:03:02.174875Z
+16
+jr0407
+

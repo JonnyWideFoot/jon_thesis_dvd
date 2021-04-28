@@ -1,0 +1,54 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure/secstruc/strand
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-05-06T17:44:47.430875Z
+33
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+antiparallel_strand.pse
+file
+
+
+
+
+2007-11-26T00:22:10.250000Z
+b4671969540c64c824e9570f45bcb232
+2007-05-06T17:44:47.430875Z
+33
+jr0407
+has-props
+
+parallel_strand.pse
+file
+
+
+
+
+2007-11-26T00:22:10.250000Z
+f43118d2958866090e641ebd34b0932e
+2007-05-06T17:44:47.430875Z
+33
+jr0407
+has-props
+

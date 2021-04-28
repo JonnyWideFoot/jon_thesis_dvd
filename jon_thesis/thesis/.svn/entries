@@ -1,0 +1,205 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T22:31:50.762904Z
+206
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+01-ProteinStructure
+dir
+
+title.tex
+file
+
+
+
+
+2007-12-20T00:40:28.140625Z
+7b306a124e09e5570a3358c0c605b0d6
+2007-12-20T01:22:51.040000Z
+203
+jr0407
+
+app_names.txt
+file
+
+
+
+
+2007-11-26T00:39:11.796875Z
+a38ffdf6828cf9a88886172859264c37
+2007-08-19T10:15:56.531250Z
+130
+jr0407
+
+04-Database
+dir
+
+clean.bat
+file
+
+
+
+
+2007-11-26T00:39:11.812500Z
+46beaae1396f7a187632c3d8dc30f8c9
+2007-05-07T17:58:21.811002Z
+36
+jr0407
+
+_bib
+dir
+
+index.tcp
+file
+
+
+
+
+2007-12-20T01:10:51.687500Z
+8a4db7ac9de74341236d7257c22641ad
+2006-10-14T12:37:43.578125Z
+1
+jr0407
+
+02-ProtModelling
+dir
+
+quotes.txt
+file
+
+
+
+
+2007-11-26T00:39:11.812500Z
+ee992b1eb783d01a91b5d02a1ab274cf
+2007-08-25T03:29:34.148125Z
+140
+jr0407
+
+08-MethodComparison
+dir
+
+commands.tex
+file
+
+
+
+
+2007-12-12T21:46:21.359375Z
+0a9791337fc20b8a2ba62fe76cb056ae
+2007-12-12T22:38:37.463125Z
+200
+jr0407
+
+10-Discussion
+dir
+
+glossary.tex
+file
+
+
+
+
+2007-12-12T21:15:24.859375Z
+49bd8c497d294a73acc80c441d4c39a3
+2007-06-14T19:30:21.828125Z
+86
+jr0407
+
+09-Arcus
+dir
+
+05-ReducedRep
+dir
+
+_preface
+dir
+
+index.tex
+file
+
+
+
+
+2007-11-26T00:39:11.812500Z
+13ad556c55f675bdac4874c0a6355a88
+2007-09-24T19:06:36.973500Z
+194
+jr0407
+
+06-PreArcus
+dir
+
+AppendixA
+dir
+
+03-Software
+dir
+
+07-CASP
+dir
+
+AppendixB
+dir
+
+formats.tex
+file
+
+
+
+
+2007-11-26T00:39:11.812500Z
+33d47e11530d10677c707d8b80a7bfaa
+2007-09-09T03:38:58.628375Z
+161
+jr0407
+
+img
+dir
+
+index.tps
+file
+
+
+
+
+2008-02-01T08:30:57.781250Z
+bce720930b7db4d4b9ae1eb79c3dd11e
+2007-12-26T21:58:07.162612Z
+205
+jr0407
+
+packages.tex
+file
+
+
+
+
+2007-12-12T21:15:24.859375Z
+9ad9446814efe0ad788dbb083ab73e8b
+2007-08-27T14:51:53.179375Z
+144
+jr0407
+

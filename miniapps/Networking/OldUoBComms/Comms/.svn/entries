@@ -1,0 +1,130 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Networking/OldUoBComms/Comms
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2004-08-10T02:03:00.000000Z
+8db259104b6f8db3a15d8d079a27662d
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Delegates.cs
+file
+
+
+
+
+2004-01-28T12:03:00.000000Z
+f6ad7ebf8a184b2465e563617b2d4e93
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ChatItem.cs
+file
+
+
+
+
+2004-01-20T19:00:00.000000Z
+59164a76bbe4f6f62856e7f3066d1587
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Chat.cs
+file
+
+
+
+
+2004-01-26T17:30:00.000000Z
+b1127a3930f5563ca8296a53b5cfd2bc
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ClientSide
+dir
+
+CommNotes.cs
+file
+
+
+
+
+2004-10-29T16:44:00.000000Z
+8331494e606421fccd321bcedefd896b
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+CommNoteQueue.cs
+file
+
+
+
+
+2004-01-28T12:06:00.000000Z
+4c3c30d42f4588d42cabe22066b20e06
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ServerSide
+dir
+
+Comms.csproj
+file
+
+
+
+
+2004-06-04T18:36:00.000000Z
+d5a54e3242881196456e5f84078b4022
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ClientInfo.cs
+file
+
+
+
+
+2004-01-20T22:48:00.000000Z
+830721b39666255358346ceaa945e0ee
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ConnectionManager.cs
+file
+
+
+
+
+2004-10-19T21:27:00.000000Z
+8c64badb737ec2dfa941c84fd2bf34ef
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

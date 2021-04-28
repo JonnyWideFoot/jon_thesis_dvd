@@ -1,0 +1,124 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/examples
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2008-01-13T19:44:51.072437Z
+59
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+mc
+dir
+
+md
+dir
+
+examplelist.dox
+file
+
+
+
+
+2007-11-29T23:45:35.015966Z
+31b3d900a25a65c55713cdc73a1097bd
+2007-11-16T00:28:17.293220Z
+19
+mt0226
+
+scoring
+dir
+
+pdb
+dir
+
+trajectory_output
+dir
+
+gendoc.sh
+file
+
+
+
+
+2007-11-29T23:45:35.015966Z
+429b6fe9fea68937afebb1fa2b177f13
+2007-11-15T22:37:53.574380Z
+16
+mt0226
+
+seq_align.py
+file
+
+
+
+
+2008-02-01T08:48:45.046875Z
+b41d2accf0b7a2cce9185c504f4358eb
+2007-12-09T19:47:33.397125Z
+38
+mt0226
+
+restraint
+dir
+
+clean.sh
+file
+
+
+
+
+2008-02-01T08:48:45.046875Z
+fa736b45084b47fe83bf37a538fc4427
+2007-12-02T21:53:05.912380Z
+33
+mt0226
+
+runexamples.sh
+file
+
+
+
+
+2008-02-01T08:48:45.046875Z
+b20f4e87e8a1c06c5414543be24638f1
+2007-12-04T00:30:52.965454Z
+37
+mt0226
+
+arcus
+dir
+
+README
+file
+
+
+
+
+2008-02-01T08:48:45.046875Z
+c4fd4d5c305c4141b87e0e102540dff1
+2008-01-13T01:04:50.224583Z
+58
+mt0226
+
+building
+dir
+

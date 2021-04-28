@@ -1,0 +1,52 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Core/Data/Graphing
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+Graph.cs
+file
+
+
+
+
+2007-11-26T00:23:38.515625Z
+9c1dbdd0f1f936623c8ec103a8dfc251
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+PlotMode.cs
+file
+
+
+
+
+2007-11-26T00:23:38.515625Z
+68383d94194867eec99562c31595c3bc
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

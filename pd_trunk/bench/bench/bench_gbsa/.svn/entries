@@ -1,0 +1,54 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/bench/bench/bench_gbsa
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+trpcage.pdb
+file
+
+
+
+
+2007-11-29T23:44:39.890966Z
+4c5c7be1ebd6a513087fdfa5d62f733b
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+has-props
+
+run.py
+file
+
+
+
+
+2007-11-29T23:44:39.890966Z
+4cea2575d97da2ef1f209ec08344fd49
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+has-props
+

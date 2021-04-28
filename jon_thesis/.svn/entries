@@ -1,0 +1,62 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T22:31:50.762904Z
+206
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+thesis
+dir
+
+RifToBib.exe
+file
+
+
+
+
+2007-11-26T00:39:56.437500Z
+adf4a3cc04a8e90dea8704b8b8819d34
+2007-04-26T10:23:13.439375Z
+18
+jr0407
+has-props
+
+other
+dir
+
+bakoma_tex_suggestions.txt
+file
+
+
+
+
+2007-11-26T00:39:56.437500Z
+0ec6a65fa3a68800a536601056943db0
+2007-09-22T21:51:23.692250Z
+183
+jr0407
+
+latex_tutorials
+dir
+

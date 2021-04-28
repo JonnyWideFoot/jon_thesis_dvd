@@ -1,0 +1,34 @@
+8
+
+dir
+8
+https://compbio.bris.ac.uk/svn/pdbdatabase/_Legacy
+https://compbio.bris.ac.uk/svn/pdbdatabase
+
+
+
+2006-06-19T11:58:00.953125Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5629cfab-e2fe-214f-a4a1-1a82b3184546
+
+MultiThreadPDBDownload
+dir
+
+Mass PDB Downloader
+dir
+

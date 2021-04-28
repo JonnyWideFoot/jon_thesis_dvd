@@ -1,0 +1,37 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/examples/mc
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-12-03T02:56:48.041123Z
+34
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+multipep
+dir
+
+monte_carlo
+dir
+
+monte_carlo_min
+dir
+

@@ -1,0 +1,42 @@
+
+						string path = @"c:\";
+						string PDBSource = path + @"__MassPDB\SourcePDB\";
+						string outPath = path + @"__MassPDB\new\";
+			
+						StreamReader re = new StreamReader( @"c:\__MassPDB\PHdomainLibrary.out2" );
+			
+						string reLine;
+						while( null != (reLine=re.ReadLine()) )
+						{
+							string[] lineparts = reLine.Split('|');
+							string savename = outPath + lineparts[0] + ".pdb";
+							string loadName = PDBSource + lineparts[0].Substring(0,4) + ".pdb";
+							int start = int.Parse(lineparts[1]);
+							int end = int.Parse( lineparts[2]);
+							char chainID = lineparts[0][4];
+							if( chainID == '0' )
+							{
+								chainID = ' ';
+							}
+			
+							if( File.Exists( savename ) )
+							{
+								//continue;
+							}
+			
+							PDB file = new PDB( loadName, true );
+							PSMolContainer mol = file.particleSystem.MemberWithID(chainID);
+							PSMolContainer molClone = new PSMolContainer( chainID );
+							for( int j = 0; j < mol.Count; j++ )
+							{
+								if( mol[j].ResidueNumber >= start && mol[j].ResidueNumber <= end )
+								{
+									molClone.addMolecule( (Molecule)mol[j].Clone() );
+								}
+							}
+							ParticleSystem pClone = new ParticleSystem( "BoB" );
+							pClone.BeginEditing();
+							pClone.AddMolContainer( molClone );
+							pClone.EndEditing(true,true);
+							PDB.SaveNew( savename, pClone );
+						}

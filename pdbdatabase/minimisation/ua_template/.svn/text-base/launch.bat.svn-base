@@ -1,0 +1,1 @@
+doall.bat > result.log

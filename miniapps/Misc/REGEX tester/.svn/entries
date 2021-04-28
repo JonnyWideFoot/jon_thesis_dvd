@@ -1,0 +1,77 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Misc/REGEX%20tester
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2003-10-21T12:50:18.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+REGEX tester.csproj
+file
+
+
+
+
+2006-03-07T15:56:22.281250Z
+d76c7d4af36f34a7dc3092e90f25a218
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2003-10-21T12:50:18.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+Class1.cs
+file
+
+
+
+
+2006-03-07T16:01:25.609375Z
+e48f044ec485ccdd55fa385f65f845c8
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+REGEX tester.sln
+file
+
+
+
+
+2006-03-07T15:56:26.109375Z
+8ede41f3debe1c2ded1dee9fea6b3043
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

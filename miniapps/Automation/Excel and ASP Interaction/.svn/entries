@@ -1,0 +1,52 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Automation/Excel%20and%20ASP%20Interaction
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+WebForm1.aspx.cs
+file
+
+
+
+
+2002-10-12T13:29:28.000000Z
+3931ee928c7b20f3723a546ba2f438fd
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+WebForm1.aspx
+file
+
+
+
+
+2002-10-12T13:29:28.000000Z
+a0f585e67b5ddc7415056ae95bcb7ae9
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+WebForm1.aspx.resx
+file
+
+
+
+
+2001-09-20T07:25:30.000000Z
+5835257c39ba0ffd986dbe03a5fe4ba8
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

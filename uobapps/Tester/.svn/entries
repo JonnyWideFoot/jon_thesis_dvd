@@ -1,0 +1,89 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/Tester
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2006-02-01T12:57:02.421875Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Tester.sln
+file
+
+
+
+
+2006-03-07T12:49:37.671875Z
+88a3fff483b1f9b195d524b50dd04e6e
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Form1.resx
+file
+
+
+
+
+2006-02-01T12:57:02.421875Z
+dc5088723be3b95fdd617b98c4da0d8b
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Tester.csproj
+file
+
+
+
+
+2006-03-07T12:51:10.453125Z
+f79b563613edfd9a535c58326be80c16
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Form1.cs
+file
+
+
+
+
+2006-03-07T12:50:29.609375Z
+d0bdd1d6014748c61f1ad5ff3921abe4
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2006-02-01T12:57:02.781250Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+has-props
+

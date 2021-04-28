@@ -1,0 +1,67 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-12-04T12:22:17.369625Z
+13
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+PDBDatabaseAnalysis (GluGlu)
+dir
+
+AlignmentViewer
+dir
+
+Aligner
+dir
+
+CoSMoS
+dir
+
+PMS - Parameter Manipulation System
+dir
+
+BlastPExtraction
+dir
+
+DatabaseViewer
+dir
+
+AngleFitting
+dir
+
+DataTableGen
+dir
+
+readme.txt
+file
+
+
+
+
+2006-03-08T12:29:26.343750Z
+90795c848572594440fa92a32a7c67a5
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+

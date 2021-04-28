@@ -1,0 +1,68 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/CompBio/PotentialGraph
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2003-10-24T12:47:22.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+PotentialGraph.csproj
+file
+
+
+
+
+2003-10-24T12:47:22.000000Z
+98b4db034f2e910d835153ddbb0bb597
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2003-10-24T12:47:22.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+Class1.cs
+file
+
+
+
+
+2003-10-25T14:25:32.000000Z
+bcbe2aeeb65d28465a59ce897a1cbbd5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+example
+dir
+

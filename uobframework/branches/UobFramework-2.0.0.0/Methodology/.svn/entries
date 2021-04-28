@@ -1,0 +1,73 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/branches/UobFramework-2.0.0.0/Methodology
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+TaskManagement
+dir
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-11-26T00:24:35.218750Z
+08f883cfc90b9cf6dcb591dcc674b8a4
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+
+Methodology.csproj.user
+file
+
+
+
+
+2007-11-26T00:24:35.218750Z
+e1e32d89358cb14ed69da19f05ac70d3
+2005-11-10T12:48:50.328125Z
+13
+jr0407
+
+OriginInteraction
+dir
+
+Methodology.csproj
+file
+
+
+
+
+2007-11-26T00:24:35.234375Z
+e0a5e13f08969977085e8b5bb32b0ac1
+2006-03-17T12:03:56.326500Z
+24
+jr0407
+
+DSSPAnalysis
+dir
+

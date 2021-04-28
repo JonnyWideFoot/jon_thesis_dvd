@@ -1,0 +1,61 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+ramachandran
+dir
+
+structure
+dir
+
+bulges
+dir
+
+aminoacid
+dir
+
+protstruc.tex
+file
+
+
+
+
+2008-02-01T08:30:56.468750Z
+65baff659027ac8ff6bce5c131059727
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+sidechain
+dir
+
+secstruc
+dir
+
+turns
+dir
+

@@ -1,0 +1,34 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/FileProcessing
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2007-04-05T13:43:03.078125Z
+8
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a99f5271-e966-2443-9097-fdabe34d441d
+
+CleanDirectories
+dir
+
+FileSyncroniser
+dir
+

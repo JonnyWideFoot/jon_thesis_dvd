@@ -1,0 +1,48 @@
+
+			string path = @"C:\_Gen Ig Database 29.07.04\FASTA\";
+			string name = @"fastasubfam1_13-10-04.aln";
+
+			StreamReader re = new StreamReader(path+name);
+			StreamWriter rw = new StreamWriter(path+name+".concat");
+
+			string line;
+
+			re.ReadLine();
+			re.ReadLine();
+			re.ReadLine();
+
+			ArrayList lines = new ArrayList();
+
+			while( ( line = re.ReadLine() ) != null )						  
+			{
+				if( line[0] == ' ' )
+				{
+					re.ReadLine(); // read 2 blank lines
+					break;
+				}
+				lines.Add( line );
+			}
+
+			int count = 0;
+			while( ( line = re.ReadLine() ) != null )						  
+			{
+				if( line[0] == ' ' )
+				{
+					re.ReadLine();// read 2 blank lines
+					count = 0;
+					continue;
+				}
+				string cont = line.Substring( 22, line.Length - 22);
+				string origLine = (string) lines[count];
+				lines[count] = origLine + cont;
+				count++;
+			}
+
+			re.Close();
+
+			for( int i = 0; i < lines.Count; i++ )
+			{
+				rw.WriteLine( (string) lines[i] );
+			}
+			rw.Close();
+

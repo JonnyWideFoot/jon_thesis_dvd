@@ -1,0 +1,101 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Networking/OldUoBComms/DAVE
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2004-08-10T02:03:00.000000Z
+4aca16b7475a2cd6b22c60b15edd89f6
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Dialog
+dir
+
+Revisions.txt
+file
+
+
+
+
+2004-11-22T15:39:00.000000Z
+b1771c102b6606d9d9f74521cafd65e7
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Documents
+dir
+
+VTune
+dir
+
+DAVEMainForm.resx
+file
+
+
+
+
+2005-06-03T11:40:18.000000Z
+387c11780aab87a25df357a364609a4c
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ToolWindows
+dir
+
+App.ico
+file
+
+
+
+
+2004-04-11T21:40:00.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+DAVEMainForm.cs
+file
+
+
+
+
+2005-06-05T15:29:18.000000Z
+e50b32909f3901c62c4ece2de993e0e2
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+DAVE.csproj
+file
+
+
+
+
+2005-06-03T14:49:36.000000Z
+829a8acdb55af439aaef96472f0dfddd
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

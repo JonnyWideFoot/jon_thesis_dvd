@@ -1,0 +1,40 @@
+8
+
+dir
+8
+https://compbio.bris.ac.uk/svn/pdbdatabase/pdb_rsync
+https://compbio.bris.ac.uk/svn/pdbdatabase
+
+
+
+2006-06-23T13:05:44.911375Z
+2
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5629cfab-e2fe-214f-a4a1-1a82b3184546
+
+sync.sh
+file
+
+
+
+
+2006-10-15T15:27:37.548066Z
+9270cd1bb84988db53e27d31ddaff99b
+2006-06-23T13:05:44.911375Z
+2
+jr0407
+

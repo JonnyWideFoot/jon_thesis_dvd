@@ -1,0 +1,29 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/Compression/exec
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-02-01T18:56:02.545625Z
+16
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+7za.exe
+file
+
+
+
+
+2006-05-14T10:25:10.000000Z
+885e9eb42889ca547f4e3515dcde5d3d
+2007-02-01T18:56:02.545625Z
+16
+jr0407
+has-props
+

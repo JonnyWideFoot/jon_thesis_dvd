@@ -1,0 +1,85 @@
+SECTION  HBOND_TYPES
+	# define the acceptor types
+	ACCEPTOR O O2 OH SH
+	# define hydrogen types
+	HYDROGENS H HS HO
+
+ENDSECTION
+
+SECTION  REBUILD_ATOM_TYPES
+
+# This is used to define which atom types the rebuilder will include in rebuild operations
+# 0 = Any other atoms - i.e. the aliphatic hydrogens
+# 1 = Heavy Atoms Polar Hydrogens AromaticHydrogens
+# 2 = Heavy Atoms Polar Hydrogens
+# 3 = Heavy Atoms
+# Types are given the highest number they can have ...
+
+	TYPE    C 	3
+	TYPE    CA	3
+	TYPE    CB	3
+	TYPE    CC	3
+	TYPE    CN	3
+	TYPE    CR	3
+	TYPE    CT	3
+	TYPE    CV	3
+	TYPE    CW	3
+	TYPE    C*	3
+	TYPE    H 	2
+	TYPE    HC	0
+	TYPE    H1	0
+	TYPE    HG	0
+	TYPE    HA	1
+	TYPE    H4	1
+	TYPE    H5	1
+	TYPE    HO	2
+	TYPE    HS	0
+	TYPE    HP	2
+	TYPE    N 	3
+	TYPE    NA	3
+	TYPE    NB	3
+	TYPE    N2	3
+	TYPE    N3	3
+	TYPE    O 	3
+	TYPE    OH	3
+	TYPE    O2	3
+	TYPE    S 	3
+	TYPE    SH	3
+	
+ENDSECTION
+
+SECTION  ATOM_TYPE_COLORATION
+
+	           ForcefieldType Colour   ImageNumSel	ImageNumDesel
+	DAVEIMAGINGTYPE    C 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CA 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CB 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CC 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CN 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CR 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CT 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CV 	DarkGray	4	4
+	DAVEIMAGINGTYPE    CW 	DarkGray	4	4
+	DAVEIMAGINGTYPE    C* 	DarkGray	4	4
+	DAVEIMAGINGTYPE    H 	White		4	4
+	DAVEIMAGINGTYPE    HC	White		4	4
+	DAVEIMAGINGTYPE    H1	White		4	4
+	DAVEIMAGINGTYPE    HG	White		4	4
+	DAVEIMAGINGTYPE    HA	White		4	4
+	DAVEIMAGINGTYPE    H4	White		4	4
+	DAVEIMAGINGTYPE    H5	White		4	4
+	DAVEIMAGINGTYPE    HO	White		4	4
+	DAVEIMAGINGTYPE    HS	White		4	4
+	DAVEIMAGINGTYPE    HP	White		4	4
+	DAVEIMAGINGTYPE    N 	Blue		3	3
+	DAVEIMAGINGTYPE    NA	Blue		3	3
+	DAVEIMAGINGTYPE    NB	Blue		3	3	
+	DAVEIMAGINGTYPE    N2	Blue		3	3
+	DAVEIMAGINGTYPE    N3	Blue		3	3
+	DAVEIMAGINGTYPE    O 	Red		5	5
+	DAVEIMAGINGTYPE    OH	Red		5	5
+	DAVEIMAGINGTYPE    O2	Red		5	5
+	DAVEIMAGINGTYPE    S 	Yellow		6	6
+	DAVEIMAGINGTYPE    SH	Yellow		6	6
+
+ENDSECTION

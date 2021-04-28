@@ -1,0 +1,52 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/9.%20FilterDevel
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-09-02T18:58:02.497625Z
+77
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+FilterInvoke.cs
+file
+
+
+
+
+2007-04-25T17:15:10.318375Z
+d785c4a3f2fd69f05f24b55733b75d43
+2007-04-27T09:47:46.126875Z
+51
+jr0407
+
+Filter.cs
+file
+
+
+
+
+2008-02-01T08:27:52.406250Z
+e1a035afa5ab681850ed7468e23176e1
+2007-09-02T18:58:02.497625Z
+77
+jr0407
+

@@ -1,0 +1,176 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{950ECB50-2611-4545-9567-D4974ED5569F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Methodology</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UoB.Methodology</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\_Common\UobFramework-Devel\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="Origin">
+      <Guid>{AF7A6F73-2E72-11D3-9367-00C04F79EAFE}</Guid>
+      <VersionMajor>7</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Name>Core</Name>
+      <Project>{94609263-E31C-44CD-9C7B-8D343C87572C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\AngleFitting\AngleFittingEngineOutputConverter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\AngleFitting\AngleFittingEngine_Base.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\AngleFitting\AngleFittingEngine_Exhaustive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\AngleFitting\AngleFittingEngine_Search.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\AngleFitting\SearchFittingResumeData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\AngleSet\AngleSetQualityReport.cs" />
+    <Compile Include="DSSPAnalysis\AngleSet\AngleSetStats.cs" />
+    <Compile Include="DSSPAnalysis\DSSPIncludedRegions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\DSSPReportingOn.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\DSSPTaskDirecory_PhiPsiData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\DSSPTaskDirectory.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\Ramachandran\AnglesetPropensityTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\Ramachandran\PhiPsiPrinting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\Ramachandran\RamachandranAnalysis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DSSPAnalysis\Ramachandran\ResidueCountTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OriginInteraction\OriginEnums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OriginInteraction\OriginInterface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaskManagement\DelimiterMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaskManagement\OutputTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaskManagement\ScriptInitManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaskManagement\ScriptMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TaskManagement\TaskDirectoryInteration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DSSPAnalysis\SASAAnalysis\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

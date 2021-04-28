@@ -1,0 +1,52 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/param/seqmat
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+blosum62.mat
+file
+
+
+
+
+2007-11-29T23:45:18.500341Z
+3e0b33e8853535ece9b440286ca434bc
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+pam100.mat
+file
+
+
+
+
+2007-11-29T23:45:18.500341Z
+1e5b32acc1b879bfce5b9fbdf157ac4a
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+

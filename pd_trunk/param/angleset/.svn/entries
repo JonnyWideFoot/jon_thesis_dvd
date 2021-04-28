@@ -1,0 +1,106 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/param/angleset
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+raft.all.angleset
+file
+
+
+
+
+2007-11-29T23:45:04.672216Z
+ea14027932bda48f727141713b881196
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+all
+dir
+
+loop
+dir
+
+big.all.angleset
+file
+
+
+
+
+2007-11-29T23:45:04.672216Z
+61911c51ae592dfdf6c7f517c1dbd3ce
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+big.loop.angleset
+file
+
+
+
+
+2007-11-29T23:45:04.672216Z
+ba1aa19e8f4506bf2796097f02199474
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+default.all.angleset
+file
+
+
+
+
+2007-11-29T23:45:04.672216Z
+e356885961896696855b3f5649ebbb38
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+default.loop.angleset
+file
+
+
+
+
+2007-11-29T23:45:04.672216Z
+616b3a228e2a793b234ab4a4be1383ec
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+angleset.readme
+file
+
+
+
+
+2007-11-29T23:45:04.687841Z
+f78b957b4c3d3607bf7278062884c117
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+

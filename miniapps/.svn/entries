@@ -1,0 +1,55 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a99f5271-e966-2443-9097-fdabe34d441d
+
+Automation
+dir
+
+RifToBib
+dir
+
+PerformanceMeasure
+dir
+
+Sphere
+dir
+
+Networking
+dir
+
+CompBio
+dir
+
+SourceCount
+dir
+
+Misc
+dir
+
+FileProcessing
+dir
+

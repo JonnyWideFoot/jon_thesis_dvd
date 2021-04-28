@@ -1,0 +1,89 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Misc/RotateImage
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2002-12-07T10:23:04.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Utilities.cs
+file
+
+
+
+
+2002-12-07T10:25:14.000000Z
+763c6225276bc5fcd8351c648421836c
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+RotateImage.csproj
+file
+
+
+
+
+2003-09-10T12:07:10.000000Z
+e67304b5324bb7a616c1f234e0b1ee42
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Form1.resx
+file
+
+
+
+
+2003-09-10T12:08:40.000000Z
+4128389fc5140f81694dfa4eb01fb14e
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+Form1.cs
+file
+
+
+
+
+2003-09-10T12:08:40.000000Z
+11f624f1ab8a9c22ace314d68e48f13f
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2002-12-07T10:23:04.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+

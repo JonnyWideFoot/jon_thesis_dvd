@@ -1,0 +1,52 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Methodology/OriginInteraction
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2007-05-11T16:24:06.906250Z
+54
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+OriginEnums.cs
+file
+
+
+
+
+2007-11-26T00:23:40.250000Z
+3dfd48af51ab87fb7f8de7ea26ff49ac
+2007-04-14T15:32:06.734375Z
+50
+jr0407
+
+OriginInterface.cs
+file
+
+
+
+
+2007-11-26T00:23:40.250000Z
+171282472c90a1c5c1b58242249eaf77
+2007-05-11T16:24:06.906250Z
+54
+jr0407
+

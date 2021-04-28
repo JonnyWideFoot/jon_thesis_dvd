@@ -1,0 +1,43 @@
+			string path = @"c:\_Gen Ig Database 29.07.04\";
+			string IDSource = path + @"newOut\";
+
+			DirectoryInfo di = new DirectoryInfo( IDSource );
+			FileInfo[] fileNames = di.GetFiles( "*.pdb" );
+
+			for( int i = 0; i < fileNames.Length; i++ )
+			{
+				string name1 = fileNames[i].Name.Substring(0,(int)fileNames[i].Name.Length-4);
+				string[] nameParts1 = name1.Split('_');
+				string nameX1 = nameParts1[0];
+				char chainID1 = nameParts1[1][0];
+				string range1 = nameParts1[2];
+				string[] rangeParts1 = range1.Split('-');
+				int start1 = int.Parse(rangeParts1[0]);
+				int end1 = int.Parse( rangeParts1[1]);
+
+				for( int j = 0; j < fileNames.Length; j++ )
+				{
+					string name2 = fileNames[j].Name.Substring(0,(int)fileNames[j].Name.Length-4);
+					string[] nameParts2 = name2.Split('_');
+					string nameX2 = nameParts2[0];
+					char chainID2 = nameParts2[1][0];
+					string range2 = nameParts2[2];
+					string[] rangeParts2 = range2.Split('-');
+					int start2 = int.Parse(rangeParts2[0]);
+					int end2 = int.Parse( rangeParts2[1]);
+
+					if( nameX1 != nameX2 )
+					{
+						continue;
+					}
+					if( chainID1 != chainID2 )
+					{
+						continue;
+					}
+
+					if( (start1 < start2 && start2 < end1) || (start1 < end2 && end2 < end1) )
+					{
+						int q = 8;
+					}
+				}				
+			}

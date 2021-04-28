@@ -1,0 +1,3 @@
+All these applications were once needed, and have now fallen by the way-side. They probably however do contain some useful code, and will therefore be preserved here....
+
+If any of this code is used in the future, it should be added to an application with more generalised purpose, placed upon the latest version of the UoB framework and then stored in the root of this repository.

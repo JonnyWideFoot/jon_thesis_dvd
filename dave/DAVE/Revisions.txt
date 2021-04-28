@@ -1,0 +1,21 @@
+07.03.06
+DAVE was given its own compile repository and placed on the UoB Framework version 2.0.0
+
+04.07.05
+DAVE was placed upon the initial Core/CoreControls/Methodology Layer
+
+09.08.04
+DAVE version 1.0.0
+It all starts here, lets do some Homology Modelling
+
+10-13.08.04
+Added the new Selection graphics system
+
+09-24.08.04
+Added a full basis alignment system to allow the seamless integration of multiple methodologies, 
+and easy addition of new methods.
+Main implementation is the alignment method used in ProSup
+
+22.11.04
+KNOWN ISSUES:
+There are multiple refresh calls being sent to the Tra viewer per positions update. This is due to both the viewer and the document being simultaneously subscribed to the PostionsUpdate event.

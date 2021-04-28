@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "C:\___working\DAVETools\DAVERevamp2\bin\Debug\;C:\___working\_REVAMP\DAVE\bin\Debug\;C:\___working\_REVAMP\shared\;C:\___REVAMP\shared\;C:\__UoB soln 30.04.04\shared\;C:\__UoB soln 30.04.04 afternoon\__UoB soln 30.04.04 afternoon\shared\;C:\____New UoB Soln\shared\;C:\__UoB Soln 06.05.04\shared\;C:\__UoB Soln 06.05.04 _ new coding\__UoB Soln 06.05.04\shared\;C:\__UoB Soln 06.05.04 _ new coding\shared\;C:\__UoB Soln 12.05.04 - new rotation\shared\;C:\__UoB Soln 13.05.04\shared\;C:\__UoB Soln 14.05.04\shared\;C:\__UoB Soln 21.05.04\shared\;C:\__UoB Soln 25.05.04\shared\;C:\__UoB Soln 28.05.04\shared\;C:\__UoB Soln 31.05.04 - rotamer code working\shared\;C:\_& Uob soln\_UoB soln\__UoB Soln 01.06.04 - initial ribbon working\shared\;C:\__UoB Soln 01.06.04 - initial ribbon working\shared\;C:\__UoB Soln 04.06.04 - next ribbon working\shared\;C:\__UoB Soln 04.06.04 - builder in progress\shared\;C:\__UoB Soln 07.06.04 - builder in progress\shared\;C:\__UoB Soln 12.06.04 - builder in progress\shared\;C:\__UoB Soln 13.06.04 - builder in progress\shared\;C:\__UoB Soln 14.06.04 - builder in progress\shared\;C:\__UoB Soln 15.06.04 - builder in progress\shared\;C:\__UoB Soln 17.06.04 - builder in progress\shared\;C:\__UoB Soln 20.06.04 - builder in progress\shared\;C:\__UoB Soln 22.06.04 - builder in progress\shared\;C:\__UoB Soln 02.07.04\shared\;C:\__UoB Soln 16.07.04\shared\;C:\__UoB Soln 22.07.04\shared\;C:\__UoB Soln 23.07.04\shared\;C:\__UoB Soln 29.07.04\shared\;C:\__UoB Soln 06.08.04\shared\;C:\__UoB Soln 08.08.04\shared\;C:\__UoB Soln 09.08.04\shared\;C:\__UoB Soln 16.08.04\shared\;C:\__UoB Soln 17.08.04\shared\;C:\__UoB Soln 23.08.04 -working\shared\;C:\__UoB Soln 25.08.04 - probs\shared\;C:\__UoB Soln 26.08.04 - probs\shared\;C:\__UoB Soln 09.09.04\shared\;C:\__UoB Soln 12.09.04\shared\;C:\__UoB Soln 13.09.04\shared\;C:\__UoB Soln 14.09.04\shared\;C:\__UoB Soln 15.09.04\shared\;C:\send\__UoB Soln 15.09.04\shared\;C:\__UoB Soln 24.09.04\shared\;C:\__UoB Soln 27.09.04\shared\;C:\__UoB Soln 28.09.04\shared\;C:\__UoB Soln 29.09.04\shared\;C:\__UoB Soln 30.09.04\shared\;C:\__UoB Soln 01.10.04\shared\;C:\__UoB Soln 04.10.04\shared\;C:\__UoB Soln 05.10.04\shared\;C:\__UoB Soln 10.10.04\shared\;C:\__UoB Soln 11.10.04\shared\;C:\__UoB Soln 12.10.04\shared\;C:\__UoB Soln 12a.10.04 - backup\shared\;C:\__UoB Soln rimpling\shared\;C:\__UoB Soln rimpling 3\shared\;C:\__UoB Soln rimpling 4\shared\;C:\__UoB Soln rimpling 6\shared\;C:\__UoB Soln rimpling 7\shared\;C:\__UoB Soln rimpling 10\shared\;C:\__UoB Soln rimpling 11\shared\;C:\__UoB Soln rimpling 12\shared\;C:\__UoB Soln rimpling 14\shared\;G:\__UoB Soln rimpling 15\shared\;G:\__UoB Soln 24.11.04\shared\;G:\__UoB Soln 29.11.04\shared\;G:\__UoB Soln 01.12.04\shared\;G:\__UoB Soln 09.12.04\shared\;C:\__UoB Soln 16.12.04\shared\;G:\__UoB Soln Newest\shared\;G:\__UoB Soln Newest 05.01.05\shared\;G:\__UoB Soln Newest 07.01.05\shared\;C:\__UoB Soln Newest 07.01.05\shared\;C:\__UoB Soln Newest 17.01.05\shared\;C:\__UoB Soln Newest 20.01.05\shared\;C:\__UoB Soln Newest 02.02.05\shared\;C:\__UoB Soln Newest 18.02.05\shared\;C:\__UoB Soln Newest 23.02.05\shared\;C:\__UoB Soln Newest 08.03.05\shared\;C:\__UoB Soln Newest 10.03.05\shared\;C:\__UoB Soln Newest 14.03.05\shared\;C:\__UoB Soln Newest 15.03.05\shared\;C:\__UoB Soln Newest 16.03.05\shared\;C:\__UoB Soln Newest 30.03.05\shared\;C:\__UoB Soln Newest 07.04.05\shared\;C:\__UoB Soln Newest 18.04.05\shared\;C:\__UoB Soln 19.04.05\shared\;C:\__UoB Soln 29.04.05\shared\;C:\__UoB Soln 07.05.05\shared\;C:\__UoB Soln 09.05.05\shared\;C:\__UoB Soln 10.05.05\shared\;C:\__UoB Soln 16.05.05\shared\;C:\__UoB Soln 26.05.05\shared\;C:\__UoB Soln 01.06.05\shared\;C:\__UoB Soln 03.06.05\shared\;C:\__UoB Soln 05.06.05\shared\;C:\__UoB Soln 26.06.05\shared\;C:\__UoB Soln 01.07.05\shared\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = "c:\bob.ali"
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "false"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+

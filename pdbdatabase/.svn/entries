@@ -1,0 +1,73 @@
+8
+
+dir
+8
+https://compbio.bris.ac.uk/svn/pdbdatabase
+https://compbio.bris.ac.uk/svn/pdbdatabase
+
+
+
+2007-05-29T16:41:32.640000Z
+8
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5629cfab-e2fe-214f-a4a1-1a82b3184546
+
+minimisation
+dir
+
+PDBDownloadCore.sln
+file
+
+
+
+
+2006-10-15T15:34:34.813691Z
+158fa069fb72e9aedcdc21e504f65a51
+2006-06-23T13:05:44.911375Z
+2
+jr0407
+
+_Legacy
+dir
+
+pdb_rsync
+dir
+
+PDBDownloadCore
+dir
+
+lib
+dir
+
+_DB_Explosion_Test.cs
+file
+
+
+
+
+2007-03-31T14:49:00.796875Z
+3949a8953260d4c92ba5d7db9949cbfd
+2007-03-11T18:24:03.658625Z
+7
+jr0407
+
+example
+dir
+
+PDBDatabaseConsole
+dir
+

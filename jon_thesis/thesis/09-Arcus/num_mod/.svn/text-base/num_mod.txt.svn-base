@@ -1,0 +1,8 @@
+To make the pdf from the gff file:
+1) Make a graphit layout page with what you want
+2) copy, and paste into word
+3) use acrobat to make a pdf, then save as an eps using acrobat
+4) Use jons magic eps -> pdf 
+
+NOTE that 3 and 4 are used to make sure there is a proper bounding box that will work
+with bakoma-tex.

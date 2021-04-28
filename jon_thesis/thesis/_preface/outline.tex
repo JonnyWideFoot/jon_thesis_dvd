@@ -1,0 +1,30 @@
+\chapter*{Thesis Outline\markboth{Thesis Outline}{Thesis Outline}}
+
+The body of this thesis describes the creation of a novel method for building sections
+of protein structure -- \arcus\ -- intended primarily as an augmentation to the more general technique of comparative modelling. The primary role of \arcus\ 
+is in modelling surface loops, where no information can
+be obtained from homologous  template structure(s).
+
+In order to accomplish this, it is important to begin in chapter \ref{chapter:protein_structure}, by discussing the intricacies of protein structure; specifically common classifications and structural motifs that any viable modelling method needs
+to cover. From this point, chapter \ref{chapter:protein_modelling} attempts to orientate the reader
+ with respect to current modelling methodologies and illustrate the role that \arcus\
+ has to play within the field. 
+ 
+Following this, chapter \ref{chapter:software} describes the development
+of two entirely new, highly flexible, software frameworks 
+with complementary functionality. The first framework -- \pd\ -- aimed at providing comprehensive bio-simulation capabilities,  forms a foundation for \arcus. Using the abilities of the second framework, chapter \ref{chapter:database} describes the development and characterisation of a representative sub-set
+of the PDB, named \thothdb. This representative database is then used as a standardised
+test-set for calibration and testing  throughout
+the remainder of the thesis.
+
+With solid groundwork in place, chapter \ref{chapter:reduced_rep} discusses the continuing development
+of a reduced, but highly representative, low-resolution protein model and its
+application to the problem of surface loop modelling. Chapter \ref{chapter:prearcus} then discusses the refinement of these low-resolution models into geometrically-correct low-energy models. Together these comprise the immature algorithm \prearcus. An initial performance-test was performed via the submission of predictions to  \casp-7 -- the protein structure prediction
+competition. Initial
+qualitative findings from this are presented in chapter \ref{chapter:casp}. 
+
+Next, chapter \ref{chapter:methods} presents a unique and comprehensive overview of loop modelling methodology. The performance of six recent loop modelling methodologies is critically compared on the most comprehensive loop test-set yet analysed in the literature. Finally, improvements and algorithmic refinements
+made to \arcus\ following the \casp\ competition and method-comparison are presented in chapter \ref{chapter:arcus}.
+Brief concluding remarks are made
+and further directions discussed in chapter \ref{chapter:discussion}.
+

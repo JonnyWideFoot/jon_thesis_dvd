@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/pdPrime/!svn/ver/55/src/mmlib/forcefields
+END
+lcpo.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/lcpo.h
+END
+gbff.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/gbff.cpp
+END
+restraint_torsional.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/restraint_torsional.cpp
+END
+nonbonded.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pdPrime/!svn/ver/38/src/mmlib/forcefields/nonbonded.cpp
+END
+forcefield.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/forcefield.h
+END
+nonbonded_ti.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/nonbonded_ti.h
+END
+ffbonded.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pdPrime/!svn/ver/46/src/mmlib/forcefields/ffbonded.cpp
+END
+ffsoftvdw.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/ffsoftvdw.cpp
+END
+gbff.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/gbff.h
+END
+nonbonded.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/nonbonded.h
+END
+ffparam.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pdPrime/!svn/ver/55/src/mmlib/forcefields/ffparam.cpp
+END
+ffbonded.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/ffbonded.h
+END
+ffsoftvdw.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/ffsoftvdw.h
+END
+pops.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/pops.cpp
+END
+ffparam.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pdPrime/!svn/ver/55/src/mmlib/forcefields/ffparam.h
+END
+sasabase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/sasabase.cpp
+END
+restraint_atomdist.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/restraint_atomdist.h
+END
+breakablebonded.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/breakablebonded.cpp
+END
+ffcustom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/ffcustom.cpp
+END
+sasabase.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/sasabase.h
+END
+breakablebonded.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/breakablebonded.h
+END
+ffcustom.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/pdPrime/!svn/ver/52/src/mmlib/forcefields/ffcustom.h
+END
+lcpo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/35/src/mmlib/forcefields/lcpo.cpp
+END

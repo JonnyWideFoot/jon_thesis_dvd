@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/pdPrime/!svn/ver/47/src/mmlib/system
+END
+workspacecreator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/pdPrime/!svn/ver/45/src/mmlib/system/workspacecreator.cpp
+END
+genpolymer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pdPrime/!svn/ver/35/src/mmlib/system/genpolymer.cpp
+END
+fundamentals.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/pdPrime/!svn/ver/35/src/mmlib/system/fundamentals.cpp
+END
+workspacecreator.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/pdPrime/!svn/ver/45/src/mmlib/system/workspacecreator.h
+END
+system.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pdPrime/!svn/ver/47/src/mmlib/system/system.cpp
+END
+molecule.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/pdPrime/!svn/ver/45/src/mmlib/system/molecule.cpp
+END
+fundamentals.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pdPrime/!svn/ver/35/src/mmlib/system/fundamentals.h
+END
+system.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/pdPrime/!svn/ver/45/src/mmlib/system/system.h
+END
+molecule.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/pdPrime/!svn/ver/45/src/mmlib/system/molecule.h
+END
+rebuilder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/35/src/mmlib/system/rebuilder.cpp
+END

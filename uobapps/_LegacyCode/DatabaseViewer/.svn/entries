@@ -1,0 +1,161 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode/DatabaseViewer
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2004-07-19T14:16:40.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+DatabaseViewer.sln
+file
+
+
+
+
+2004-07-19T14:16:40.000000Z
+b3d5a978b770122fde6034677cef09f1
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Form1.resx
+file
+
+
+
+
+2004-07-29T03:10:18.000000Z
+6915e109dccc40f55420d46becb3ee86
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+DatabaseViewer.csproj
+file
+
+
+
+
+2004-07-30T14:38:32.000000Z
+5756aa67c77dda1824d3c4cef23a267e
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+IMPORTANT - Unique.list file generation.txt
+file
+
+
+
+
+2004-07-30T16:38:00.000000Z
+db8690d9cad3b2b2e39e43c811c0201c
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+DimerType.cs
+file
+
+
+
+
+2004-07-30T12:19:20.000000Z
+6212e5448d8918af233906e250af7173
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Old Coda and DB code creation bin1.txt
+file
+
+
+
+
+2004-07-30T16:11:00.000000Z
+01c2d57c62ddaec6cb717302b80f5c13
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Form1.cs
+file
+
+
+
+
+2004-08-04T18:26:54.000000Z
+42184c21fe2c007d0759d07488cb109f
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2004-07-19T14:16:40.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+has-props
+
+DBSource.cs
+file
+
+
+
+
+2004-07-30T12:19:20.000000Z
+e2f7ea36cf60b5ff085e97c1ca64f572
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+SegReason.cs
+file
+
+
+
+
+2004-07-21T15:33:00.000000Z
+211c7dbb2d7b5fe83d42b1768b5ac85c
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+ComplexType.cs
+file
+
+
+
+
+2004-07-30T12:19:20.000000Z
+badc6e96a1dc726becfffdbe480a7cee
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+

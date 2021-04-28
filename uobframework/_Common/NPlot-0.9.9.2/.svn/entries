@@ -1,0 +1,53 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/_Common/NPlot-0.9.9.2
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+NPlot.dll
+file
+
+
+
+
+2007-11-26T00:25:51.328125Z
+975f6acfb868a9b8f70c83a3af752c2e
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+has-props
+
+readme.txt
+file
+
+
+
+
+2007-11-26T00:25:51.328125Z
+ad573df1bff9e59d9840a91a2b7b045d
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+

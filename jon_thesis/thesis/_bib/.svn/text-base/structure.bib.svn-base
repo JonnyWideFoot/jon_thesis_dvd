@@ -1,0 +1,493 @@
+@Article{STRUCTURE:Rod98,
+	author = {M. A. Rodionov and T. L. Blundell},
+	title = {Sequence and structure conservation in a protein core.},
+	journal = {Proteins},
+	volume = 33,
+	number = 3,
+	pages = {358--366},
+	year = 1998
+}
+@Article{STRUCTURE:Ton80,
+	jtag = {loop_struc},
+	author = {C. Toniolo},
+	title = {Intramolecularly hydrogen-bonded peptide conformations},
+	journal = {CRC Crit Rev Biochem},
+	volume = 9,
+	number = 1,
+	pages = {1--44},
+	journal_note = {0045-6411 Journal Article Review},
+	abstract = {Over the past few years the possible occurrence of intramolecularly hydrogen-bonded structures in linear and cyclic peptides has attracted increasing attention. In this review emphasis is given to solid-state studies, particularly by X-ray diffraction and infrared absorption techniques. Conformational energy calculations are also considered. The discussion is focused both on model peptides and biological activity polypeptide molecules. The tetrapeptide system (Formula: see text), examined allows one to discuss the extended C5 structure and the various folded conformations, namely the C7 (gamma-turn), C8, C10 (beta-turn), C11, and C13 conformations. The four latter forms may include cis peptide configurations. The oxy-analogs to the C7, C10, and C13 conformations and structures containing bifurcated hydrogen bonds are also discussed. The last sections describe intramolecularly hydrogen-bonded peptide structures involving: (1) a side-chain group, (2) the N-protecting group (in synthetic model compounds), and (3) a beta-amino acid.},
+	keywords = {*Chemistry, Physical Circular Dichroism Electron Spin Resonance Spectroscopy *Hydrogen Bonding Hydroxides *Peptides *Protein Conformation Spectrophotometry, Infrared Spectrum Analysis X-Rays},
+	year = 1980
+}
+@Article{STRUCTURE:Cho2000,
+	jtag = {loop_struc},
+	author = {K. Chou},
+	title = {Prediction of Tight Turns and Their Types in Proteins},
+	journal = {Analytical Biochemistry},
+	volume = 286,
+	number = 1,
+	pages = {1--16},
+	journal_note = {TY - JOUR},
+	year = 2000
+}
+@Article{STRUCTURE:Nem72,
+  author =       "G. Nemethy and M. P Printz",
+  title =        "The g-turns, a possible folded conformation of the
+                 polypeptide chain. Comparison with the b-turn",
+  journal =      "Macromolecules",
+  volume =       "5",
+  pages =        "755--758",
+  year =         "1972",
+}
+@Article{STRUCTURE:Mil88,
+	jtag = {loop_struc},
+	author = {E. Milner-White and B. M. Ross and R. Ismail and K. Belhadj-Mostefa and R. Poet},
+	title = {One type of gamma-turn, rather than the other gives rise to chain-reversal in proteins},
+	journal = {J. Mol. Biol.},
+	volume = 204,
+	number = 3,
+	pages = {777--82},
+	journal_note = {0022-2836 Journal Article},
+	abstract = {Gamma-turns may be defined by a hydrogen bond between the carbonyl group of one amino acid residue and the amino group of the acid two residues ahead in the sequence. They occur as two types, inverse gamma-turns and classic gamma-turns (classic gamma-turns are usually called just gamma-turns but we prefer to add the adjective classic to distinguish them from the word gamma-turn, referring collectively to both). Of the two, classic gamma-turns are less common and are considered by all authors to be extreme rarities in proteins. However, we find that a number do occur in a sample of proteins of known three-dimensional structure. One occurs at the edge of the second hypervariable region of the light chain in some immunoglobulins. All classic gamma-turns except one are associated with a reversal in the main chain direction. In most cases, the turn lies at the loop end of a beta-hairpin. By contrast, inverse gamma-turns, although giving rise to a kink in the chain, rarely occur within beta-hairpins and are seldom situated at a position of reversal, by 180 degrees, in chain direction.},
+	keywords = {Amino Acids Animals Hydrogen Bonding Models, Molecular *Protein Conformation},
+	year = 1988
+}
+@Article{STRUCTURE:Mil86,
+	jtag = {loop_struc},
+	author = {E. J. Milner-White and R. Poet},
+	title = {Four classes of beta-hairpins in proteins},
+	journal = {Biochem. J.},
+	volume = 240,
+	number = 1,
+	pages = {289--92},
+	journal_note = {0264-6021 Journal Article},
+	abstract = {We show that beta-hairpins can be divided into four classes, each with a number of members. Hairpins from a single class are readily interconverted by loss or gain of hydrogen bonds, but interconversion between classes requires complete unzipping and reformation of the entire beta-hairpin. Sibanda & Thornton [(1985) Nature (London) 316, 170-174] have classified beta-hairpins as either two-residue, three-residue, four-residue etc., loops. We point out that their nomenclature, by itself, gives rise to ambiguities, but that, if the class (one of the four mentioned above) is also specified, the description of beta-hairpins becomes straightforward. A range of proteins of known three-dimensional structure has been examined; it provides examples of hairpins of each of the four classes and give some indication of their frequency of occurrence. The distribution observed is substantially different from that described by Sibanda & Thornton [(1985) Nature (London) 316, 170-174].},
+	keywords = {Amino Acid Sequence Hydrogen Bonding *Protein Conformation Proteins/*classification Terminology},
+	year = 1986
+}
+@Article{STRUCTURE:Mil87,
+	jtag = {loop_struc},
+	author = {E. J. Milner-White},
+	title = {Beta-bulges within loops as recurring features of protein structure},
+	journal = {Biochim Biophys Acta},
+	volume = 911,
+	number = 2,
+	pages = {261--5},
+	journal_note = {0006-3002 Journal Article},
+	abstract = {Beta-bulges have been described as common irregularities in antiparallel beta-sheets. The two commonest kinds are described as 'classic' and 'G1'. The G1-type is often observed to occur at the loop end of beta-hairpins. I confirm this but also find that the characteristic G1 beta-bulge features (hydrogen bonds and dihedral angles) are found, in some loops, in the absence of any adjacent antiparallel beta-hairpin, so that the beta-bulge is effectively acting as a new sort of turn. Also I show that G1 beta-bulge loops occur in a number of different structural forms, some of which have not been described in detail before. G1 beta-bulge loops are common features; on average, a half of all proteins have one.},
+	keywords = {Hydrogen Bonding *Protein Conformation},
+	year = 1987
+}
+@Article{STRUCTURE:Pav96,
+	jtag = {loop_struc},
+	author = {V. Pavone and G. Gaeta and A. Lombardi and F. Nastri and O. Maglio and C. Isernia and M. Saviano},
+	title = {Discovering protein secondary structures: classification and description of isolated alpha-turns},
+	journal = {Biopolymers},
+	volume = 38,
+	number = 6,
+	pages = {705--21},
+	journal_note = {0006-3525 Journal Article},
+	abstract = {Irregular protein secondary structures are believed to be important structural domains involved in molecular recognition processes between proteins, in interactions between peptide substrates and receptors, and in protein folding. In these respects tight turns are being studied in detail. They also represent template structures for the design of new molecules such as drugs, pesticides, or antigens. Isolated alpha-turns, not participating in alpha-helical structures, have received little attention due to the overwhelming presence of other types of tight turns in peptide and protein structures. The growing number of protein X-ray structures allowed us to undertake a systematic search into the Protein Data Bank of this uncharacterized protein secondary structure. A classification of isolated alpha-turns into different types, based on conformational similarity, is reported here. A preliminary analysis on the occurrence of some particular amino acids in certain positions of the turned structure is also presented.},
+	keywords = {Amino Acid Sequence *Databases, Factual Molecular Sequence Data *Protein Structure, Secondary},
+	year = 1996
+}
+@Article{STRUCTURE:Raj96,
+	jtag = {loop_struc},
+	author = {K. R. Rajashankar and S. Ramakumar},
+	title = {Pi-turns in proteins and peptides: Classification, conformation, occurrence, hydration and sequence},
+	journal = {Protein Sci},
+	volume = 5,
+	number = 5,
+	pages = {932--46},
+	journal_note = {0961-8368 Journal Article},
+	abstract = {The i + 5-->i hydrogen bonded turn conformation (pi-turn) with the fifth residue adopting alpha L conformation is frequently found at the C-terminus of helices in proteins and hence is speculated to be a helix termination signal. An analysis of the occurrence of i + 5-->i hydrogen bonded turn conformation at any general position in proteins (not specifically at the helix C-terminus), using coordinates of 228 protein crystal structures determined by X-ray crystallography to better than 2.5 A resolution is reported in this paper. Of 486 detected pi-turn conformations, 367 have the (i + 4)th residue in alpha L conformation, generally occurring at the C-terminus of alpha-helices, consistent with previous observations. However, a significant number (111) of pi-turn conformations occur with (i + 4)th residue in alpha R conformation also, generally occurring in alpha-helices as distortions either at the terminii or at the middle, a novel finding. These two sets of pi-turn conformations are referred to by the names pi alpha L and pi alpha R-turns, respectively, depending upon whether the (i + 4)th residue adopts alpha L or alpha R conformations. Four pi-turns, named pi alpha L'-turns, were noticed to be mirror images of pi alpha L-turns, and four more pi-turns, which have the (i + 4)th residue in beta conformation and dejournal_noted as pi beta-turns, occur as a part of hairpin bend connecting twisted beta-strands. Consecutive pi-turns occur, but only with pi alpha R-turns. The preference for amino acid residues is different in pi alpha L and pi alpha R-turns. However, both show a preference for Pro after the C-termini. Hydrophilic residues are preferred at positions i + 1, i + 2, and i + 3 of pi alpha L-turns, whereas positions i and i + 5 prefer hydrophobic residues. Residue i + 4 in pi alpha L-turns is mainly Gly and less often Asn. Although pi alpha R-turns generally occur as distortions in helices, their amino acid preference is different from that of helices. Poor helix formers, such as His, Tyr, and Asn, also were found to be preferred for pi alpha R-turns, whereas good helix former Ala is not preferred. pi-Turns in peptides provide a picture of the pi-turn at atomic resolution. Only nine peptide-based pi-turns are reported so far, and all of them belong to pi alpha L-turn type with an achiral residue in position i + 4. The results are of importance for structure prediction, modeling, and de novo design of proteins.},
+	keywords = {Amino Acid Sequence Comparative Study Crystallography, X-Ray *Hydrogen Bonding Molecular Sequence Data Protein Conformation *Protein Structure, Secondary Research Support, Non-U.S. Gov't},
+	year = 1996
+}
+@Article{STRUCTURE:Kim76,
+	jtag = {loop_struc},
+	author = {S. H. Kim and J. L. Sussman},
+	title = {Pi-turn is a conformational pattern in {RNA} loops and bends},
+	journal = {Nature},
+	volume = 260,
+	number = 5552,
+	pages = {645--6},
+	journal_note = {0028-0836 Journal Article},
+	keywords = {Models, Structural *Nucleic Acid Conformation *RNA, Transfer Research Support, U.S. Gov't, Non-P.H.S. Research Support, U.S. Gov't, P.H.S. Saccharomyces cerevisiae},
+	year = 1976
+}
+@Article{STRUCTURE:Art81,
+jtag = {loop_struc},
+  author =       "P. J. Artymiuk and C. C. Blake",
+  title =        "Refinement of human lysozyme at 1.5 {A} resolution
+                 analysis of non-bonded and hydrogen-bond
+                 interactions.",
+  journal =      "J. Mol. Biol.",
+  volume =       "152",
+  number =       "4",
+  pages =        "737--762",
+  journal_note =         "TY - JOUR",
+  keywords =     "no-tag",
+  year =         "1981",
+}
+@Article{STRUCTURE:Sto89,
+jtag = {loop_struc},
+  author =       "C. D. Stout",
+  title =        "Refinement of the 7 Fe ferredoxin from Azotobacter
+                 vinelandii at 1.9 {A} resolution.",
+  journal =      "J. Mol. Biol.",
+  volume =       "205",
+  number =       "3",
+  pages =        "545--555",
+  journal_note =         "TY - JOUR",
+  abstract =     "The",
+  keywords =     "no-tag",
+  year =         "1989",
+}
+@Article{STRUCTURE:Wan90,
+jtag = {loop_struc},
+  author =       "J. H. Wang and Y. W. Yan and T. P. Garrett and J. H. Liu and D. W.
+                 Rodgers and R. L. Garlick and G. E. Tarr and Y. Husain and E. L.
+                 Reinherz and S. C. Harrison",
+  title =        "Atomic structure of a fragment of human {CD4}
+                 containing two immunoglobulin-like domains.",
+  journal =      "Nature",
+  volume =       "348",
+  number =       "6300",
+  pages =        "411--418",
+  journal_note =         "TY - JOUR",
+  abstract =     "The",
+  keywords =     "no-tag",
+  year =         "1990",
+}
+@Article{STRUCTURE:Hut94,
+jtag = {loop_struc},
+  author =       "E. G. Hutchinson and J. M. Thornton",
+  title =        "A revised set of potentials for beta-turn formation in
+                 proteins",
+  journal =      "Protein Sci",
+  volume =       "3",
+  number =       "12",
+  pages =        "2207--16",
+  journal_note =         "0961-8368 Journal Article",
+  abstract =     "Three thousand eight hundred ninety-nine beta-turns
+                 have been identified and classified using a
+                 nonhomologous data set of 205 protein chains. These
+                 were used to derive beta-turn positional potentials for
+                 turn types I' and II' for the first time and to provide
+                 updated potentials for formation of the more common
+                 types I, II, and VIII. Many of the sequence preferences
+                 for each of the 4 positions in turns can be
+                 rationalized in terms of the formation of stabilizing
+                 hydrogen bonds, preferences for amino acids to adopt a
+                 particular conformation in phi, psi space, and the
+                 involvement of turn types I' and II' in beta-hairpins.
+                 Only 1,632 (42\%) of the turns occur in isolation; the
+                 remainder have at least 1 residue in common with
+                 another turn and have hence been classified as multiple
+                 turns. Several types of multiple turn have been
+                 identified and analyzed.",
+  keywords =     "Amino Acids/chemistry Chemistry, Physical Comparative
+                 Study Hydrogen Bonding *Protein Structure, Secondary
+                 Research Support, Non-U.S. Gov't",
+  year =         "1994",
+}
+@Article{STRUCTURE:Lew73,
+jtag = {loop_struc},
+  author =       "P. N. Lewis and F. A. Momany and H. A. Scheraga",
+  title =        "Chain reversals in proteins",
+  journal =      "Biochim Biophys Acta",
+  volume =       "303",
+  number =       "2",
+  pages =        "211--29",
+  journal_note =         "0006-3002 Journal Article",
+  keywords =     "*Amino Acid Sequence Amino Acids/analysis Animals
+                 Carboxypeptidases/analysis Cattle Cetacea Chickens
+                 Chymotrypsin/analysis Cytochrome c Group/analysis
+                 Female Horses Iron Models, Structural
+                 Muramidase/analysis Myoglobin/analysis
+                 Oligopeptides/analysis Ovalbumin *Protein Conformation
+                 Proteins/*analysis Ribonucleases/analysis
+                 Staphylococcus Subtilisins/analysis X-Ray Diffraction",
+  year =         "1973",
+}
+@article{STRUCTURE:Wilmot1990,
+author = {Wilmot, C. M. and Thornton, J. M.},
+title = {Beta-turns and their distortions: a proposed new nomenclature},
+journal = {Protein Eng.},
+volume = {3},
+number = {6},
+pages = {479-493},
+doi = {10.1093/protein/3.6.479},
+year = {1990},
+abstract = {Using the new version of a Protein Structural Database, BIPED, {beta}-tums have been extracted from 58 non-identical proteins (resolution [&le;] 2 A) using the standard criteria that the distance between C{alpha}iand C{alpha}i+3 is <7 A and that the central residues are not helical. It has been shown that 42% of these do not fit into the eight conventional turn types (I, I', II, II', VIa, VIb and VIII) as defined by{varphi} ,{psi} limits for residues i+1 and i+2. Most of the unclassified turns are  distortions' of the standard turn types, lying just outside the specified limits. Eleven per cent of the turns are not related to the standard types, and have completely different{varphi} ,{psi} combinations. Therefore, the conformational space available to a trans tetrapeptide has been explored to find all two-residue{varphi} ,{psi} combinations which satisfy the criteria for {beta}-turn formation. The conformations generated by the search are the conformations observed in the data. On the basis of these observations a new nomenclature is suggested for {beta}-turns based on a shorthand descriptor of populated regions of the{varphi} ,{psi} plot. For example, it is proposed that a type I turn should now be described as an {alpha}{alpha} turn, the descriptor indicating the{varphi} ,{psi} regions of the i+1 and i+2 positions of the turn. The use of descriptors, which convey information about the turn type conformation, should aid protein structural workers in turn classification and visualization. The sequence preferences for the {alpha}{beta} turn have been elucidated: Pro, Asp and Ser at i+1; Asn and His at i+2; Pro at i+3. These preferences have been explained in terms of specific interactions involving the side-chains. The {beta}-turn prediction program, BTURN 1.0, has been further developed by alterations to the calculation of parameters, the removal of incompatible multiple turn predictions and the inclusion of the distorted types {alpha}{alpha} and {beta}p{gamma} data in the respective sets of parameters, to yield BTURN 2.0. A variation of this {beta}-turn prediction program, called GORBTURN 1.0, has been developed, which uses the directional parameters of Gibrat et al. in combination with equivalent parameters produced from work by Garrett et al., to eliminate potential helix and strand-forming residues from the {beta}-turn prediction. This has led to improved turn prediction in protein sequences, although it is not suitable for predictions on short peptide sequences. BTURN 2.0 is the program of choice for these sequences. The incorporation of {alpha}{beta} parameters into GORBTURN 1.0 led to a small decrease in predictive accuracy, and therefore these parameters are not yet refined enough to give improved prediction.
+},
+URL = {http://peds.oxfordjournals.org/cgi/content/abstract/3/6/479},
+eprint = {http://peds.oxfordjournals.org/cgi/reprint/3/6/479.pdf}
+}
+@article{STRUCTURE:Ven1968,
+author = {Venkatachalam, C. M.},
+title = {Stereochemical criteria for polypeptides and proteins - Conformation of a system of 3 linked peptide units},
+journal = {Biopolymers},
+volume = {6},
+number = {10},
+pages = {1425--1436},
+year = {1968},
+}
+@Article{STRUCTURE:Sib89,
+  author =       "B. L. Sibanda and T. L. Blundell and J. M. Thornton",
+  title =        "Conformation of beta-hairpins in protein structures.
+                 {A} systematic classification with applications to
+                 modelling by homology, electron density fitting and
+                 protein engineering",
+  journal =      "J. Mol. Biol.",
+  volume =       "206",
+  number =       "4",
+  pages =        "759--77",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "A systematic classification of beta-hairpin structures
+                 which takes into account the polypeptide chain length
+                 and hydrogen bonding between the two antiparallel
+                 beta-strands is described. We have used this
+                 classification of beta-hairpin structures and their
+                 specific sequence pattern to derive rules which
+                 demonstrate its usefulness in assisting modelling
+                 beta-hairpins. These rules can be applied to
+                 comparative model building, modelling into electron
+                 density and in the prediction of conformation of
+                 beta-hairpins to aid protein engineering.",
+  keywords =     "*Aspartic Endopeptidases Classification Electrons
+                 Endopeptidases Models, Molecular Models, Structural
+                 *Protein Conformation Research Support, Non-U.S. Gov't
+                 Serine Endopeptidases Streptomyces griseus
+                 Terminology",
+  year =         "1989",
+}
+@Article{STRUCTURE:Sib85,
+  author =       "B. L. Sibanda and J. M. Thornton",
+  title =        "Beta-hairpin families in globular proteins",
+  journal =      "Nature",
+  volume =       "316",
+  number =       "6024",
+  pages =        "170--4",
+  journal_note =         "0028-0836 Journal Article",
+  abstract =     "Beta-hairpins, one of the simplest supersecondary
+                 structures, are widespread in globular proteins, and
+                 have often been suggested as possible sites for
+                 nucleation. Here we consider the conformation and
+                 sequences of the loop regions of beta-hairpins by
+                 analysing proteins of known structure. We find that the
+                 'tight' beta-hairpins, classified by the length and
+                 conformations of their loop regions, form distinct
+                 families and that the loop regions of the family
+                 members have sequences which are characteristic of that
+                 family. The two-residue hairpin loops include almost
+                 entirely I' or II' beta-turns, in contrast to the
+                 general preference for type I and type II turns. These
+                 findings are being used to help define templates or
+                 consensus sequences to be incorporated into our
+                 existing supersecondary structure prediction algorithm.
+                 This information can also be used in model-building
+                 homologous proteins.",
+  keywords =     "Amino Acid Sequence Chemistry *Protein Conformation",
+  year =         "1985",
+}
+@Article{STRUCTURE:Mil88:Bulge,
+  author =       "E. J. Milner-White",
+  title =        "Recurring loop motif in proteins that occurs in
+                 right-handed and left-handed forms. Its relationship
+                 with alpha-helices and beta-bulge loops",
+  journal =      "J. Mol. Biol.",
+  volume =       "199",
+  number =       "3",
+  pages =        "503--11",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "A common feature of alpha-helices in proteins is a
+                 loop at the C-terminal end, with a characteristic
+                 hydrogen bond pattern. It is journal_noted that several loops
+                 with the same structural features occur independently
+                 of alpha-helices; two are even situated at the loop
+                 ends of beta-hairpins. The name paperclip is suggested
+                 for loops possessing the appropriate hydrogen bonds. A
+                 number of features of paperclips are described: they
+                 exist in two classes, depending on the number of
+                 residues at the loop end; one class is very much
+                 commoner than the other. Two paperclips are found that
+                 belong to the common class, except that the main-chain
+                 conformation of each is the mirror image of that
+                 normally found. The majority of paperclips are shown to
+                 have tightly clustered sets of main-chain dihedral
+                 angles. These are somewhat similar to, but distinct
+                 from, a subgroup of another common family of loops that
+                 have been called beta-bulge loops; in the latter, the
+                 dihedral angles are also tightly clustered. The high
+                 degree of clustering in both cases is likely to be a
+                 result of steric constraints associated with hydrogen
+                 bond patterns at the ends of loops.",
+  keywords =     "Amino Acid Sequence Computer Graphics Crystallography
+                 Hydrogen Bonding Molecular Sequence Data *Protein
+                 Conformation",
+  year =         "1988",
+}
+@article{STRUCTURE:Chan1993,
+author = {Chan, A. W. E. and Hutchinson, E. G. and Harris, D. and Thornton, J. M.},
+title = {{Identification, classification, and analysis of beta-bulges in proteins}},
+journal = {Protein Sci},
+volume = {2},
+number = {10},
+pages = {1574-1590},
+year = {1993},
+URL = {http://www.proteinscience.org/cgi/content/abstract/2/10/1574},
+eprint = {http://www.proteinscience.org/cgi/reprint/2/10/1574.pdf}
+}
+@article{STRUCTURE:Getzoff1989,
+author = {E. D. Getzoff and J. A. Tainer and M. M. Stempien and G. I. Bell and R. A. Hallewell},
+title = {Evolution of CuZn superoxide dismutase and the Greek Key beta-barrel structural motif},
+journal = {Proteins: Structure, Function, and Genetics},
+volume = {5},
+number = {4},
+pages = {322-336},
+doi = {10.1002/prot.340050408},
+year = {1989},
+}
+@Article{STRUCTURE:Les86,
+  author =       "J. F. Leszczynski and G. D. Rose",
+  title =        "Loops in globular proteins: a novel category of
+                 secondary structure",
+  journal =      "Science",
+  volume =       "234",
+  number =       "4778",
+  pages =        "849--55",
+  journal_note =         "0036-8075 Journal Article",
+  abstract =     "The protein loop, a novel category of nonregular
+                 secondary structure, is a segment of contiguous
+                 polypeptide chain that traces a loop-shaped path in
+                 three-dimensional space; the main chain of an idealized
+                 loop resembles a Greek omega (omega). A systematic
+                 study was made of 67 proteins of known structure
+                 revealing 270 omega loops. Although such loops are
+                 typically regarded as random coil, they are, in fact,
+                 highly compact substructures and may also be
+                 independent folding units. Loops are almost invariably
+                 situated at the protein surface where they are poised
+                 to assume important roles in molecular function and
+                 biological recognition. They are often observed to be
+                 modules of evolutionary exchange and are also natural
+                 candidates for bioengineering studies.",
+  keywords =     "*Protein Conformation *Proteins Research Support, U.S.
+                 Gov't, P.H.S. Thermodynamics",
+  year =         "1986",
+}
+@Article{STRUCTURE:Fet95,
+  author =       "J. S. Fetrow",
+  title =        "Omega loops: nonregular secondary structures
+                 significant in protein function and stability",
+  journal =      "FASEB J.",
+  volume =       "9",
+  number =       "9",
+  pages =        "708--717",
+  year =         "1995",
+}
+@Article{STRUCTURE:Efi91,
+  author =       "A. V. Efimov",
+  title =        "Structure of alpha-alpha-hairpins with short
+                 connections",
+  journal =      "Protein Eng.",
+  volume =       "4",
+  number =       "3",
+  pages =        "245--250",
+  year =         "1991",
+}
+@Article{STRUCTURE:Win96,
+  author =       "R. T. Wintjens and M. J. Rooman and S. J. Wodak",
+  title =        "Automatic Classification and Analysis of
+                 Alpha,Alpha-Turn Motifs in Proteins",
+  journal =      "J. Mol. Biol.",
+  volume =       "255",
+  number =       "1",
+  pages =        "235--253",
+  journal_note =         "TY - JOUR",
+  year =         "1996",
+}
+@Article{STRUCTURE:Rin92,
+  author =       "C. S. Ring and D. G. Kneller and R. Langridge and F.
+                 E. Cohen",
+  title =        "Taxonomy and conformational analysis of loops in
+                 proteins",
+  journal =      "J. Mol. Biol.",
+  volume =       "224",
+  number =       "3",
+  pages =        "685--99",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "We propose a general classification scheme for loops,
+                 aperiodic segments of protein structure. In an effort
+                 to avoid the geometric complexity created by
+                 non-repeating phi psi angles, a morphologic definition
+                 that focuses upon the linearity and planarity of loops
+                 is utilized. Out of 432 loops (4 to 20 residues in
+                 length) extracted from 67 proteins, 205 are classified
+                 as linear (straps), 133 as non-linear and planar
+                 (omegas), and 86 as non-linear and non-planar (zetas).
+                 The remaining 8 are classified as compound loops
+                 because they contain a combination of strap, omega, and
+                 zeta morphologies. We introduce a structural alphabet
+                 as a shorthand notation for describing local
+                 conformation. The symbols of this alphabet are based on
+                 the virtual dihedral angle joining four consecutive
+                 alpha carbons. The notation is used to provide a
+                 compact description of loop motifs in phosphate binding
+                 and calcium binding proteins. Since similar loop
+                 conformations form similar words, the structural
+                 sequence facilitates the search for common structural
+                 motifs in a family of loops. Contrary to the view of
+                 loops as random coils, we find loops to have positional
+                 preferences for amino acid residues analogous to those
+                 previously described for beta-turns.",
+  keywords =     "Amino Acid Sequence Amino Acids/chemistry Mathematics
+                 Models, Molecular Molecular Sequence Data *Protein
+                 Conformation Proteins/chemistry/*classification
+                 Research Support, Non-U.S. Gov't Research Support, U.S.
+                 Gov't, Non-P.H.S. Research Support, U.S. Gov't, P.H.S.
+                 Software",
+  year =         "1992",
+}
+@Article{STRUCTURE:Mar95,
+  author =       "A. C. Martin and K. Toda and H. J. Stirk and J. M.
+                 Thornton",
+  title =        "Long loops in proteins",
+  journal =      "Protein Eng",
+  volume =       "8",
+  number =       "11",
+  pages =        "1093--101",
+  journal_note =         "0269-2139 Journal Article",
+  abstract =     "In proteins, loop regions which connect secondary
+                 structures are generally short (80\% are <10 amino
+                 acids long). However, long loops, defined here as > or
+                 = 10 residues, do occur. Two types of long loop may be
+                 distinguished: those which connect adjacent regions of
+                 secondary structure ('long-closed') and those which
+                 connect distant secondary structures ('long-open').
+                 Only 5\% of all loops in proteins fall into the
+                 long-open class. Inspection of these unusual long-open
+                 loops reveals a higher percentage of proline residues
+                 and more helix-helix linkages than expected. Exposure
+                 to solvent is similar for long-open and long-closed
+                 loops. The role of these loops in protein folding is
+                 discussed.",
+  keywords =     "Amino Acid Sequence Animals Catalase/chemistry Cattle
+                 Computer Simulation Databases, Factual Models,
+                 Molecular Molecular Sequence Data Protein Folding
+                 *Protein Structure, Secondary Research Support,
+                 Non-U.S. Gov't Software",
+  year =         "1995",
+}
+@article{AUTO:HelixKinks,
+author = {Barlow, D. J. and Thornton, J. M.},
+volume = {201},
+number = 3,
+journal = "J. Mol. Biol.",
+title = "Helix geometry in proteins",
+pages = "601--609",
+year = 1988
+}

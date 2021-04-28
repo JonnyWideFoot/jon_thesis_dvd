@@ -1,0 +1,55 @@
+
+
+Several examples for the usage of the superpos-module
+=====================================================
+
+EXAMPLE 1
+---------
+Some rms values (Sippl & Stegbuchner Table 3):
+2mhr[1-10] vs 4pti[1-10]:      3.17437994
+2mhr[1-30] vs 4pti[1-30]:      7.33872744
+2mhr[1-58] vs 4pti[1-58]:     13.34905748
+
+EXAMPLE 2
+---------
+Example for two arbitrary fragments of length 20;
+2mhr[5-24] vs 4pti[13-32]:      5.11107282
+
+EXAMPLE 3
+---------
+Image vs mirror image of pti:      7.76960313
+
+EXAMPLE 4
+---------
+Comparison of fragments of proteins (small window)
+fragments 20-30 of 2mhr versus fragments 45-51 of 4pti.
+fragment size 8 residues.
+
+         4pti-45 4pti-46 4pti-47 4pti-48 4pti-49 4pti-50
+2mhr-20     3.10    1.75    0.21    0.40    0.98    1.29
+2mhr-21     3.13    1.79    0.31    0.35    0.96    1.38
+2mhr-22     3.10    1.82    0.30    0.40    0.97    1.35
+2mhr-23     3.11    1.81    0.32    0.40    0.97    1.39
+2mhr-24     3.07    1.84    0.37    0.36    0.88    1.43
+2mhr-25     2.98    1.81    0.24    0.47    0.97    1.21
+2mhr-26     3.17    1.73    0.34    0.33    0.94    1.41
+2mhr-27     3.09    1.86    0.36    0.36    0.83    1.38
+2mhr-28     2.99    1.82    0.25    0.38    0.93    1.21
+2mhr-29     3.18    1.72    0.25    0.40    0.98    1.35
+
+
+EXAMPLE 5
+---------
+Example for optimal superposition by matrix rotation
+Fragment 4pti-47 is superimposed on fragment 2mhr-20
+Fragment size 8 residues
+r.m.s error:   0.21
+    2mhr (target)     |      4pti (rotated)   |     4pti (original)
+ 17.25  42.18  24.18  |  17.27  42.08  24.04  |   9.12  28.17   1.84
+ 17.62  42.67  20.44  |  17.52  42.68  20.33  |  10.53  27.16  -1.51
+ 13.95  43.69  20.12  |  13.85  43.80  20.34  |  11.75  30.76  -2.00
+ 14.39  46.33  22.83  |  14.41  46.52  22.89  |  13.80  30.77   1.16
+ 17.51  47.66  21.08  |  17.60  47.59  21.13  |  15.13  27.30   0.38
+ 15.63  47.81  17.78  |  15.89  47.87  17.84  |  16.19  28.30  -3.05
+ 12.80  49.78  19.41  |  12.83  49.59  19.32  |  17.65  31.62  -1.87
+ 15.34  52.28  20.72  |  15.12  52.28  20.68  |  19.89  29.69   0.50

@@ -1,0 +1,52 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/5.%20LeastLikelyNativeLoop
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-04-27T09:47:46.126875Z
+51
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+LeastLikelyNativeLoopInvoke.cs
+file
+
+
+
+
+2007-04-25T17:15:34.130875Z
+fb3f4cab3bec655839caa7b978088080
+2007-04-27T09:47:46.126875Z
+51
+jr0407
+
+AssessNative.cs
+file
+
+
+
+
+2007-04-04T14:33:04.970385Z
+1d0b3a120d2ad10effbb982943ca7eee
+2007-04-04T18:15:30.906250Z
+37
+jr0407
+

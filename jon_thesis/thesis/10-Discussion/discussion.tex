@@ -1,0 +1,82 @@
+\chapter{Concluding Remarks}
+\label{chapter:discussion}
+
+\begin{quote}
+``Nothing new will be discovered if we are satisfied with the already known.''\\
+--- \textit{Modesto Orozco}
+\end{quote}
+
+\section{Progress Thus Far}
+
+This dissertation has described the development of a novel method for the \abinitio\ modelling of polypeptide fragments with undefined structure. The construction process occurs in the context of an existing protein body.
+Development has progressed from the refinement of all required tools and data sources through to the conception of the algorithm itself. A fundamental aspect of the development process was the derivation of a residue-specific \mainchain\ torsion \angleset\ with propensity weighting. This was used as a coarse representation of conformational space. The remaining elements of the hierarchical algorithm
+perform the refinement of coarse-resolution models into energetically favourable conformations under one of the most detailed \forcefields\ currently available. The chosen forcefield is both accepted and generally respected within the field.
+Importantly, the conformational search algorithm used by \arcus\ does not require a specific \forcefield; this means that, in the future, superior replacements can be used as soon as they are devised.
+ 
+
+
+\section{Future Directions}
+
+Following the initial development of any method, it is important to have a clear perspective on any potential avenues for future enhancement. The enhancements which are anticipated to be most effective and beneficial are discussed in this section.
+
+\subsection{Angle-set extensions}
+
+The current implementation of the coarse-resolution modelling algorithm involves the use of single parametised  \phipsi\ angle-pairs to facilitate the generation of viable conformations. The relative probability of some of these \phipsi\ pairs are dependent on the surrounding residues, for example, the disallowed cluster II angle is most common within \be-turns where the surrounding residues are also of tightly defined conformation. It is thus possible that specialised conformer perturbation-sets could be implemented. These would introduce complete small structural motifs during conformer exploration. Such sets could be given a weighted probability of occurrence, using local polypeptide sequence preferences.
+It may also be possible to bias the propensity information of each angle-pair by the structural identity or any other property of the anchor residues and surrounding protein body. For example, a loop at the end of a \bsheet\ is far more likely to adopt one of the types of \be-turn within its length or possibly form a minor additional strand against the edge of the sheet.
+
+
+\subsection{Enhanced Refinement}
+
+As \arcus\ is still early in its development, certain assumptions have been made in its testing which are perhaps less appropriate to its future use in real comparative modelling.
+One fundamental consideration, when there is not absolute certainty in protein-core conformation, is that some core movement should be allowed. This could be implementated as a combination of both nearby \sidechain\ mobility and anchor residue flexibility.
+In the simplest terms, this would involve adding the nearby protein core \sidechains\ to the active residue list used by the rotamer packing algorithm.
+At least two simple methods exist for the provision of anchor residue flexibility. The first is to introduce Cartesian perturbations for the anchor residues during the stage 3 refinement process.
+A simpler alternative is to  increase the length of loop region itself, but to then add torsional constraints to the \mainchain\ torsions, centred around their initial values.
+
+A second consideration is that the conformations of separate loops can be dependent on each other. This is especially important in comparative modelling where multiple surface loops require simultaneous optimisation. For loops which are close in space, pairwise interactions can exclude large sections of conformational space. In view of this, the optimal isolated conformation for each loop may be unavailable when other surface loops are considered. The native conformation will, therefore, be the optimal balance between the competing minima of the different surface loops; some alternative higher-energy conformations may be required. Not only can direct interactions play a critical role in the optimal conformational arrangement, but long-range electrostatic and solvation effects are likely to be significant. Although not currently implemented, the modular nature of \arcus\ lends itself well to this simultaneous refinement. 
+
+\subsection{DFIRE as a Statistical Forcefield for Loop Modelling}
+\label{section:discussion:dfire}
+
+The primary difficulty with the use of molecular mechanics \forcefields\ is that, in order to use the energetic values which are obtained from them, an energy minimisation must first be performed; a process which is computationally costly.  This is because,  due to the use of harmonic energy terms, small deviations from equilibrium values result in gross changes in calculated potential energy. A\ potential alternative is the use of one of the most recent and high-quality statistical \forcefields.
+
+A highly successful statistical implementation for loop prediction is \textsc{DLoop}\cite{COMPCHEM:Zha2004}, which implements the ``\dfire'' all-atom  statistical potential. \dfire, stands for ``distance-scaled finite ideal-gas reference state'. Potentials of mean force are extracted from the \xray\ structures of single-chain proteins. This is then used to define    a  physical state of uniformly distributed finite spheres as the zero-interaction reference state. These structure-derived potentials are capable of quantitatively reproducing physical statistics such as the likelihood of a residue to be buried. 
+
+The performance of the \textsc{Dloop} statistical potential has been compared to that of standard physical energy functions in loop prediction using three different loop decoy sets. Interestingly, their  results indicate that \dfire\ is comparable in accuracy in loop selections of short loops and more accurate for the selections of long loops (more than nine residues). This is likely to be due to the high sensitivity of physical forcefields to exact atomic packing within the model structure.
+
+The main selling point of the \dfire\ potential is that the computer time required is only a fraction of what is needed for physical energy functions\footnote{Up to two orders of magnitude faster according to one estimate.}. Energy evaluations under statistical potentials can also be evaluated both with and without a minimisation protocol. \dfire\ is therefore applicable both to conformational filtering at stage 1 of the \arcus\ modelling process and potentially also in final model selection during stage 3. 
+
+
+\subsection{Possible Additional Enhancements}
+
+A number of other potential enhancements could provide an increase in the predictive performance of \arcus.
+These include:
+
+\begin{enumerate} \isep
+\item 
+More advanced statistical scores or electrostatic calculations could be added to the SCWRL rotamer packing algorithm to augment the current steric and probability-based selection.
+
+\item Stage 1 could use a knowledge-based SASA filter, or equivalent. This may provide additional discrimination, above that of the over-extension filter, in that only structures with appropriate well-packed hydrophobic residues would be accepted.  An example of a rapid algorithm for SASA assignment is the \textsc{Pops} algorithm\cite{FORCEFIELD:POPS} which has already been implemented in both \pd\ and the \uobf. Derivation of cut-offs for such a filter would require parametisation against native data in \thothloopdb.
+
+\item Alternative \forcefields\ should be evaluated to see which performs best in the context of surface remodelling. These include the \charmm\ and \opls\ forcefields,  statistics-based alternatives such as \dfire\ which was discussed in section \ref{section:discussion:dfire} and empirical free energy \forcefields\ such as that used by \raft\cite{COMPCHEM:Gib2001}. In addition to being used as the stage 3 energy evaluation, such computationally efficient statistical forcefields could be applied as absolute filters of improbable states during stages 1 and 2.
+
+\end{enumerate}
+
+
+\subsection{Stage 4: Evaluation of Entropic Contributions}
+
+Currently, stage 3 of the modelling process produces low potential energy conformations under a given detailed \forcefield. These conformations are
+high-quality candidates, however, the selection between them is a non-trivial problem. One of the major aspects is that even if a conformation has very low internal energy, it may occupy an area of conformational space with low structural flexibility; these structures have low conformational entropy and are therefore comparatively disfavoured. 
+
+Loop-modelling performed to date, both in this work and in the literature, makes no direct measure of entropy.
+It should be noted that a crude measure of entropy can be gained from the use of clustering methods which give additional weighting for larger cluster sizes.
+Entropy, however, is likely to be a crucial determinant of native loop structure. The reason that entropy is commonly completely neglected and enthalpy assumed to be the sole determinant, stems both from the difficulty of its calculation and the extreme computational cost of such calculations.
+
+A recent algorithm developed by Mike Tyka\cite{THESIS:TYKA:PAPER06,THESIS:TYKA} allows the path-independent calculation of the absolute free energies of alternative conformations. This algorithm could be easily be applied to alternative low-energy loop conformations from stage 3 and subsequently used in their discrimination. The primary reason that this method has not been applied in this work is that it,  like all methods capable of the reasonable quantification of conformational entropy, is extremely computationally costly. For this reason it could only ever be applied to a minimal set of alternative loop conformations on small proteins. Such an assessment could certainly not be performed across the entirety of \thothloopdb.
+
+
+\section{The Closing Statement}
+
+During this dissertation \arcus\ has shown significant promise in its ability to produce energetically plausible structures
+of close correspondence to the native state in many cases. A critical aspect of the algorithm is the \pd\ framework on which it rests. The use of such a framework means that, even with no specific further development, \arcus\ will continue to evolve as new features are added to \pd. These may perhaps include advanced forcefields, superior energy minimisation protocols, high-quality statistical filters and structural refinement algorithms. As extreme modularity has always been a core design principle for \pd,  any new element may be employed within \arcus.
+This defining characteristic sets \arcus\ aside as truly unique within the field -- the most extensible method currently available.

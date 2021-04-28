@@ -1,0 +1,54 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/examples/md/remd
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-11-29T19:41:51.184726Z
+29
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+trpcage.pdb
+file
+
+
+
+
+2007-11-29T23:45:32.609716Z
+4c5c7be1ebd6a513087fdfa5d62f733b
+2007-11-29T19:41:51.184726Z
+29
+mt0226
+has-props
+
+run.py
+file
+
+
+
+
+2007-11-29T23:45:32.609716Z
+3e7239c12a99788c592b8563c626f607
+2007-11-29T19:41:51.184726Z
+29
+mt0226
+has-props
+

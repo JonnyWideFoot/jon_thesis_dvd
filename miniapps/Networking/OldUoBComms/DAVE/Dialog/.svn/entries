@@ -1,0 +1,64 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Networking/OldUoBComms/DAVE/Dialog
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+PDBCacheOpenWindow.resx
+file
+
+
+
+
+2004-04-18T23:02:00.000000Z
+0d8d969bc67718c2a55f792ffb8a3752
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+PDBCacheOpenWindow.cs
+file
+
+
+
+
+2004-04-18T23:11:00.000000Z
+bf2762826051551e13e8f6222634ca46
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+About.resx
+file
+
+
+
+
+2004-11-22T15:45:00.000000Z
+8eed407056e0853b39cb9e5672a92cbc
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+About.cs
+file
+
+
+
+
+2004-11-22T15:47:00.000000Z
+435baaddd02895a7a9cccd2f75077b52
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

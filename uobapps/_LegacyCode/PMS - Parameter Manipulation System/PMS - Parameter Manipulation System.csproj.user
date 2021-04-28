@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "C:\___today\_UoB Solution\PMS - Parameter Manipulation System\bin\Debug\;C:\______today\_UoB Solution\PMS - Parameter Manipulation System\bin\Debug\;C:\_All Backup\UoB Solution\PMS - Parameter Manipulation System\bin\Debug\;C:\_All Backup\_UoB Solution\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 06.05.04 _ new coding\__UoB Soln 06.05.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 06.05.04 _ new coding\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 12.05.04 - new rotation\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 13.05.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 14.05.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 21.05.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 25.05.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 28.05.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 31.05.04 - rotamer code working\PMS - Parameter Manipulation System\bin\Debug\;C:\_& Uob soln\_UoB soln\__UoB Soln 01.06.04 - initial ribbon working\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 01.06.04 - initial ribbon working\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 04.06.04 - next ribbon working\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 04.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 07.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 12.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 13.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 14.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 15.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 17.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 20.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 22.06.04 - builder in progress\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 02.07.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 16.07.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 22.07.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 23.07.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 29.07.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 06.08.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 08.08.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 09.08.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 16.08.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 17.08.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 23.08.04 -working\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 25.08.04 - probs\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 26.08.04 - probs\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 09.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 12.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 13.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 14.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 15.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\send\__UoB Soln 15.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 24.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 27.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 28.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 29.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 30.09.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 01.10.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 04.10.04\PMS - Parameter Manipulation System\bin\Debug\;C:\__UoB Soln 05.10.04\PMS - Parameter Manipulation System\bin\Debug\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+

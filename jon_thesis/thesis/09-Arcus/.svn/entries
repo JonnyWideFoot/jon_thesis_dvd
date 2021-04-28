@@ -1,0 +1,61 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/09-Arcus
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T22:31:50.762904Z
+206
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+shetty
+dir
+
+segdist
+dir
+
+segdist_graph
+dir
+
+result_noMC
+dir
+
+scwrl
+dir
+
+arcus.tex
+file
+
+
+
+
+2008-02-01T08:30:56.765625Z
+93acdc02d104de4bf5bfce5aae86ce8b
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+filt
+dir
+
+num_mod
+dir
+

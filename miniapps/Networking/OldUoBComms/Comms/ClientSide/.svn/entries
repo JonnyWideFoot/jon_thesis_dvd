@@ -1,0 +1,52 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Networking/OldUoBComms/Comms/ClientSide
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+ConnectionProperties.cs
+file
+
+
+
+
+2004-06-04T18:56:00.000000Z
+f0970c26149870461b7e0d9038664420
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ClientComms.cs
+file
+
+
+
+
+2004-10-19T21:27:00.000000Z
+7bb42cdc30f42e2a730158539394c1b6
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ConnectionProperties.resx
+file
+
+
+
+
+2004-01-28T17:31:00.000000Z
+b994139f76ee0bee79982b7a26b1f22d
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

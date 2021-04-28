@@ -1,0 +1,473 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{40534F76-EB95-4766-94A5-7479B2F4F750}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>CoreControls</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UoB.CoreControls</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\_Common\UobFramework-Devel\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="NPlot, Version=0.9.9.2, Culture=neutral, PublicKeyToken=4eda430eb4395eb1">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Common\NPlot-0.9.9.2\NPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML" />
+    <Reference Include="Tao.FreeGlut, Version=2.2.0.0, Culture=neutral, PublicKeyToken=6e602a6ad6c0d06d">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Common\Tao-1.2.0.1\Tao.FreeGlut.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl, Version=0.0.0.0, Culture=neutral, PublicKeyToken=1ca010269a4501ef">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Common\Tao-1.2.0.1\Tao.OpenGl.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl.ExtensionLoader, Version=1.5.0.3, Culture=neutral, PublicKeyToken=aaade445f4a3f192">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Common\Tao-1.2.0.1\Tao.OpenGl.ExtensionLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.OpenGl.Glu, Version=1.5.0.3, Culture=neutral, PublicKeyToken=3661ea75021374b5">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Common\Tao-1.2.0.1\Tao.OpenGl.Glu.dll</HintPath>
+    </Reference>
+    <Reference Include="Tao.Platform.Windows, Version=1.0.0.3, Culture=neutral, PublicKeyToken=701104b2da67a104">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\_Common\Tao-1.2.0.1\Tao.Platform.Windows.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Name>Core</Name>
+      <Project>{94609263-E31C-44CD-9C7B-8D343C87572C}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Builder\AtomRebuild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Builder\Builder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClipboardControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\AngleSet_Ramachandran.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseRangeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ColorButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\ColorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controls\DirectoryFileSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\GraphicRangeSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\NumericRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PolymerRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PolymerSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\PolymerSelectionAndRange.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\Ramachandran.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RangedPointPlot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\RangeView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Dendrogram\NodeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dendrogram\TreeLine.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Dendrogram\TreeRenderer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DialogBoxes\PSAlign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\Document.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Documents\DocumentEvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Images\PictureContainer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\GLEnvironment.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\GLView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\IRenderable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\Perspective.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\Primitives\ColouredVector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\Primitives\ExtrudeShape.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\Primitives\PolygonIndexes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\Axis.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\LineRender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\LineStoreRender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\PointRender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\RenderCube.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\RenderManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenGLView\RenderManagers\Surface.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PS_Render\AtomDrawWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\ForceVectors.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\HBonding.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\ParticleSystemDrawWrapper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\PeptideGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\PSDrawMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\Selection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\SelectionColourMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\Selection_AminoAcidSelection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\Selection_CAlphaEquiv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PS_Render\Selection_GlobalSelection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="RecentFileListManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reporting\ReporterWrapper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reporting\Reproter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Reporting\SimpleReporter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Reporting\SimpleReportListener.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\DM_GraphBounds.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\DM_GraphRangeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\DM_GraphWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\DM_Manager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\Model_EquivView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\Model_Scroll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\PDB_InfoView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\PS_Ramachandran.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\PS_Rotation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\PS_Selections.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\PS_SequenceBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\PS_TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\SelectionDefFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\Tra_Scroll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\Tra_Scroll_Extended.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\TreeDelegates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\_ITool.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ToolWindows\_WebDownloadForm.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TraInterface\TraDataBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TraInterface\TrajReadin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TraInterface\TraSaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Builder\AtomRebuild.resx">
+      <DependentUpon>AtomRebuild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Builder\Builder.resx">
+      <DependentUpon>Builder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\AngleSet_Ramachandran.resx">
+      <DependentUpon>AngleSet_Ramachandran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\BaseRangeControl.resx">
+      <DependentUpon>BaseRangeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ColorButton.resx">
+      <DependentUpon>ColorButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ColorDialog.resx">
+      <DependentUpon>ColorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DirectoryFileSelection.resx">
+      <DependentUpon>DirectoryFileSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\GraphicRangeSelection.resx">
+      <DependentUpon>GraphicRangeSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\NumericRange.resx">
+      <DependentUpon>NumericRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PolymerRange.resx">
+      <DependentUpon>PolymerRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PolymerSelection.resx">
+      <DependentUpon>PolymerSelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\PolymerSelectionAndRange.resx">
+      <DependentUpon>PolymerSelectionAndRange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\Ramachandran.resx">
+      <DependentUpon>Ramachandran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RangeView.resx">
+      <DependentUpon>RangeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DialogBoxes\PSAlign.resx">
+      <DependentUpon>PSAlign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Documents\Document.resx">
+      <DependentUpon>Document.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\PictureContainer.resx">
+      <DependentUpon>PictureContainer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenGLView\GLView.resx">
+      <DependentUpon>GLView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\ReporterWrapper.resx">
+      <DependentUpon>ReporterWrapper.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reporting\SimpleReporter.resx">
+      <DependentUpon>SimpleReporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\DM_GraphRangeDialog.resx">
+      <DependentUpon>DM_GraphRangeDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\DM_GraphWindow.resx">
+      <DependentUpon>DM_GraphWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\DM_Manager.resx">
+      <DependentUpon>DM_Manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\Model_EquivView.resx">
+      <DependentUpon>Model_EquivView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\Model_Scroll.resx">
+      <DependentUpon>Model_Scroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\PDB_InfoView.resx">
+      <DependentUpon>PDB_InfoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\PS_Ramachandran.resx">
+      <DependentUpon>PS_Ramachandran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\PS_Rotation.resx">
+      <DependentUpon>PS_Rotation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\PS_Selections.resx">
+      <DependentUpon>PS_Selections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\PS_SequenceBox.resx">
+      <DependentUpon>PS_SequenceBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\PS_TreeView.resx">
+      <DependentUpon>PS_TreeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\Tra_Scroll.resx">
+      <DependentUpon>Tra_Scroll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\Tra_Scroll_Extended.resx">
+      <DependentUpon>Tra_Scroll_Extended.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ToolWindows\_WebDownloadForm.resx">
+      <DependentUpon>_WebDownloadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraInterface\TraDataBox.resx">
+      <DependentUpon>TraDataBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraInterface\TrajReadin.resx">
+      <DependentUpon>TrajReadin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraInterface\TraSaveDialog.resx">
+      <DependentUpon>TraSaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

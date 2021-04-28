@@ -1,0 +1,466 @@
+// -------------------
+// Simulation Packages
+// -------------------
+
+@article{COMPCHEM:GROMACS,
+   Author = {E. Lindahl and  B. Hess and D. van der Spoel},
+   Title = {GROMACS 3.0: a package for molecular simulation and trajectory analysis},
+Volume = {7}, 
+   Journal = {J. Mol. Mod.},
+    Pages = {306-317},
+     Year = {2001} }
+      
+@article{COMPCHEM:TINKER,
+   Author = {J. W. Ponder and F. M. Richards},
+   Title = {An efficient Newton-like method for molecular mechanics
+energy minimization of large molecules.},
+   Journal = {J. Comp. Chem.},
+   Volume = {8},
+   Pages = {1016-1024},
+      Year = {1987} }
+      
+@article{COMPCHEM:NAMD,
+   Author = {J. C. Phillips and R. Braun and W. Wang and J. Gumbart and E. Tajkhorshid and E. Villa and C. Chipot and R. D. Skeel and L. Kal$\acute{e}$ and K. Schulten. },
+   Title = {Scalable molecular dynamics with NAMD.},
+   Journal = {J. Comp. Chem.},
+   Volume = {26},
+   Pages = {1781-1802},
+      Year = {2005} }
+      
+@article{COMPCHEM:BALL,
+ Author = {O. Kohlbacher and H. Lenhof},
+ Title = {BALL - rapid software prototyping in computational molecular biology},
+ Journal = {Bioinformatics},
+ Volume = {16},
+ Pages = {815-824},
+Year = {2000} }
+
+@article{COMPCHEM:MMTK,
+   Author = {K. Hinsen},
+   Title = {The molecular modeling toolkit: A new approach to molecular simulations},
+   Journal = {J. Comp. Chem. },
+   Volume = {21},
+   Pages = {79-85},
+      Year = {2000} }
+      
+// --------------------
+// Structural Alignment
+// --------------------
+ 
+
+@article{COMPCHEM:ProSup,
+author = {Lackner, P. and Koppensteiner, W. A. and Sippl, M. J. and Domingues, F. S.},
+title = {{ProSup: a refined tool for protein structure alignment}},
+journal = {Protein Eng.},
+volume = {13},
+number = {11},
+pages = {745-752},
+doi = {10.1093/protein/13.11.745},
+year = {2000},
+URL = {http://peds.oxfordjournals.org/cgi/content/abstract/13/11/745},
+eprint = {http://peds.oxfordjournals.org/cgi/reprint/13/11/745.pdf}
+}
+
+
+// -----------
+// Clustering
+// -----------
+
+@article{COMPCHEM:KMeans,
+author = {Hartigan, J. A. and Wong, M. A.},
+title = {Algorithm AS 136: A K-means clustering algorithm},
+journal = {Appl. Stat.},
+volume = {28},
+pages = {100-108},
+year = {1979},
+}
+
+// ---------------
+// Bioinformatics
+// ---------------
+
+@Article{COMPCHEM:Gou2002,
+  author =       "Gough, J.",
+  title =        "The {SUPERFAMILY} database in structural genomics.",
+  journal =      "Acta Crystallogr D Biol Crystallogr",
+  volume =       "58",
+  pages =        "1897--1900",
+  year =         "2002",
+}
+
+@Article{COMPCHEM:CATH,
+  author =       "C. A. Orengo and A. D. Michie and S. Jones and D. T.
+                 Jones and M. B. Swindells and J. M. Thornton",
+  title =        "{CATH}--a hierarchic classification of protein domain
+                 structures",
+  journal =      "Structure",
+  volume =       "5",
+  number =       "8",
+  pages =        "1093--108",
+  journal_note =         "0969-2126 Journal Article",
+  abstract =     "BACKGROUND: Protein evolution gives rise to families
+                 of structurally related proteins, within which sequence
+                 identities can be extremely low. As a result,
+                 structure-based classifications can be effective at
+                 identifying unanticipated relationships in known
+                 structures and in optimal cases function can also be
+                 assigned. The ever increasing number of known protein
+                 structures is too large to classify all proteins
+                 manually, therefore, automatic methods are needed for
+                 fast evaluation of protein structures. RESULTS: We
+                 present a semi-automatic procedure for deriving a novel
+                 hierarchical classification of protein domain
+                 structures (CATH). The four main levels of our
+                 classification are protein class (C), architecture (A),
+                 topology (T) and homologous superfamily (H). Class is
+                 the simplest level, and it essentially describes the
+                 secondary structure composition of each domain. In
+                 contrast, architecture summarises the shape revealed by
+                 the orientations of the secondary structure units, such
+                 as barrels and sandwiches. At the topology level,
+                 sequential connectivity is considered, such that
+                 members of the same architecture might have quite
+                 different topologies. When structures belonging to the
+                 same T-level have suitably high similarities combined
+                 with similar functions, the proteins are assumed to be
+                 evolutionarily related and put into the same homologous
+                 superfamily. CONCLUSIONS: Analysis of the structural
+                 families generated by CATH reveals the prominent
+                 features of protein structure space. We find that
+                 nearly a third of the homologous superfamilies
+                 (H-levels) belong to ten major T-levels, which we call
+                 superfolds, and furthermore that nearly two-thirds of
+                 these H-levels cluster into nine simple architectures.
+                 A database of well-characterised protein structure
+                 families, such as CATH, will facilitate the assignment
+                 of structure-function/evolution relationships to both
+                 known and newly determined protein structures.",
+  keywords =     "Databases, Factual Models, Molecular Protein Folding
+                 Protein Structure, Secondary *Protein Structure,
+                 Tertiary Proteins/*chemistry/*classification Research
+                 Support, Non-U.S. Gov't Sequence Homology, Amino Acid",
+  year =         "1997",
+}
+
+@Article{COMPCHEM:CATH:B,
+  author =       "F. Pearl and A. Todd and I. Sillitoe and M. Dibley and
+                 O. Redfern and T. Lewis and C. Bennett and R. Marsden
+                 and A. Grant and D. Lee and A. Akpor and M. Maibaum and
+                 A. Harrison and T. Dallman and G. Reeves and I. Diboun
+                 and S. Addou and S. Lise and C. Johnston and A. Sillero
+                 and J. Thornton and C. Orengo",
+  title =        "The {CATH} Domain Structure Database and related
+                 resources Gene3{D} and {DHS} provide comprehensive
+                 domain family information for genome analysis",
+  journal =      "Nucleic Acids Res",
+  volume =       "33",
+  number =       "Database issue",
+  pages =        "D247--51",
+  journal_note =         "1362-4962 Journal Article",
+  abstract =     "The CATH database of protein domain structures
+                 (http://www.biochem.ucl.ac.uk/bsm/cath/) currently
+                 contains 43,229 domains classified into 1467
+                 superfamilies and 5107 sequence families. Each
+                 structural family is expanded with sequence relatives
+                 from GenBank and completed genomes, using a variety of
+                 efficient sequence search protocols and reliable
+                 thresholds. This extended CATH protein family database
+                 contains 616,470 domain sequences classified into
+                 23,876 sequence families. This results in the
+                 significant expansion of the CATH HMM model library to
+                 include models built from the CATH sequence relatives,
+                 giving a 10\% increase in coverage for detecting remote
+                 homologues. An improved Dictionary of Homologous
+                 superfamilies (DHS)
+                 (http://www.biochem.ucl.ac.uk/bsm/dhs/) containing
+                 specific sequence, structural and functional
+                 information for each superfamily in CATH considerably
+                 assists manual validation of homologues. Information on
+                 sequence relatives in CATH superfamilies, GenBank and
+                 completed genomes is presented in the CATH associated
+                 DHS and Gene3D resources. Domain partnership
+                 information can be obtained from Gene3D
+                 (http://www.biochem.ucl.ac.uk/bsm/cath/Gene3D/). A new
+                 CATH server has been implemented
+                 (http://www.biochem.ucl.ac.uk/cgi-bin/cath/CathServer.pl)
+                 providing automatic classification of newly determined
+                 sequences and structures using a suite of rapid
+                 sequence and structure comparison methods. The
+                 statistical significance of matches is assessed and
+                 links are provided to the putative superfamily or fold
+                 group to which the query sequence or structure is
+                 assigned.",
+  keywords =     "*Databases, Nucleic Acid *Databases,
+                 Protein/statistics & numerical data *Genomics Internet
+                 *Protein Structure, Tertiary
+                 Proteins/*classification/genetics Research Support,
+                 Non-U.S. Gov't Research Support, U.S. Gov't, P.H.S.
+                 *Sequence Analysis, Protein Sequence Homology, Amino
+                 Acid Systems Integration User-Computer Interface",
+  year =         "2005",
+}
+
+@Article{COMPCHEM:SCOP,
+  author =       "Chothia, C. and Murzin, A. G. and Brenner, S. E. and Hubbard, T.",
+  title =        "{SCOP}: a structural classification of proteins
+                 database for the investigation of sequences and
+                 structures",
+  journal =      "J. Mol. Biol.",
+  volume =       "247",
+  pages =        "536--540",
+  year =         "1995",
+}
+
+@Article{COMPCHEM:SCOP02,
+  Author = {Lo Conte, L. and Brenner, S. E. and Hubbard, T. J. P. and Chothia, C. and Murzin, A.},
+  Title = {SCOP database in 2002: refinements accommodate structural genomics},
+  Journal = {Nucl. Acid Res.},
+  Volume = {30},
+  Number = {1},
+  Pages = {264-267},
+   Year = {2002}, }
+
+@Article{COMPCHEM:SCOP04,
+  author =       "Murzin, A. G. and Andreeva, A. and Howorth, D. and Brenner, S. E. and
+                 Hubbard, T. J. P. and Chothia, C.",
+  title =        "{SCOP} database in 2004: refinements integrate
+                 structure and sequence family data",
+  journal =      "Nucl. Acid Res.",
+  volume =       "32",
+  pages =        "226--229",
+  year =         "2004",
+}
+
+
+
+// -------
+//  Misc
+// -------
+
+
+@Article{COMPCHEM:Nem65,
+  author =       "H. A. Nemethy and G. Scheraga",
+  title =        "Theoretical determination of sterically allowed
+                 conformations of a polypeptide chain by a computer
+                 method",
+  journal =      "Biopolymers",
+  volume =       "3",
+  pages =        "155--184",
+  year =         "1965",
+}
+
+@Article{COMPCHEM:Cza2004,
+  author =       "Scheraga, H. A. and Czaplewski, C. and Oldziej, S. and Liwo, A.",
+  title =        "Prediction of the structures of proteins with the
+                 {UNRES} force field, including dynamic formation and
+                 breaking of disulfide bonds.",
+  journal =      "Protein Eng Des Sel.",
+  volume =       "17",
+  number =       "1",
+  pages =        "29--36",
+  year =         "2004",
+}
+
+@Article{COMPCHEM:Liw97,
+  author =       "A. Liwo and S. Oldziej and R. Kazmierkiewicz and M. Groth and C. Czaplewski",
+  title =        "Design of a knowledge-based force field for
+                 off-lattice simulations of protein structure",
+  journal =      "Acta Biochim Pol",
+  volume =       "44",
+  number =       "3",
+  pages =        "527--47",
+  journal_note =         "0001-527x Journal Article Review Review, Tutorial",
+  abstract =     "Prediction of protein structure from amino-acid
+                 sequence still continues to be an unsolved problem of
+                 theoretical molecular biology. One approach to solve it
+                 is to construct an appropriate (free) energy function
+                 that recognizes the native structures of some selected
+                 proteins (whose native structures are known) as the
+                 ones distinctively lowest in (free) energy and then to
+                 carry out a search of the lowest-energy structure of a
+                 new protein. In order to reduce the complexity of the
+                 problem and the cost of energy evaluation, the
+                 so-called united-residue representation of the
+                 polypeptide chain is often applied, in which each
+                 amino-acid residue is represented by only a few
+                 interaction sites. Once the global energy minimum of
+                 the simplified chain has been found, the all-atom
+                 structure can easily and reliably be constructed. The
+                 search of the lowest-energy structure is usually
+                 carried out by means of Monte Carlo methods, though use
+                 of more efficient global-optimization methods,
+                 especially those of deformation of original energy
+                 surface is potentially promising. Monte Carlo search of
+                 the conformational space can be accelerated greatly, if
+                 the chain is superposed on a discrete lattice (the
+                 on-lattice approach). On the other hand, the on-lattice
+                 approach prohibits the use of many efficient
+                 global-optimization methods, because they require both
+                 energy and its space derivatives. The on-lattice
+                 methods in which the chain is embedded in the
+                 continuous 3D space are, therefore, also worth
+                 developing. In this paper we summarize the work on the
+                 design and implementation of an off-lattice
+                 united-residue force field that is underway in our
+                 group, in cooperation with Professor HA. Scheraga of
+                 Cornell University, U.S.A.",
+  keywords =     "Models, Molecular Monte Carlo Method *Protein
+                 Conformation Research Support, Non-U.S. Gov't",
+  year =         "1997",
+}
+
+@Article{COMPCHEM:Gib2001,
+  author =       "N. Gibbs and A. R. Clarke and R. B. Sessions",
+  title =        "Ab initio protein structure prediction using
+                 physicochemical potentials and a simplified off-lattice
+                 model",
+  journal =      "Proteins",
+  volume =       "43",
+  number =       "2",
+  pages =        "186--202",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "This study describes a computational method for ab
+                 inito protein structure prediction. Protein
+                 conformation has been modeled by using six optimized
+                 backbone torsion angles and fixed side chains
+                 approximating rotationally averaged real side chains.
+                 The approximations aim to keep complexity of the
+                 structure description to a minimum without seriously
+                 compromising the accuracy of the structural
+                 representation. An evolutionary Monte Carlo algorithm
+                 has been developed to search through this restricted
+                 conformational space to locate low-energy protein
+                 structures. A simple physicochemical force field has
+                 been developed to assess the energies of different
+                 conformations within this structural description. The
+                 corresponding residue interaction energies are based on
+                 hydrophobic, hydrophilic, steric, and hydrogen-bonding
+                 potentials. The search procedure has been used to
+                 locate native energy minima from primary sequence
+                 alone. The 3-D structures of polypeptides up to 38
+                 residues with both beta and alpha secondary structural
+                 elements have been accurately predicted. The search
+                 procedure has been found to be highly efficient and
+                 follows an energetically and structurally plausible
+                 pathway to locate native populations. The simple force
+                 field described in the study has been compared with a
+                 more complex all-atom model and been found to be
+                 similarly effective in predicting the structures of
+                 proposed independent folding units. Proteins
+                 2001;43:186-202.",
+  keywords =     "Algorithms Amino Acid Sequence Animals Computer
+                 Simulation Evolution, Molecular Mathematics Models,
+                 Molecular Monte Carlo Method Pancreatic
+                 Polypeptide/chemistry *Protein Conformation Protein
+                 Folding Protein Structure, Tertiary Research Support,
+                 Non-U.S. Gov't Structure-Activity Relationship",
+  year =         "2001",
+}
+
+@Article{COMPCHEM:Ped1997,
+  author =       "J. T. Pedersen and J. Moult",
+  title =        "Protein folding simulations with genetic algorithms and a detailed molecular description",
+  journal =      "J. Mol. Biol.",
+  volume =       "269",
+  pages =        "240--249",
+  year =         "1997",
+}
+
+@Article{COMPCHEM:Rooman91,
+  author =       "M. J. Rooman and J. A. Kocher and S. J. Wodak",
+  title =        "Prediction of protein backbone conformation based on
+                 seven structure assignments : Influence of local
+                 interactions",
+  journal =      "J. Mol. Biol.",
+  volume =       "221",
+  number =       "3",
+  pages =        "961--979",
+  year =         "1991",
+}
+
+@Article{COMPCHEM:Der99,
+  author =       "P. Derreumaux",
+  title =        "From polypeptide sequences to structures using Monte
+                 Carlo simulations and an optimised potential.",
+  journal =      "J. Chem. Phys.",
+  volume =       "111",
+  pages =        "2301--2310",
+  year =         "1999",
+}
+
+@Article{COMPCHEM:Osg99,
+  author =       "Osguthorpe, D. J.",
+  title =        "Improved ab initio predictions with a simplified,
+                 flexible geometry model.",
+  journal =      "Proteins",
+  volume =       "3",
+  pages =        "186--193",
+  year =         "1999",
+}
+
+@Article{COMPCHEM:Hin92,
+  author =       "D. A. Hinds and M. Levitt",
+  title =        "A lattice model for protein structure prediction at
+                 low resolution",
+  journal =      "PNAS",
+  volume =       "89",
+  number =       "7",
+  pages =        "2536--40",
+  journal_note =         "0027-8424 Journal Article",
+  abstract =     "The prediction of the folded structure of a protein
+                 from its sequence has proven to be a very difficult
+                 computational problem. We have developed an
+                 exceptionally simple representation of a polypeptide
+                 chain, with which we can enumerate all possible
+                 backbone conformations of small proteins. A protein is
+                 represented by a self-avoiding path of connected
+                 vertices on a tetrahedral lattice, with several amino
+                 acid residues assigned to each lattice vertex. For five
+                 small structurally dissimilar proteins, we find that we
+                 can separate native-like structures from the vast
+                 majority of non-native folds by using only simple
+                 structural and energetic criteria. This method
+                 demonstrates significant generality and predictive
+                 power without requiring foreknowledge of any native
+                 structural details.",
+  keywords =     "Amino Acid Sequence Animals Cattle *DNA-Binding
+                 Proteins Models, Molecular Models, Theoretical
+                 Molecular Sequence Data Neurotoxins/chemistry *Protein
+                 Conformation Repressor Proteins/ultrastructure Research
+                 Support, Non-U.S. Gov't Research Support, U.S. Gov't,
+                 P.H.S. Ribosomal Proteins/ultrastructure
+                 Rubredoxins/ultrastructure Thermodynamics Trypsin
+                 Inhibitors/ultrastructure",
+  year =         "1992",
+}
+
+@Article{COMPCHEM:Hin94,
+  author =       "Hinds, D. A. and Levitt, M.",
+  title =        "Exploring conformational space with a simple lattice
+                 model for protein-structure.",
+  journal =      "J. Mol. Biol.",
+  volume =       "243",
+  pages =        "668--682",
+  year =         "1994",
+}
+
+@Article{COMPCHEM:Kol94,
+  author =       "J. Kolinski and A. Skolnick",
+  title =        "Monte-Carlo simulations of protein folding. 1. Lattice
+                 model and interaction scheme.",
+  journal =      "Proteins",
+  volume =       "18",
+  pages =        "338--352",
+  year =         "1994",
+}
+
+@Article{COMPCHEM:Cov94,
+  author =       "Covell, D. G.",
+  title =        "Lattice model simulations of polypeptide-chain
+                 folding",
+  journal =      "J. Mol. Biol.",
+  volume =       "235",
+  pages =        "1032--1043",
+  year =         "1994",
+}
+

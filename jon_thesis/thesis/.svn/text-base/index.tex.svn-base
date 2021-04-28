@@ -1,0 +1,68 @@
+%%%%%%%%%%%%%%%%%%%%%%
+% Root Index Document
+%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{report} %% One sided
+%\documentclass[11pt,twoside]{report} %% Two sided
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+% Import all formatting
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{packages} % The Packages used throughout
+\input{commands} % Additional Formatting Commands
+\input{formats}  % Additional Formatting Definitions
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Begin The Main Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Chapter sub-documents:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{title}                          % Title Page
+\include{./_preface/preface}             %  ToC / Abstract / LoF / LoT / LoA
+\include{./_preface/outline}             %  Import the thesis outline
+\include{./01-ProteinStructure/protstruc}%  1. Introducing Protein Structure
+\include{./02-ProtModelling/protmodel}   %  2. Introducing Protein Modelling
+\include{./03-Software/software}         %  3. Software Framework Development
+\include{./04-Database/database}         %  4. Development of the PDB databases
+\include{./05-ReducedRep/angleset}       %  5. Development of a reduced anglset
+\include{./06-PreArcus/prearcus}         %  6. Developing PreArcus - my method prior to filter and cluster addition
+\include{./07-CASP/casp}                 %  7. CASP-7
+\include{./08-MethodComparison/methods}  %  8. Method Comparison
+\include{./09-Arcus/arcus}               %  9. Developing Arcus
+\include{./10-Discussion/discussion}     % 10. Concluding remarks
+
+\appendix
+\include{./AppendixA/AppendixA}          % Appendix A - methcomp histogram
+\include{./AppendixA/tables}             % Appendix A - methcomp tables
+\include{./AppendixB/AppendixB}          % Appendix B - angleses
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand{\bibname}{References} 
+\begin{singlespace} \begin{small} % Save us some room
+\bibliographystyle{unsrt} % 'unsrt' sorts numerically like 'nature' but keeps titles
+\bibliography{%
+./_bib/methods,%
+./_bib/compchem,%
+./_bib/native,%
+./_bib/computing,%
+./_bib/biology,%
+./_bib/sequence,%
+./_bib/structure,%
+./_bib/simulation,%
+./_bib/thesis,%
+./_bib/forcefield%
+}
+\end{small} \end{singlespace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Done!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

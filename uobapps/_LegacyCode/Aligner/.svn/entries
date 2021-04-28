@@ -1,0 +1,65 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode/Aligner
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2005-09-29T15:20:28.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Aligner.csproj
+file
+
+
+
+
+2005-09-29T15:20:28.000000Z
+455cf389c46ae1b833e71cfe24bccb92
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2005-09-29T15:20:28.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+has-props
+
+Class1.cs
+file
+
+
+
+
+2005-09-29T15:20:28.000000Z
+b32ca2babc78f6f8ad028e6719a2be88
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+

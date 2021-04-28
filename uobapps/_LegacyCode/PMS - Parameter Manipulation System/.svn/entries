@@ -1,0 +1,94 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode/PMS%20-%20Parameter%20Manipulation%20System
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+PMS - Parameter Manipulation System.csproj.user
+file
+
+
+
+
+2005-06-02T15:58:36.000000Z
+27818b17bccc7611e87564a7f7509952
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+PostMeadPFO
+dir
+
+Quantum2PFO
+dir
+
+PMS - Parameter Manipulation System.csproj
+file
+
+
+
+
+2004-06-04T18:36:00.000000Z
+e35256a9413492dd9dbb5d4004254d5a
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Main.resx
+file
+
+
+
+
+2004-06-28T15:18:00.000000Z
+d63695f9339673ea87a2c5427cb5aea2
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Main.cs
+file
+
+
+
+
+2005-06-02T15:56:00.000000Z
+5738d9546d78fa2a876889cd9e30b1c9
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+DielOptMol.cs
+file
+
+
+
+
+2004-05-13T21:05:00.000000Z
+2dbab6630d2a5565d09a8e3a72a6abbb
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+PMS - Parameter Manipulation System.sln
+file
+
+
+
+
+2005-06-02T15:54:00.000000Z
+2241d81006ad17ec959af7378c848dee
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+

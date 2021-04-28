@@ -1,0 +1,52 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/examples/building/pdb_import_selective
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2008-01-13T19:44:51.072437Z
+59
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+bombykol.ff
+file
+
+
+
+
+2008-02-01T08:48:44.984375Z
+ff9417c03b70851849f5a7ff8db63434
+2008-01-13T19:44:51.072437Z
+59
+mt0226
+
+run.py
+file
+
+
+
+
+2008-02-01T08:48:44.984375Z
+b9168da8be100a3cecde3c8f55edf6f2
+2008-01-13T19:44:51.072437Z
+59
+mt0226
+

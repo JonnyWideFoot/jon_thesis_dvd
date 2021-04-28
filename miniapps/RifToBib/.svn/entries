@@ -1,0 +1,103 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/RifToBib
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+RifToBib.csproj
+file
+
+
+
+
+2007-04-24T15:00:45.318441Z
+19897580f8beefbdefc4da91dfe8f2bc
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Form1.resx
+file
+
+
+
+
+2007-04-24T15:00:45.224691Z
+32a9f8db6987c2d0d6bb55fc487be5e8
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Form1.Designer.cs
+file
+
+
+
+
+2007-04-24T15:00:45.162191Z
+31ebf8ea756ff1561ff5bfbdae188994
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Form1.cs
+file
+
+
+
+
+2007-04-24T15:07:26.349691Z
+9222aabe20fc9415f13714ee33940b33
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+RifToBibEngine.cs
+file
+
+
+
+
+2007-04-24T16:08:17.959000Z
+5e237f0aaeb3cb8eb98ab5de070e1e65
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Program.cs
+file
+
+
+
+
+2007-04-24T14:50:35.505941Z
+36a1786d3ae32fa27b52feed96e80f2f
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+RifToBib.sln
+file
+
+
+
+
+2007-04-24T16:10:59.365250Z
+e8a9696274e346665ea81be02545e6ef
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Properties
+dir
+

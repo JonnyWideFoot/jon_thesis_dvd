@@ -1,0 +1,14 @@
+http://www.research.att.com/~njas/electrons/
+
+Minimal Energy Arrangements of Points on a Sphere
+R. H. Hardin, N. J. A. Sloane and W. D. Smith
+A library of arrangements of points on a sphere with (conjecturally) minimal 1/r potential.
+
+    * How should one place n points on a sphere so as to minimize the potential energy
+
+      Sum 1 / dist(P_i, P_j )
+
+      This directory contains putatively optimal arrangements for n = 4, ..., 132.
+
+    * Reference:
+      R. H. Hardin, N. J. A. Sloane and W. D. Smith, Spherical Codes, book in preparation.

@@ -1,0 +1,75 @@
+\usepackage{geometry} 
+% verbose=false removes a silly marginal notes warning
+\geometry{verbose=false,a4paper,tmargin=25mm,bmargin=30mm,lmargin=40mm,rmargin=22mm}
+
+% Set overall spacing
+\usepackage{setspace}
+%\doublespace
+\onehalfspace
+\sloppy
+
+\usepackage{array} %required by some other packages and my 'i' and 'e' columns
+
+% utility page control
+\usepackage[numbers,comma,super,square,sort&compress]{natbib}
+%\bibpunct{(}{)}{;}{t}{,}{,}
+%\usepackage[addtotoc]{abstract} % More control over abstract eg. adding it to TOC.
+%\usepackage{tocbibind} % Add TOC, List of Figs, List of Tables and Bibliography to TOC.
+
+% very much required
+\usepackage{graphicx}
+
+% Include packages for manipulating figures/tables
+%\usepackage{epsfig} 
+%\usepackage{lscape}
+
+%\usepackage{checkend} % Check for unclosed commands
+
+\usepackage{flafter} % floats must be placed **after** they are declared (I dont understand why this isnt default)
+
+% Include package for special text
+\usepackage{listings}
+\usepackage[usenames,dvipsnames]{color}
+
+% Maths-ness
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usepackage{pifont} % Required for \tick custom command
+
+% Improved table support
+\usepackage{booktabs} % for \toprule \midrule and \bottomrule
+\usepackage{tabularx} % better tabualr with X column designation
+\usepackage{multirow} % tabuar cells can be multi row
+\usepackage{rotating} % allows you to rotate text in cells and indeed whole figures
+%\usepackage{colortbl} % colour in your table
+
+\usepackage{subfigure}
+\usepackage{longtable} % for my method of doing the list of abbreviations
+\usepackage{ifthen}    %used in my Appendix A for a conditional comparison
+
+% Seem to be required by BakomaTex
+\usepackage[UKenglish]{babel}
+\usepackage{amstext}
+\usepackage[normalem]{ulem} % makes \emph{} NOT underlined
+
+% In general, aparently, hyperref should be defined last...
+% Imprint what this document is
+\usepackage[pdftitle={ARCUS: Development of an Automated and Hierarchical Ab Initio} Protein Loop Modelling Methodology,
+            pdfauthor={Jonathan R. Rea},
+            pdfkeywords={loop modelling, protein, ab initio, conformer, amber, torsional, minimisation},
+            hyperfootnotes=false, %removes a bizaro error about footnote hyperlinks
+            plainpages=false,
+            pdfpagelabels=true
+            ]{hyperref}
+            
+% plainpages=false
+% Make page anchors using the formatted form of the page number. 
+% With this option, hyperref writes different anchors for pages ‘ii’ and ‘2’. 
+%(If the option is set ‘true’ — the default — hyperref writes page anchors as the 
+% arabic form of the absolute page number, rather than the formatted form.)
+          
+%\hypersetup{colorlinks=true}
+\hypersetup{linkcolor=black} 
+\hypersetup{pdfstartview=FitH}
+\hypersetup{citecolor=blue} 

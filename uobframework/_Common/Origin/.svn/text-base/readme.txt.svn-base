@@ -1,0 +1,1 @@
+Requires Origin 7.0. Used for automating graphing support.

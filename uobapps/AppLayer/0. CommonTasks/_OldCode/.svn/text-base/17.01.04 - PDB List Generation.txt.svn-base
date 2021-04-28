@@ -1,0 +1,11 @@
+			string path = @"C:\_Gen Ig Database 15.10.04\newOut\";
+
+			StreamWriter rw = new StreamWriter( @"C:\_Gen Ig Database 15.10.04\all 01.10.04.list" );
+
+			DirectoryInfo di = new DirectoryInfo( path );
+			FileInfo[] fi = di.GetFiles("*.pdb" );
+			for( int i = 0; i < fi.Length; i++ )
+			{
+				rw.WriteLine( fi[i].Name.Substring(0,fi[i].Name.Length-4 ));
+			}
+			rw.Close();

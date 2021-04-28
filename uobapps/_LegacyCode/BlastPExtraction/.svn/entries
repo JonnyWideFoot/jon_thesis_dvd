@@ -1,0 +1,65 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode/BlastPExtraction
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2004-11-05T11:57:00.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2004-11-05T11:57:00.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+has-props
+
+Class1.cs
+file
+
+
+
+
+2004-11-19T16:43:00.000000Z
+a3fcc45e616f2c37bd2bea77dc714589
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Align_BlastP.csproj
+file
+
+
+
+
+2004-11-05T11:59:00.000000Z
+bec285ddd8030d4d9d73cf11445cb28d
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+

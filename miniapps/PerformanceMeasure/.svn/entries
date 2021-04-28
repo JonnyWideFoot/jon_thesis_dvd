@@ -1,0 +1,19 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/PerformanceMeasure
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+ClassSizetester
+dir
+

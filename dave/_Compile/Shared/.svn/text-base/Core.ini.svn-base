@@ -1,0 +1,29 @@
+ExcelPath=C:\Program Files\Microsoft Office\Office10\EXCEL.EXE
+AstralDL_PostString=&output=text
+PDB2DL_PostString=
+AutoRecenterDefaultOn=True
+#ForcefieldParams=davesmallmol.ff
+AllowZRotation=False
+BrowseDir=C:\Main Backup 21.03.05\_My Calculations\09d - My Loop DataBase\PDBSelect2004\4. 1.9 or less\1. PDB
+AstralDL_PreString=http://astral.berkeley.edu/pdbstyle.cgi?id=
+PDB1DL_PreString=http://www.rcsb.org/pdb/cgi/export.cgi/DAVEGetFile.pdb?format=PDB&pdbId=
+ListeningPort=8002
+InvertZoom=True
+DAVEFile7=C:\__UoB260805\_Compile\shared\PDB/1BW8.pdb
+RequireShiftForZRotation=True
+TraFileSizeCutoff=20000000
+DAVEFile8=C:\temp.tra
+DAVEFile9=C:\Main Backup 21.03.05\_My Calculations\09d - My Loop DataBase\PDBSelect2004\4. 1.9 or less\1. PDB\1OC2.pdb
+DAVEFile2=C:\_NewCoding\UoBSoln\pd2005\projects\Debug\1gxua_init.tra
+DAVEFile3=H:\Useful Stuff\Protein Structures\TRA\trpextfuse.tra
+DAVEFile0=E:\10 - Loop Builder Stage 1 Testing\_Exec_AngTest\tempOutput.tra
+DAVEFile1=C:\Main Backup 21.03.05\_My Calculations\09d - My Loop DataBase\PDBSelectRevamp2\Accept1.8\8ABP.pdb
+ThreadSequence=IGWRREGIKYRRNELFLDVLESVNLLMSPQGQVLSAHVSGRVVMKSYLSGMPECKFGMNDKIKQSIAIDDCTFHQCVRLSERSISFIPPDGEFELMRYRTTKDIILPFRVIPLVREVGRTKLEVKVVIKSNFKPSLLAQKIEVRIPTPLN
+DAVEFile6=C:\__UoB200905\_Compile\shared\PDB/1BW8.pdb
+DAVEFile4=H:\Useful Stuff\Protein Structures\TRA\ThousandVectors.tra
+DAVEFile5=H:\Useful Stuff\Protein Structures\TRA\AngleVectors.tra
+TextEditor=C:\Program Files\TextPad 4\TextPad.exe
+PDB1DL_PostString=&compression=None
+ForcefieldParams=amber03aa.ff
+PDB2DL_PreString=http://144.16.71.2/cgi-bin/pdbid.pl?pdbId=
+DefaultGraphSaveDir=c:\DAVEGraphOutput\

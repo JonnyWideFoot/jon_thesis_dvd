@@ -1,0 +1,17 @@
+As far as I know F4 is non-standard in windows for "save". I find this unintuitive (and keep hitting ctrl+s). I would preferably like a configuration switch that allows a change to ctrl+s. Maybe keyboard mappings in general could be user-customisable, with a set of common default configurations?
+
+As far as I know, the Windows convention on text selection is that when i have selected a block of text and then hold shift and use the arrow keys, the selection should change size. This is the case in BakomaTex, however when the selection is right-to-left, the arrow keys move the left margin of the selection. This is perhaps more intuitive, but is not, standard windows practise.
+
+The message window icon in the bottom left hand corner continues to flash red even after a problem is no longer displayed in its window. The only way to stop it flashing is to open the window and close it again. This is annoying.
+
+Selecting a pair of `` in the WYSIWYG window only selects one of the pair in the code window, so when you press delete, only one disapears. Equally, clicking on a '' and then typing results in the text being placed in-between for the same reason.
+
+the right-click, context menu button on the keyboard doesnt work
+
+Its really unintuitive to have to run the install again after registration in order to remove the DEMO mode. In my opinion, DEMO should be disabled once a valid reg-key is entered, with no need to re-run setup. At the very least, this should be explained in bold print.
+
+Pressing shift whilst the cursor is off screen results in the window scrolling. This is annoying when you wish to select a block of text larger than the visible region.
+
+Words which break over two pages are always marked as a spelling error.
+
+Sometimes when I press return after a paragraph in the WYSIWYG window, a ? appears in the new line.

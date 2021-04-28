@@ -1,0 +1,61 @@
+8
+
+dir
+6
+https://compbio.bris.ac.uk/svn/dave
+https://compbio.bris.ac.uk/svn/dave
+
+
+
+2006-07-14T11:24:21.867125Z
+6
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+80b7b37a-33f5-b640-bab6-762617d897e3
+
+DAVE
+dir
+
+DAVE_SourceCodeDLL.sln
+file
+
+
+
+
+2007-11-26T00:22:06.750000Z
+2e9eac1a4e82dd866d21b50c5de3708b
+2006-07-14T11:24:21.867125Z
+6
+jr0407
+
+DAVE_CompiledDLL.sln
+file
+
+
+
+
+2007-11-26T00:22:06.750000Z
+51c18c7e4dad26b07df13162c9886322
+2006-07-14T11:24:21.867125Z
+6
+jr0407
+
+DynamicUpdate
+dir
+
+_Compile
+dir
+

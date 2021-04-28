@@ -1,0 +1,65 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/_LegacyCode/AngleFitting
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2005-06-24T16:46:30.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+Fitting.cs
+file
+
+
+
+
+2005-07-18T14:54:58.000000Z
+71a70bdf40bee4e3f5812f88dbdb1773
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2005-06-24T16:46:30.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+has-props
+
+AngleFitting.csproj
+file
+
+
+
+
+2005-06-24T17:02:14.000000Z
+6f0ee6cc7ea2a3b7dcc4f44b958d67b9
+2006-03-08T12:34:10.046875Z
+1
+jr0407
+

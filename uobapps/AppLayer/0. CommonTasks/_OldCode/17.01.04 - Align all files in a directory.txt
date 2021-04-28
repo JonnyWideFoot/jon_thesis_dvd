@@ -1,0 +1,32 @@
+
+			string pathOut = @"C:\_Gen Ig Database 04.10.04\newOut\";
+			string[] filenames = Directory.GetFiles(pathOut,"*.pdb");
+
+			PDB[] PDBFiles = new PDB[ filenames.Length ];
+
+			for( int i = 0; i < PDBFiles.Length; i++ )
+			{
+				PDBFiles[i] = new PDB( filenames[i], true );
+			}
+
+			const string outPath = @"C:\_Gen Ig Database 04.10.04\allvallalign\";
+			StreamWriter rw = new StreamWriter( outPath + "drmsList.txt" );
+			rw.WriteLine("Name : DRMS : RMSE");
+
+			for( int i = 0; i < PDBFiles.Length; i++ )
+			{
+				for( int j = i + 1; j < PDBFiles.Length; j++ )
+				{
+					DateTime dStart = DateTime.Now;
+					string outName = PDBFiles[i].Name + " vs " + PDBFiles[j].Name;
+					PSAlignManager p = new PSAlignManager( outName, PDBFiles[i].particleSystem.Members[0], PDBFiles[j].particleSystem.Members[0], AlignmentMethod.ProSup );
+					p.PerformAlignment();
+					rw.WriteLine( outName + " " );
+					PDB.SaveNew( outPath + outName, p.AlignedSystem );
+					DateTime dEnd = DateTime.Now;
+					Console.WriteLine( "For PSs i: " + i.ToString() + " j: " + j.ToString() + " Time : " + ((TimeSpan)(dEnd - dStart)).ToString() );	
+				}
+			}
+
+			rw.Close();
+			

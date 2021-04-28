@@ -1,0 +1,2348 @@
+# Rotamer file modified by Jon Rea on 08.06.04 from definitions by Mike Tyka    
+# Incorperated into the DAVE Development program                                
+#                                                                               
+# MODIFICATIONS have been made to allow use of rotamers in build operations     
+#                                                                               
+# 1. Addition of the GLOBALSTART and GLOBALEND parameters, this region defines common atoms to all rotamers
+#    + signifies that those atoms are only applied only to + terminal molecules      
+#    - signifies that those atoms are only applied only to - terminal molecules      
+#    ~ signifies that thsoe atoms are applied to intra-chain molecules and - terminal molecules 
+#    # signifies that thsoe atoms are applied to intra-chain molecules and + terminal molecules 
+#    = signifies that thsoe atoms are applied only to intra-chain molecules ( not in use, but implemented for the hell of it )
+#                                                                               
+#    Global Definitions are overriden if the atoms are redefined in the roramers (not implemented in DAVE).
+#    If positions are replaced with a null statement, then the global atom is deemed not to be in that particular 
+#    rotamer ( isnt Proline annoying! ).                                        
+#                                                                               
+# 2. Due to point 1. common atoms have been erased from rotamer definitions     
+#    and also, the definitions for NME ACE NTE and CTE have also been removed   
+#                                                                               
+# 3. The modifications have been specifically designed so that, together with the apropriate force-field file
+#    aditional molecule types such as Nucleic acids can be easily added.        
+#                                                                               
+
+GLOBALSTART     
+ATOM      0  +N          0       2.400  -1.656   0.000
+ATOM      0  -C          0      -0.783   0.669   0.000 
+#used the position from HT1 and OT1, the length is irelevent, they are just used as direction vectors
+ATOM      1  N           0       0.000   0.000   0.000  
+ATOM      2  CA          0       1.263   0.729   0.000  
+ATOM      3  C           0       2.451  -0.227   0.000  
+ATOM      4 #O           0       2.413  -1.293   0.000  
+ATOM      5 ~H           0       0.008  -1.000   0.000  
+ATOM      6 +HT1         0      -0.783   0.669   0.000
+ATOM      7 +HT2         0      -0.055  -0.592  -0.841
+ATOM      8 +HT3         0      -0.055  -0.592   0.841
+ATOM      9 -OT1         0       2.400  -1.656   0.000
+ATOM     10 -OT2         0       3.752   0.368   0.000
+GLOBALEND
+                                                                                
+ATOM      6  CB  ALA     0       1.370   1.648   1.211                          
+ATOM      7  HA  ALA     0       1.281   1.279  -0.835                          
+ATOM      8  HB1 ALA     0       2.244   2.134   1.185                          
+ATOM      9  HB2 ALA     0       1.316   1.104   2.049                          
+ATOM     10  HB3 ALA     0       0.620   2.310   1.195                          
+NEXT                                                                            
+                                                                                
+ATOM      6  HA2 GLY     0       1.625   1.412  -0.530                          
+ATOM      7  HA3 GLY     0       1.369   0.996   1.029                          
+NEXT                                                                            
+                                                                                
+ATOM      5 ~H   PRO     0      NULL                  
+ATOM      6 +HT1 PRO     0      NULL                  
+ATOM      7 +HT2 PRO     0      NULL                  
+ATOM      8 +HT3 PRO     0      NULL                  
+ATOM      6 +HN1 PRO     0      -0.055  -0.592  -0.841
+ATOM      7 +HN2 PRO     0      -0.055  -0.592   0.841
+ATOM      6  CD  PRO     0      -0.544  -0.158   1.360                          
+ATOM      9  CB  PRO     0       1.396   1.214   1.441                          
+ATOM     10  CG  PRO     0       0.610   0.229   2.241                          
+ATOM     11  HA  PRO     0       1.263   1.380  -0.759                          
+ATOM     12  HD2 PRO     0      -0.821  -1.104   1.527                          
+ATOM     13  HD3 PRO     0      -1.325   0.449   1.506                          
+ATOM     14  HB2 PRO     0       2.355   1.216   1.726                          
+ATOM     15  HB3 PRO     0       1.016   2.134   1.541                          
+ATOM     16  HG2 PRO     0       1.169  -0.571   2.460                          
+ATOM     17  HG3 PRO     0       0.281   0.647   3.087                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  ARG     0       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     0       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     0      -0.395   4.814   2.375                          
+ATOM      9  CG  ARG     0       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     0       0.328   5.673   4.381                          
+ATOM     11  NH2 ARG     0      -1.353   6.724   3.223                          
+ATOM     12  CZ  ARG     0      -0.473   5.739   3.327                          
+ATOM     13  HA  ARG     0       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     0       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     0       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     0       0.365   3.143   3.213                          
+ATOM     17  HD3 ARG     0       1.472   4.049   2.425                          
+ATOM     18  HE  ARG     0      -1.016   4.892   1.595                          
+ATOM     19  HG2 ARG     0       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     0      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     0       0.270   6.368   5.097                          
+ATOM     22  HH12ARG     0       0.990   4.928   4.460                          
+ATOM     23  HH21ARG     0      -1.412   7.420   3.939                          
+ATOM     24  HH22ARG     0      -1.958   6.772   2.429                          
+                                                                                
+ATOM      6  CB  ARG     1       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     1       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     1      -0.395   4.814   2.375                          
+ATOM      9  CG  ARG     1       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     1       0.973   6.149   1.097                          
+ATOM     11  NH2 ARG     1      -1.073   6.932   1.789                          
+ATOM     12  CZ  ARG     1      -0.164   5.966   1.753                          
+ATOM     13  HA  ARG     1       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     1       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     1       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     1       0.365   3.143   3.213                          
+ATOM     17  HD3 ARG     1       1.472   4.049   2.425                          
+ATOM     18  HE  ARG     1      -1.263   4.710   2.860                          
+ATOM     19  HG2 ARG     1       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     1      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     1       1.146   7.016   0.629                          
+ATOM     22  HH12ARG     1       1.657   5.420   1.070                          
+ATOM     23  HH21ARG     1      -0.900   7.799   1.321                          
+ATOM     24  HH22ARG     1      -1.931   6.793   2.284                          
+                                                                                
+ATOM      6  CB  ARG     2       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     2       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     2      -0.395   4.814   2.375                          
+ATOM      9  CG  ARG     2       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     2      -2.125   3.616   3.299                          
+ATOM     11  NH2 ARG     2      -2.425   5.826   2.750                          
+ATOM     12  CZ  ARG     2      -1.650   4.752   2.808                          
+ATOM     13  HA  ARG     2       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     2       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     2       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     2       0.365   3.143   3.213                          
+ATOM     17  HD3 ARG     2       1.472   4.049   2.425                          
+ATOM     18  HE  ARG     2      -0.069   5.687   2.012                          
+ATOM     19  HG2 ARG     2       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     2      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     2      -3.069   3.568   3.625                          
+ATOM     22  HH12ARG     2      -1.539   2.807   3.343                          
+ATOM     23  HH21ARG     2      -3.369   5.779   3.076                          
+ATOM     24  HH22ARG     2      -2.065   6.683   2.380                          
+                                                                                
+ATOM      6  CB  ARG     3       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     3       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     3       0.176   2.991   3.623                          
+ATOM      9  CG  ARG     3       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     3       0.791   4.727   4.999                          
+ATOM     11  NH2 ARG     3      -0.050   2.790   5.902                          
+ATOM     12  CZ  ARG     3       0.305   3.504   4.843                          
+ATOM     13  HA  ARG     3       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     3       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     3       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     3       1.489   3.993   2.464                          
+ATOM     17  HD3 ARG     3      -0.057   4.489   2.291                          
+ATOM     18  HE  ARG     3      -0.193   2.065   3.542                          
+ATOM     19  HG2 ARG     3       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     3      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     3       0.888   5.113   5.916                          
+ATOM     22  HH12ARG     3       1.061   5.264   4.199                          
+ATOM     23  HH21ARG     3       0.047   3.175   6.820                          
+ATOM     24  HH22ARG     3      -0.414   1.866   5.783                          
+                                                                                
+ATOM      6  CB  ARG     4       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     4       0.741   3.856   2.210                          
+ATOM      8  NE  ARG     4       0.601   3.346   3.571                          
+ATOM      9  CG  ARG     4       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     4      -1.649   3.801   3.693                          
+ATOM     11  NH2 ARG     4      -0.572   2.848   5.484                          
+ATOM     12  CZ  ARG     4      -0.541   3.333   4.249                          
+ATOM     13  HA  ARG     4       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     4       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     4       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     4       1.688   4.146   2.070                          
+ATOM     17  HD3 ARG     4       0.131   4.640   2.095                          
+ATOM     18  HE  ARG     4       1.417   2.983   4.021                          
+ATOM     19  HG2 ARG     4       0.419   3.225   0.262                          
+ATOM     20  HG3 ARG     4      -0.531   2.463   1.350                          
+ATOM     21  HH11ARG     4      -2.508   3.791   4.205                          
+ATOM     22  HH12ARG     4      -1.626   4.165   2.762                          
+ATOM     23  HH21ARG     4      -1.431   2.838   5.996                          
+ATOM     24  HH22ARG     4       0.264   2.493   5.903                          
+                                                                                
+ATOM      6  CB  ARG     5       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     5       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     5       0.176   2.991   3.623                          
+ATOM      9  CG  ARG     5       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     5       2.352   2.723   4.315                          
+ATOM     11  NH2 ARG     5       0.631   1.916   5.604                          
+ATOM     12  CZ  ARG     5       1.054   2.543   4.515                          
+ATOM     13  HA  ARG     5       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     5       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     5       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     5       1.489   3.993   2.464                          
+ATOM     17  HD3 ARG     5      -0.057   4.489   2.291                          
+ATOM     18  HE  ARG     5      -0.795   2.838   3.805                          
+ATOM     19  HG2 ARG     5       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     5      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     5       3.013   2.386   4.986                          
+ATOM     22  HH12ARG     5       2.670   3.196   3.493                          
+ATOM     23  HH21ARG     5       1.291   1.579   6.275                          
+ATOM     24  HH22ARG     5      -0.348   1.780   5.754                          
+                                                                                
+ATOM      6  CB  ARG     6       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     6       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     6       1.840   4.351   2.441                          
+ATOM      9  CG  ARG     6       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     6       1.482   5.292   4.508                          
+ATOM     11  NH2 ARG     6       3.463   5.663   3.405                          
+ATOM     12  CZ  ARG     6       2.261   5.103   3.452                          
+ATOM     13  HA  ARG     6       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     6       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     6       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     6      -0.177   4.391   2.376                          
+ATOM     17  HD3 ARG     6       0.432   3.129   3.215                          
+ATOM     18  HE  ARG     6       2.454   4.228   1.661                          
+ATOM     19  HG2 ARG     6       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     6      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     6       1.800   5.858   5.269                          
+ATOM     22  HH12ARG     6       0.577   4.868   4.544                          
+ATOM     23  HH21ARG     6       3.781   6.229   4.165                          
+ATOM     24  HH22ARG     6       4.051   5.519   2.609                          
+                                                                                
+ATOM      6  CB  ARG     7       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     7       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     7       1.840   4.351   2.441                          
+ATOM      9  CG  ARG     7       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     7       2.667   2.981   4.091                          
+ATOM     11  NH2 ARG     7       3.980   4.654   3.223                          
+ATOM     12  CZ  ARG     7       2.829   3.995   3.252                          
+ATOM     13  HA  ARG     7       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     7       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     7       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     7      -0.177   4.391   2.376                          
+ATOM     17  HD3 ARG     7       0.432   3.129   3.215                          
+ATOM     18  HE  ARG     7       1.997   5.120   1.822                          
+ATOM     19  HG2 ARG     7       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     7      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     7       3.412   2.713   4.702                          
+ATOM     22  HH12ARG     7       1.800   2.484   4.113                          
+ATOM     23  HH21ARG     7       4.725   4.386   3.834                          
+ATOM     24  HH22ARG     7       4.103   5.419   2.590                          
+                                                                                
+ATOM      6  CB  ARG     8       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     8       0.538   3.692   2.395                          
+ATOM      8  NE  ARG     8       1.840   4.351   2.441                          
+ATOM      9  CG  ARG     8       0.391   2.806   1.169                          
+ATOM     10  NH1 ARG     8       1.190   6.104   1.102                          
+ATOM     11  NH2 ARG     8       3.335   6.017   1.919                          
+ATOM     12  CZ  ARG     8       2.121   5.492   1.819                          
+ATOM     13  HA  ARG     8       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     8       1.187   1.104   2.030                          
+ATOM     15  HB3 ARG     8       2.297   2.011   1.246                          
+ATOM     16  HD2 ARG     8      -0.177   4.391   2.376                          
+ATOM     17  HD3 ARG     8       0.432   3.129   3.215                          
+ATOM     18  HE  ARG     8       2.566   3.917   2.974                          
+ATOM     19  HG2 ARG     8       0.567   3.352   0.350                          
+ATOM     20  HG3 ARG     8      -0.542   2.447   1.137                          
+ATOM     21  HH11ARG     8       1.402   6.962   0.635                          
+ATOM     22  HH12ARG     8       0.275   5.708   1.028                          
+ATOM     23  HH21ARG     8       3.549   6.875   1.452                          
+ATOM     24  HH22ARG     8       4.037   5.555   2.461                          
+                                                                                
+ATOM      6  CB  ARG     9       1.368   1.643   1.207                          
+ATOM      7  CD  ARG     9       0.532   3.738   0.108                          
+ATOM      8  NE  ARG     9      -0.475   4.795   0.113                          
+ATOM      9  CG  ARG     9       0.312   2.735   1.229                          
+ATOM     10  NH1 ARG     9       0.404   5.877  -1.714                          
+ATOM     11  NH2 ARG     9      -1.466   6.713  -0.676                          
+ATOM     12  CZ  ARG     9      -0.512   5.796  -0.760                          
+ATOM     13  HA  ARG     9       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG     9       1.269   1.089   2.034                          
+ATOM     15  HB3 ARG     9       2.270   2.074   1.201                          
+ATOM     16  HD2 ARG     9       1.435   4.153   0.219                          
+ATOM     17  HD3 ARG     9       0.491   3.257  -0.768                          
+ATOM     18  HE  ARG     9      -1.183   4.764   0.819                          
+ATOM     19  HG2 ARG     9      -0.590   2.318   1.120                          
+ATOM     20  HG3 ARG     9       0.355   3.213   2.107                          
+ATOM     21  HH11ARG     9       0.376   6.630  -2.371                          
+ATOM     22  HH12ARG     9       1.123   5.185  -1.777                          
+ATOM     23  HH21ARG     9      -1.494   7.467  -1.333                          
+ATOM     24  HH22ARG     9      -2.157   6.651   0.044                          
+                                                                                
+ATOM      6  CB  ARG    10       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    10       0.532   3.738   0.108                          
+ATOM      8  NE  ARG    10      -0.475   4.795   0.113                          
+ATOM      9  CG  ARG    10       0.312   2.735   1.229                          
+ATOM     10  NH1 ARG    10      -2.003   3.583  -1.104                          
+ATOM     11  NH2 ARG    10      -2.517   5.712  -0.410                          
+ATOM     12  CZ  ARG    10      -1.666   4.696  -0.467                          
+ATOM     13  HA  ARG    10       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    10       1.269   1.089   2.034                          
+ATOM     15  HB3 ARG    10       2.270   2.074   1.201                          
+ATOM     16  HD2 ARG    10       1.435   4.153   0.219                          
+ATOM     17  HD3 ARG    10       0.491   3.257  -0.768                          
+ATOM     18  HE  ARG    10      -0.254   5.649   0.584                          
+ATOM     19  HG2 ARG    10      -0.590   2.318   1.120                          
+ATOM     20  HG3 ARG    10       0.355   3.213   2.107                          
+ATOM     21  HH11ARG    10      -2.900   3.509  -1.541                          
+ATOM     22  HH12ARG    10      -1.361   2.818  -1.148                          
+ATOM     23  HH21ARG    10      -3.414   5.638  -0.846                          
+ATOM     24  HH22ARG    10      -2.262   6.552   0.069                          
+                                                                                
+ATOM      6  CB  ARG    11       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    11       0.532   3.738   0.108                          
+ATOM      8  NE  ARG    11       1.780   4.476   0.270                          
+ATOM      9  CG  ARG    11       0.312   2.735   1.229                          
+ATOM     10  NH1 ARG    11       1.588   5.580  -1.737                          
+ATOM     11  NH2 ARG    11       3.403   5.968  -0.384                          
+ATOM     12  CZ  ARG    11       2.258   5.343  -0.618                          
+ATOM     13  HA  ARG    11       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    11       1.269   1.089   2.034                          
+ATOM     15  HB3 ARG    11       2.270   2.074   1.201                          
+ATOM     16  HD2 ARG    11       0.558   3.247  -0.763                          
+ATOM     17  HD3 ARG    11      -0.228   4.388   0.103                          
+ATOM     18  HE  ARG    11       2.311   4.320   1.103                          
+ATOM     19  HG2 ARG    11      -0.590   2.318   1.120                          
+ATOM     20  HG3 ARG    11       0.355   3.213   2.107                          
+ATOM     21  HH11ARG    11       1.946   6.232  -2.406                          
+ATOM     22  HH12ARG    11       0.725   5.107  -1.912                          
+ATOM     23  HH21ARG    11       3.762   6.620  -1.052                          
+ATOM     24  HH22ARG    11       3.908   5.788   0.460                          
+                                                                                
+ATOM      6  CB  ARG    12       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    12       0.532   3.738   0.108                          
+ATOM      8  NE  ARG    12       1.780   4.476   0.270                          
+ATOM      9  CG  ARG    12       0.312   2.735   1.229                          
+ATOM     10  NH1 ARG    12       0.863   6.056   1.666                          
+ATOM     11  NH2 ARG    12       3.086   6.176   1.103                          
+ATOM     12  CZ  ARG    12       1.910   5.570   1.014                          
+ATOM     13  HA  ARG    12       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    12       1.269   1.089   2.034                          
+ATOM     15  HB3 ARG    12       2.270   2.074   1.201                          
+ATOM     16  HD2 ARG    12       0.558   3.247  -0.763                          
+ATOM     17  HD3 ARG    12      -0.228   4.388   0.103                          
+ATOM     18  HE  ARG    12       2.590   4.137  -0.209                          
+ATOM     19  HG2 ARG    12      -0.590   2.318   1.120                          
+ATOM     20  HG3 ARG    12       0.355   3.213   2.107                          
+ATOM     21  HH11ARG    12       0.960   6.879   2.226                          
+ATOM     22  HH12ARG    12      -0.024   5.600   1.598                          
+ATOM     23  HH21ARG    12       3.183   6.999   1.663                          
+ATOM     24  HH22ARG    12       3.876   5.810   0.610                          
+                                                                                
+ATOM      6  CB  ARG    13       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    13       2.696   3.451   0.083                          
+ATOM      8  NE  ARG    13       1.636   4.452   0.152                          
+ATOM      9  CG  ARG    13       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    13       2.817   5.854   1.541                          
+ATOM     11  NH2 ARG    13       0.703   6.433   0.853                          
+ATOM     12  CZ  ARG    13       1.719   5.580   0.850                          
+ATOM     13  HA  ARG    13       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    13       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    13       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    13       3.581   3.917   0.095                          
+ATOM     17  HD3 ARG    13       2.600   2.938  -0.770                          
+ATOM     18  HE  ARG    13       0.794   4.278  -0.358                          
+ATOM     19  HG2 ARG    13       2.661   2.994   2.105                          
+ATOM     20  HG3 ARG    13       3.430   1.869   1.205                          
+ATOM     21  HH11ARG    13       2.879   6.703   2.066                          
+ATOM     22  HH12ARG    13       3.583   5.212   1.537                          
+ATOM     23  HH21ARG    13       0.764   7.282   1.378                          
+ATOM     24  HH22ARG    13      -0.124   6.227   0.330                          
+                                                                                
+ATOM      6  CB  ARG    14       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    14       2.696   3.451   0.083                          
+ATOM      8  NE  ARG    14       3.911   4.261   0.107                          
+ATOM      9  CG  ARG    14       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    14       5.187   2.689  -0.982                          
+ATOM     11  NH2 ARG    14       6.127   4.682  -0.336                          
+ATOM     12  CZ  ARG    14       5.076   3.877  -0.405                          
+ATOM     13  HA  ARG    14       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    14       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    14       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    14       2.670   2.933  -0.772                          
+ATOM     17  HD3 ARG    14       1.902   4.058   0.129                          
+ATOM     18  HE  ARG    14       3.863   5.163   0.536                          
+ATOM     19  HG2 ARG    14       2.661   2.994   2.105                          
+ATOM     20  HG3 ARG    14       3.430   1.869   1.205                          
+ATOM     21  HH11ARG    14       6.063   2.400  -1.367                          
+ATOM     22  HH12ARG    14       4.394   2.081  -1.032                          
+ATOM     23  HH21ARG    14       7.004   4.394  -0.721                          
+ATOM     24  HH22ARG    14       6.043   5.578   0.101                          
+                                                                                
+ATOM      6  CB  ARG    15       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    15       2.696   3.451   0.083                          
+ATOM      8  NE  ARG    15       3.911   4.261   0.107                          
+ATOM      9  CG  ARG    15       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    15       3.378   5.425  -1.802                          
+ATOM     11  NH2 ARG    15       5.337   5.876  -0.693                          
+ATOM     12  CZ  ARG    15       4.209   5.189  -0.797                          
+ATOM     13  HA  ARG    15       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    15       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    15       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    15       2.670   2.933  -0.772                          
+ATOM     17  HD3 ARG    15       1.902   4.058   0.129                          
+ATOM     18  HE  ARG    15       4.561   4.108   0.852                          
+ATOM     19  HG2 ARG    15       2.661   2.994   2.105                          
+ATOM     20  HG3 ARG    15       3.430   1.869   1.205                          
+ATOM     21  HH11ARG    15       3.602   6.123  -2.482                          
+ATOM     22  HH12ARG    15       2.527   4.905  -1.880                          
+ATOM     23  HH21ARG    15       5.562   6.574  -1.373                          
+ATOM     24  HH22ARG    15       5.964   5.696   0.065                          
+                                                                                
+ATOM      6  CB  ARG    16       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    16       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    16       2.726   2.618   3.714                          
+ATOM      9  CG  ARG    16       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    16       5.014   2.403   3.672                          
+ATOM     11  NH2 ARG    16       3.806   1.482   5.395                          
+ATOM     12  CZ  ARG    16       3.850   2.167   4.261                          
+ATOM     13  HA  ARG    16       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    16       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    16       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    16       3.467   3.975   2.416                          
+ATOM     17  HD3 ARG    16       1.835   3.940   2.477                          
+ATOM     18  HE  ARG    16       1.866   2.422   4.185                          
+ATOM     19  HG2 ARG    16       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    16       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    16       5.860   2.064   4.083                          
+ATOM     22  HH12ARG    16       5.046   2.920   2.817                          
+ATOM     23  HH21ARG    16       4.651   1.142   5.807                          
+ATOM     24  HH22ARG    16       2.927   1.305   5.838                          
+                                                                                
+ATOM      6  CB  ARG    17       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    17       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    17       2.726   2.618   3.714                          
+ATOM      9  CG  ARG    17       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    17       2.538   4.472   5.061                          
+ATOM     11  NH2 ARG    17       2.726   2.384   6.001                          
+ATOM     12  CZ  ARG    17       2.663   3.158   4.926                          
+ATOM     13  HA  ARG    17       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    17       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    17       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    17       3.467   3.975   2.416                          
+ATOM     17  HD3 ARG    17       1.835   3.940   2.477                          
+ATOM     18  HE  ARG    17       2.822   1.625   3.649                          
+ATOM     19  HG2 ARG    17       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    17       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    17       2.491   4.879   5.973                          
+ATOM     22  HH12ARG    17       2.491   5.056   4.250                          
+ATOM     23  HH21ARG    17       2.679   2.791   6.913                          
+ATOM     24  HH22ARG    17       2.821   1.394   5.899                          
+                                                                                
+ATOM      6  CB  ARG    18       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    18       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    18       3.879   4.190   2.526                          
+ATOM      9  CG  ARG    18       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    18       3.042   5.846   1.170                          
+ATOM     11  NH2 ARG    18       5.172   6.019   2.010                          
+ATOM     12  CZ  ARG    18       4.031   5.353   1.901                          
+ATOM     13  HA  ARG    18       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    18       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    18       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    18       1.872   3.990   2.439                          
+ATOM     17  HD3 ARG    18       2.616   2.814   3.293                          
+ATOM     18  HE  ARG    18       4.646   3.847   3.069                          
+ATOM     19  HG2 ARG    18       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    18       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    18       3.156   6.721   0.700                          
+ATOM     22  HH12ARG    18       2.182   5.343   1.089                          
+ATOM     23  HH21ARG    18       5.287   6.894   1.540                          
+ATOM     24  HH22ARG    18       5.918   5.646   2.562                          
+                                                                                
+ATOM      6  CB  ARG    19       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    19       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    19       3.879   4.190   2.526                          
+ATOM      9  CG  ARG    19       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    19       3.294   5.241   4.486                          
+ATOM     11  NH2 ARG    19       5.282   5.754   3.459                          
+ATOM     12  CZ  ARG    19       4.151   5.062   3.491                          
+ATOM     13  HA  ARG    19       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    19       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    19       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    19       1.872   3.990   2.439                          
+ATOM     17  HD3 ARG    19       2.616   2.814   3.293                          
+ATOM     18  HE  ARG    19       4.548   4.081   1.791                          
+ATOM     19  HG2 ARG    19       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    19       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    19       3.500   5.898   5.211                          
+ATOM     22  HH12ARG    19       2.441   4.719   4.511                          
+ATOM     23  HH21ARG    19       5.487   6.410   4.185                          
+ATOM     24  HH22ARG    19       5.929   5.619   2.709                          
+                                                                                
+ATOM      6  CB  ARG    20       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    20       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    20       3.879   4.190   2.526                          
+ATOM      9  CG  ARG    20       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    20       5.126   2.556   3.556                          
+ATOM     11  NH2 ARG    20       6.082   4.582   3.053                          
+ATOM     12  CZ  ARG    20       5.030   3.775   3.046                          
+ATOM     13  HA  ARG    20       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    20       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    20       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    20       1.872   3.990   2.439                          
+ATOM     17  HD3 ARG    20       2.616   2.814   3.293                          
+ATOM     18  HE  ARG    20       3.843   5.115   2.148                          
+ATOM     19  HG2 ARG    20       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    20       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    20       5.992   2.244   3.947                          
+ATOM     22  HH12ARG    20       4.332   1.948   3.550                          
+ATOM     23  HH21ARG    20       6.948   4.271   3.444                          
+ATOM     24  HH22ARG    20       6.009   5.502   2.667                          
+                                                                                
+ATOM      6  CB  ARG    21       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    21       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    21       1.606   4.385   2.432                          
+ATOM      9  CG  ARG    21       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    21       0.309   3.326   4.008                          
+ATOM     11  NH2 ARG    21      -0.407   5.295   3.067                          
+ATOM     12  CZ  ARG    21       0.502   4.335   3.170                          
+ATOM     13  HA  ARG    21       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    21       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    21       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    21       2.546   2.819   3.290                          
+ATOM     17  HD3 ARG    21       3.549   3.846   2.510                          
+ATOM     18  HE  ARG    21       1.719   5.160   1.810                          
+ATOM     19  HG2 ARG    21       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    21       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    21      -0.522   3.289   4.563                          
+ATOM     22  HH12ARG    21       0.994   2.602   4.085                          
+ATOM     23  HH21ARG    21      -1.238   5.258   3.622                          
+ATOM     24  HH22ARG    21      -0.261   6.056   2.434                          
+                                                                                
+ATOM      6  CB  ARG    22       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    22       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    22       1.606   4.385   2.432                          
+ATOM      9  CG  ARG    22       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    22       2.073   5.205   4.528                          
+ATOM     11  NH2 ARG    22       0.363   6.116   3.295                          
+ATOM     12  CZ  ARG    22       1.347   5.236   3.419                          
+ATOM     13  HA  ARG    22       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    22       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    22       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    22       2.546   2.819   3.290                          
+ATOM     17  HD3 ARG    22       3.549   3.846   2.510                          
+ATOM     18  HE  ARG    22       1.039   4.436   1.610                          
+ATOM     19  HG2 ARG    22       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    22       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    22       1.878   5.845   5.271                          
+ATOM     22  HH12ARG    22       2.815   4.541   4.621                          
+ATOM     23  HH21ARG    22       0.168   6.756   4.038                          
+ATOM     24  HH22ARG    22      -0.184   6.139   2.459                          
+                                                                                
+ATOM      6  CB  ARG    23       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    23       2.664   3.381   2.471                          
+ATOM      8  NE  ARG    23       1.606   4.385   2.432                          
+ATOM      9  CG  ARG    23       2.638   2.478   1.249                          
+ATOM     10  NH1 ARG    23       2.822   5.865   1.161                          
+ATOM     11  NH2 ARG    23       0.690   6.404   1.824                          
+ATOM     12  CZ  ARG    23       1.706   5.552   1.805                          
+ATOM     13  HA  ARG    23       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    23       0.585   2.264   1.199                          
+ATOM     15  HB3 ARG    23       1.337   1.078   2.032                          
+ATOM     16  HD2 ARG    23       2.546   2.819   3.290                          
+ATOM     17  HD3 ARG    23       3.549   3.846   2.510                          
+ATOM     18  HE  ARG    23       0.750   4.182   2.908                          
+ATOM     19  HG2 ARG    23       3.429   1.867   1.279                          
+ATOM     20  HG3 ARG    23       2.684   3.043   0.425                          
+ATOM     21  HH11ARG    23       2.897   6.743   0.689                          
+ATOM     22  HH12ARG    23       3.588   5.223   1.147                          
+ATOM     23  HH21ARG    23       0.765   7.282   1.352                          
+ATOM     24  HH22ARG    23      -0.151   6.168   2.310                          
+                                                                                
+ATOM      6  CB  ARG    24       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    24       1.412   1.918   3.701                          
+ATOM      8  NE  ARG    24       0.262   2.815   3.753                          
+ATOM      9  CG  ARG    24       1.314   0.931   2.549                          
+ATOM     10  NH1 ARG    24       1.109   4.080   5.475                          
+ATOM     11  NH2 ARG    24      -0.940   4.594   4.574                          
+ATOM     12  CZ  ARG    24       0.144   3.831   4.601                          
+ATOM     13  HA  ARG    24       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    24       2.237   2.135   1.150                          
+ATOM     15  HB3 ARG    24       0.611   2.296   1.170                          
+ATOM     16  HD2 ARG    24       1.462   1.408   4.560                          
+ATOM     17  HD3 ARG    24       2.242   2.464   3.588                          
+ATOM     18  HE  ARG    24      -0.486   2.655   3.109                          
+ATOM     19  HG2 ARG    24       0.450   0.433   2.619                          
+ATOM     20  HG3 ARG    24       2.076   0.286   2.607                          
+ATOM     21  HH11ARG    24       1.020   4.845   6.113                          
+ATOM     22  HH12ARG    24       1.926   3.503   5.496                          
+ATOM     23  HH21ARG    24      -1.029   5.359   5.212                          
+ATOM     24  HH22ARG    24      -1.668   4.405   3.916                          
+                                                                                
+ATOM      6  CB  ARG    25       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    25       1.412   1.918   3.701                          
+ATOM      8  NE  ARG    25       1.362   1.251   4.999                          
+ATOM      9  CG  ARG    25       1.314   0.931   2.549                          
+ATOM     10  NH1 ARG    25       3.614   0.790   5.041                          
+ATOM     11  NH2 ARG    25       2.277   0.137   6.790                          
+ATOM     12  CZ  ARG    25       2.419   0.726   5.610                          
+ATOM     13  HA  ARG    25       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    25       2.237   2.135   1.150                          
+ATOM     15  HB3 ARG    25       0.611   2.296   1.170                          
+ATOM     16  HD2 ARG    25       2.276   2.416   3.627                          
+ATOM     17  HD3 ARG    25       0.650   2.562   3.640                          
+ATOM     18  HE  ARG    25       0.476   1.185   5.457                          
+ATOM     19  HG2 ARG    25       0.450   0.433   2.619                          
+ATOM     20  HG3 ARG    25       2.076   0.286   2.607                          
+ATOM     21  HH11ARG    25       4.409   0.395   5.501                          
+ATOM     22  HH12ARG    25       3.721   1.234   4.151                          
+ATOM     23  HH21ARG    25       3.072  -0.258   7.250                          
+ATOM     24  HH22ARG    25       1.375   0.088   7.219                          
+                                                                                
+ATOM      6  CB  ARG    26       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    26       1.412   1.918   3.701                          
+ATOM      8  NE  ARG    26       1.362   1.251   4.999                          
+ATOM      9  CG  ARG    26       1.314   0.931   2.549                          
+ATOM     10  NH1 ARG    26       1.547   3.201   6.201                          
+ATOM     11  NH2 ARG    26       1.375   1.191   7.297                          
+ATOM     12  CZ  ARG    26       1.428   1.881   6.167                          
+ATOM     13  HA  ARG    26       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    26       2.237   2.135   1.150                          
+ATOM     15  HB3 ARG    26       0.611   2.296   1.170                          
+ATOM     16  HD2 ARG    26       2.276   2.416   3.627                          
+ATOM     17  HD3 ARG    26       0.650   2.562   3.640                          
+ATOM     18  HE  ARG    26       1.272   0.255   5.010                          
+ATOM     19  HG2 ARG    26       0.450   0.433   2.619                          
+ATOM     20  HG3 ARG    26       2.076   0.286   2.607                          
+ATOM     21  HH11ARG    26       1.597   3.676   7.080                          
+ATOM     22  HH12ARG    26       1.587   3.722   5.348                          
+ATOM     23  HH21ARG    26       1.425   1.666   8.176                          
+ATOM     24  HH22ARG    26       1.285   0.195   7.271                          
+                                                                                
+ATOM      6  CB  ARG    27       1.368   1.643   1.207                          
+ATOM      7  CD  ARG    27       1.412   1.918   3.701                          
+ATOM      8  NE  ARG    27       1.362   1.251   4.999                          
+ATOM      9  CG  ARG    27       1.314   0.931   2.549                          
+ATOM     10  NH1 ARG    27      -0.935   1.201   5.077                          
+ATOM     11  NH2 ARG    27       0.291   0.317   6.806                          
+ATOM     12  CZ  ARG    27       0.238   0.922   5.628                          
+ATOM     13  HA  ARG    27       1.282   1.280  -0.835                          
+ATOM     14  HB2 ARG    27       2.237   2.135   1.150                          
+ATOM     15  HB3 ARG    27       0.611   2.296   1.170                          
+ATOM     16  HD2 ARG    27       2.276   2.416   3.627                          
+ATOM     17  HD3 ARG    27       0.650   2.562   3.640                          
+ATOM     18  HE  ARG    27       2.229   1.027   5.444                          
+ATOM     19  HG2 ARG    27       0.450   0.433   2.619                          
+ATOM     20  HG3 ARG    27       2.076   0.286   2.607                          
+ATOM     21  HH11ARG    27      -1.781   0.954   5.550                          
+ATOM     22  HH12ARG    27      -0.974   1.659   4.189                          
+ATOM     23  HH21ARG    27      -0.554   0.069   7.279                          
+ATOM     24  HH22ARG    27       1.176   0.108   7.221                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  ASN     0       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     0       0.056   3.346   2.314                          
+ATOM      8  OD1 ASN     0      -0.174   3.094   0.094                          
+ATOM      9  CG  ASN     0       0.347   2.762   1.159                          
+ATOM     10  HA  ASN     0       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     0       1.217   1.103   2.035                          
+ATOM     12  HB3 ASN     0       2.284   2.042   1.231                          
+ATOM     13  HD21ASN     0      -0.611   4.091   2.344                          
+ATOM     14  HD22ASN     0       0.503   3.042   3.155                          
+                                                                                
+ATOM      6  CB  ASN     1       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     1      -0.703   2.638   1.959                          
+ATOM      8  OD1 ASN     1       0.502   3.724   0.408                          
+ATOM      9  CG  ASN     1       0.347   2.762   1.159                          
+ATOM     10  HA  ASN     1       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     1       1.217   1.103   2.035                          
+ATOM     12  HB3 ASN     1       2.284   2.042   1.231                          
+ATOM     13  HD21ASN     1      -1.409   3.346   1.970                          
+ATOM     14  HD22ASN     1      -0.789   1.837   2.551                          
+                                                                                
+ATOM      6  CB  ASN     2       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     2       0.428   3.590   0.125                          
+ATOM      8  OD1 ASN     2      -0.502   2.879   2.041                          
+ATOM      9  CG  ASN     2       0.347   2.762   1.159                          
+ATOM     10  HA  ASN     2       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     2       1.217   1.103   2.035                          
+ATOM     12  HB3 ASN     2       2.284   2.042   1.231                          
+ATOM     13  HD21ASN     2      -0.219   4.348   0.039                          
+ATOM     14  HD22ASN     2       1.136   3.456  -0.568                          
+                                                                                
+ATOM      6  CB  ASN     3       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     3       2.455   3.750   0.733                          
+ATOM      8  OD1 ASN     3       3.698   2.067   1.549                          
+ATOM      9  CG  ASN     3       2.612   2.510   1.178                          
+ATOM     10  HA  ASN     3       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     3       0.564   2.238   1.229                          
+ATOM     12  HB3 ASN     3       1.390   1.080   2.033                          
+ATOM     13  HD21ASN     3       3.239   4.369   0.691                          
+ATOM     14  HD22ASN     3       1.552   4.066   0.440                          
+                                                                                
+ATOM      6  CB  ASN     4       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     4       2.575   3.618   1.908                          
+ATOM      8  OD1 ASN     4       3.589   2.187   0.504                          
+ATOM      9  CG  ASN     4       2.612   2.510   1.178                          
+ATOM     10  HA  ASN     4       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     4       0.564   2.238   1.229                          
+ATOM     12  HB3 ASN     4       1.390   1.080   2.033                          
+ATOM     13  HD21ASN     4       3.366   4.230   1.929                          
+ATOM     14  HD22ASN     4       1.756   3.841   2.437                          
+                                                                                
+ATOM      6  CB  ASN     5       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     5       3.111   2.817   2.406                          
+ATOM      8  OD1 ASN     5       3.206   2.762   0.163                          
+ATOM      9  CG  ASN     5       2.646   2.458   1.215                          
+ATOM     10  HA  ASN     5       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     5       0.589   2.270   1.202                          
+ATOM     12  HB3 ASN     5       1.341   1.083   2.035                          
+ATOM     13  HD21ASN     5       3.951   3.356   2.473                          
+ATOM     14  HD22ASN     5       2.621   2.549   3.236                          
+                                                                                
+ATOM      6  CB  ASN     6       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     6       2.271   1.174   3.402                          
+ATOM      8  OD1 ASN     6       0.415   0.086   2.754                          
+ATOM      9  CG  ASN     6       1.311   0.899   2.526                          
+ATOM     10  HA  ASN     6       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     6       2.237   2.136   1.158                          
+ATOM     12  HB3 ASN     6       0.611   2.296   1.178                          
+ATOM     13  HD21ASN     6       2.285   0.714   4.290                          
+ATOM     14  HD22ASN     6       2.980   1.841   3.174                          
+                                                                                
+ATOM      6  CB  ASN     7       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     7       1.611   1.600   3.613                          
+ATOM      8  OD1 ASN     7       1.003  -0.292   2.566                          
+ATOM      9  CG  ASN     7       1.311   0.899   2.526                          
+ATOM     10  HA  ASN     7       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     7       2.237   2.136   1.158                          
+ATOM     12  HB3 ASN     7       0.611   2.296   1.178                          
+ATOM     13  HD21ASN     7       1.590   1.162   4.512                          
+ATOM     14  HD22ASN     7       1.858   2.566   3.533                          
+                                                                                
+ATOM      6  CB  ASN     8       1.368   1.643   1.207                          
+ATOM      7  ND2 ASN     8       0.801   1.563   3.557                          
+ATOM      8  OD1 ASN     8       1.723  -0.257   2.616                          
+ATOM      9  CG  ASN     8       1.311   0.899   2.526                          
+ATOM     10  HA  ASN     8       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASN     8       2.237   2.136   1.158                          
+ATOM     12  HB3 ASN     8       0.611   2.296   1.178                          
+ATOM     13  HD21ASN     8       0.738   1.123   4.453                          
+ATOM     14  HD22ASN     8       0.480   2.503   3.437                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  ASP     0       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     0      -0.078   3.087  -0.012                          
+ATOM      8  OD2 ASP     0       0.202   3.501   2.127                          
+ATOM      9  CG  ASP     0       0.430   2.829   1.100                          
+ATOM     10  HA  ASP     0       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     0       1.137   1.122   2.029                          
+ATOM     12  HB3 ASP     0       2.307   1.979   1.277                          
+                                                                                
+ATOM      6  CB  ASP     1       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     1       0.377   3.552   0.191                          
+ATOM      8  OD2 ASP     1      -0.484   2.849   2.087                          
+ATOM      9  CG  ASP     1       0.347   2.762   1.159                          
+ATOM     10  HA  ASP     1       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     1       1.217   1.103   2.035                          
+ATOM     12  HB3 ASP     1       2.284   2.042   1.231                          
+                                                                                
+ATOM      6  CB  ASP     2       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     2       3.583   2.187   0.528                          
+ATOM      8  OD2 ASP     2       2.470   3.700   1.668                          
+ATOM      9  CG  ASP     2       2.559   2.578   1.129                          
+ATOM     10  HA  ASP     2       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     2       0.534   2.191   1.267                          
+ATOM     12  HB3 ASP     2       1.457   1.080   2.028                          
+                                                                                
+ATOM      6  CB  ASP     3       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     3       3.460   2.297   0.282                          
+ATOM      8  OD2 ASP     3       2.834   3.260   2.154                          
+ATOM      9  CG  ASP     3       2.646   2.458   1.215                          
+ATOM     10  HA  ASP     3       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     3       0.589   2.270   1.202                          
+ATOM     12  HB3 ASP     3       1.341   1.083   2.035                          
+                                                                                
+ATOM      6  CB  ASP     4       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     4       2.826   3.292   0.302                          
+ATOM      8  OD2 ASP     4       3.469   2.265   2.135                          
+ATOM      9  CG  ASP     4       2.646   2.458   1.215                          
+ATOM     10  HA  ASP     4       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     4       0.589   2.270   1.202                          
+ATOM     12  HB3 ASP     4       1.341   1.083   2.035                          
+                                                                                
+ATOM      6  CB  ASP     5       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     5       0.393   0.071   2.703                          
+ATOM      8  OD2 ASP     5       2.185   1.142   3.385                          
+ATOM      9  CG  ASP     5       1.311   0.899   2.526                          
+ATOM     10  HA  ASP     5       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     5       2.237   2.136   1.158                          
+ATOM     12  HB3 ASP     5       0.611   2.296   1.178                          
+                                                                                
+ATOM      6  CB  ASP     6       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     6       1.010  -0.314   2.513                          
+ATOM      8  OD2 ASP     6       1.569   1.527   3.575                          
+ATOM      9  CG  ASP     6       1.311   0.899   2.526                          
+ATOM     10  HA  ASP     6       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     6       2.237   2.136   1.158                          
+ATOM     12  HB3 ASP     6       0.611   2.296   1.178                          
+                                                                                
+ATOM      6  CB  ASP     7       1.368   1.643   1.207                          
+ATOM      7  OD1 ASP     7       1.758  -0.267   2.572                          
+ATOM      8  OD2 ASP     7       0.821   1.482   3.517                          
+ATOM      9  CG  ASP     7       1.311   0.899   2.526                          
+ATOM     10  HA  ASP     7       1.282   1.280  -0.835                          
+ATOM     11  HB2 ASP     7       2.237   2.136   1.158                          
+ATOM     12  HB3 ASP     7       0.611   2.296   1.178                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  CYS     0       1.368   1.643   1.207                          
+ATOM      7  SG  CYS     0       0.161   3.008   1.198                          
+ATOM      8  HA  CYS     0       1.282   1.280  -0.835                          
+ATOM      9  HB2 CYS     0       1.220   1.096   2.031                          
+ATOM     10  HB3 CYS     0       2.288   2.035   1.227                          
+ATOM     11  HG  CYS     0       0.285   3.568   2.017                          
+                                                                                
+ATOM      6  CB  CYS     1       1.368   1.643   1.207                          
+ATOM      7  SG  CYS     1       2.888   2.648   1.266                          
+ATOM      8  HA  CYS     1       1.282   1.280  -0.835                          
+ATOM      9  HB2 CYS     1       0.584   2.263   1.198                          
+ATOM     10  HB3 CYS     1       1.336   1.077   2.031                          
+ATOM     11  HG  CYS     1       2.879   3.219   2.087                          
+                                                                                
+ATOM      6  CB  CYS     2       1.368   1.643   1.207                          
+ATOM      7  SG  CYS     2       1.304   0.798   2.820                          
+ATOM      8  HA  CYS     2       1.282   1.280  -0.835                          
+ATOM      9  HB2 CYS     2       2.237   2.135   1.149                          
+ATOM     10  HB3 CYS     2       0.611   2.296   1.169                          
+ATOM     11  HG  CYS     2       1.380   1.473   3.554                          
+NEXT    
+
+ATOM      6  CB  CYX     0       1.368   1.643   1.207                          
+ATOM      7  SG  CYX     0       0.161   3.008   1.198                          
+ATOM      8  HA  CYX     0       1.282   1.280  -0.835                          
+ATOM      9  HB2 CYX     0       1.220   1.096   2.031                          
+ATOM     10  HB3 CYX     0       2.288   2.035   1.227                          
+                                                                                
+ATOM      6  CB  CYX     1       1.368   1.643   1.207                          
+ATOM      7  SG  CYX     1       2.888   2.648   1.266                          
+ATOM      8  HA  CYX     1       1.282   1.280  -0.835                          
+ATOM      9  HB2 CYX     1       0.584   2.263   1.198                          
+ATOM     10  HB3 CYX     1       1.336   1.077   2.031                          
+                                                                                
+ATOM      6  CB  CYX     2       1.368   1.643   1.207                          
+ATOM      7  SG  CYX     2       1.304   0.798   2.820                          
+ATOM      8  HA  CYX     2       1.282   1.280  -0.835                          
+ATOM      9  HB2 CYX     2       2.237   2.135   1.149                          
+ATOM     10  HB3 CYX     2       0.611   2.296   1.169                          
+NEXT 
+                                                                                
+ATOM      6  CB  GLN     0       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     0       0.512   3.709   2.380                          
+ATOM      8  NE2 GLN     0       0.116   4.967   2.221                          
+ATOM      9  OE1 GLN     0       0.958   3.281   3.444                          
+ATOM     10  CG  GLN     0       0.390   2.807   1.168                          
+ATOM     11  HA  GLN     0       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     0       1.187   1.104   2.030                          
+ATOM     13  HB3 GLN     0       2.297   2.011   1.247                          
+ATOM     14  HE21GLN     0       0.173   5.609   2.985                          
+ATOM     15  HE22GLN     0      -0.239   5.272   1.337                          
+ATOM     16  HG2 GLN     0       0.569   3.348   0.346                          
+ATOM     17  HG3 GLN     0      -0.541   2.443   1.132                          
+                                                                                
+ATOM      6  CB  GLN     1       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     1      -0.984   2.372   1.770                          
+ATOM      8  NE2 GLN     1      -1.923   3.311   1.796                          
+ATOM      9  OE1 GLN     1      -1.170   1.231   2.189                          
+ATOM     10  CG  GLN     1       0.359   2.779   1.192                          
+ATOM     11  HA  GLN     1       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     1       1.219   1.097   2.032                          
+ATOM     13  HB3 GLN     1       2.287   2.036   1.228                          
+ATOM     14  HE21GLN     1      -2.829   3.102   2.165                          
+ATOM     15  HE22GLN     1      -1.724   4.227   1.446                          
+ATOM     16  HG2 GLN     1       0.723   3.538   1.731                          
+ATOM     17  HG3 GLN     1       0.224   3.076   0.247                          
+                                                                                
+ATOM      6  CB  GLN     2       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     2       0.512   3.709   2.380                          
+ATOM      8  NE2 GLN     2       0.826   4.978   2.141                          
+ATOM      9  OE1 GLN     2       0.327   3.271   3.515                          
+ATOM     10  CG  GLN     2       0.390   2.807   1.168                          
+ATOM     11  HA  GLN     2       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     2       1.187   1.104   2.030                          
+ATOM     13  HB3 GLN     2       2.297   2.011   1.247                          
+ATOM     14  HE21GLN     2       0.921   5.621   2.901                          
+ATOM     15  HE22GLN     2       0.968   5.290   1.201                          
+ATOM     16  HG2 GLN     2       0.569   3.348   0.346                          
+ATOM     17  HG3 GLN     2      -0.541   2.443   1.132                          
+                                                                                
+ATOM      6  CB  GLN     3       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     3       0.512   3.709   2.380                          
+ATOM      8  NE2 GLN     3      -0.575   3.837   3.132                          
+ATOM      9  OE1 GLN     3       1.569   4.286   2.633                          
+ATOM     10  CG  GLN     3       0.390   2.807   1.168                          
+ATOM     11  HA  GLN     3       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     3       1.187   1.104   2.030                          
+ATOM     13  HB3 GLN     3       2.297   2.011   1.247                          
+ATOM     14  HE21GLN     3      -0.555   4.419   3.945                          
+ATOM     15  HE22GLN     3      -1.414   3.351   2.885                          
+ATOM     16  HG2 GLN     3       0.569   3.348   0.346                          
+ATOM     17  HG3 GLN     3      -0.541   2.443   1.132                          
+                                                                                
+ATOM      6  CB  GLN     4       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     4       0.585   3.744   0.045                          
+ATOM      8  NE2 GLN     4      -0.503   4.197  -0.568                          
+ATOM      9  OE1 GLN     4       1.723   4.075  -0.285                          
+ATOM     10  CG  GLN     4       0.359   2.779   1.192                          
+ATOM     11  HA  GLN     4       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     4       1.219   1.097   2.032                          
+ATOM     13  HB3 GLN     4       2.287   2.036   1.228                          
+ATOM     14  HE21GLN     4      -0.417   4.836  -1.332                          
+ATOM     15  HE22GLN     4      -1.408   3.899  -0.265                          
+ATOM     16  HG2 GLN     4      -0.559   2.391   1.108                          
+ATOM     17  HG3 GLN     4       0.431   3.283   2.053                          
+                                                                                
+ATOM      6  CB  GLN     5       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     5       0.585   3.744   0.045                          
+ATOM      8  NE2 GLN     5       1.542   4.648   0.214                          
+ATOM      9  OE1 GLN     5      -0.095   3.677  -0.978                          
+ATOM     10  CG  GLN     5       0.359   2.779   1.192                          
+ATOM     11  HA  GLN     5       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     5       1.219   1.097   2.032                          
+ATOM     13  HB3 GLN     5       2.287   2.036   1.228                          
+ATOM     14  HE21GLN     5       1.737   5.311  -0.509                          
+ATOM     15  HE22GLN     5       2.068   4.666   1.064                          
+ATOM     16  HG2 GLN     5      -0.559   2.391   1.108                          
+ATOM     17  HG3 GLN     5       0.431   3.283   2.053                          
+                                                                                
+ATOM      6  CB  GLN     6       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     6       2.729   3.459   0.097                          
+ATOM      8  NE2 GLN     6       2.028   4.580   0.223                          
+ATOM      9  OE1 GLN     6       3.417   3.210  -0.891                          
+ATOM     10  CG  GLN     6       2.638   2.477   1.249                          
+ATOM     11  HA  GLN     6       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     6       0.585   2.265   1.198                          
+ATOM     13  HB3 GLN     6       1.337   1.078   2.032                          
+ATOM     14  HE21GLN     6       2.048   5.266  -0.504                          
+ATOM     15  HE22GLN     6       1.480   4.738   1.045                          
+ATOM     16  HG2 GLN     6       2.657   2.989   2.108                          
+ATOM     17  HG3 GLN     6       3.426   1.863   1.209                          
+                                                                                
+ATOM      6  CB  GLN     7       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     7       2.729   3.459   0.097                          
+ATOM      8  NE2 GLN     7       3.773   3.325  -0.712                          
+ATOM      9  OE1 GLN     7       1.869   4.326  -0.060                          
+ATOM     10  CG  GLN     7       2.638   2.477   1.249                          
+ATOM     11  HA  GLN     7       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     7       0.585   2.265   1.198                          
+ATOM     13  HB3 GLN     7       1.337   1.078   2.032                          
+ATOM     14  HE21GLN     7       3.886   3.944  -1.489                          
+ATOM     15  HE22GLN     7       4.446   2.605  -0.544                          
+ATOM     16  HG2 GLN     7       2.657   2.989   2.108                          
+ATOM     17  HG3 GLN     7       3.426   1.863   1.209                          
+                                                                                
+ATOM      6  CB  GLN     8       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     8       2.696   3.391   2.457                          
+ATOM      8  NE2 GLN     8       3.715   3.207   3.288                          
+ATOM      9  OE1 GLN     8       1.833   4.249   2.640                          
+ATOM     10  CG  GLN     8       2.638   2.477   1.249                          
+ATOM     11  HA  GLN     8       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     8       0.585   2.265   1.198                          
+ATOM     13  HB3 GLN     8       1.337   1.078   2.032                          
+ATOM     14  HE21GLN     8       3.806   3.780   4.102                          
+ATOM     15  HE22GLN     8       4.392   2.495   3.100                          
+ATOM     16  HG2 GLN     8       3.425   1.861   1.276                          
+ATOM     17  HG3 GLN     8       2.681   3.037   0.422                          
+                                                                                
+ATOM      6  CB  GLN     9       1.368   1.643   1.207                          
+ATOM      7  CD  GLN     9       2.696   3.391   2.457                          
+ATOM      8  NE2 GLN     9       3.777   4.154   2.570                          
+ATOM      9  OE1 GLN     9       1.779   3.408   3.279                          
+ATOM     10  CG  GLN     9       2.638   2.477   1.249                          
+ATOM     11  HA  GLN     9       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN     9       0.585   2.265   1.198                          
+ATOM     13  HB3 GLN     9       1.337   1.078   2.032                          
+ATOM     14  HE21GLN     9       3.870   4.777   3.347                          
+ATOM     15  HE22GLN     9       4.498   4.106   1.878                          
+ATOM     16  HG2 GLN     9       3.425   1.861   1.276                          
+ATOM     17  HG3 GLN     9       2.681   3.037   0.422                          
+                                                                                
+ATOM      6  CB  GLN    10       1.368   1.643   1.207                          
+ATOM      7  CD  GLN    10       2.696   3.391   2.457                          
+ATOM      8  NE2 GLN    10       2.779   4.692   2.209                          
+ATOM      9  OE1 GLN    10       2.666   2.930   3.598                          
+ATOM     10  CG  GLN    10       2.638   2.477   1.249                          
+ATOM     11  HA  GLN    10       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN    10       0.585   2.265   1.198                          
+ATOM     13  HB3 GLN    10       1.337   1.078   2.032                          
+ATOM     14  HE21GLN    10       2.820   5.344   2.966                          
+ATOM     15  HE22GLN    10       2.800   5.021   1.265                          
+ATOM     16  HG2 GLN    10       3.425   1.861   1.276                          
+ATOM     17  HG3 GLN    10       2.681   3.037   0.422                          
+                                                                                
+ATOM      6  CB  GLN    11       1.368   1.643   1.207                          
+ATOM      7  CD  GLN    11       1.410   1.889   3.720                          
+ATOM      8  NE2 GLN    11       0.381   1.898   4.561                          
+ATOM      9  OE1 GLN    11       2.397   2.611   3.865                          
+ATOM     10  CG  GLN    11       1.314   0.931   2.550                          
+ATOM     11  HA  GLN    11       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN    11       2.237   2.135   1.150                          
+ATOM     13  HB3 GLN    11       0.611   2.296   1.170                          
+ATOM     14  HE21GLN    11       0.387   2.510   5.352                          
+ATOM     15  HE22GLN    11      -0.399   1.293   4.403                          
+ATOM     16  HG2 GLN    11       0.449   0.433   2.614                          
+ATOM     17  HG3 GLN    11       2.076   0.285   2.601                          
+                                                                                
+ATOM      6  CB  GLN    12       1.368   1.643   1.207                          
+ATOM      7  CD  GLN    12       1.410   1.889   3.720                          
+ATOM      8  NE2 GLN    12       1.778   1.363   4.883                          
+ATOM      9  OE1 GLN    12       1.156   3.084   3.581                          
+ATOM     10  CG  GLN    12       1.314   0.931   2.550                          
+ATOM     11  HA  GLN    12       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN    12       2.237   2.135   1.150                          
+ATOM     13  HB3 GLN    12       0.611   2.296   1.170                          
+ATOM     14  HE21GLN    12       1.859   1.945   5.692                          
+ATOM     15  HE22GLN    12       1.974   0.385   4.950                          
+ATOM     16  HG2 GLN    12       0.449   0.433   2.614                          
+ATOM     17  HG3 GLN    12       2.076   0.285   2.601                          
+                                                                                
+ATOM      6  CB  GLN    13       1.368   1.643   1.207                          
+ATOM      7  CD  GLN    13       1.410   1.889   3.720                          
+ATOM      8  NE2 GLN    13       2.434   1.708   4.547                          
+ATOM      9  OE1 GLN    13       0.574   2.777   3.879                          
+ATOM     10  CG  GLN    13       1.314   0.931   2.550                          
+ATOM     11  HA  GLN    13       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN    13       2.237   2.135   1.150                          
+ATOM     13  HB3 GLN    13       0.611   2.296   1.170                          
+ATOM     14  HE21GLN    13       2.550   2.309   5.338                          
+ATOM     15  HE22GLN    13       3.088   0.971   4.379                          
+ATOM     16  HG2 GLN    13       0.449   0.433   2.614                          
+ATOM     17  HG3 GLN    13       2.076   0.285   2.601                          
+                                                                                
+ATOM      6  CB  GLN    14       1.368   1.643   1.207                          
+ATOM      7  CD  GLN    14       0.204   0.303   3.005                          
+ATOM      8  NE2 GLN    14       0.241  -0.347   4.162                          
+ATOM      9  OE1 GLN    14      -0.820   0.407   2.330                          
+ATOM     10  CG  GLN    14       1.507   0.924   2.540                          
+ATOM     11  HA  GLN    14       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLN    14       2.169   2.229   1.085                          
+ATOM     13  HB3 GLN    14       0.543   2.208   1.242                          
+ATOM     14  HE21GLN    14      -0.587  -0.778   4.520                          
+ATOM     15  HE22GLN    14       1.097  -0.406   4.675                          
+ATOM     16  HG2 GLN    14       2.190   0.200   2.444                          
+ATOM     17  HG3 GLN    14       1.812   1.582   3.229                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  GLU     0       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     0       0.512   3.709   2.380                          
+ATOM      8  OE1 GLU     0       1.220   3.330   3.337                          
+ATOM      9  OE2 GLU     0      -0.100   4.799   2.373                          
+ATOM     10  CG  GLU     0       0.390   2.807   1.168                          
+ATOM     11  HA  GLU     0       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     0       1.187   1.104   2.030                          
+ATOM     13  HB3 GLU     0       2.297   2.011   1.247                          
+ATOM     14  HG2 GLU     0       0.569   3.348   0.346                          
+ATOM     15  HG3 GLU     0      -0.541   2.443   1.132                          
+                                                                                
+ATOM      6  CB  GLU     1       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     1      -0.984   2.372   1.770                          
+ATOM      8  OE1 GLU     1      -1.123   1.202   2.182                          
+ATOM      9  OE2 GLU     1      -1.895   3.226   1.812                          
+ATOM     10  CG  GLU     1       0.359   2.779   1.192                          
+ATOM     11  HA  GLU     1       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     1       1.219   1.097   2.032                          
+ATOM     13  HB3 GLU     1       2.287   2.036   1.228                          
+ATOM     14  HG2 GLU     1       0.723   3.538   1.731                          
+ATOM     15  HG3 GLU     1       0.224   3.076   0.247                          
+                                                                                
+ATOM      6  CB  GLU     2       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     2       0.512   3.709   2.380                          
+ATOM      8  OE1 GLU     2       0.314   3.218   3.511                          
+ATOM      9  OE2 GLU     2       0.806   4.910   2.199                          
+ATOM     10  CG  GLU     2       0.390   2.807   1.168                          
+ATOM     11  HA  GLU     2       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     2       1.187   1.104   2.030                          
+ATOM     13  HB3 GLU     2       2.297   2.011   1.247                          
+ATOM     14  HG2 GLU     2       0.569   3.348   0.346                          
+ATOM     15  HG3 GLU     2      -0.541   2.443   1.132                          
+                                                                                
+ATOM      6  CB  GLU     3       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     3       0.512   3.709   2.380                          
+ATOM      8  OE1 GLU     3       1.606   4.272   2.595                          
+ATOM      9  OE2 GLU     3      -0.488   3.856   3.115                          
+ATOM     10  CG  GLU     3       0.390   2.807   1.168                          
+ATOM     11  HA  GLU     3       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     3       1.187   1.104   2.030                          
+ATOM     13  HB3 GLU     3       2.297   2.011   1.247                          
+ATOM     14  HG2 GLU     3       0.569   3.348   0.346                          
+ATOM     15  HG3 GLU     3      -0.541   2.443   1.132                          
+                                                                                
+ATOM      6  CB  GLU     4       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     4       0.585   3.744   0.045                          
+ATOM      8  OE1 GLU     4       1.758   4.049  -0.252                          
+ATOM      9  OE2 GLU     4      -0.413   4.193  -0.559                          
+ATOM     10  CG  GLU     4       0.359   2.779   1.192                          
+ATOM     11  HA  GLU     4       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     4       1.219   1.097   2.032                          
+ATOM     13  HB3 GLU     4       2.287   2.036   1.228                          
+ATOM     14  HG2 GLU     4      -0.559   2.391   1.108                          
+ATOM     15  HG3 GLU     4       0.431   3.283   2.053                          
+                                                                                
+ATOM      6  CB  GLU     5       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     5       0.722   3.869   0.203                          
+ATOM      8  OE1 GLU     5       1.765   3.735  -0.472                          
+ATOM      9  OE2 GLU     5      -0.036   4.856   0.101                          
+ATOM     10  CG  GLU     5       0.359   2.779   1.192                          
+ATOM     11  HA  GLU     5       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     5       1.219   1.097   2.032                          
+ATOM     13  HB3 GLU     5       2.287   2.036   1.228                          
+ATOM     14  HG2 GLU     5      -0.536   2.408   0.945                          
+ATOM     15  HG3 GLU     5       0.314   3.179   2.107                          
+                                                                                
+ATOM      6  CB  GLU     6       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     6       2.729   3.459   0.097                          
+ATOM      8  OE1 GLU     6       1.722   3.624  -0.623                          
+ATOM      9  OE2 GLU     6       3.806   4.065  -0.084                          
+ATOM     10  CG  GLU     6       2.638   2.477   1.249                          
+ATOM     11  HA  GLU     6       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     6       0.585   2.265   1.198                          
+ATOM     13  HB3 GLU     6       1.337   1.078   2.032                          
+ATOM     14  HG2 GLU     6       2.657   2.989   2.108                          
+ATOM     15  HG3 GLU     6       3.426   1.863   1.209                          
+                                                                                
+ATOM      6  CB  GLU     7       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     7       2.696   3.391   2.457                          
+ATOM      8  OE1 GLU     7       1.796   4.246   2.599                          
+ATOM      9  OE2 GLU     7       3.639   3.251   3.264                          
+ATOM     10  CG  GLU     7       2.638   2.477   1.249                          
+ATOM     11  HA  GLU     7       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     7       0.585   2.265   1.198                          
+ATOM     13  HB3 GLU     7       1.337   1.078   2.032                          
+ATOM     14  HG2 GLU     7       3.425   1.861   1.276                          
+ATOM     15  HG3 GLU     7       2.681   3.037   0.422                          
+                                                                                
+ATOM      6  CB  GLU     8       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     8       2.696   3.391   2.457                          
+ATOM      8  OE1 GLU     8       1.741   3.372   3.262                          
+ATOM      9  OE2 GLU     8       3.696   4.126   2.600                          
+ATOM     10  CG  GLU     8       2.638   2.477   1.249                          
+ATOM     11  HA  GLU     8       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     8       0.585   2.265   1.198                          
+ATOM     13  HB3 GLU     8       1.337   1.078   2.032                          
+ATOM     14  HG2 GLU     8       3.425   1.861   1.276                          
+ATOM     15  HG3 GLU     8       2.681   3.037   0.422                          
+                                                                                
+ATOM      6  CB  GLU     9       1.368   1.643   1.207                          
+ATOM      7  CD  GLU     9       2.696   3.391   2.457                          
+ATOM      8  OE1 GLU     9       2.663   2.875   3.595                          
+ATOM      9  OE2 GLU     9       2.774   4.623   2.267                          
+ATOM     10  CG  GLU     9       2.638   2.477   1.249                          
+ATOM     11  HA  GLU     9       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU     9       0.585   2.265   1.198                          
+ATOM     13  HB3 GLU     9       1.337   1.078   2.032                          
+ATOM     14  HG2 GLU     9       3.425   1.861   1.276                          
+ATOM     15  HG3 GLU     9       2.681   3.037   0.422                          
+                                                                                
+ATOM      6  CB  GLU    10       1.368   1.643   1.207                          
+ATOM      7  CD  GLU    10       3.828   1.700   1.779                          
+ATOM      8  OE1 GLU    10       3.614   0.728   2.533                          
+ATOM      9  OE2 GLU    10       4.974   2.063   1.439                          
+ATOM     10  CG  GLU    10       2.638   2.477   1.249                          
+ATOM     11  HA  GLU    10       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU    10       0.585   2.265   1.198                          
+ATOM     13  HB3 GLU    10       1.337   1.078   2.032                          
+ATOM     14  HG2 GLU    10       2.847   2.790   0.322                          
+ATOM     15  HG3 GLU    10       2.482   3.268   1.841                          
+                                                                                
+ATOM      6  CB  GLU    11       1.368   1.643   1.207                          
+ATOM      7  CD  GLU    11       1.410   1.889   3.720                          
+ATOM      8  OE1 GLU    11       2.431   2.601   3.824                          
+ATOM      9  OE2 GLU    11       0.464   1.929   4.535                          
+ATOM     10  CG  GLU    11       1.314   0.931   2.550                          
+ATOM     11  HA  GLU    11       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU    11       2.237   2.135   1.150                          
+ATOM     13  HB3 GLU    11       0.611   2.296   1.170                          
+ATOM     14  HG2 GLU    11       0.449   0.433   2.614                          
+ATOM     15  HG3 GLU    11       2.076   0.285   2.601                          
+                                                                                
+ATOM      6  CB  GLU    12       1.368   1.643   1.207                          
+ATOM      7  CD  GLU    12       1.410   1.889   3.720                          
+ATOM      8  OE1 GLU    12       1.890   3.024   3.522                          
+ATOM      9  OE2 GLU    12       1.005   1.504   4.838                          
+ATOM     10  CG  GLU    12       1.314   0.931   2.550                          
+ATOM     11  HA  GLU    12       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU    12       2.237   2.135   1.150                          
+ATOM     13  HB3 GLU    12       0.611   2.296   1.170                          
+ATOM     14  HG2 GLU    12       0.449   0.433   2.614                          
+ATOM     15  HG3 GLU    12       2.076   0.285   2.601                          
+                                                                                
+ATOM      6  CB  GLU    13       1.368   1.643   1.207                          
+ATOM      7  CD  GLU    13       1.410   1.889   3.720                          
+ATOM      8  OE1 GLU    13       0.537   2.773   3.839                          
+ATOM      9  OE2 GLU    13       2.359   1.754   4.523                          
+ATOM     10  CG  GLU    13       1.314   0.931   2.550                          
+ATOM     11  HA  GLU    13       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU    13       2.237   2.135   1.150                          
+ATOM     13  HB3 GLU    13       0.611   2.296   1.170                          
+ATOM     14  HG2 GLU    13       0.449   0.433   2.614                          
+ATOM     15  HG3 GLU    13       2.076   0.285   2.601                          
+                                                                                
+ATOM      6  CB  GLU    14       1.368   1.643   1.207                          
+ATOM      7  CD  GLU    14       0.181   0.408   3.064                          
+ATOM      8  OE1 GLU    14      -0.847   0.612   2.384                          
+ATOM      9  OE2 GLU    14       0.170  -0.203   4.153                          
+ATOM     10  CG  GLU    14       1.507   0.924   2.540                          
+ATOM     11  HA  GLU    14       1.282   1.280  -0.835                          
+ATOM     12  HB2 GLU    14       2.169   2.229   1.085                          
+ATOM     13  HB3 GLU    14       0.543   2.208   1.242                          
+ATOM     14  HG2 GLU    14       2.128   0.149   2.423                          
+ATOM     15  HG3 GLU    14       1.890   1.561   3.209                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  HIS     0       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     0      -0.713   3.001   1.962                          
+ATOM      8  ND1 HIS     0       0.430   3.794   0.280                          
+ATOM      9  CE1 HIS     0      -0.574   4.625   0.500                          
+ATOM     10  NE2 HIS     0      -1.282   4.167   1.512                          
+ATOM     11  CG  HIS     0       0.370   2.758   1.187                          
+ATOM     12  HA  HIS     0       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     0       1.220   1.098   2.032                          
+ATOM     14  HB3 HIS     0       2.286   2.038   1.228                          
+ATOM     15  HD2 HIS     0      -1.038   2.437   2.721                          
+ATOM     16  HD1 HIS     0       1.124   3.900  -0.432                          
+ATOM     17  HE1 HIS     0      -0.764   5.461  -0.015                          
+ATOM     18  HE2 HIS     0      -2.101   4.598   1.891                          
+                                                                                
+ATOM      6  CB  HIS     1       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     1      -0.408   3.241   0.189                          
+ATOM      8  ND1 HIS     1       0.083   3.521   2.297                          
+ATOM      9  CE1 HIS     1      -0.830   4.423   1.983                          
+ATOM     10  NE2 HIS     1      -1.144   4.276   0.711                          
+ATOM     11  CG  HIS     1       0.370   2.758   1.187                          
+ATOM     12  HA  HIS     1       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     1       1.220   1.098   2.032                          
+ATOM     14  HB3 HIS     1       2.286   2.038   1.228                          
+ATOM     15  HD2 HIS     1      -0.440   2.906  -0.753                          
+ATOM     16  HD1 HIS     1       0.500   3.410   3.199                          
+ATOM     17  HE1 HIS     1      -1.218   5.103   2.605                          
+ATOM     18  HE2 HIS     1      -1.809   4.828   0.209                          
+                                                                                
+ATOM      6  CB  HIS     2       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     2       0.480   4.046   0.781                          
+ATOM      8  ND1 HIS     2      -0.927   2.605   1.622                          
+ATOM      9  CE1 HIS     2      -1.573   3.750   1.486                          
+ATOM     10  NE2 HIS     2      -0.743   4.640   0.979                          
+ATOM     11  CG  HIS     2       0.370   2.758   1.187                          
+ATOM     12  HA  HIS     2       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     2       1.220   1.098   2.032                          
+ATOM     14  HB3 HIS     2       2.286   2.038   1.228                          
+ATOM     15  HD2 HIS     2       1.298   4.483   0.407                          
+ATOM     16  HD1 HIS     2      -1.319   1.760   1.984                          
+ATOM     17  HE1 HIS     2      -2.530   3.914   1.727                          
+ATOM     18  HE2 HIS     2      -0.967   5.592   0.772                          
+                                                                                
+ATOM      6  CB  HIS     3       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     3       2.860   3.742   0.872                          
+ATOM      8  ND1 HIS     3       3.822   1.967   1.703                          
+ATOM      9  CE1 HIS     3       4.744   2.909   1.616                          
+ATOM     10  NE2 HIS     3       4.188   3.995   1.115                          
+ATOM     11  CG  HIS     3       2.621   2.462   1.242                          
+ATOM     12  HA  HIS     3       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     3       0.585   2.266   1.199                          
+ATOM     14  HB3 HIS     3       1.338   1.079   2.032                          
+ATOM     15  HD2 HIS     3       2.194   4.384   0.492                          
+ATOM     16  HD1 HIS     3       3.972   1.041   2.049                          
+ATOM     17  HE1 HIS     3       5.703   2.815   1.885                          
+ATOM     18  HE2 HIS     3       4.657   4.861   0.941                          
+                                                                                
+ATOM      6  CB  HIS     4       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     4       3.526   2.749   0.276                          
+ATOM      8  ND1 HIS     4       3.063   3.098   2.380                          
+ATOM      9  CE1 HIS     4       4.187   3.741   2.113                          
+ATOM     10  NE2 HIS     4       4.489   3.545   0.845                          
+ATOM     11  CG  HIS     4       2.621   2.462   1.242                          
+ATOM     12  HA  HIS     4       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     4       0.585   2.266   1.199                          
+ATOM     14  HB3 HIS     4       1.338   1.079   2.032                          
+ATOM     15  HD2 HIS     4       3.498   2.439  -0.674                          
+ATOM     16  HD1 HIS     4       2.606   3.077   3.269                          
+ATOM     17  HE1 HIS     4       4.718   4.284   2.763                          
+ATOM     18  HE2 HIS     4       5.289   3.916   0.374                          
+                                                                                
+ATOM      6  CB  HIS     5       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     5       3.633   2.506   2.139                          
+ATOM      8  ND1 HIS     5       2.942   3.373   0.260                          
+ATOM      9  CE1 HIS     5       4.098   3.943   0.553                          
+ATOM     10  NE2 HIS     5       4.538   3.436   1.688                          
+ATOM     11  CG  HIS     5       2.621   2.462   1.242                          
+ATOM     12  HA  HIS     5       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     5       0.585   2.266   1.199                          
+ATOM     14  HB3 HIS     5       1.338   1.079   2.032                          
+ATOM     15  HD2 HIS     5       3.708   1.962   2.975                          
+ATOM     16  HD1 HIS     5       2.387   3.572  -0.548                          
+ATOM     17  HE1 HIS     5       4.561   4.641   0.006                          
+ATOM     18  HE2 HIS     5       5.391   3.687   2.146                          
+                                                                                
+ATOM      6  CB  HIS     6       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     6       2.285   0.656   3.428                          
+ATOM      8  ND1 HIS     6       0.148   0.421   3.047                          
+ATOM      9  CE1 HIS     6       0.404  -0.143   4.215                          
+ATOM     10  NE2 HIS     6       1.691  -0.015   4.468                          
+ATOM     11  CG  HIS     6       1.315   0.936   2.525                          
+ATOM     12  HA  HIS     6       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     6       2.236   2.136   1.151                          
+ATOM     14  HB3 HIS     6       0.611   2.296   1.172                          
+ATOM     15  HD2 HIS     6       3.253   0.894   3.351                          
+ATOM     16  HD1 HIS     6      -0.751   0.467   2.611                          
+ATOM     17  HE1 HIS     6      -0.266  -0.591   4.807                          
+ATOM     18  HE2 HIS     6       2.159  -0.352   5.285                          
+                                                                                
+ATOM      6  CB  HIS     7       1.368   1.643   1.207                          
+ATOM      7  CD2 HIS     7       0.309   0.789   3.419                          
+ATOM      8  ND1 HIS     7       2.397   0.270   3.058                          
+ATOM      9  CE1 HIS     7       2.058  -0.255   4.221                          
+ATOM     10  NE2 HIS     7       0.797   0.045   4.464                          
+ATOM     11  CG  HIS     7       1.315   0.936   2.525                          
+ATOM     12  HA  HIS     7       1.282   1.280  -0.835                          
+ATOM     13  HB2 HIS     7       2.236   2.136   1.151                          
+ATOM     14  HB3 HIS     7       0.611   2.296   1.172                          
+ATOM     15  HD2 HIS     7      -0.618   1.155   3.334                          
+ATOM     16  HD1 HIS     7       3.298   0.196   2.631                          
+ATOM     17  HE1 HIS     7       2.657  -0.790   4.817                          
+ATOM     18  HE2 HIS     7       0.281  -0.225   5.277                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  ILE     0       1.399   1.646   1.215                          
+ATOM      7  CD1 ILE     0       0.247   3.587   2.399                          
+ATOM      8  CG1 ILE     0       0.356   2.763   1.136                          
+ATOM      9  CG2 ILE     0       2.781   2.279   1.261                          
+ATOM     10  HA  ILE     0       1.261   1.281  -0.834                          
+ATOM     11  HB  ILE     0       1.260   1.095   2.038                          
+ATOM     12  HD11ILE     0      -0.449   4.294   2.277                          
+ATOM     13  HD12ILE     0       1.128   4.018   2.594                          
+ATOM     14  HD13ILE     0      -0.010   2.995   3.163                          
+ATOM     15  HG12ILE     0       0.603   3.372   0.383                          
+ATOM     16  HG13ILE     0      -0.536   2.349   0.952                          
+ATOM     17  HG21ILE     0       2.849   2.874   2.062                          
+ATOM     18  HG22ILE     0       2.929   2.818   0.432                          
+ATOM     19  HG23ILE     0       3.475   1.561   1.320                          
+                                                                                
+ATOM      6  CB  ILE     1       1.399   1.646   1.215                          
+ATOM      7  CD1 ILE     1       0.148   3.508   0.006                          
+ATOM      8  CG1 ILE     1       0.237   2.642   1.241                          
+ATOM      9  CG2 ILE     1       2.703   2.427   1.154                          
+ATOM     10  HA  ILE     1       1.261   1.281  -0.834                          
+ATOM     11  HB  ILE     1       1.390   1.078   2.038                          
+ATOM     12  HD11ILE     1      -0.629   4.131   0.091                          
+ATOM     13  HD12ILE     1       0.024   2.929  -0.800                          
+ATOM     14  HD13ILE     1       0.990   4.038  -0.092                          
+ATOM     15  HG12ILE     1      -0.617   2.128   1.328                          
+ATOM     16  HG13ILE     1       0.350   3.238   2.036                          
+ATOM     17  HG21ILE     1       2.774   3.020   1.956                          
+ATOM     18  HG22ILE     1       2.719   2.985   0.324                          
+ATOM     19  HG23ILE     1       3.474   1.790   1.142                          
+                                                                                
+ATOM      6  CB  ILE     2       1.399   1.646   1.215                          
+ATOM      7  CD1 ILE     2       2.759   3.617   2.088                          
+ATOM      8  CG1 ILE     2       2.711   2.430   1.152                          
+ATOM      9  CG2 ILE     2       1.377   0.846   2.509                          
+ATOM     10  HA  ILE     2       1.261   1.281  -0.834                          
+ATOM     11  HB  ILE     2       0.623   2.277   1.200                          
+ATOM     12  HD11ILE     2       3.640   4.080   1.995                          
+ATOM     13  HD12ILE     2       2.646   3.303   3.031                          
+ATOM     14  HD13ILE     2       2.022   4.253   1.858                          
+ATOM     15  HG12ILE     2       3.460   1.811   1.389                          
+ATOM     16  HG13ILE     2       2.836   2.761   0.217                          
+ATOM     17  HG21ILE     2       1.467   1.467   3.287                          
+ATOM     18  HG22ILE     2       2.137   0.196   2.512                          
+ATOM     19  HG23ILE     2       0.512   0.348   2.579                          
+                                                                                
+ATOM      6  CB  ILE     3       1.399   1.646   1.215                          
+ATOM      7  CD1 ILE     3       2.785   3.403  -0.004                          
+ATOM      8  CG1 ILE     3       2.711   2.430   1.152                          
+ATOM      9  CG2 ILE     3       1.377   0.846   2.509                          
+ATOM     10  HA  ILE     3       1.261   1.281  -0.834                          
+ATOM     11  HB  ILE     3       0.623   2.277   1.200                          
+ATOM     12  HD11ILE     3       3.664   3.879   0.016                          
+ATOM     13  HD12ILE     3       2.044   4.070   0.073                          
+ATOM     14  HD13ILE     3       2.696   2.904  -0.866                          
+ATOM     15  HG12ILE     3       2.812   2.944   2.004                          
+ATOM     16  HG13ILE     3       3.464   1.778   1.064                          
+ATOM     17  HG21ILE     3       1.467   1.467   3.287                          
+ATOM     18  HG22ILE     3       2.137   0.196   2.512                          
+ATOM     19  HG23ILE     3       0.512   0.348   2.579                          
+                                                                                
+ATOM      6  CB  ILE     4       1.399   1.646   1.215                          
+ATOM      7  CD1 ILE     4       1.705   1.648   3.746                          
+ATOM      8  CG1 ILE     4       1.352   0.842   2.517                          
+ATOM      9  CG2 ILE     4       0.259   2.653   1.230                          
+ATOM     10  HA  ILE     4       1.261   1.281  -0.834                          
+ATOM     11  HB  ILE     4       2.280   2.115   1.149                          
+ATOM     12  HD11ILE     4       1.654   1.063   4.555                          
+ATOM     13  HD12ILE     4       1.061   2.407   3.843                          
+ATOM     14  HD13ILE     4       2.633   2.008   3.654                          
+ATOM     15  HG12ILE     4       0.426   0.482   2.632                          
+ATOM     16  HG13ILE     4       1.998   0.083   2.442                          
+ATOM     17  HG21ILE     4       0.352   3.251   2.026                          
+ATOM     18  HG22ILE     4      -0.614   2.168   1.278                          
+ATOM     19  HG23ILE     4       0.289   3.203   0.396                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  LEU     0       1.368   1.643   1.207                          
+ATOM      7  CD1 LEU     0       0.479   3.562   2.559                          
+ATOM      8  CD2 LEU     0       0.646   3.781   0.111                          
+ATOM      9  CG  LEU     0       0.373   2.805   1.244                          
+ATOM     10  HA  LEU     0       1.282   1.280  -0.835                          
+ATOM     11  HB2 LEU     0       1.224   1.088   2.026                          
+ATOM     12  HB3 LEU     0       2.291   2.028   1.222                          
+ATOM     13  HD11LEU     0      -0.178   4.316   2.564                          
+ATOM     14  HD12LEU     0       1.405   3.926   2.661                          
+ATOM     15  HD13LEU     0       0.280   2.942   3.318                          
+ATOM     16  HD21LEU     0      -0.013   4.532   0.151                          
+ATOM     17  HD22LEU     0       0.558   3.308  -0.766                          
+ATOM     18  HD23LEU     0       1.573   4.146   0.201                          
+ATOM     19  HG  LEU     0      -0.544   2.417   1.147                          
+                                                                                
+ATOM      6  CB  LEU     1       1.368   1.643   1.207                          
+ATOM      7  CD1 LEU     1      -0.765   2.919   0.861                          
+ATOM      8  CD2 LEU     1       1.013   3.892   2.263                          
+ATOM      9  CG  LEU     1       0.741   3.029   1.041                          
+ATOM     10  HA  LEU     1       1.282   1.280  -0.835                          
+ATOM     11  HB2 LEU     1       0.916   1.191   1.976                          
+ATOM     12  HB3 LEU     1       2.338   1.767   1.416                          
+ATOM     13  HD11LEU     1      -1.156   3.833   0.754                          
+ATOM     14  HD12LEU     1      -1.166   2.477   1.664                          
+ATOM     15  HD13LEU     1      -0.965   2.374   0.047                          
+ATOM     16  HD21LEU     1       0.596   4.792   2.136                          
+ATOM     17  HD22LEU     1       2.000   3.997   2.385                          
+ATOM     18  HD23LEU     1       0.622   3.456   3.073                          
+ATOM     19  HG  LEU     1       1.151   3.448   0.231                          
+                                                                                
+ATOM      6  CB  LEU     2       1.368   1.643   1.207                          
+ATOM      7  CD1 LEU     2       2.685   3.497   0.145                          
+ATOM      8  CD2 LEU     2       2.647   3.292   2.601                          
+ATOM      9  CG  LEU     2       2.627   2.507   1.299                          
+ATOM     10  HA  LEU     2       1.282   1.280  -0.835                          
+ATOM     11  HB2 LEU     2       0.578   2.257   1.193                          
+ATOM     12  HB3 LEU     2       1.332   1.070   2.026                          
+ATOM     13  HD11LEU     2       3.513   4.052   0.222                          
+ATOM     14  HD12LEU     2       1.882   4.092   0.175                          
+ATOM     15  HD13LEU     2       2.698   2.999  -0.722                          
+ATOM     16  HD21LEU     2       3.476   3.849   2.642                          
+ATOM     17  HD22LEU     2       2.634   2.657   3.374                          
+ATOM     18  HD23LEU     2       1.844   3.886   2.645                          
+ATOM     19  HG  LEU     2       3.415   1.892   1.260                          
+                                                                                
+ATOM      6  CB  LEU     3       1.368   1.643   1.207                          
+ATOM      7  CD1 LEU     3       2.196   3.907   1.906                          
+ATOM      8  CD2 LEU     3       3.721   1.974   2.014                          
+ATOM      9  CG  LEU     3       2.569   2.592   1.238                          
+ATOM     10  HA  LEU     3       1.282   1.280  -0.835                          
+ATOM     11  HB2 LEU     3       0.539   2.201   1.240                          
+ATOM     12  HB3 LEU     3       1.415   1.066   2.022                          
+ATOM     13  HD11LEU     3       2.991   4.513   1.917                          
+ATOM     14  HD12LEU     3       1.898   3.732   2.844                          
+ATOM     15  HD13LEU     3       1.453   4.342   1.396                          
+ATOM     16  HD21LEU     3       4.495   2.607   2.023                          
+ATOM     17  HD22LEU     3       3.997   1.118   1.577                          
+ATOM     18  HD23LEU     3       3.430   1.790   2.953                          
+ATOM     19  HG  LEU     3       2.846   2.757   0.291                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  LYS     0       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     0       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     0      -0.441   4.854   2.357                          
+ATOM      9  CG  LYS     0       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     0      -0.307   5.732   3.553                          
+ATOM     11  HA  LYS     0       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     0       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     0       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     0       0.364   3.146   3.214                          
+ATOM     15  HD3 LYS     0       1.470   4.052   2.426                          
+ATOM     16  HE2 LYS     0      -0.266   5.397   1.536                          
+ATOM     17  HE3 LYS     0      -1.372   4.491   2.325                          
+ATOM     18  HG2 LYS     0       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     0      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     0      -0.965   6.482   3.492                          
+ATOM     21  HZ2 LYS     0       0.620   6.105   3.591                          
+ATOM     22  HZ3 LYS     0      -0.486   5.199   4.380                          
+                                                                                
+ATOM      6  CB  LYS     1       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     1       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     1      -0.441   4.854   2.357                          
+ATOM      9  CG  LYS     1       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     1      -0.156   5.783   1.227                          
+ATOM     11  HA  LYS     1       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     1       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     1       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     1       0.364   3.146   3.214                          
+ATOM     15  HD3 LYS     1       1.470   4.052   2.426                          
+ATOM     16  HE2 LYS     1      -1.368   4.493   2.253                          
+ATOM     17  HE3 LYS     1      -0.375   5.361   3.217                          
+ATOM     18  HG2 LYS     1       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     1      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     1      -0.819   6.532   1.235                          
+ATOM     21  HZ2 LYS     1      -0.225   5.287   0.361                          
+ATOM     22  HZ3 LYS     1       0.767   6.155   1.325                          
+                                                                                
+ATOM      6  CB  LYS     2       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     2       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     2      -0.441   4.854   2.357                          
+ATOM      9  CG  LYS     2       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     2      -1.855   4.394   2.435                          
+ATOM     11  HA  LYS     2       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     2       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     2       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     2       0.364   3.146   3.214                          
+ATOM     15  HD3 LYS     2       1.470   4.052   2.426                          
+ATOM     16  HE2 LYS     2      -0.255   5.458   3.132                          
+ATOM     17  HE3 LYS     2      -0.312   5.357   1.503                          
+ATOM     18  HG2 LYS     2       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     2      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     2      -2.466   5.185   2.407                          
+ATOM     21  HZ2 LYS     2      -1.997   3.894   3.289                          
+ATOM     22  HZ3 LYS     2      -2.054   3.793   1.661                          
+                                                                                
+ATOM      6  CB  LYS     3       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     3       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     3       0.087   2.970   3.655                          
+ATOM      9  CG  LYS     3       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     3       0.226   3.826   4.866                          
+ATOM     11  HA  LYS     3       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     3       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     3       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     3       1.498   3.953   2.495                          
+ATOM     15  HD3 LYS     3      -0.020   4.513   2.273                          
+ATOM     16  HE2 LYS     3      -0.873   2.709   3.552                          
+ATOM     17  HE3 LYS     3       0.645   2.149   3.774                          
+ATOM     18  HG2 LYS     3       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     3      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     3      -0.080   3.318   5.671                          
+ATOM     21  HZ2 LYS     3      -0.333   4.648   4.760                          
+ATOM     22  HZ3 LYS     3       1.184   4.088   4.982                          
+                                                                                
+ATOM      6  CB  LYS     4       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     4       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     4       0.087   2.970   3.655                          
+ATOM      9  CG  LYS     4       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     4      -1.370   2.662   3.627                          
+ATOM     11  HA  LYS     4       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     4       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     4       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     4       1.498   3.953   2.495                          
+ATOM     15  HD3 LYS     4      -0.020   4.513   2.273                          
+ATOM     16  HE2 LYS     4       0.597   2.114   3.737                          
+ATOM     17  HE3 LYS     4       0.280   3.550   4.446                          
+ATOM     18  HG2 LYS     4       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     4      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     4      -1.627   2.189   4.470                          
+ATOM     21  HZ2 LYS     4      -1.572   2.077   2.842                          
+ATOM     22  HZ3 LYS     4      -1.890   3.513   3.551                          
+                                                                                
+ATOM      6  CB  LYS     5       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     5       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     5       1.869   4.426   2.388                          
+ATOM      9  CG  LYS     5       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     5       2.027   5.298   3.585                          
+ATOM     11  HA  LYS     5       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     5       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     5       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     5      -0.204   4.363   2.403                          
+ATOM     15  HD3 LYS     5       0.484   3.124   3.216                          
+ATOM     16  HE2 LYS     5       2.609   3.754   2.378                          
+ATOM     17  HE3 LYS     5       1.921   4.993   1.566                          
+ATOM     18  HG2 LYS     5       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     5      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     5       2.912   5.763   3.545                          
+ATOM     21  HZ2 LYS     5       1.982   4.739   4.413                          
+ATOM     22  HZ3 LYS     5       1.294   5.978   3.602                          
+                                                                                
+ATOM      6  CB  LYS     6       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     6       0.538   3.692   2.395                          
+ATOM      8  CE  LYS     6       1.869   4.426   2.388                          
+ATOM      9  CG  LYS     6       0.391   2.806   1.169                          
+ATOM     10  NZ  LYS     6       1.965   5.390   1.256                          
+ATOM     11  HA  LYS     6       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     6       1.187   1.104   2.030                          
+ATOM     13  HB3 LYS     6       2.297   2.011   1.246                          
+ATOM     14  HD2 LYS     6      -0.204   4.363   2.403                          
+ATOM     15  HD3 LYS     6       0.484   3.124   3.216                          
+ATOM     16  HE2 LYS     6       1.967   4.927   3.248                          
+ATOM     17  HE3 LYS     6       2.607   3.756   2.306                          
+ATOM     18  HG2 LYS     6       0.567   3.352   0.350                          
+ATOM     19  HG3 LYS     6      -0.542   2.447   1.137                          
+ATOM     20  HZ1 LYS     6       2.851   5.852   1.285                          
+ATOM     21  HZ2 LYS     6       1.234   6.068   1.332                          
+ATOM     22  HZ3 LYS     6       1.874   4.898   0.390                          
+                                                                                
+ATOM      6  CB  LYS     7       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     7       0.532   3.738   0.108                          
+ATOM      8  CE  LYS     7      -0.525   4.831   0.129                          
+ATOM      9  CG  LYS     7       0.312   2.735   1.229                          
+ATOM     10  NZ  LYS     7      -0.322   5.821  -0.965                          
+ATOM     11  HA  LYS     7       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     7       1.269   1.089   2.034                          
+ATOM     13  HB3 LYS     7       2.270   2.074   1.201                          
+ATOM     14  HD2 LYS     7       1.434   4.155   0.217                          
+ATOM     15  HD3 LYS     7       0.489   3.260  -0.769                          
+ATOM     16  HE2 LYS     7      -1.426   4.411   0.022                          
+ATOM     17  HE3 LYS     7      -0.481   5.307   1.008                          
+ATOM     18  HG2 LYS     7      -0.590   2.318   1.120                          
+ATOM     19  HG3 LYS     7       0.355   3.213   2.107                          
+ATOM     20  HZ1 LYS     7      -1.034   6.521  -0.918                          
+ATOM     21  HZ2 LYS     7      -0.370   5.356  -1.849                          
+ATOM     22  HZ3 LYS     7       0.575   6.251  -0.864                          
+                                                                                
+ATOM      6  CB  LYS     8       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     8       0.532   3.738   0.108                          
+ATOM      8  CE  LYS     8      -0.525   4.831   0.129                          
+ATOM      9  CG  LYS     8       0.312   2.735   1.229                          
+ATOM     10  NZ  LYS     8      -1.885   4.294  -0.152                          
+ATOM     11  HA  LYS     8       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     8       1.269   1.089   2.034                          
+ATOM     13  HB3 LYS     8       2.270   2.074   1.201                          
+ATOM     14  HD2 LYS     8       1.434   4.155   0.217                          
+ATOM     15  HD3 LYS     8       0.489   3.260  -0.769                          
+ATOM     16  HE2 LYS     8      -0.527   5.261   1.032                          
+ATOM     17  HE3 LYS     8      -0.297   5.514  -0.565                          
+ATOM     18  HG2 LYS     8      -0.590   2.318   1.120                          
+ATOM     19  HG3 LYS     8       0.355   3.213   2.107                          
+ATOM     20  HZ1 LYS     8      -2.550   5.041  -0.129                          
+ATOM     21  HZ2 LYS     8      -2.125   3.614   0.541                          
+ATOM     22  HZ3 LYS     8      -1.895   3.867  -1.056                          
+                                                                                
+ATOM      6  CB  LYS     9       1.368   1.643   1.207                          
+ATOM      7  CD  LYS     9       0.532   3.738   0.108                          
+ATOM      8  CE  LYS     9       1.798   4.548   0.332                          
+ATOM      9  CG  LYS     9       0.312   2.735   1.229                          
+ATOM     10  NZ  LYS     9       2.026   5.535  -0.760                          
+ATOM     11  HA  LYS     9       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS     9       1.269   1.089   2.034                          
+ATOM     13  HB3 LYS     9       2.270   2.074   1.201                          
+ATOM     14  HD2 LYS     9       0.610   3.246  -0.759                          
+ATOM     15  HD3 LYS     9      -0.250   4.360   0.070                          
+ATOM     16  HE2 LYS     9       1.719   5.039   1.200                          
+ATOM     17  HE3 LYS     9       2.578   3.924   0.372                          
+ATOM     18  HG2 LYS     9      -0.590   2.318   1.120                          
+ATOM     19  HG3 LYS     9       0.355   3.213   2.107                          
+ATOM     20  HZ1 LYS     9       2.865   6.047  -0.577                          
+ATOM     21  HZ2 LYS     9       1.253   6.168  -0.804                          
+ATOM     22  HZ3 LYS     9       2.113   5.054  -1.632                          
+                                                                                
+ATOM      6  CB  LYS    10       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    10       2.664   3.381   2.471                          
+ATOM      8  CE  LYS    10       3.935   4.215   2.512                          
+ATOM      9  CG  LYS    10       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    10       3.976   5.106   3.705                          
+ATOM     11  HA  LYS    10       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    10       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    10       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    10       1.873   3.993   2.441                          
+ATOM     15  HD3 LYS    10       2.618   2.816   3.295                          
+ATOM     16  HE2 LYS    10       4.724   3.601   2.540                          
+ATOM     17  HE3 LYS    10       3.979   4.778   1.687                          
+ATOM     18  HG2 LYS    10       3.429   1.867   1.279                          
+ATOM     19  HG3 LYS    10       2.684   3.043   0.425                          
+ATOM     20  HZ1 LYS    10       4.824   5.636   3.697                          
+ATOM     21  HZ2 LYS    10       3.938   4.552   4.537                          
+ATOM     22  HZ3 LYS    10       3.194   5.729   3.684                          
+                                                                                
+ATOM      6  CB  LYS    11       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    11       2.664   3.381   2.471                          
+ATOM      8  CE  LYS    11       3.935   4.215   2.512                          
+ATOM      9  CG  LYS    11       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    11       5.149   3.370   2.683                          
+ATOM     11  HA  LYS    11       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    11       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    11       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    11       1.873   3.993   2.441                          
+ATOM     15  HD3 LYS    11       2.618   2.816   3.295                          
+ATOM     16  HE2 LYS    11       4.014   4.725   1.656                          
+ATOM     17  HE3 LYS    11       3.877   4.855   3.278                          
+ATOM     18  HG2 LYS    11       3.429   1.867   1.279                          
+ATOM     19  HG3 LYS    11       2.684   3.043   0.425                          
+ATOM     20  HZ1 LYS    11       5.961   3.953   2.705                          
+ATOM     21  HZ2 LYS    11       5.220   2.729   1.919                          
+ATOM     22  HZ3 LYS    11       5.082   2.859   3.540                          
+                                                                                
+ATOM      6  CB  LYS    12       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    12       2.664   3.381   2.471                          
+ATOM      8  CE  LYS    12       3.935   4.215   2.512                          
+ATOM      9  CG  LYS    12       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    12       4.007   5.174   1.375                          
+ATOM     11  HA  LYS    12       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    12       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    12       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    12       1.873   3.993   2.441                          
+ATOM     15  HD3 LYS    12       2.618   2.816   3.295                          
+ATOM     16  HE2 LYS    12       3.957   4.729   3.370                          
+ATOM     17  HE3 LYS    12       4.725   3.603   2.469                          
+ATOM     18  HG2 LYS    12       3.429   1.867   1.279                          
+ATOM     19  HG3 LYS    12       2.684   3.043   0.425                          
+ATOM     20  HZ1 LYS    12       4.854   5.702   1.437                          
+ATOM     21  HZ2 LYS    12       3.224   5.795   1.412                          
+ATOM     22  HZ3 LYS    12       3.991   4.670   0.512                          
+                                                                                
+ATOM      6  CB  LYS    13       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    13       2.664   3.381   2.471                          
+ATOM      8  CE  LYS    13       1.604   4.465   2.379                          
+ATOM      9  CG  LYS    13       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    13       1.617   5.359   3.570                          
+ATOM     11  HA  LYS    13       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    13       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    13       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    13       2.495   2.829   3.287                          
+ATOM     15  HD3 LYS    13       3.564   3.811   2.539                          
+ATOM     16  HE2 LYS    13       1.774   5.014   1.561                          
+ATOM     17  HE3 LYS    13       0.705   4.033   2.310                          
+ATOM     18  HG2 LYS    13       3.429   1.867   1.279                          
+ATOM     19  HG3 LYS    13       2.684   3.043   0.425                          
+ATOM     20  HZ1 LYS    13       0.907   6.057   3.472                          
+ATOM     21  HZ2 LYS    13       2.511   5.802   3.645                          
+ATOM     22  HZ3 LYS    13       1.442   4.820   4.394                          
+                                                                                
+ATOM      6  CB  LYS    14       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    14       2.664   3.381   2.471                          
+ATOM      8  CE  LYS    14       2.802   2.573   3.751                          
+ATOM      9  CG  LYS    14       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    14       2.829   3.445   4.958                          
+ATOM     11  HA  LYS    14       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    14       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    14       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    14       3.439   4.008   2.396                          
+ATOM     15  HD3 LYS    14       1.813   3.905   2.507                          
+ATOM     16  HE2 LYS    14       2.026   1.946   3.823                          
+ATOM     17  HE3 LYS    14       3.653   2.049   3.712                          
+ATOM     18  HG2 LYS    14       3.429   1.867   1.279                          
+ATOM     19  HG3 LYS    14       2.684   3.043   0.425                          
+ATOM     20  HZ1 LYS    14       2.920   2.879   5.777                          
+ATOM     21  HZ2 LYS    14       1.979   3.970   5.010                          
+ATOM     22  HZ3 LYS    14       3.605   4.073   4.899                          
+                                                                                
+ATOM      6  CB  LYS    15       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    15       2.663   3.501   0.125                          
+ATOM      8  CE  LYS    15       3.933   4.335   0.167                          
+ATOM      9  CG  LYS    15       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    15       3.971   5.344  -0.928                          
+ATOM     11  HA  LYS    15       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    15       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    15       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    15       2.616   3.023  -0.752                          
+ATOM     15  HD3 LYS    15       1.872   4.106   0.218                          
+ATOM     16  HE2 LYS    15       3.979   4.810   1.046                          
+ATOM     17  HE3 LYS    15       4.722   3.727   0.074                          
+ATOM     18  HG2 LYS    15       2.684   2.956   2.126                          
+ATOM     19  HG3 LYS    15       3.429   1.873   1.156                          
+ATOM     20  HZ1 LYS    15       4.819   5.871  -0.867                          
+ATOM     21  HZ2 LYS    15       3.189   5.961  -0.841                          
+ATOM     22  HZ3 LYS    15       3.931   4.879  -1.812                          
+                                                                                
+ATOM      6  CB  LYS    16       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    16       2.663   3.501   0.125                          
+ATOM      8  CE  LYS    16       3.933   4.335   0.167                          
+ATOM      9  CG  LYS    16       2.638   2.478   1.249                          
+ATOM     10  NZ  LYS    16       5.147   3.513  -0.093                          
+ATOM     11  HA  LYS    16       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    16       0.585   2.264   1.199                          
+ATOM     13  HB3 LYS    16       1.337   1.078   2.032                          
+ATOM     14  HD2 LYS    16       2.616   3.023  -0.752                          
+ATOM     15  HD3 LYS    16       1.872   4.106   0.218                          
+ATOM     16  HE2 LYS    16       3.873   5.051  -0.529                          
+ATOM     17  HE3 LYS    16       4.014   4.754   1.071                          
+ATOM     18  HG2 LYS    16       2.684   2.956   2.126                          
+ATOM     19  HG3 LYS    16       3.429   1.873   1.156                          
+ATOM     20  HZ1 LYS    16       5.959   4.096  -0.057                          
+ATOM     21  HZ2 LYS    16       5.078   3.093  -0.998                          
+ATOM     22  HZ3 LYS    16       5.220   2.797   0.601                          
+                                                                                
+ATOM      6  CB  LYS    17       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    17       1.412   1.918   3.701                          
+ATOM      8  CE  LYS    17       1.358   1.206   5.043                          
+ATOM      9  CG  LYS    17       1.314   0.931   2.549                          
+ATOM     10  NZ  LYS    17       1.454   2.161   6.183                          
+ATOM     11  HA  LYS    17       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    17       2.237   2.135   1.150                          
+ATOM     13  HB3 LYS    17       0.611   2.296   1.170                          
+ATOM     14  HD2 LYS    17       2.276   2.416   3.631                          
+ATOM     15  HD3 LYS    17       0.650   2.563   3.643                          
+ATOM     16  HE2 LYS    17       0.493   0.708   5.110                          
+ATOM     17  HE3 LYS    17       2.120   0.560   5.097                          
+ATOM     18  HG2 LYS    17       0.450   0.433   2.619                          
+ATOM     19  HG3 LYS    17       2.076   0.286   2.607                          
+ATOM     20  HZ1 LYS    17       1.415   1.656   7.045                          
+ATOM     21  HZ2 LYS    17       0.693   2.808   6.141                          
+ATOM     22  HZ3 LYS    17       2.319   2.660   6.128                          
+                                                                                
+ATOM      6  CB  LYS    18       1.368   1.643   1.207                          
+ATOM      7  CD  LYS    18       1.412   1.918   3.701                          
+ATOM      8  CE  LYS    18       1.358   1.206   5.043                          
+ATOM      9  CG  LYS    18       1.314   0.931   2.549                          
+ATOM     10  NZ  LYS    18       2.538   0.319   5.249                          
+ATOM     11  HA  LYS    18       1.282   1.280  -0.835                          
+ATOM     12  HB2 LYS    18       2.237   2.135   1.150                          
+ATOM     13  HB3 LYS    18       0.611   2.296   1.170                          
+ATOM     14  HD2 LYS    18       2.276   2.416   3.631                          
+ATOM     15  HD3 LYS    18       0.650   2.563   3.643                          
+ATOM     16  HE2 LYS    18       1.337   1.891   5.772                          
+ATOM     17  HE3 LYS    18       0.526   0.652   5.082                          
+ATOM     18  HG2 LYS    18       0.450   0.433   2.619                          
+ATOM     19  HG3 LYS    18       2.076   0.286   2.607                          
+ATOM     20  HZ1 LYS    18       2.467  -0.130   6.140                          
+ATOM     21  HZ2 LYS    18       3.375   0.865   5.218                          
+ATOM     22  HZ3 LYS    18       2.565  -0.374   4.528                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  MET     0       1.368   1.643   1.207                          
+ATOM      7  SD  MET     0       0.622   3.927  -0.171                          
+ATOM      8  CE  MET     0       2.144   4.720   0.344                          
+ATOM      9  CG  MET     0       0.359   2.779   1.192                          
+ATOM     10  HA  MET     0       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     0       1.219   1.097   2.032                          
+ATOM     12  HB3 MET     0       2.287   2.036   1.228                          
+ATOM     13  HE1 MET     0       2.414   5.399  -0.338                          
+ATOM     14  HE2 MET     0       2.865   4.033   0.433                          
+ATOM     15  HE3 MET     0       2.004   5.171   1.225                          
+ATOM     16  HG2 MET     0      -0.559   2.390   1.110                          
+ATOM     17  HG3 MET     0       0.432   3.283   2.053                          
+                                                                                
+ATOM      6  CB  MET     1       1.368   1.643   1.207                          
+ATOM      7  SD  MET     1       0.622   3.927  -0.171                          
+ATOM      8  CE  MET     1      -0.703   5.099   0.111                          
+ATOM      9  CG  MET     1       0.359   2.779   1.192                          
+ATOM     10  HA  MET     1       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     1       1.219   1.097   2.032                          
+ATOM     12  HB3 MET     1       2.287   2.036   1.228                          
+ATOM     13  HE1 MET     1      -0.675   5.810  -0.592                          
+ATOM     14  HE2 MET     1      -0.592   5.517   1.013                          
+ATOM     15  HE3 MET     1      -1.582   4.625   0.070                          
+ATOM     16  HG2 MET     1      -0.559   2.390   1.110                          
+ATOM     17  HG3 MET     1       0.432   3.283   2.053                          
+                                                                                
+ATOM      6  CB  MET     2       1.368   1.643   1.207                          
+ATOM      7  SD  MET     2       0.622   3.927  -0.171                          
+ATOM      8  CE  MET     2      -0.675   3.421  -1.297                          
+ATOM      9  CG  MET     2       0.359   2.779   1.192                          
+ATOM     10  HA  MET     2       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     2       1.219   1.097   2.032                          
+ATOM     12  HB3 MET     2       2.287   2.036   1.228                          
+ATOM     13  HE1 MET     2      -0.645   3.990  -2.119                          
+ATOM     14  HE2 MET     2      -1.564   3.527  -0.851                          
+ATOM     15  HE3 MET     2      -0.542   2.463  -1.551                          
+ATOM     16  HG2 MET     2      -0.559   2.390   1.110                          
+ATOM     17  HG3 MET     2       0.432   3.283   2.053                          
+                                                                                
+ATOM      6  CB  MET     3       1.368   1.643   1.207                          
+ATOM      7  SD  MET     3       0.532   3.883   2.607                          
+ATOM      8  CE  MET     3      -0.262   2.881   3.861                          
+ATOM      9  CG  MET     3       0.390   2.807   1.168                          
+ATOM     10  HA  MET     3       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     3       1.187   1.104   2.030                          
+ATOM     12  HB3 MET     3       2.297   2.011   1.247                          
+ATOM     13  HE1 MET     3      -0.253   3.370   4.733                          
+ATOM     14  HE2 MET     3       0.231   2.016   3.959                          
+ATOM     15  HE3 MET     3      -1.207   2.697   3.592                          
+ATOM     16  HG2 MET     3       0.569   3.347   0.346                          
+ATOM     17  HG3 MET     3      -0.540   2.442   1.132                          
+                                                                                
+ATOM      6  CB  MET     4       1.368   1.643   1.207                          
+ATOM      7  SD  MET     4       0.532   3.883   2.607                          
+ATOM      8  CE  MET     4      -0.725   5.105   2.240                          
+ATOM      9  CG  MET     4       0.390   2.807   1.168                          
+ATOM     10  HA  MET     4       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     4       1.187   1.104   2.030                          
+ATOM     12  HB3 MET     4       2.297   2.011   1.247                          
+ATOM     13  HE1 MET     4      -0.757   5.782   2.975                          
+ATOM     14  HE2 MET     4      -1.615   4.656   2.163                          
+ATOM     15  HE3 MET     4      -0.506   5.560   1.377                          
+ATOM     16  HG2 MET     4       0.569   3.347   0.346                          
+ATOM     17  HG3 MET     4      -0.540   2.442   1.132                          
+                                                                                
+ATOM      6  CB  MET     5       1.368   1.643   1.207                          
+ATOM      7  SD  MET     5       0.532   3.883   2.607                          
+ATOM      8  CE  MET     5       2.045   4.764   2.222                          
+ATOM      9  CG  MET     5       0.390   2.807   1.168                          
+ATOM     10  HA  MET     5       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     5       1.187   1.104   2.030                          
+ATOM     12  HB3 MET     5       2.297   2.011   1.247                          
+ATOM     13  HE1 MET     5       2.250   5.412   2.955                          
+ATOM     14  HE2 MET     5       1.932   5.260   1.361                          
+ATOM     15  HE3 MET     5       2.798   4.112   2.134                          
+ATOM     16  HG2 MET     5       0.569   3.347   0.346                          
+ATOM     17  HG3 MET     5      -0.540   2.442   1.132                          
+                                                                                
+ATOM      6  CB  MET     6       1.368   1.643   1.207                          
+ATOM      7  SD  MET     6       2.712   3.564   2.685                          
+ATOM      8  CE  MET     6       1.546   4.837   2.205                          
+ATOM      9  CG  MET     6       2.638   2.477   1.249                          
+ATOM     10  HA  MET     6       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     6       0.585   2.265   1.198                          
+ATOM     12  HB3 MET     6       1.337   1.078   2.032                          
+ATOM     13  HE1 MET     6       1.486   5.525   2.929                          
+ATOM     14  HE2 MET     6       0.645   4.427   2.060                          
+ATOM     15  HE3 MET     6       1.855   5.271   1.359                          
+ATOM     16  HG2 MET     6       3.425   1.860   1.274                          
+ATOM     17  HG3 MET     6       2.680   3.037   0.422                          
+                                                                                
+ATOM      6  CB  MET     7       1.368   1.643   1.207                          
+ATOM      7  SD  MET     7       2.712   3.564   2.685                          
+ATOM      8  CE  MET     7       4.289   4.370   2.420                          
+ATOM      9  CG  MET     7       2.638   2.477   1.249                          
+ATOM     10  HA  MET     7       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     7       0.585   2.265   1.198                          
+ATOM     12  HB3 MET     7       1.337   1.078   2.032                          
+ATOM     13  HE1 MET     7       4.462   5.017   3.162                          
+ATOM     14  HE2 MET     7       4.271   4.860   1.549                          
+ATOM     15  HE3 MET     7       5.016   3.683   2.401                          
+ATOM     16  HG2 MET     7       3.425   1.860   1.274                          
+ATOM     17  HG3 MET     7       2.680   3.037   0.422                          
+                                                                                
+ATOM      6  CB  MET     8       1.368   1.643   1.207                          
+ATOM      7  SD  MET     8       2.712   3.564   2.685                          
+ATOM      8  CE  MET     8       3.094   2.387   3.981                          
+ATOM      9  CG  MET     8       2.638   2.477   1.249                          
+ATOM     10  HA  MET     8       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     8       0.585   2.265   1.198                          
+ATOM     12  HB3 MET     8       1.337   1.078   2.032                          
+ATOM     13  HE1 MET     8       3.166   2.866   4.856                          
+ATOM     14  HE2 MET     8       3.962   1.935   3.776                          
+ATOM     15  HE3 MET     8       2.367   1.702   4.035                          
+ATOM     16  HG2 MET     8       3.425   1.860   1.274                          
+ATOM     17  HG3 MET     8       2.680   3.037   0.422                          
+                                                                                
+ATOM      6  CB  MET     9       1.368   1.643   1.207                          
+ATOM      7  SD  MET     9       2.749   3.647  -0.118                          
+ATOM      8  CE  MET     9       4.318   4.435   0.237                          
+ATOM      9  CG  MET     9       2.638   2.477   1.249                          
+ATOM     10  HA  MET     9       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET     9       0.585   2.265   1.198                          
+ATOM     12  HB3 MET     9       1.337   1.078   2.032                          
+ATOM     13  HE1 MET     9       4.510   5.125  -0.461                          
+ATOM     14  HE2 MET     9       5.045   3.748   0.235                          
+ATOM     15  HE3 MET     9       4.276   4.873   1.135                          
+ATOM     16  HG2 MET     9       2.657   2.987   2.109                          
+ATOM     17  HG3 MET     9       3.426   1.862   1.208                          
+                                                                                
+ATOM      6  CB  MET    10       1.368   1.643   1.207                          
+ATOM      7  SD  MET    10       2.749   3.647  -0.118                          
+ATOM      8  CE  MET    10       1.569   4.889   0.405                          
+ATOM      9  CG  MET    10       2.638   2.477   1.249                          
+ATOM     10  HA  MET    10       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET    10       0.585   2.265   1.198                          
+ATOM     12  HB3 MET    10       1.337   1.078   2.032                          
+ATOM     13  HE1 MET    10       1.527   5.618  -0.278                          
+ATOM     14  HE2 MET    10       1.855   5.272   1.284                          
+ATOM     15  HE3 MET    10       0.666   4.471   0.502                          
+ATOM     16  HG2 MET    10       2.657   2.987   2.109                          
+ATOM     17  HG3 MET    10       3.426   1.862   1.208                          
+                                                                                
+ATOM      6  CB  MET    11       1.368   1.643   1.207                          
+ATOM      7  SD  MET    11       1.426   2.066   3.945                          
+ATOM      8  CE  MET    11       3.170   2.477   3.907                          
+ATOM      9  CG  MET    11       1.314   0.931   2.550                          
+ATOM     10  HA  MET    11       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET    11       2.237   2.135   1.150                          
+ATOM     12  HB3 MET    11       0.611   2.296   1.170                          
+ATOM     13  HE1 MET    11       3.378   3.117   4.647                          
+ATOM     14  HE2 MET    11       3.394   2.899   3.029                          
+ATOM     15  HE3 MET    11       3.712   1.645   4.024                          
+ATOM     16  HG2 MET    11       0.450   0.432   2.613                          
+ATOM     17  HG3 MET    11       2.076   0.286   2.601                          
+                                                                                
+ATOM      6  CB  MET    12       1.368   1.643   1.207                          
+ATOM      7  SD  MET    12       1.426   2.066   3.945                          
+ATOM      8  CE  MET    12      -0.215   2.784   3.931                          
+ATOM      9  CG  MET    12       1.314   0.931   2.550                          
+ATOM     10  HA  MET    12       1.282   1.280  -0.835                          
+ATOM     11  HB2 MET    12       2.237   2.135   1.150                          
+ATOM     12  HB3 MET    12       0.611   2.296   1.170                          
+ATOM     13  HE1 MET    12      -0.294   3.450   4.673                          
+ATOM     14  HE2 MET    12      -0.896   2.063   4.057                          
+ATOM     15  HE3 MET    12      -0.372   3.241   3.056                          
+ATOM     16  HG2 MET    12       0.450   0.432   2.613                          
+ATOM     17  HG3 MET    12       2.076   0.286   2.601                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  PHE     0       1.368   1.643   1.207                          
+ATOM      7  CD1 PHE     0       0.632   3.934   0.498                          
+ATOM      8  CD2 PHE     0      -0.840   2.645   1.851                          
+ATOM      9  CE1 PHE     0      -0.289   4.964   0.478                          
+ATOM     10  CE2 PHE     0      -1.762   3.673   1.834                          
+ATOM     11  CG  PHE     0       0.368   2.762   1.186                          
+ATOM     12  CZ  PHE     0      -1.486   4.834   1.146                          
+ATOM     13  HA  PHE     0       1.282   1.280  -0.835                          
+ATOM     14  HB2 PHE     0       1.219   1.099   2.032                          
+ATOM     15  HB3 PHE     0       2.287   2.037   1.229                          
+ATOM     16  HD1 PHE     0       1.499   4.036   0.010                          
+ATOM     17  HD2 PHE     0      -1.048   1.804   2.351                          
+ATOM     18  HE1 PHE     0      -0.086   5.805  -0.023                          
+ATOM     19  HE2 PHE     0      -2.630   3.575   2.321                          
+ATOM     20  HZ  PHE     0      -2.152   5.580   1.132                          
+                                                                                
+ATOM      6  CB  PHE     1       1.368   1.643   1.207                          
+ATOM      7  CD1 PHE     1      -0.088   3.281  -0.014                          
+ATOM      8  CD2 PHE     1      -0.120   3.298   2.365                          
+ATOM      9  CE1 PHE     1      -1.009   4.311  -0.034                          
+ATOM     10  CE2 PHE     1      -1.041   4.329   2.348                          
+ATOM     11  CG  PHE     1       0.368   2.762   1.186                          
+ATOM     12  CZ  PHE     1      -1.487   4.835   1.147                          
+ATOM     13  HA  PHE     1       1.282   1.280  -0.835                          
+ATOM     14  HB2 PHE     1       1.219   1.099   2.032                          
+ATOM     15  HB3 PHE     1       2.287   2.037   1.229                          
+ATOM     16  HD1 PHE     1       0.253   2.906  -0.876                          
+ATOM     17  HD2 PHE     1       0.198   2.935   3.241                          
+ATOM     18  HE1 PHE     1      -1.329   4.677  -0.908                          
+ATOM     19  HE2 PHE     1      -1.383   4.707   3.208                          
+ATOM     20  HZ  PHE     1      -2.155   5.579   1.132                          
+                                                                                
+ATOM      6  CB  PHE     2       1.368   1.643   1.207                          
+ATOM      7  CD1 PHE     2      -0.864   2.598   0.575                          
+ATOM      8  CD2 PHE     2       0.656   3.980   1.776                          
+ATOM      9  CE1 PHE     2      -1.785   3.628   0.555                          
+ATOM     10  CE2 PHE     2      -0.264   5.012   1.757                          
+ATOM     11  CG  PHE     2       0.368   2.762   1.186                          
+ATOM     12  CZ  PHE     2      -1.485   4.836   1.147                          
+ATOM     13  HA  PHE     2       1.282   1.280  -0.835                          
+ATOM     14  HB2 PHE     2       1.219   1.099   2.032                          
+ATOM     15  HB3 PHE     2       2.287   2.037   1.229                          
+ATOM     16  HD1 PHE     2      -1.090   1.725   0.144                          
+ATOM     17  HD2 PHE     2       1.541   4.116   2.222                          
+ATOM     18  HE1 PHE     2      -2.671   3.497   0.110                          
+ATOM     19  HE2 PHE     2      -0.042   5.887   2.187                          
+ATOM     20  HZ  PHE     2      -2.152   5.581   1.133                          
+                                                                                
+ATOM      6  CB  PHE     3       1.368   1.643   1.207                          
+ATOM      7  CD1 PHE     3       2.745   3.606   0.470                          
+ATOM      8  CD2 PHE     3       3.689   2.095   2.046                          
+ATOM      9  CE1 PHE     3       3.902   4.362   0.501                          
+ATOM     10  CE2 PHE     3       4.847   2.848   2.079                          
+ATOM     11  CG  PHE     3       2.625   2.464   1.242                          
+ATOM     12  CZ  PHE     3       4.953   3.983   1.307                          
+ATOM     13  HA  PHE     3       1.282   1.280  -0.835                          
+ATOM     14  HB2 PHE     3       0.586   2.266   1.199                          
+ATOM     15  HB3 PHE     3       1.337   1.079   2.032                          
+ATOM     16  HD1 PHE     3       1.986   3.888  -0.117                          
+ATOM     17  HD2 PHE     3       3.619   1.273   2.611                          
+ATOM     18  HE1 PHE     3       3.976   5.185  -0.062                          
+ATOM     19  HE2 PHE     3       5.608   2.568   2.664                          
+ATOM     20  HZ  PHE     3       5.790   4.530   1.331                          
+                                                                                
+ATOM      6  CB  PHE     4       1.368   1.643   1.207                          
+ATOM      7  CD1 PHE     4       2.474   0.492   3.143                          
+ATOM      8  CD2 PHE     4       0.105   0.705   3.161                          
+ATOM      9  CE1 PHE     4       2.424  -0.161   4.360                          
+ATOM     10  CE2 PHE     4       0.051   0.052   4.377                          
+ATOM     11  CG  PHE     4       1.314   0.933   2.529                          
+ATOM     12  CZ  PHE     4       1.213  -0.381   4.977                          
+ATOM     13  HA  PHE     4       1.282   1.280  -0.835                          
+ATOM     14  HB2 PHE     4       2.237   2.135   1.152                          
+ATOM     15  HB3 PHE     4       0.611   2.296   1.172                          
+ATOM     16  HD1 PHE     4       3.357   0.648   2.701                          
+ATOM     17  HD2 PHE     4      -0.742   1.017   2.731                          
+ATOM     18  HE1 PHE     4       3.269  -0.474   4.793                          
+ATOM     19  HE2 PHE     4      -0.831  -0.106   4.821                          
+ATOM     20  HZ  PHE     4       1.177  -0.853   5.858                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  SER     0       1.368   1.643   1.207                          
+ATOM      7  OG  SER     0       1.312   0.915   2.421                          
+ATOM      8  HA  SER     0       1.282   1.280  -0.835                          
+ATOM      9  HB2 SER     0       2.237   2.137   1.165                          
+ATOM     10  HB3 SER     0       0.611   2.296   1.186                          
+ATOM     11  HG  SER     0       1.384   1.547   3.193                          
+                                                                                
+ATOM      6  CB  SER     1       1.368   1.643   1.207                          
+ATOM      7  OG  SER     1       2.573   2.388   1.183                          
+ATOM      8  HA  SER     1       1.282   1.280  -0.835                          
+ATOM      9  HB2 SER     1       0.594   2.276   1.205                          
+ATOM     10  HB3 SER     1       1.344   1.088   2.039                          
+ATOM     11  HG  SER     1       2.616   2.980   1.988                          
+                                                                                
+ATOM      6  CB  SER     2       1.368   1.643   1.207                          
+ATOM      7  OG  SER     2       0.401   2.675   1.129                          
+ATOM      8  HA  SER     2       1.282   1.280  -0.835                          
+ATOM      9  HB2 SER     2       1.214   1.110   2.039                          
+ATOM     10  HB3 SER     2       2.282   2.049   1.235                          
+ATOM     11  HG  SER     2       0.481   3.269   1.929                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  THR     0       1.399   1.646   1.215                          
+ATOM      7  CG2 THR     0       0.259   2.653   1.230                          
+ATOM      8  OG1 THR     0       1.353   0.876   2.423                          
+ATOM      9  HA  THR     0       1.261   1.281  -0.834                          
+ATOM     10  HB  THR     0       2.275   2.124   1.157                          
+ATOM     11  HG21THR     0       0.352   3.251   2.026                          
+ATOM     12  HG22THR     0      -0.614   2.168   1.278                          
+ATOM     13  HG23THR     0       0.289   3.203   0.396                          
+ATOM     14  HG1 THR     0       1.443   1.485   3.211                          
+                                                                                
+ATOM      6  CB  THR     1       1.399   1.646   1.215                          
+ATOM      7  CG2 THR     1       1.427   0.843   2.507                          
+ATOM      8  OG1 THR     1       2.611   2.405   1.115                          
+ATOM      9  HA  THR     1       1.261   1.281  -0.834                          
+ATOM     10  HB  THR     1       0.608   2.257   1.231                          
+ATOM     11  HG21THR     1       1.516   1.465   3.285                          
+ATOM     12  HG22THR     1       2.205   0.214   2.493                          
+ATOM     13  HG23THR     1       0.578   0.321   2.594                          
+ATOM     14  HG1 THR     1       2.697   3.004   1.911                          
+                                                                                
+ATOM      6  CB  THR     2       1.399   1.646   1.215                          
+ATOM      7  CG2 THR     2       2.781   2.279   1.261                          
+ATOM      8  OG1 THR     2       0.416   2.685   1.123                          
+ATOM      9  HA  THR     2       1.261   1.281  -0.834                          
+ATOM     10  HB  THR     2       1.265   1.104   2.045                          
+ATOM     11  HG21THR     2       2.849   2.874   2.062                          
+ATOM     12  HG22THR     2       2.929   2.818   0.432                          
+ATOM     13  HG23THR     2       3.475   1.561   1.320                          
+ATOM     14  HG1 THR     2       0.496   3.291   1.914                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  TRP     0       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     0      -0.854   2.776   1.789                          
+ATOM      8  CD2 TRP     0       0.507   4.018   0.513                          
+ATOM      9  CE2 TRP     0      -0.672   4.750   0.759                          
+ATOM     10  CE3 TRP     0       1.512   4.596  -0.267                          
+ATOM     11  NE1 TRP     0      -1.489   3.969   1.541                          
+ATOM     12  CG  TRP     0       0.368   2.758   1.182                          
+ATOM     13  CH2 TRP     0       0.125   6.577  -0.510                          
+ATOM     14  CZ2 TRP     0      -0.875   6.032   0.252                          
+ATOM     15  CZ3 TRP     0       1.310   5.867  -0.770                          
+ATOM     16  HA  TRP     0       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     0       1.219   1.099   2.033                          
+ATOM     18  HB3 TRP     0       2.286   2.038   1.229                          
+ATOM     19  HD1 TRP     0      -1.233   2.029   2.335                          
+ATOM     20  HE3 TRP     0       2.359   4.100  -0.457                          
+ATOM     21  HE1 TRP     0      -2.396   4.227   1.874                          
+ATOM     22  HH2 TRP     0       0.010   7.496  -0.888                          
+ATOM     23  HZ2 TRP     0      -1.719   6.535   0.437                          
+ATOM     24  HZ3 TRP     0       2.022   6.291  -1.331                          
+                                                                                
+ATOM      6  CB  TRP     1       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     1      -0.521   3.038   0.184                          
+ATOM      8  CD2 TRP     1       0.154   3.741   2.202                          
+ATOM      9  CE2 TRP     1      -0.880   4.586   1.753                          
+ATOM     10  CE3 TRP     1       0.736   3.986   3.448                          
+ATOM     11  NE1 TRP     1      -1.276   4.136   0.517                          
+ATOM     12  CG  TRP     1       0.368   2.758   1.182                          
+ATOM     13  CH2 TRP     1      -0.759   5.881   3.726                          
+ATOM     14  CZ2 TRP     1      -1.346   5.661   2.508                          
+ATOM     15  CZ3 TRP     1       0.274   5.052   4.195                          
+ATOM     16  HA  TRP     1       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     1       1.219   1.099   2.033                          
+ATOM     18  HB3 TRP     1       2.286   2.038   1.229                          
+ATOM     19  HD1 TRP     1      -0.610   2.519  -0.666                          
+ATOM     20  HE3 TRP     1       1.471   3.402   3.792                          
+ATOM     21  HE1 TRP     1      -1.995   4.541  -0.047                          
+ATOM     22  HH2 TRP     1      -1.071   6.645   4.291                          
+ATOM     23  HZ2 TRP     1      -2.082   6.250   2.173                          
+ATOM     24  HZ3 TRP     1       0.683   5.238   5.088                          
+                                                                                
+ATOM      6  CB  TRP     2       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     2       0.533   3.994   0.626                          
+ATOM      8  CD2 TRP     2      -0.954   2.735   1.735                          
+ATOM      9  CE2 TRP     2      -1.532   3.994   1.478                          
+ATOM     10  CE3 TRP     2      -1.700   1.774   2.421                          
+ATOM     11  NE1 TRP     2      -0.605   4.746   0.798                          
+ATOM     12  CG  TRP     2       0.368   2.758   1.182                          
+ATOM     13  CH2 TRP     2      -3.538   3.359   2.554                          
+ATOM     14  CZ2 TRP     2      -2.826   4.318   1.884                          
+ATOM     15  CZ3 TRP     2      -2.983   2.096   2.824                          
+ATOM     16  HA  TRP     2       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     2       1.219   1.099   2.033                          
+ATOM     18  HB3 TRP     2       2.286   2.038   1.229                          
+ATOM     19  HD1 TRP     2       1.361   4.307   0.161                          
+ATOM     20  HE3 TRP     2      -1.315   0.872   2.617                          
+ATOM     21  HE1 TRP     2      -0.736   5.685   0.481                          
+ATOM     22  HH2 TRP     2      -4.469   3.561   2.857                          
+ATOM     23  HZ2 TRP     2      -3.220   5.217   1.693                          
+ATOM     24  HZ3 TRP     2      -3.527   1.417   3.317                          
+                                                                                
+ATOM      6  CB  TRP     3       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     3       2.813   3.693   0.683                          
+ATOM      8  CD2 TRP     3       3.865   2.098   1.855                          
+ATOM      9  CE2 TRP     3       4.762   3.163   1.635                          
+ATOM     10  CE3 TRP     3       4.303   0.982   2.571                          
+ATOM     11  NE1 TRP     3       4.096   4.126   0.916                          
+ATOM     12  CG  TRP     3       2.624   2.460   1.237                          
+ATOM     13  CH2 TRP     3       6.480   2.037   2.804                          
+ATOM     14  CZ2 TRP     3       6.075   3.144   2.105                          
+ATOM     15  CZ3 TRP     3       5.604   0.963   3.037                          
+ATOM     16  HA  TRP     3       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     3       0.586   2.266   1.200                          
+ATOM     18  HB3 TRP     3       1.338   1.080   2.033                          
+ATOM     19  HD1 TRP     3       2.118   4.207   0.180                          
+ATOM     20  HE3 TRP     3       3.688   0.212   2.743                          
+ATOM     21  HE1 TRP     3       4.481   4.998   0.613                          
+ATOM     22  HH2 TRP     3       7.416   1.993   3.155                          
+ATOM     23  HZ2 TRP     3       6.697   3.909   1.938                          
+ATOM     24  HZ3 TRP     3       5.929   0.169   3.551                          
+                                                                                
+ATOM      6  CB  TRP     4       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     4       3.707   2.268   2.045                          
+ATOM      8  CD2 TRP     4       2.925   3.599   0.419                          
+ATOM      9  CE2 TRP     4       4.208   4.045   0.789                          
+ATOM     10  CE3 TRP     4       2.233   4.280  -0.585                          
+ATOM     11  NE1 TRP     4       4.667   3.216   1.784                          
+ATOM     12  CG  TRP     4       2.624   2.460   1.237                          
+ATOM     13  CH2 TRP     4       4.119   5.797  -0.795                          
+ATOM     14  CZ2 TRP     4       4.817   5.146   0.188                          
+ATOM     15  CZ3 TRP     4       2.837   5.371  -1.179                          
+ATOM     16  HA  TRP     4       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     4       0.586   2.266   1.200                          
+ATOM     18  HB3 TRP     4       1.338   1.080   2.033                          
+ATOM     19  HD1 TRP     4       3.790   1.542   2.728                          
+ATOM     20  HE3 TRP     4       1.320   3.984  -0.868                          
+ATOM     21  HE1 TRP     4       5.553   3.290   2.242                          
+ATOM     22  HH2 TRP     4       4.529   6.589  -1.247                          
+ATOM     23  HZ2 TRP     4       5.729   5.449   0.464                          
+ATOM     24  HZ3 TRP     4       2.351   5.868  -1.898                          
+                                                                                
+ATOM      6  CB  TRP     5       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     5       2.372   0.442   3.235                          
+ATOM      8  CD2 TRP     5       0.138   0.626   3.285                          
+ATOM      9  CE2 TRP     5       0.561  -0.049   4.447                          
+ATOM     10  CE3 TRP     5      -1.226   0.858   3.096                          
+ATOM     11  NE1 TRP     5       1.931  -0.149   4.394                          
+ATOM     12  CG  TRP     5       1.314   0.930   2.523                          
+ATOM     13  CH2 TRP     5      -1.666  -0.253   5.210                          
+ATOM     14  CZ2 TRP     5      -0.333  -0.494   5.420                          
+ATOM     15  CZ3 TRP     5      -2.112   0.416   4.059                          
+ATOM     16  HA  TRP     5       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     5       2.237   2.136   1.153                          
+ATOM     18  HB3 TRP     5       0.611   2.296   1.173                          
+ATOM     19  HD1 TRP     5       3.329   0.506   2.953                          
+ATOM     20  HE3 TRP     5      -1.554   1.334   2.280                          
+ATOM     21  HE1 TRP     5       2.511  -0.581   5.085                          
+ATOM     22  HH2 TRP     5      -2.333  -0.559   5.889                          
+ATOM     23  HZ2 TRP     5      -0.014  -0.971   6.239                          
+ATOM     24  HZ3 TRP     5      -3.091   0.576   3.934                          
+                                                                                
+ATOM      6  CB  TRP     6       1.368   1.643   1.207                          
+ATOM      7  CD1 TRP     6       0.197   0.637   3.252                          
+ATOM      8  CD2 TRP     6       2.428   0.418   3.267                          
+ATOM      9  CE2 TRP     6       1.909  -0.171   4.437                          
+ATOM     10  CE3 TRP     6       3.808   0.403   3.056                          
+ATOM     11  NE1 TRP     6       0.543  -0.025   4.404                          
+ATOM     12  CG  TRP     6       1.314   0.930   2.523                          
+ATOM     13  CH2 TRP     6       4.074  -0.774   5.165                          
+ATOM     14  CZ2 TRP     6       2.724  -0.772   5.395                          
+ATOM     15  CZ3 TRP     6       4.616  -0.192   4.006                          
+ATOM     16  HA  TRP     6       1.282   1.280  -0.835                          
+ATOM     17  HB2 TRP     6       2.237   2.136   1.153                          
+ATOM     18  HB3 TRP     6       0.611   2.296   1.173                          
+ATOM     19  HD1 TRP     6      -0.738   0.871   2.985                          
+ATOM     20  HE3 TRP     6       4.203   0.814   2.235                          
+ATOM     21  HE1 TRP     6      -0.094  -0.348   5.104                          
+ATOM     22  HH2 TRP     6       4.685  -1.197   5.834                          
+ATOM     23  HZ2 TRP     6       2.337  -1.186   6.219                          
+ATOM     24  HZ3 TRP     6       5.606  -0.209   3.866                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  TYR     0       1.368   1.643   1.207                          
+ATOM      7  CD1 TYR     0       0.624   3.948   0.501                          
+ATOM      8  CD2 TYR     0      -0.850   2.654   1.859                          
+ATOM      9  CE1 TYR     0      -0.290   4.983   0.479                          
+ATOM     10  CE2 TYR     0      -1.777   3.679   1.848                          
+ATOM     11  CG  TYR     0       0.361   2.771   1.189                          
+ATOM     12  OH  TYR     0      -2.411   5.869   1.139                          
+ATOM     13  CZ  TYR     0      -1.495   4.842   1.157                          
+ATOM     14  HA  TYR     0       1.282   1.280  -0.835                          
+ATOM     15  HB2 TYR     0       1.220   1.098   2.032                          
+ATOM     16  HB3 TYR     0       2.287   2.037   1.228                          
+ATOM     17  HD1 TYR     0       1.491   4.048   0.013                          
+ATOM     18  HD2 TYR     0      -1.055   1.812   2.359                          
+ATOM     19  HE1 TYR     0      -0.087   5.826  -0.020                          
+ATOM     20  HE2 TYR     0      -2.644   3.580   2.336                          
+ATOM     21  HH  TYR     0      -3.216   5.607   1.671                          
+                                                                                
+ATOM      6  CB  TYR     1       1.368   1.643   1.207                          
+ATOM      7  CD1 TYR     1      -0.098   3.295  -0.013                          
+ATOM      8  CD2 TYR     1      -0.127   3.308   2.373                          
+ATOM      9  CE1 TYR     1      -1.018   4.325  -0.039                          
+ATOM     10  CE2 TYR     1      -1.047   4.338   2.366                          
+ATOM     11  CG  TYR     1       0.361   2.771   1.189                          
+ATOM     12  OH  TYR     1      -2.408   5.871   1.142                          
+ATOM     13  CZ  TYR     1      -1.493   4.846   1.159                          
+ATOM     14  HA  TYR     1       1.282   1.280  -0.835                          
+ATOM     15  HB2 TYR     1       1.220   1.098   2.032                          
+ATOM     16  HB3 TYR     1       2.287   2.037   1.228                          
+ATOM     17  HD1 TYR     1       0.244   2.920  -0.875                          
+ATOM     18  HD2 TYR     1       0.194   2.942   3.247                          
+ATOM     19  HE1 TYR     1      -1.339   4.693  -0.912                          
+ATOM     20  HE2 TYR     1      -1.388   4.714   3.227                          
+ATOM     21  HH  TYR     1      -2.642   6.125   2.080                          
+                                                                                
+ATOM      6  CB  TYR     2       1.368   1.643   1.207                          
+ATOM      7  CD1 TYR     2      -0.875   2.610   0.578                          
+ATOM      8  CD2 TYR     2       0.651   3.993   1.781                          
+ATOM      9  CE1 TYR     2      -1.802   3.635   0.555                          
+ATOM     10  CE2 TYR     2      -0.262   5.029   1.770                          
+ATOM     11  CG  TYR     2       0.361   2.771   1.189                          
+ATOM     12  OH  TYR     2      -2.404   5.874   1.139                          
+ATOM     13  CZ  TYR     2      -1.489   4.849   1.156                          
+ATOM     14  HA  TYR     2       1.282   1.280  -0.835                          
+ATOM     15  HB2 TYR     2       1.220   1.098   2.032                          
+ATOM     16  HB3 TYR     2       2.287   2.037   1.228                          
+ATOM     17  HD1 TYR     2      -1.099   1.736   0.146                          
+ATOM     18  HD2 TYR     2       1.538   4.125   2.224                          
+ATOM     19  HE1 TYR     2      -2.688   3.505   0.111                          
+ATOM     20  HE2 TYR     2      -0.038   5.902   2.202                          
+ATOM     21  HH  TYR     2      -2.023   6.669   1.611                          
+                                                                                
+ATOM      6  CB  TYR     3       1.368   1.643   1.207                          
+ATOM      7  CD1 TYR     3       2.755   3.619   0.472                          
+ATOM      8  CD2 TYR     3       3.702   2.103   2.052                          
+ATOM      9  CE1 TYR     3       3.907   4.380   0.499                          
+ATOM     10  CE2 TYR     3       4.860   2.852   2.093                          
+ATOM     11  CG  TYR     3       2.633   2.471   1.244                          
+ATOM     12  OH  TYR     3       6.112   4.744   1.349                          
+ATOM     13  CZ  TYR     3       4.962   3.991   1.316                          
+ATOM     14  HA  TYR     3       1.282   1.280  -0.835                          
+ATOM     15  HB2 TYR     3       0.585   2.265   1.199                          
+ATOM     16  HB3 TYR     3       1.337   1.079   2.032                          
+ATOM     17  HD1 TYR     3       1.995   3.900  -0.114                          
+ATOM     18  HD2 TYR     3       3.631   1.279   2.615                          
+ATOM     19  HE1 TYR     3       3.981   5.203  -0.064                          
+ATOM     20  HE2 TYR     3       5.620   2.573   2.680                          
+ATOM     21  HH  TYR     3       6.765   4.328   1.982                          
+                                                                                
+ATOM      6  CB  TYR     4       1.368   1.643   1.207                          
+ATOM      7  CD1 TYR     4       2.477   0.488   3.158                          
+ATOM      8  CD2 TYR     4       0.101   0.702   3.176                          
+ATOM      9  CE1 TYR     4       2.437  -0.164   4.374                          
+ATOM     10  CE2 TYR     4       0.041   0.052   4.393                          
+ATOM     11  CG  TYR     4       1.315   0.930   2.540                          
+ATOM     12  OH  TYR     4       1.161  -1.028   6.203                          
+ATOM     13  CZ  TYR     4       1.211  -0.380   4.992                          
+ATOM     14  HA  TYR     4       1.282   1.280  -0.835                          
+ATOM     15  HB2 TYR     4       2.236   2.136   1.151                          
+ATOM     16  HB3 TYR     4       0.611   2.295   1.171                          
+ATOM     17  HD1 TYR     4       3.359   0.645   2.714                          
+ATOM     18  HD2 TYR     4      -0.745   1.014   2.744                          
+ATOM     19  HE1 TYR     4       3.282  -0.478   4.806                          
+ATOM     20  HE2 TYR     4      -0.841  -0.105   4.838                          
+ATOM     21  HH  TYR     4       0.210  -1.100   6.504                          
+NEXT                                                                            
+                                                                                
+ATOM      6  CB  VAL     0       1.399   1.646   1.215                          
+ATOM      7  CG1 VAL     0       2.781   2.279   1.261                          
+ATOM      8  CG2 VAL     0       0.364   2.757   1.138                          
+ATOM      9  HA  VAL     0       1.261   1.281  -0.834                          
+ATOM     10  HB  VAL     0       1.259   1.094   2.037                          
+ATOM     11  HG11VAL     0       2.849   2.874   2.062                          
+ATOM     12  HG12VAL     0       2.929   2.818   0.432                          
+ATOM     13  HG13VAL     0       3.475   1.561   1.320                          
+ATOM     14  HG21VAL     0       0.456   3.355   1.934                          
+ATOM     15  HG22VAL     0      -0.553   2.359   1.125                          
+ATOM     16  HG23VAL     0       0.507   3.290   0.304                          
+                                                                                
+ATOM      6  CB  VAL     1       1.399   1.646   1.215                          
+ATOM      7  CG1 VAL     1       0.287   2.684   1.204                          
+ATOM      8  CG2 VAL     1       1.304   0.854   2.510                          
+ATOM      9  HA  VAL     1       1.261   1.281  -0.834                          
+ATOM     10  HB  VAL     1       2.293   2.090   1.165                          
+ATOM     11  HG11VAL     1       0.380   3.281   2.000                          
+ATOM     12  HG12VAL     1      -0.600   2.223   1.235                          
+ATOM     13  HG13VAL     1       0.349   3.231   0.369                          
+ATOM     14  HG21VAL     1       1.396   1.475   3.288                          
+ATOM     15  HG22VAL     1       2.036   0.173   2.539                          
+ATOM     16  HG23VAL     1       0.418   0.393   2.555                          
+                                                                                
+ATOM      6  CB  VAL     2       1.399   1.646   1.215                          
+ATOM      7  CG1 VAL     2       1.377   0.846   2.509                          
+ATOM      8  CG2 VAL     2       2.703   2.427   1.154                          
+ATOM      9  HA  VAL     2       1.261   1.281  -0.834                          
+ATOM     10  HB  VAL     2       0.623   2.277   1.199                          
+ATOM     11  HG11VAL     2       1.467   1.467   3.287                          
+ATOM     12  HG12VAL     2       2.137   0.196   2.512                          
+ATOM     13  HG13VAL     2       0.512   0.348   2.579                          
+ATOM     14  HG21VAL     2       2.774   3.020   1.956                          
+ATOM     15  HG22VAL     2       2.719   2.985   0.324                          
+ATOM     16  HG23VAL     2       3.474   1.790   1.142                          
+NEXT                                                                            

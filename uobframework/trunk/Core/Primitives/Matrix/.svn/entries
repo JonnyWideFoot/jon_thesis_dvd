@@ -1,0 +1,88 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Core/Primitives/Matrix
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2006-12-06T18:22:01.187500Z
+29
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+Matrix3x3.cs
+file
+
+
+
+
+2007-11-26T00:23:14.703125Z
+df0b4387ddc344dc338fcf61da403b4a
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Matrix_TensorU.cs
+file
+
+
+
+
+2007-11-26T00:23:14.703125Z
+e77f3b1f039c99d19e06b52a7715dab2
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Matrix.cs
+file
+
+
+
+
+2007-11-26T00:23:14.703125Z
+b4986e44a67f892e7aa8792581f784ae
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+MatrixRotation.cs
+file
+
+
+
+
+2007-11-26T00:23:14.703125Z
+98e91ecda4e653d1bd38877187718119
+2006-12-06T18:22:01.187500Z
+29
+jr0407
+
+MatrixRotation code bin.cs
+file
+
+
+
+
+2007-11-26T00:23:14.703125Z
+36cc20a92eeab5b5bfeeb9ff47d77b26
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

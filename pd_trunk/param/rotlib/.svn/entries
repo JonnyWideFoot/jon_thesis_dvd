@@ -1,0 +1,85 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/param/rotlib
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+shetty
+dir
+
+bude.rotamer
+file
+
+
+
+
+2007-11-29T23:45:24.703466Z
+b2059c4ac9d75e07c19872c868f107f0
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+dunbrack
+dir
+
+bude.legacy.rotamer
+file
+
+
+
+
+2007-11-29T23:45:24.703466Z
+f2b94b6f651a636d973d019a8fe6a20e
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+pd.rotamer
+file
+
+
+
+
+2007-11-29T23:45:24.719091Z
+94dc96d0e8deb81f63dc75455cf6ab82
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+richardson
+dir
+
+legacy.rotamer
+file
+
+
+
+
+2007-11-29T23:45:24.719091Z
+4b6035bded110bc73d6fda34941f183f
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+

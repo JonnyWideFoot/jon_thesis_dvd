@@ -1,0 +1,58 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/07-CASP
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+template_similarity
+dir
+
+low_t0374
+dir
+
+med-t0366
+dir
+
+casp.tex
+file
+
+
+
+
+2008-02-01T08:30:57.718750Z
+eb1bb9de3d17e199c469e97c9369b31c
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+crystal_similarity
+dir
+
+high-t0345
+dir
+
+salt-bridge
+dir
+

@@ -1,0 +1,40 @@
+			string path = @"c:\_Gen Ig Database 29.07.04\";
+			string IDSource = path + @"reget from shit id\";
+			string PDBSource = path + @"SourcePDB\";
+			string outPath = path + @"reget from shit id out\";
+
+			DirectoryInfo di = new DirectoryInfo( IDSource );
+			FileInfo[] fileNames = di.GetFiles( "*.pdb" );
+
+			for( int i = 0; i < fileNames.Length; i++ )
+			{
+				string name = fileNames[i].Name.Substring(0,(int)fileNames[i].Name.Length-4);
+
+				if( File.Exists( outPath + name + ".pdb" ) )
+				{
+					continue;
+				}
+
+				string[] nameParts = name.Split('_');
+				string nameX = nameParts[0];
+				char chainID = nameParts[1][0];
+				string range = nameParts[2];
+				string[] rangeParts = range.Split('-');
+				int start = int.Parse(rangeParts[0]);
+				int end = int.Parse( rangeParts[1]);
+				PDB file = new PDB( PDBSource + nameX + ".pdb", true );
+				PSMolContainer mol = file.particleSystem.MemberWithID(chainID);
+				PSMolContainer molClone = new PSMolContainer( chainID );
+				for( int j = 0; j < mol.Count; j++ )
+				{
+					if( mol[j].ResidueNumber >= start && mol[j].ResidueNumber <= end )
+					{
+						molClone.addMolecule( (Molecule)mol[j].Clone() );
+					}
+				}
+				ParticleSystem pClone = new ParticleSystem( "BoB" );
+				pClone.BeginEditing();
+				pClone.AddMolContainer( molClone );
+				pClone.EndEditing(true,true);
+				PDB.SaveNew( outPath + name + ".pdb", pClone );
+			}

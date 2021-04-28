@@ -1,0 +1,52 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/_common
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-09-22T23:56:55.864125Z
+80
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+LoopCluster.cs
+file
+
+
+
+
+2007-06-25T21:33:14.820625Z
+6c5a874570d6973ca1a34f02f6872b08
+2007-06-13T16:48:33.004500Z
+70
+jr0407
+
+LoopStatAnalyse.cs
+file
+
+
+
+
+2008-02-01T08:27:46.843750Z
+3ad52e12c5eee551c7b23079d3e9bc81
+2007-09-22T23:56:55.864125Z
+80
+jr0407
+

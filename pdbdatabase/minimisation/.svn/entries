@@ -1,0 +1,22 @@
+8
+
+dir
+8
+https://compbio.bris.ac.uk/svn/pdbdatabase/minimisation
+https://compbio.bris.ac.uk/svn/pdbdatabase
+
+
+
+2007-05-29T16:41:32.640000Z
+8
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+ua_template
+dir
+
+aa_template
+dir
+

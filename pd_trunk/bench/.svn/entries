@@ -1,0 +1,70 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/bench
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+bench
+dir
+
+makebench.sh
+file
+
+
+
+
+2007-11-29T23:44:40.156591Z
+f383316589aaa87c537314a38f17d120
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+has-props
+
+cleanbench.sh
+file
+
+
+
+
+2007-11-29T23:44:40.156591Z
+4b91dffe9d0dcecf96670b7813892287
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+has-props
+
+runbench.sh
+file
+
+
+
+
+2007-11-29T23:44:40.156591Z
+2ee709d623b86b80cfeedf341795e590
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+has-props
+

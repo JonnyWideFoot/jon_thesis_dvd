@@ -1,0 +1,215 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2008-01-13T19:44:51.072437Z
+59
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+bench
+dir
+
+m4
+dir
+
+licence.namd
+file
+
+
+
+
+2007-11-29T23:45:35.062841Z
+5d2f0f526a8160ecc939eeb29ca91e0e
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+configure
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+97688910f87edcc57d77fd0723609f22
+2007-11-27T22:50:04.720461Z
+28
+mt0226
+has-props
+
+Makefile.in
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+77a98c8a41a4e368d04ed19f4d6dfc89
+2007-11-03T22:13:15.896201Z
+4
+mt0226
+
+DEVELOPER
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+ccf763521b9b003a007c915524614af5
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+src
+dir
+
+py
+dir
+
+toolchain.sh
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+dd7f4a1867ab4a2a1687729560b570b6
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+licence.scrwl
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+6e8432157e8a3d84c5e4b1de3eccf7c5
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+README
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+f41b34542777b02ca585417af5a2d9d8
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+param
+dir
+
+LICENCE
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+7c55087c4b31dbef62761e10374d6373
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+configure.ac
+file
+
+
+
+
+2007-11-29T23:45:35.078466Z
+31d58b56b1deb9559dacaaa6cdc90982
+2007-11-27T22:50:04.720461Z
+28
+mt0226
+
+config
+dir
+
+doc
+dir
+
+TODO
+file
+
+
+
+
+2008-02-01T08:27:01.546875Z
+50e04db4a4bb467f5ed91eb57b5d4778
+2008-01-12T20:18:07.478647Z
+57
+mt0226
+
+INSTALL
+file
+
+
+
+
+2007-11-29T23:45:35.094091Z
+6aca16f45f2ef5bf63034b9dedd94ea6
+2007-11-29T19:41:51.184726Z
+29
+mt0226
+
+vc
+dir
+
+bin
+dir
+
+Makefile.am
+file
+
+
+
+
+2008-02-01T08:27:01.562500Z
+78bfe7b6c9a64246b44dea4b41fb3ea9
+2008-01-08T18:36:47.870353Z
+52
+mt0226
+
+aclocal.m4
+file
+
+
+
+
+2007-11-29T23:45:35.094091Z
+15e29ca86ac08c17da6a3ea328131f24
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+examples
+dir
+

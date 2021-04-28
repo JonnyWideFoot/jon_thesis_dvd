@@ -1,0 +1,70 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/src/mods
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-12-25T17:25:20.095788Z
+43
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+bude
+dir
+
+Makefile.in
+file
+
+
+
+
+2007-11-29T23:45:00.125341Z
+3af4a3fbf5fb010e10a5dbef5b06fdce
+2007-11-27T22:50:04.720461Z
+28
+mt0226
+
+Makefile.am
+file
+
+
+
+
+2007-11-29T23:45:00.125341Z
+f15901e5a1bc4bf164631b49cb167db5
+2007-11-27T22:50:04.720461Z
+28
+mt0226
+
+restpermut
+dir
+
+_purgatory
+dir
+
+example
+dir
+
+gromacs
+dir
+
+arcus
+dir
+

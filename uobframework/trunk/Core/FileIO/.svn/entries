@@ -1,0 +1,115 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Core/FileIO
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2007-07-20T17:01:46.820375Z
+60
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+BaseFileType.cs
+file
+
+
+
+
+2007-11-26T00:23:37.359375Z
+aa51e1dfa0ae7bf9165f6e0cae0477c8
+2007-06-13T16:48:26.676375Z
+59
+jr0407
+
+BaseFileType_Reinitialisable.cs
+file
+
+
+
+
+2007-11-26T00:23:37.359375Z
+9058a6e0715a5ec2dcd4fd193bff78dd
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+ExtendedInfo.cs
+file
+
+
+
+
+2007-11-26T00:23:37.359375Z
+e8c298d4ae9db4d9203bcfe7b518e6ef
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+Biosym
+dir
+
+Dendrogram
+dir
+
+PQR
+dir
+
+FormattedInput
+dir
+
+PDB
+dir
+
+Tra
+dir
+
+SaveParams.cs
+file
+
+
+
+
+2007-11-26T00:23:37.375000Z
+d06643135d3247291271926a4f59f79c
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+BaseFileType_Structural.cs
+file
+
+
+
+
+2007-11-26T00:23:37.390625Z
+2877c1d3ed96731daa0b6f866fdefb7b
+2007-04-05T13:43:05.890625Z
+46
+jr0407
+
+DSSP
+dir
+
+Raft
+dir
+
+FASTA
+dir
+

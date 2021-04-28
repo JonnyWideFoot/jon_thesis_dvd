@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverLord", "OverLord.csproj", "{B32EB7C8-1BDE-4340-9745-BBD430E778FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\..\uobframework\trunk\Core\Core.csproj", "{94609263-E31C-44CD-9C7B-8D343C87572C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B32EB7C8-1BDE-4340-9745-BBD430E778FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B32EB7C8-1BDE-4340-9745-BBD430E778FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B32EB7C8-1BDE-4340-9745-BBD430E778FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B32EB7C8-1BDE-4340-9745-BBD430E778FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

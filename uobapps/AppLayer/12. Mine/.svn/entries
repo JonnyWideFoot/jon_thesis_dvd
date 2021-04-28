@@ -1,0 +1,52 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/12.%20Mine
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-07-11T12:47:35.265625Z
+72
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+MineInvoke.cs
+file
+
+
+
+
+2007-08-27T22:42:06.062500Z
+42c690e6f69fa95edf19d1f659bcf437
+2007-07-11T12:47:35.265625Z
+72
+jr0407
+
+Mine_Process.cs
+file
+
+
+
+
+2007-08-27T22:42:06.078125Z
+b3ddadf41f1294c05e3aca5de2fce446
+2007-07-11T12:47:35.265625Z
+72
+jr0407
+

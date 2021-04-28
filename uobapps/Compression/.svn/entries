@@ -1,0 +1,58 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/Compression
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-07-20T17:01:55.461000Z
+74
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+Compression.csproj
+file
+
+
+
+
+2007-02-01T17:47:50.358875Z
+ee013b48ed8d765bbd2c3ae264289503
+2007-02-01T18:56:02.545625Z
+16
+jr0407
+
+exec
+dir
+
+Compression.cs
+file
+
+
+
+
+2007-08-27T22:42:04.125000Z
+134bb9b2ad1d62f9ee636504b9ac8e05
+2007-07-20T17:01:55.461000Z
+74
+jr0407
+
+Properties
+dir
+

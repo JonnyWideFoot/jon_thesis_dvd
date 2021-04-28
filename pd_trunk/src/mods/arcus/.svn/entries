@@ -1,0 +1,136 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/src/mods/arcus
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-12-25T17:25:20.095788Z
+43
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+arcus.vcproj
+file
+
+
+
+
+2007-11-29T23:45:00.109716Z
+71feef5c02189458e0c6e40750f14605
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+loopbuilder
+dir
+
+Makefile.in
+file
+
+
+
+
+2007-11-29T23:45:00.109716Z
+d14003bbded8c98e4d2c8f1dd9227796
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+system
+dir
+
+protocols
+dir
+
+forcefields
+dir
+
+gen_make_am.sh
+file
+
+
+
+
+2007-11-29T23:45:00.125341Z
+ff034b326ac32940f58e976f349c86e7
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+workspace
+dir
+
+arcus.h
+file
+
+
+
+
+2007-11-29T23:45:00.109716Z
+a8a934822a706be57bf9e5bed5efb14d
+2007-10-31T01:49:06.986792Z
+2
+jr0407
+
+arcus.i
+file
+
+
+
+
+2007-11-29T23:45:00.125341Z
+1ba8d460b48e42eb93998abb32439118
+2007-10-31T01:49:06.986792Z
+2
+jr0407
+
+fileio
+dir
+
+arcus_wrap.vcproj
+file
+
+
+
+
+2007-11-29T23:45:00.125341Z
+d0f8a006343bffde3ee01f00da7697f8
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+filters
+dir
+
+Makefile.am
+file
+
+
+
+
+2007-11-29T23:45:00.125341Z
+9a3a2b7964c9b6239ea2e2fe593b1916
+2007-10-30T03:55:32.177375Z
+1
+mt0226
+
+manipulators
+dir
+

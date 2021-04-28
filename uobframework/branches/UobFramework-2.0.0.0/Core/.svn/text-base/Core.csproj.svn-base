@@ -1,0 +1,655 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94609263-E31C-44CD-9C7B-8D343C87572C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Core</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UoB.Core</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\_Common\UobFramework-Devel\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoreDelegates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoreEventArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoreIni.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CoreInterfaces.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataListing.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataOutputType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataStore_StatTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataStore_WithColStats.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataStore_WithColStats_GeneralUse.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Graphing\Graph.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\Graphing\PlotMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IDataProvider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IO\CSVFileArrayWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IO\DataWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IO\ResultGrid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\IO\StringBuilderDataWriter.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\StatModes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\StreamImportMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Download\Delegates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Download\Downloader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Download\DownloadInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Download\DownloadThread.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Download\WebDownload.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Exceptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FastRandom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\BaseFileType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\BaseFileType_Reinitialisable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\BaseFileType_Structural.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Biosym\BioSym.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Biosym\OutMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Dendrogram\BranchNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Dendrogram\DendroTree.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Dendrogram\EndNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Dendrogram\ParentedNode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\DSSP\DSSPFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\DSSP\ResidueDef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\DSSP\SegmentDef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\ExtendedInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\FASTA\FASTA.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\FormattedInput\BlastPFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\FormattedInput\FileScanClasses.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\FormattedInput\FileScanTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\FormattedInput\InputException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\FormattedInput\InputFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\CATrace.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\EntendedBondList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\PDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\PDBAtom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\PDBAtomList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\PDBExpRslnMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\PDBInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PDB\PDBSequence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\PQR\PQR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Raft\EmcFillParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Raft\RaftCnfFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Raft\RaftEmcFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Raft\RaftInpFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Raft\RaftRstFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Raft\RaftSeqFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\SaveParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TEEntry.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\Tra.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraContents.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraExtendedInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraPreview.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraProgressWatcher.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraSaveInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileIO\Tra\TraSystemDef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Calculations.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\AngleDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\AngleDefList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\AtomType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\AtomTypeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\BondDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\BondDefList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\Rotamers.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\Torsion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\TorsionDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Definitions\TorsionDefList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Excpetions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\ImagingDetails.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Rotamer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\RotamerList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\SASAParamList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\Tools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ForceField\_FFManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveSets\AngleSets\AngleSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveSets\AngleSets\RamachandranBound.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveSets\AngleSets\RamachandranRegions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveSets\AngleSets\RamachandranTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveSets\AngleSets\ResidueAngleSet.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MoveSets\AngleSets\SpecifiedAngleSets.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\BestPath.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\AssociatedObjectList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\ColourList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\FloatArrayList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\IndexedStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\IntArrayList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\Line3DList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\Line3DStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\PositionList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\PositionStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\ResetableTypedCollection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Collections\StringStore.cs" />
+    <Compile Include="Primitives\Colour.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\IntRange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Label.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Line3D.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Matrix\Matrix.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Matrix\Matrix3x3.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Matrix\MatrixRotation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Matrix\Matrix_TensorU.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Position.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\Vector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Primitives\xyzAngles.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\Alignment\SeqAlign.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\Sequence.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\SequenceInputTypes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\StandardResidues.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Sequence\StandardSeqTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\0_Atom.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\0_Bond.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\0_BondList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\0_BondType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\1_AminoAcid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\1_AtomList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\1_Molecule.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\2_HetMolecules.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\2_MoleculeList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\2_PolyPeptide.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\2_PSMolContainer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\2_Solvent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\3_FocusDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\3_MolRange.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\3_ParticleSystem.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Aligner.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Aligner_Geometric.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\AlignFile.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\AlignmentMethod.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\AlignmentSysDef.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\AlignSaveParams.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\AlignSourceDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\AlignTextViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Model.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\ModelList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Options.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Prosup\Aligner_ProSup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Prosup\ProsupOptions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Prosup\ProSupPathRefinement.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\Prosup\SeedDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Alignment\PSAlignManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Builder\BuilderException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Builder\PS_Builder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Builder\RebuildDefinition.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Builder\RebuildMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Builder\RotamerApplier.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Builder\Selection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\ConstrainingMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\Constraint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\ConstraintDataTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\ConstraintGroup.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\ConstraintList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\ConstraintSummaryTable.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\MonitorType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Constraints\PotentialType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Detection\DetectionMatch.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Detection\Detector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Detection\IGDetector.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Detection\MatchState.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Primitives\AtomPrimitive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Primitives\AtomPrimitiveBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Primitives\MoleculePrimitive.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Primitives\MoleculePrimitiveBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\Primitives\MoleculePrimitiveList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\PSDelegate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Structure\PS_PositionStore.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\ArrayTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\CommonTools.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\Operationtimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tools\TimerReportMode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Structure\Alignment\Tools\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

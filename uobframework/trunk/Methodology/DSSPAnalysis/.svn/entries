@@ -1,0 +1,88 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Methodology/DSSPAnalysis
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2007-05-11T16:24:06.906250Z
+54
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+Ramachandran
+dir
+
+AngleSet
+dir
+
+DSSPReportingOn.cs
+file
+
+
+
+
+2007-11-26T00:23:43.968750Z
+d59fe6119381b962177e3a927064f9b3
+2005-10-26T15:39:03.784500Z
+8
+jr0407
+
+DSSPTaskDirectory.cs
+file
+
+
+
+
+2007-11-26T00:23:43.968750Z
+ae9877a8e01a015415ac493010c6382c
+2007-04-15T16:35:57.046875Z
+51
+jr0407
+
+DSSPTaskDirecory_PhiPsiData.cs
+file
+
+
+
+
+2007-11-26T00:23:43.984375Z
+7d5d03fac0e4d870a6139ff11a730fd0
+2007-01-23T10:55:06.604625Z
+30
+jr0407
+
+AngleFitting
+dir
+
+SASAAnalysis
+dir
+
+DSSPIncludedRegions.cs
+file
+
+
+
+
+2007-11-26T00:23:43.984375Z
+39ddb21d57626862a42fe0f9398d8698
+2005-10-26T15:39:03.784500Z
+8
+jr0407
+

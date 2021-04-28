@@ -1,0 +1,73 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Methodology
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2007-05-11T16:55:01.562500Z
+55
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+TaskManagement
+dir
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-11-26T00:23:43.984375Z
+08f883cfc90b9cf6dcb591dcc674b8a4
+2006-03-07T12:10:54.180221Z
+17
+jr0407
+
+Methodology.csproj.user
+file
+
+
+
+
+2007-11-26T00:23:43.984375Z
+e1e32d89358cb14ed69da19f05ac70d3
+2005-11-10T12:48:50.328125Z
+13
+jr0407
+
+OriginInteraction
+dir
+
+Methodology.csproj
+file
+
+
+
+
+2007-11-26T00:23:43.984375Z
+2e1e9089b1cbe3919080fce431ae38d1
+2007-05-11T16:24:06.906250Z
+54
+jr0407
+
+DSSPAnalysis
+dir
+

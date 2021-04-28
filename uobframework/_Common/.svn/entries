@@ -1,0 +1,46 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/_Common
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2007-04-12T17:17:19.296875Z
+48
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+UobFramework-Devel
+dir
+
+Divil
+dir
+
+NPlot-0.9.9.2
+dir
+
+Origin
+dir
+
+UobFramework-2.0.0.0
+dir
+
+Tao-1.2.0.1
+dir
+

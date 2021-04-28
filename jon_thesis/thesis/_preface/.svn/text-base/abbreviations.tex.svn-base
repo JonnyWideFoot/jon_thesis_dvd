@@ -1,0 +1,86 @@
+\chapter*{List of Abbreviations\markboth{List of Abbreviations \hfill}{List of Abbreviations \hfill}}
+
+\begin{center}
+\begin{longtable}{lll}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\abbrevsec {}
+%\addabbrev {}{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {Bioinformatics Resources}
+\addabbrev {\textsc{Cath}}{Class, Architecture, Topology and Homologous superfamily}
+\addabbrev {PDB}{Protein Databank}
+\addabbrev {PDBID}{Protein Databank Chain Identifier}
+\addabbrev {\textsc{Scop}}{Structural Classification of Proteins}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {Computational Biology}
+\addabbrev {CASP-7}{7th Critical Assessment of protein Structure Prediction}
+\addabbrev {CG}{Conjugate Gradient Minimisation}
+\addabbrev {CM}{Comparative Modelling}
+\addabbrev {cRMS}{Coordinate RMSD}
+\addabbrev {EM}{Electron Microscopy}
+\addabbrev {\gbsa}{Generalized Born / Surface Area}
+\addabbrev {NMR}{Nuclear Magnetic Resonance}
+\addabbrev {MC}{Monte Carlo}
+\addabbrev {MD}{Molecular Dynamics}
+\addabbrev {PDF}{Probability Density Function}
+\addabbrev {PMF}{Potential of Mean Force}
+\addabbrev {SD}{Steepest Descent Minimisation}
+\addabbrev {SVR}{Structurally Variable Region}
+\addabbrev {VDW}{Van der Waals}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {Computer Science}
+\addabbrev {CPU}{Central Processing Unit}
+\addabbrev {FLOPS}{FLoating point Operations Per Second}
+\addabbrev {HPC}{High Performance Computing}
+\addabbrev {IO}{Input Output}
+\addabbrev {MPI}{Message Passing Interface}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {Energy Functions}
+\addabbrev {PEF}{Potential Energy Function}
+\addabbrev {PES}{Potential Energy Surface}
+\addabbrev {PMF}{Potentials of Mean Force}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {General}
+\addabbrev {3D}{Three Dimensional}
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {Mathematics}
+\addabbrev {RMSD}{Root-Mean-Squared Deviation}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {Software}
+\addabbrev {\amber}{Assisted Model Building with Energy Refinement}
+\addabbrev {\charmm}{Chemistry at HARvard Molecular Mechanics}
+\addabbrev {\plop}{Protein Local Optimisation Program}
+ 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%
+\abbrevsec {The Amino Acids}
+\addabbrevd {A}{Ala}{Alanine}
+\addabbrevd {C}{Cys}{Cysteine}
+\addabbrevd {D}{Asp}{Aspartic Acid}
+\addabbrevd {E}{Glu}{Glutamic Acid}
+\addabbrevd {F}{Phe}{Phenylalanine}
+\addabbrevd {G}{Gly}{Glycine}
+\addabbrevd {H}{His}{Histidine}
+\addabbrevd {I}{Ile}{Isoleucine}
+\addabbrevd {K}{Lys}{Lysine}
+\addabbrevd {L}{Leu}{Leucine}
+\addabbrevd {M}{Met}{Methionine}
+\addabbrevd {N}{Asn}{Asparagine}
+\addabbrevd {P}{Pro}{Proline}
+\addabbrevd {Q}{Gln}{Glutamic Acid}
+\addabbrevd {R}{Arg}{Arginine}
+\addabbrevd {S}{Ser}{Serine}
+\addabbrevd {T}{Thr}{Threonine}
+\addabbrevd {V}{Val}{Valine}
+\addabbrevd {W}{Trp}{Tryptophan}
+\addabbrevd {Y}{Tyr}{Tyrosine}
+ 
+\end{longtable}
+\end{center}

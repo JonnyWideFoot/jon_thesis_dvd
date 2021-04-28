@@ -1,0 +1,25 @@
+REGEDIT4
+
+:davelistings
+
+[HKEY_CLASSES_ROOT\.tra]
+@="DAVE"
+
+[HKEY_CLASSES_ROOT\.pdb]
+@="DAVE"
+
+[HKEY_CLASSES_ROOT\.ph]
+@="DAVE"
+
+[HKEY_CLASSES_ROOT\.align]
+@="DAVE"
+
+[HKEY_CLASSES_ROOT\DAVE]
+@="DAVE Openable File"
+
+[HKEY_CLASSES_ROOT\DAVE\shell\DAVEOpen]
+@="&Open file in DAVE ..."
+
+[HKEY_CLASSES_ROOT\DAVE\shell\DAVEOpen\command]
+@="C:\\_SourceCodeControl\\dave\\_Compile\\dave.exe %1"
+

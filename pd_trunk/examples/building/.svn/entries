@@ -1,0 +1,40 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/examples/building
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2008-01-13T19:44:51.072437Z
+59
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+pdb_import
+dir
+
+pdb_import_selective
+dir
+
+homology_model_simple
+dir
+
+proteinhelix
+dir
+

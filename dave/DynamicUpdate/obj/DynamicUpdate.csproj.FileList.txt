@@ -1,0 +1,13 @@
+bin\Debug\DynamicUpdate.exe
+bin\Debug\DynamicUpdate.pdb
+bin\Debug\ICSharpCode.SharpZipLib.dll
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UoB.DynamicUpdateEngine.Downloading.ProgressForm.resources
+obj\Debug\DynamicUpdate.csproj.GenerateResource.Cache
+obj\Debug\DynamicUpdate.exe
+obj\Debug\DynamicUpdate.pdb
+..\_Compile\DynamicUpdate\DynamicUpdate.exe
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\UoB.DynamicUpdateEngine.Downloading.ProgressForm.resources
+obj\Release\DynamicUpdate.csproj.GenerateResource.Cache
+obj\Release\DynamicUpdate.exe

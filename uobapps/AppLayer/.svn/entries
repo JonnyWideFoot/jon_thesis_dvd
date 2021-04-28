@@ -1,0 +1,202 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-09-30T10:35:34.688000Z
+81
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+1c. RamachandranAnalysis
+dir
+
+13. Decoy
+dir
+
+5. LeastLikelyNativeLoop
+dir
+
+4. LoopBuilderStage1
+dir
+
+_common
+dir
+
+App.ico
+file
+
+
+
+
+2006-09-23T12:35:48.031250Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+has-props
+
+10. Petra
+dir
+
+1d. AngleSetFitting
+dir
+
+IAppLayer.cs
+file
+
+
+
+
+2007-04-04T14:33:04.951831Z
+0a0d5a2ffaa627398dd3ccb87af44a05
+2007-04-04T18:15:30.906250Z
+37
+jr0407
+
+0. CommonTasks
+dir
+
+1a. Raft
+dir
+
+1b. SASAAnalysis
+dir
+
+11. Cloop
+dir
+
+_INVOKE.cs
+file
+
+
+
+
+2008-02-01T08:28:10.265625Z
+f78a1d9cf2be49ec2dbfa6c843575287
+2007-09-12T21:42:05.847125Z
+79
+jr0407
+
+8. Rapper
+dir
+
+AssemblyInfo.cs
+file
+
+
+
+
+2006-09-23T12:35:48.031250Z
+7911bd66bf0174fca8bd4b195fedbccc
+2006-09-23T12:38:17.543250Z
+11
+jr0407
+
+14. Arcus
+dir
+
+7. Modeller
+dir
+
+AppLayer.sln
+file
+
+
+
+
+2007-02-01T17:57:38.093250Z
+ceb364bcc5dfe97bf6532750dffe89f8
+2007-02-01T18:56:02.545625Z
+16
+jr0407
+
+12. Mine
+dir
+
+tester.cs
+file
+
+
+
+
+2007-07-03T21:56:06.640625Z
+8492a13f6520c1b4177758ea7c45ee04
+2007-07-06T09:30:11.847375Z
+71
+jr0407
+
+6. FileConverter
+dir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://compbio.bris.ac.uk/svn/uobapps/AppLayer/FileConverter
+13
+
+3. Plop
+dir
+
+AppLayer.csproj
+file
+
+
+
+
+2008-02-01T08:27:52.468750Z
+1634cf8a0b9b748f6e894dbdc5245f4e
+2007-09-22T23:56:55.864125Z
+80
+jr0407
+
+2. ConstraintDynamics
+dir
+
+AppLayerBase.cs
+file
+
+
+
+
+2008-02-01T08:28:31.718750Z
+97627a80d1f1709cc9251b350b449751
+2007-08-31T00:10:16.748554Z
+76
+jr0407
+
+9. FilterDevel
+dir
+

@@ -1,0 +1,54 @@
+8
+
+dir
+59
+https://compbio.bris.ac.uk/svn/pdPrime/examples/restraint
+https://compbio.bris.ac.uk/svn/pdPrime
+
+
+
+2007-12-02T21:53:05.912380Z
+33
+mt0226
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2d002724-9f26-4c38-901d-aada543e51f4
+
+trpcage.pdb
+file
+
+
+
+
+2007-11-29T23:45:34.937841Z
+4c5c7be1ebd6a513087fdfa5d62f733b
+2007-11-16T00:28:17.293220Z
+19
+mt0226
+has-props
+
+run.py
+file
+
+
+
+
+2008-02-01T08:48:44.828125Z
+8f9a0e809d717061608cc80e27979e9b
+2007-12-02T21:53:05.912380Z
+33
+mt0226
+has-props
+

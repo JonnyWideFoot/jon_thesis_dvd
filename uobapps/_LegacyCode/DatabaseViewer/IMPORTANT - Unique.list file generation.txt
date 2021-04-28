@@ -1,0 +1,87 @@
+
+			ArrayList ScopCodes = new ArrayList();
+			StreamReader re = new StreamReader( this.m_DatabasePath + "SCOP IG Domain List - PDB Code only.txt");
+			StreamWriter ScopCodesRW = new StreamWriter( m_DatabasePath + "SCOP.list" );
+			string line;
+			while ( null != ( line = re.ReadLine() ) )
+			{
+				bool alreadyAdded = false;
+				for( int i = 0; i < ScopCodes.Count; i++ )
+				{
+					string code = (string) ScopCodes[i];
+					if( code == line )
+					{
+						alreadyAdded = true;
+						break;
+					}
+				}
+				if( !alreadyAdded )
+				{
+					ScopCodes.Add( line );
+					ScopCodesRW.WriteLine( line );					
+				}
+			}
+			re.Close();
+			ScopCodesRW.Close();
+
+			ArrayList CathCodes = new ArrayList();
+			re = new StreamReader( this.m_DatabasePath + "CATH IG Domain List - PDB Code only.txt");
+			StreamWriter CathCodesrw = new StreamWriter( m_DatabasePath + "CATH.list" );
+			while ( null != ( line = re.ReadLine() ) )
+			{
+				bool isThere = false;
+				for( int i = 0; i < CathCodes.Count; i++ )
+				{
+					string currentCode = (string) CathCodes[i];
+					if( currentCode == line )
+					{
+						isThere = true;
+						break;
+					}
+				}
+				if( !isThere )
+				{
+					CathCodes.Add( line );
+					CathCodesrw.WriteLine( line );
+				}
+			}
+			re.Close();
+			CathCodesrw.Close();
+
+			StreamWriter rwCath = new StreamWriter( m_DatabasePath + "CathUnique.list" );
+			StreamWriter rwScop = new StreamWriter( m_DatabasePath + "ScopUnique.list" );
+			StreamWriter rwNon = new StreamWriter( m_DatabasePath + "Non-Unique.list" );
+
+			for( int i = 0; i < CathCodes.Count; i++ )
+			{
+				string cath = (string)CathCodes[i];
+
+				bool foundInScop = false;
+
+				for( int j = 0; j < ScopCodes.Count; j++ )
+				{
+					string scop = (string)ScopCodes[j];
+                    if( cath == scop )
+					{
+						foundInScop = true;
+						rwNon.WriteLine( cath );
+                        ScopCodes.RemoveAt(j);
+						break;
+					}
+
+				}	
+
+				if( !foundInScop )
+				{
+					rwCath.WriteLine( cath );
+				}
+			}		
+
+			for( int k = 0; k < ScopCodes.Count; k++ )
+			{
+				rwScop.WriteLine( (string)ScopCodes[k] );
+			}
+			
+			rwCath.Close();	
+			rwScop.Close(); 
+			rwNon.Close();

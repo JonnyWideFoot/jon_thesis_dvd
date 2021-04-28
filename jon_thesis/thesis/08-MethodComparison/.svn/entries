@@ -1,0 +1,64 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/08-MethodComparison
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+cloop_fig
+dir
+
+methods.tex
+file
+
+
+
+
+2008-02-01T08:30:56.687500Z
+da4fe4b8da1eddf96f868992624bd4ec
+2007-12-26T21:15:19.095535Z
+204
+jr0407
+
+_engine
+dir
+
+compare
+dir
+
+meth_fail
+dir
+
+compare_bb
+dir
+
+compare_bba
+dir
+
+petra
+dir
+
+summary
+dir
+

@@ -1,0 +1,76 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/RifToBib/Properties
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2007-04-24T14:50:35.068441Z
+c80a411f93dd2e92a894a5a074e40916
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Settings.settings
+file
+
+
+
+
+2007-04-24T14:50:34.615316Z
+8c0f00d7d9b0046695a0255f1b11b061
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Settings.Designer.cs
+file
+
+
+
+
+2007-04-24T14:50:35.443441Z
+7b79b78728b918419a887519e7bab000
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Resources.resx
+file
+
+
+
+
+2007-04-24T14:50:33.380941Z
+0cd8c971317d19bbed44757809bcb92b
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+
+Resources.Designer.cs
+file
+
+
+
+
+2007-04-24T14:50:35.427816Z
+b9bd43e81ad9ee062e90e1385b52d291
+2007-04-24T16:11:37.073453Z
+9
+jr0407
+

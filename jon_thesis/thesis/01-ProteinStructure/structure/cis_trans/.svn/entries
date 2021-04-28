@@ -1,0 +1,54 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure/structure/cis_trans
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+cis_trans.pspimage
+file
+
+
+
+
+2007-11-26T00:19:59.875000Z
+6f411cc1b2908cd2c2df4e295fb5b185
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+has-props
+
+cis_trans_1.pse
+file
+
+
+
+
+2007-11-26T00:19:59.875000Z
+2e4511961eff9b5635aee16c36e830dc
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+has-props
+

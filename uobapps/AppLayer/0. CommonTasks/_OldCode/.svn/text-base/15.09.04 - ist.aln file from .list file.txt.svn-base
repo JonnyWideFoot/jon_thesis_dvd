@@ -1,0 +1,60 @@
+			string path = @"c:\___uberalign\";
+
+
+			StreamReader reAln = new StreamReader( path + "jonoutnew.aln" );
+			ArrayList aligns = new ArrayList();
+			string readLine;
+			while( null != ( readLine = reAln.ReadLine() ) )
+			{
+				aligns.Add( readLine );
+			}
+			reAln.Close();
+			
+			string[] listFiles = Directory.GetFiles( path, "*.list" );
+			for( int i = 0; i < listFiles.Length; i++ )
+			{
+				StreamReader reList = new StreamReader( listFiles[i] );
+				StreamWriter listOut = new StreamWriter( listFiles[i] + ".aln" );
+				ArrayList outLines = new ArrayList();
+				string listItem;
+				while( null != ( listItem = reList.ReadLine() ) )
+				{
+					for( int j = 0; j < aligns.Count ; j++ )
+					{
+						string compFull = (string)aligns[j];
+						string comp = compFull.Substring( 0, listItem.Length );
+						if( listItem == comp )
+						{
+							outLines.Add( new StringBuilder( compFull ) );
+						}											
+					}
+				}
+				for( int j = 21; j < ((StringBuilder)outLines[0]).Length; j++ )
+				{
+					bool allDashes = true;
+					for( int k = 0; k < outLines.Count; k++ )
+					{
+						StringBuilder theString = (StringBuilder)outLines[k];
+						if( theString[j] != '-' )
+						{
+							allDashes = false;
+							break;
+						}
+					}
+					if( allDashes )
+					{
+						for( int k = 0; k < outLines.Count; k++ )
+						{
+							StringBuilder theString = (StringBuilder)outLines[k];
+							theString.Remove( j, 1 );
+						}
+						j--;
+					}
+				}
+				for( int j = 0; j < outLines.Count; j++ )
+				{
+                    listOut.WriteLine( ((StringBuilder)outLines[j]).ToString() );
+				}
+				reList.Close();
+				listOut.Close();				
+			}

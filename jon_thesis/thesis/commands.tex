@@ -1,0 +1,167 @@
+%Super and sub script the easy way
+\newcommand{\superscript}[1]{\ensuremath{^\textrm{#1}}}
+\newcommand{\subscript}[1]{\ensuremath{_\textrm{#1}}}
+
+\newcommand{\first}[0]{1\superscript{st}} %1^st
+\newcommand{\second}[0]{2\superscript{nd}} %2^nd
+\newcommand{\third}[0]{3\superscript{rd}} %3^rd
+\newcommand{\xth}[1]{#1\superscript{th}} %24^th - already defined??
+
+% Alignment and orientation
+\newcommand{\mcol}{\multicolumn}
+\newcommand{\pbox}{\parbox}
+\newcommand{\rright}{\raggedright}
+\newcommand{\rleft}{\raggedleft}
+\newcommand{\ce}{\center}
+
+% Abbreviations
+\newcommand{\ie}{i.e.~\/}
+\newcommand{\eg}{e.g.~\/}
+\newcommand{\CPP}{C\nolinebreak\hspace{-.05em}\raisebox{.4ex}{\tiny\bf +}\nolinebreak\hspace{-.10em}\raisebox{.4ex}{\tiny\bf +}\hspace{.15em}}
+\newcommand{\CS}{C\nolinebreak\hspace{-0.02em}\raisebox{-0.2ex}{\small\bf$^\#$}}
+
+% Biosim Packages
+\newcommand{\amber}{\textsc{Amber}}
+\newcommand{\charmm}{\textsc{Charmm}}
+\newcommand{\gromacs}{\textsc{Gromacs}}
+\newcommand{\namd}{\textsc{Namd}}
+\newcommand{\tinker}{\textsc{Tinker}}
+\newcommand{\opls}{\textsc{Opls}}
+
+% Specific Forcefields
+\newcommand{\amberff}{\mbox{\amber\ ff03}}
+\newcommand{\gbsa}{\mbox{GB/SA}}
+\newcommand{\ambergbsa}{\amberff\ and \gbsa}
+\newcommand{\amberwgbsa}{\amberff\ with \gbsa}
+
+% Formatted Terms
+\newcommand{\abinitio}{\mbox{\textit{ab~initio}}}
+\newcommand{\AbInitio}{\mbox{\textit{Ab~initio}}}
+\newcommand{\insilico}{\mbox{\textit{in~silico}}}
+\newcommand{\InSilico}{\mbox{\textit{In~Silico}}}
+\newcommand{\invivo}{\mbox{\textit{in~vivo}}}
+\newcommand{\invitro}{\mbox{\textit{in~vitro}}}
+\newcommand{\denovo}{\textit{de~novo}}
+\newcommand{\getref}{\textbf{**Get-Ref**}}
+\newcommand{\mer}[1]{\mbox{#1-mer}}
+\newcommand{\mers}[1]{\mbox{#1-mers}}
+\newcommand{\vdw}{\mbox{van der Waals}}
+\newcommand{\uob}{University of Bristol}
+
+% Symbols
+\newcommand{\dg}{$^{\dagger}$}
+\newcommand{\tick}{\ding{52}} % Requires pifont package
+\newcommand{\cross}{\ding{55}} % Requires pifont package
+
+% Computational Units
+\newcommand{\ghz}{GHz}
+\newcommand{\gb}{Gb}
+\newcommand{\mb}{Mb}
+
+% Chemistry Units
+\newcommand{\kunit}{\mbox{kcal/mol/\AA$^2$}}
+\newcommand{\kcalmol}{\mbox{kcal/mol}}
+\newcommand{\degree}{$^{\circ}$}
+
+% RMS Types
+\newcommand{\CARMS}{C$_\alpha$~RMSd}
+\newcommand{\crms}{RMSD}
+\newcommand{\drms}{DRMS}
+\newcommand{\arms}{Torsional~RMSD}
+
+% Greek
+\newcommand{\al}{$\alpha$}
+\newcommand{\be}{$\beta$}
+\newcommand{\de}{$\delta$}
+\newcommand{\ga}{$\gamma$}
+\newcommand{\Chi}{$\chi$}
+\newcommand{\Omg}{$\Omega$}
+\newcommand{\phipsi}{$\Phi/\Psi$}
+\newcommand{\phipsiomg}{$\Phi, \Psi$ and \Omg}
+
+% Structure Types
+\newcommand{\bstrand}{\mbox{$\beta$-strand}}
+\newcommand{\bstrands}{\mbox{$\beta$-strands}}
+\newcommand{\bsheet}{\mbox{$\beta$-sheet}}
+\newcommand{\bsheets}{\mbox{$\beta$-sheets}}
+\newcommand{\ahelix}{\mbox{$\alpha$-helix}}
+\newcommand{\ahelixs}{\mbox{$\alpha$-helices}}
+\newcommand{\Sidechain}{\mbox{Side-chain}}
+\newcommand{\sidechain}{\mbox{side-chain}}
+\newcommand{\sidechains}{\mbox{side-chains}}
+\newcommand{\Sidechains}{\mbox{Side-chains}}
+\newcommand{\mainchain}{\mbox{main-chain}}
+\newcommand{\angleset}{\mbox{angle-set}}
+\newcommand{\anglesets}{\mbox{angle-sets}}
+
+% Hyphenated (?) words and Standardisations
+\newcommand{\forcefield}{forcefield}
+\newcommand{\forcefields}{forcefields}
+\newcommand{\xray}{\mbox{X-ray}}
+\newcommand{\pdbselect}{\mbox{PDB-Select}}
+
+\newcommand{\website}{\mbox{web-site}}
+\newcommand{\dataset}{\mbox{data-set}}
+\newcommand{\datasets}{\mbox{data-sets}}
+\newcommand{\testset}{\mbox{test-set}}
+\newcommand{\jsubset}{\mbox{sub-set}}
+\newcommand{\subsets}{\mbox{sub-sets}}
+
+%Atoms
+\newcommand{\ca}{C$_\alpha$}
+\newcommand{\cb}{C$_\beta$}
+\newcommand{\bbatoms}{N, C, \ca\ and C atoms}
+\newcommand{\cacbvects}{$C_\alpha{\to}C_\beta$ vectors}
+
+%My Software
+\newcommand{\thothdb}{\mbox{\textsc{Thoth-DB}}}
+\newcommand{\thothloopdb}{\mbox{\textsc{Thoth-LoopDB}}}
+\newcommand{\pdbdb}{\textsc{\mbox{Thoth}}}
+\newcommand{\arcus}{\textsc{\mbox{Arcus}}}
+\newcommand{\prearcus}{\textsc{\mbox{Pre-Arcus}}}
+\newcommand{\dave}{\textsc{\mbox{Dave}}}
+\newcommand{\uobf}{\textsc{\mbox{UoB-Framework}}}
+\newcommand{\raft}{\textsc{\mbox{Raft}}}
+\newcommand{\pd}{\textsc{Pd}}
+\newcommand{\mmlib}{\textsc{\mbox{MMLib}}}
+
+%My Database
+\newcommand{\basechainlist}{\mbox{\emph{base chain-list}}}
+\newcommand{\standardchainlist}{\mbox{\emph{standardised chain-list}}}
+\newcommand{\finalchainlist}{\mbox{\emph{final chain-list}}}
+
+% App Citings
+\newcommand{\weblab}{\mbox{Weblab Viewer 4.0}}
+\newcommand{\pymol}{\textsc{PyMol}}
+\newcommand{\pymolV}{\mbox{\pymol\ v0.99}}
+\newcommand{\dotnet}{\mbox{\textsc{.Net} Framework}}
+
+%Modelling apps
+\newcommand{\modeller}{\textsc{\mbox{Modeller}}}
+\newcommand{\plop}{\textsc{\mbox{Plop}}}
+\newcommand{\orchestrar}{\textsc{\mbox{Orchestrar}}}
+\newcommand{\rapper}{\textsc{\mbox{Rapper}}}
+\newcommand{\dssp}{\textsc{\mbox{Dssp}}}
+\newcommand{\coda}{\textsc{\mbox{Coda}}}
+\newcommand{\petra}{\textsc{\mbox{Petra}}}
+\newcommand{\fread}{\textsc{\mbox{Fread}}}
+\newcommand{\dfire}{\textsc{\mbox{DFire}}}
+\newcommand{\stride}{\textsc{\mbox{Stride}}}
+\newcommand{\secstr}{\textsc{\mbox{Secstr}}}
+\newcommand{\define}{\textsc{\mbox{Define}}}
+\newcommand{\psea}{\textsc{\mbox{P-sea}}}
+\newcommand{\xtlsstr}{\textsc{\mbox{Xtlsstr}}}
+\newcommand{\kaksi}{\textsc{\mbox{Kaksi}}}
+\newcommand{\pcurve}{\textsc{\mbox{P-Curve}}}
+\newcommand{\votap}{Vo\textsc{tap}}
+\newcommand{\cloop}{\textsc{\mbox{CLoop}}}
+\newcommand{\rosetta}{\textsc{\mbox{Rosetta}}}
+\newcommand{\archpred}{\textsc{\mbox{ArchPRED}}}
+\newcommand{\archdb}{\textsc{\mbox{ArchDB}}}
+\newcommand{\modloop}{\textsc{\mbox{ModLoop}}}
+
+%Modelling Servers
+\newcommand{\esypred}{\textsc{ESyPred}3D}
+
+%Other
+\newcommand{\casp}{\textsc{Casp}}

@@ -1,0 +1,22 @@
+			string path = @"c:\_Gen Ig Database 29.07.04\";
+			string IDSource = path + @"newOut\";
+			string PDBSource = path + @"newOut\";
+			string outPath = path + @"new out rebuild\";
+
+			DirectoryInfo di = new DirectoryInfo( IDSource );
+			FileInfo[] fileNames = di.GetFiles( "*.pdb" );
+
+			for( int i = 0; i < fileNames.Length; i++ )
+			{
+				string name = fileNames[i].Name;
+
+				if( File.Exists( outPath + name ) )
+				{
+					continue;
+				}
+
+				PDB file = new PDB( PDBSource + name, true );
+				PS_Builder build = new PS_Builder( file.particleSystem );
+				build.RebuildTemplate( RebuildMode.AllAtoms, false );
+				PDB.SaveNew( outPath + name, file.particleSystem );
+			}

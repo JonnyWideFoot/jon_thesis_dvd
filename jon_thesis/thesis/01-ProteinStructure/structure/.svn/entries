@@ -1,0 +1,60 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure/structure
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-08-13T03:03:49.084625Z
+125
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+bb_torsion
+dir
+
+bb_torsion.png
+file
+
+
+
+
+2007-11-26T00:20:13.078125Z
+89b779c56170d607abfaac4d70fea852
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+has-props
+
+cis_trans
+dir
+
+cis_trans.png
+file
+
+
+
+
+2007-11-26T00:20:13.078125Z
+a8f00cb849256bdef7daf202ed9b3f86
+2007-05-06T10:00:04.540250Z
+32
+jr0407
+has-props
+

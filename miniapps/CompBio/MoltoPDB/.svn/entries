@@ -1,0 +1,77 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/CompBio/MoltoPDB
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+AssemblyInfo.cs
+file
+
+
+
+
+2003-11-18T14:17:22.000000Z
+30f13277ea8f426f9c2b8d3beee26096
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+MoltoPDBCommandPrompt.csproj
+file
+
+
+
+
+2003-11-18T14:17:22.000000Z
+34a0ff702764a8532f978c8653f96540
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+App.ico
+file
+
+
+
+
+2003-11-18T14:17:22.000000Z
+a78a91ff7a8c59192edc05466a68bee5
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+has-props
+
+Class1.cs
+file
+
+
+
+
+2003-11-18T14:59:16.000000Z
+be60fa51062eb469962b5167fafe53b9
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+MoltoPDBCommandPrompt.sln
+file
+
+
+
+
+2003-11-18T14:17:22.000000Z
+e6f1bd81dc2202d9c36070105d6611ef
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

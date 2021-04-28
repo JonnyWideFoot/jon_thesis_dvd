@@ -1,0 +1,44 @@
+					
+FIRST ONE ....
+
+
+
+	StreamReader re = new StreamReader( @"c:\subfam4_18-10-04.list" );
+			
+						string openPath = @"c:\_Gen Ig Database 15.10.04\newOut\";
+			
+						FASTA f = new FASTA();
+			
+						string line;
+						while( (line = re.ReadLine()) != null )
+						{
+							PDB pFile = new PDB( openPath + line + ".pdb", true );
+			                f.AddSequence( line, pFile.particleSystem.Members[0].MonomerString );                
+						}
+			
+						f.WriteFile(@"c:\subfam4_18-10-04.ali");
+			
+						re.Close();
+
+
+
+
+
+
+SECOND ONE ...
+
+
+						string path = @"c:\_Gen Ig Database 15.10.04\";
+						string PDBSource = path + @"newOut\";
+			
+						DirectoryInfo di = new DirectoryInfo( PDBSource );
+						FileInfo[] fileNames = di.GetFiles( "*.pdb" );
+						FASTA f = new FASTA();
+			
+						for( int i = 0; i < fileNames.Length; i++ )
+						{
+							PDB file = new PDB( PDBSource + fileNames[i].Name, true );
+							f.AddSequence( fileNames[i].Name.Substring( 0, fileNames[i].Name.Length - 4 ), file.particleSystem.Members[0].MonomerString );   
+						}
+			
+						f.WriteFile(@"c:\subfam4.ali");

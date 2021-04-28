@@ -1,0 +1,11 @@
+Term	Explanation
+The ab initio Protein Folding Problem	Prediction of the three-dimensional tertiary structure of a protein from its primary sequence alone
+Decoy structure	A protein structure to which a trained human eye would be described as highly native like. This should exhibit features such as a compact hydrophobic core and significant regions of regular secondary structure with hydrophilic residues solvent exposed
+Forcefield	Essentially a scoring function to distinguish between different protein conformations
+Loop regions	Sections of the protein structure, usually found in-between continuous secondary structural elements and extending away from the protein core, which lack an equivalent region in homologous template structures used in the modelling process. These regions must be predicted using ab initio techniques as no homology information is present
+Monte Carlo	Monte Carlo simulation is a common method for handling complex problems that can't be reduced to a math formula. It effectively involves making random movements of a system. If a given movement improves the state of the system, then the new state is kept, if it doesn’t then the system is restored to its previous state. This process is iterated until no further improvement is gained for a given period.
+PDBID	Protein Database chain Identifier: The first 4 digits represent the identifier for the given protein in the PDB Database, the last character represents the chain identifier within that PDB entry, or a ‘_’ character if no chain ID is given
+Protein domain	A region of a polypeptide chain defined to be a self-contained folding unit, usually of around 100 amino acids in length. Larger proteins usually consist of multiple domains within the same polypeptide docked together, which usually each provide distinct functional roles within the globular protein as a whole
+Potentials of mean force	Distance-based forcefield potentials derived from observed distributions of a given property in a given system. For example a potential of mean force can be derived to assign a probability that a pair of isoleucine residues will be at a given separation. This would be based on the distribution of separations in a structural database.
+Simple loop     A short motif representing a single surface loop strucure
+Compound loop   A longer loop containing two or more simple loops

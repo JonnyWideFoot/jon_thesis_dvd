@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDBDatabaseAnalysis", "PDBDatabaseAnalysis.csproj", "{F02A1483-451F-4CC1-8E36-19883CC5DA7B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "..\..\_SourceCodeControl\UoBSoln\Core\Core.csproj", "{94609263-E31C-44CD-9C7B-8D343C87572C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F02A1483-451F-4CC1-8E36-19883CC5DA7B}.Debug.ActiveCfg = Debug|.NET
+		{F02A1483-451F-4CC1-8E36-19883CC5DA7B}.Debug.Build.0 = Debug|.NET
+		{F02A1483-451F-4CC1-8E36-19883CC5DA7B}.Release.ActiveCfg = Release|.NET
+		{F02A1483-451F-4CC1-8E36-19883CC5DA7B}.Release.Build.0 = Release|.NET
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Debug.ActiveCfg = Debug|.NET
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Debug.Build.0 = Debug|.NET
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Release.ActiveCfg = Release|.NET
+		{94609263-E31C-44CD-9C7B-8D343C87572C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

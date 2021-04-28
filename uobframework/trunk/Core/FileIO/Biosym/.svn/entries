@@ -1,0 +1,52 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/Core/FileIO/Biosym
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+OutMode.cs
+file
+
+
+
+
+2007-11-26T00:23:30.734375Z
+62e014173bce090ad177107cbc8df7f4
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+BioSym.cs
+file
+
+
+
+
+2007-11-26T00:23:30.734375Z
+c3e1d8a24c58536a28ee50b6d21300bb
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

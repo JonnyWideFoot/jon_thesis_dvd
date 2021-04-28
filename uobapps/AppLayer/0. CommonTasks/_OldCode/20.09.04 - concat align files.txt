@@ -1,0 +1,22 @@
+		string rootPath = @"c:\___uberalign\";
+
+			string[] listDirs = Directory.GetDirectories( rootPath );
+
+			for( int i = 0; i < listDirs.Length; i++ )
+			{
+				DirectoryInfo di = new DirectoryInfo(listDirs[i]);
+				StreamWriter rw = new StreamWriter( rootPath + @"\" + di.Name + ".align" );
+				string[] listFiles = Directory.GetFiles( listDirs[i], "*.align" );
+				for( int j = 0; j < listFiles.Length; j++ )
+				{
+					StreamReader re = new StreamReader( listFiles[j] );
+					string line;
+					while( ( line = re.ReadLine() ) != null )
+					{
+						rw.WriteLine(line);
+					}
+                    rw.WriteLine();
+					re.Close();
+				}
+				rw.Close();
+			}

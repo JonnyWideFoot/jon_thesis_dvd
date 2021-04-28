@@ -1,0 +1,12 @@
+
+			PDB mol1 = new PDB(@"c:\1hyr_C_180-270.pdb",true);
+			PDB mol2 = new PDB(@"c:\1je6_A_182-270.pdb",true);
+
+			PSAlignManager p = new PSAlignManager( "ali", mol1.particleSystem.Members[0], mol2.particleSystem.Members[0], AlignmentMethod.ProSup );
+			p.PerformAlignment();	
+
+			AlignTextViewer view = new AlignTextViewer( p.ModelDefinitions );
+			view.WriteFile( @"C:\modali.txt");
+	
+			PDB.SaveNew( @"c:\aliout.pdb", p.AlignedSystem );
+

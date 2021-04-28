@@ -1,0 +1,2739 @@
+
+
+
+
+@article{ADM:Alt90,
+  Author = {Altschul, S. F. and Gish, W. and Miller, W. and Myers, E. W. and Lipman, D. J.},
+  Title = {Basic local alignment search tool},
+  Journal = {J Mol Biol},
+  Volume = {215},
+  Number = {3},
+  Pages = {403-10},
+  journal_note = {0022-2836
+Journal Article},
+  Abstract = {A new approach to rapid sequence comparison, basic local alignment search tool (BLAST), directly approximates alignments that optimize a measure of local similarity, the maximal segment pair (MSP) score. Recent mathematical results on the stochastic properties of MSP scores allow an analysis of the performance of this method as well as the statistical significance of alignments it generates. The basic algorithm is simple and robust; it can be implemented in a number of ways and applied in a variety of contexts including straightforward DNA and protein sequence database searches, motif searches, gene identification searches, and in the analysis of multiple regions of similarity in long DNA sequences. In addition to its flexibility and tractability to mathematical analysis, BLAST is an order of magnitude faster than existing sequence comparison tools of comparable sensitivity.},
+  Keywords = {Algorithms
+Amino Acid Sequence
+*Base Sequence
+Databases, Factual
+*Mutation
+Research Support, U.S. Gov't, P.H.S.
+Sensitivity and Specificity
+Sequence Homology, Nucleic Acid
+*Software},
+  Year = {1990} }
+
+
+@Article{ADM:And73,
+  author =       "M. R. Anderberg",
+  title =        "Cluster Analysis for Applications",
+  journal =      "Academic Press, New York",
+  year =         "1973",
+}
+
+
+
+
+
+
+
+
+@Article{ADM:Ber2002,
+  author =       "Berg and Tymoczko and Stryer",
+  title =        "Biochemistry",
+  volume =       "Fifth Edition",
+  year =         "2002",
+}
+
+
+
+
+
+@Article{ADM:Bon64,
+  author =       "Bondi A.",
+  title =        "Van der Waals Volumes and Radii",
+  journal =      "J. Phys. Chem.",
+  volume =       "68",
+  number =       "3",
+  pages =        "441--452",
+  year =         "1964",
+}
+
+@Article{ADM:Bor94,
+  author =       "P. Bork and L. Holm and C. Sander",
+  title =        "The immunoglobulin fold. Structural classification,
+                 sequence patterns and common core",
+  journal =      "J Mol Biol",
+  volume =       "242",
+  number =       "4",
+  pages =        "309--20",
+  journal_note =         "0022-2836 Journal Article Review Review, Tutorial",
+  abstract =     "Since the first crystal structure of an immunoglobulin
+                 revealed a modular architecture, the characteristic
+                 beta-sheet fold of the immunoglobulin domain has been
+                 found in many other proteins of diverse biological
+                 function. Here, a systematic comparison of 23 Ig domain
+                 structures with less than 25\% pairwise residue
+                 identity was performed using automatic structural
+                 alignment and analysis of beta-sheet and loop topology.
+                 Sequence consensus patterns were identified for nine
+                 distinct families with at most marginal similarity to
+                 each other. The analysis reveals a common structural
+                 core of only four beta-strands (b, c, e and f),
+                 embedded in an antiparallel curled beta-sheet sandwich
+                 with a total of three to five additional strands (a,
+                 c', c'', d, g) and a characteristic intersheet angle.
+                 The variation in the position of the edge strands (a,
+                 c', c'', d and g) relative to the common core defines
+                 four different topological subtypes that correlate with
+                 the length of the intervening sequence between strands
+                 c and e, the most variable region in sequence. The
+                 switch of strand c' from one sheet to the other in
+                 seven-stranded domains appears to result from short c-e
+                 segments, rather than being a major structural
+                 discriminator. The high degree of structural
+                 flexibility outside the common core and the extreme
+                 variability of side-chain packing inside the core do
+                 not support a protein folding pathway common to all
+                 members of the structural class. Mutation rates of
+                 immunoglobulin-like domains in different proteins vary
+                 considerably. Disulfide bridges, thought to contribute
+                 to structural stability, are not necessarily invariant
+                 in number and location within a subclass.",
+  keywords =     "Amino Acid Sequence Animals Humans
+                 Immunoglobulins/*chemistry/metabolism Molecular
+                 Sequence Data Protein Binding Protein Conformation
+                 *Protein Folding",
+  year =         "1994",
+}
+
+@Article{ADM:Bow97,
+  author =       " {Bower M.J., Cohen F.E.} and Dunbrack R. L. Jr.",
+  title =        "Prediction of protein side-chain rotamers from a
+                 backbone-dependent rotamer library: {A} new homology
+                 modeling tool.",
+  journal =      "J. Mol. Biol.",
+  volume =       "267",
+  pages =        "1268--1282",
+  year =         "1997",
+}
+
+@Article{ADM:Bra85,
+  author =       "W Braun and N Go",
+  title =        "Calculation of protein conformations by proton-proton
+                 distance constraints. {A} new efficient algorithm.",
+  journal =      "J Mol Biol",
+  volume =       "186",
+  number =       "3",
+  pages =        "611--626",
+  journal_note =         "TY - JOUR",
+  abstract =     "We",
+  keywords =     "no-tag",
+  year =         "1985",
+}
+
+
+@Article{ADM:Bro82,
+  author =       "Bernard R. Brooks and Robert E. Bruccoleri and Barry
+                 D. Olafson and David J. States and S. Swaminathan and
+                 Martin Karplus",
+  title =        "{CHARMM}: {A} program for macromolecular energy,
+                 minimization, and dynamics calculations",
+  journal =      "Journal of Computational Chemistry",
+  volume =       "4",
+  number =       "2",
+  pages =        "187--217",
+  year =         "1982",
+}
+
+
+
+
+
+@Article{ADM:Bys98,
+  author =       "C. Bystroff and D. Baker",
+  title =        "Prediction of local structure in proteins using a
+                 library of sequence-structure motifs",
+  journal =      "J Mol Biol",
+  volume =       "281",
+  number =       "3",
+  pages =        "565--77",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "We describe a new method for local protein structure
+                 prediction based on a library of short sequence pattern
+                 that correlate strongly with protein three-dimensional
+                 structural elements. The library was generated using an
+                 automated method for finding correlations between
+                 protein sequence and local structure, and contains most
+                 previously described local sequence-structure
+                 correlations as well as new relationships, including a
+                 diverging type-II beta-turn, a frayed helix, and a
+                 proline-terminated helix. The query sequence is scanned
+                 for segments 7 to 19 residues in length that strongly
+                 match one of the 82 patterns in the library. Matching
+                 segments are assigned the three-dimensional structure
+                 characteristic of the corresponding sequence pattern,
+                 and backbone torsion angles for the entire query
+                 sequence are then predicted by piecing together
+                 mutually compatible segment predictions. In predictions
+                 of local structure in a test set of 55 proteins, about
+                 50\% of all residues, and 76\% of residues covered by
+                 high-confidence predictions, were found in
+                 eight-residue segments within 1.4 A of their true
+                 structures. The predictions are complementary to
+                 traditional secondary structure predictions because
+                 they are considerably more specific in turn regions,
+                 and may contribute to ab initio tertiary structure
+                 prediction and fold recognition.",
+  keywords =     "Algorithms Amino Acid Sequence *Databases, Factual
+                 *Protein Structure, Secondary Proteins/*chemistry
+                 Research Support, Non-U.S. Gov't Research Support, U.S.
+                 Gov't, Non-P.H.S.",
+  year =         "1998",
+}
+
+@Article{ADM:Bys2002,
+  author =       "C. Bystroff and Y. Shao",
+  title =        "Fully automated ab initio protein structure prediction
+                 using {I}-{SITES}, {HMMSTR} and {ROSETTA}",
+  journal =      "Bioinformatics",
+  volume =       "18 Suppl 1",
+  pages =        "S54--61",
+  journal_note =         "1367-4803 Evaluation Studies Journal Article
+                 Validation Studies",
+  abstract =     "MOTIVATION: The Monte Carlo fragment insertion method
+                 for protein tertiary structure prediction (ROSETTA) of
+                 Baker and others, has been merged with the I-SITES
+                 library of sequence structure motifs and the HMMSTR
+                 model for local structure in proteins, to form a new
+                 public server for the ab initio prediction of protein
+                 structure. The server performs several tasks in
+                 addition to tertiary structure prediction, including a
+                 database search, amino acid profile generation,
+                 fragment structure prediction, and backbone angle and
+                 secondary structure prediction. Meeting reasonable
+                 service goals required improvements in the efficiency,
+                 in particular for the ROSETTA algorithm. RESULTS: The
+                 new server was used for blind predictions of 40 protein
+                 sequences as part of the CASP4 blind structure
+                 prediction experiment. The results for 31 of those
+                 predictions are presented here. 61\% of the residues
+                 overall were found in topologically correct
+                 predictions, which are defined as fragments of 30
+                 residues or more with a root-mean-square deviation in
+                 superimposed alpha carbons of less than 6A. HMMSTR
+                 3-state secondary structure predictions were 73\%
+                 correct overall. Tertiary structure predictions did not
+                 improve the accuracy of secondary structure
+                 prediction.",
+  keywords =     "*Algorithms Amino Acid Motifs Amino Acid Sequence
+                 Caspases/chemistry Comparative Study *Databases,
+                 Protein Information Storage and Retrieval/methods
+                 Internet Models, Chemical *Models, Molecular Molecular
+                 Sequence Data Protein Conformation Protein Structure,
+                 Secondary Protein Structure, Tertiary
+                 Proteins/*chemistry/*classification Sequence
+                 Alignment/methods Sequence Analysis, Protein/*methods
+                 *Software Systems Integration",
+  year =         "2002",
+}
+
+
+
+
+
+@Article{ADM:Cha2001,
+  author =       "Pinak Chakrabarti and Debnath Pal",
+  title =        "The interrelationships of side-chain and main-chain
+                 conformations in proteins",
+  journal =      "Progress in Biophysics and Molecular Biology",
+  volume =       "76",
+  number =       "1-2",
+  pages =        "1--102",
+  journal_note =         "TY - JOUR",
+  year =         "2001",
+}
+
+@Article{ADM:Cha2004,
+  author =       "Brenner SE. {Chandonia JM, Hon G, Walker NS, Lo Conte
+                 L, Koehl P, Levitt M}",
+  title =        "The {ASTRAL} compendium in 2004",
+  journal =      "Nucleic Acids Research",
+  volume =       "32",
+  number =       "D",
+  pages =        "189--192",
+  year =         "2004",
+}
+
+@Article{ADM:Cha2002,
+  author =       "Brenner SE. {Chandonia JM, Walker NS, Lo Conte L,
+                 Koehl P, Levitt M}",
+  title =        "{ASTRAL} compendium enhancements",
+  journal =      "Nucleic Acids Research",
+  volume =       "30",
+  pages =        "260--263",
+  year =         "2002",
+}
+
+@Article{ADM:Cho2000,
+  author =       "Jeong-Hyeon Choi and Ho-Youl Jung and Hye-Sun Kim and
+                 Hwan-Gue Cho",
+  title =        "PhyloDraw: a phylogenetic tree drawing system",
+  journal =      "Bioinformatics",
+  volume =       "16",
+  number =       "11",
+  pages =        "1056--1058",
+  abstract =     "Summary: PhyloDraw is a unified viewing tool for
+                 phylogenetic trees. PhyloDraw supports various kinds of
+                 multi-alignment formats (Dialign2, Clustal-W, Phylip
+                 format, NEXUS, MEGA, and pairwise distance matrix) and
+                 visualizes various kinds of tree diagrams, e.g.
+                 rectangular cladogram, slanted cladogram, phylogram,
+                 unrooted tree, and radial tree. By using several
+                 control parameters, users can easily and interactively
+                 manipulate the shape of phylogenetic trees. This
+                 program can export the final tree layout to BMP (bitmap
+                 image format) and PostScript. Availability:
+                 http://pearl.cs.pusan.ac.kr/phylodraw/ Contact:
+                 jhchoi@pearl.cs.pusan.ac.kr",
+  year =         "2000",
+}
+
+
+
+@Article{ADM:Col93,
+  author =       "V. Collura and J. Higo and J. Garnier",
+  title =        "Modeling of protein loops by simulated annealing",
+  journal =      "Protein Sci",
+  volume =       "2",
+  number =       "9",
+  pages =        "1502--10",
+  journal_note =         "0961-8368 Journal Article",
+  abstract =     "A method is presented to model loops of protein to be
+                 used in homology modeling of proteins. This method
+                 employs the ESAP program of Higo et al. (Higo, J.,
+                 Collura, V., & Garnier, J., 1992, Biopolymers 32,
+                 33-43) and is based on a fast Monte Carlo simulation
+                 and a simulated annealing algorithm. The method is
+                 tested on different loops or peptide segments from
+                 immunoglobulin, bovine pancreatic trypsin inhibitor,
+                 and bovine trypsin. The predicted structure is obtained
+                 from the ensemble average of the coordinates of the
+                 Monte Carlo simulation at 300 K, which exhibits the
+                 lowest internal energy. The starting conformation of
+                 the loop prior to modeling is chosen to be completely
+                 extended, and a closing harmonic potential is applied
+                 to N, CA, C, and O atoms of the terminal residues. A
+                 rigid geometry potential of Robson and Platt (1986, J.
+                 Mol. Biol. 188, 259-281) with a united atom
+                 representation is used. This we demonstrate to yield a
+                 loop structure with good hydrogen bonding and torsion
+                 angles in the allowed regions of the Ramachandran map.
+                 The average accuracy of the modeling evaluated on the
+                 eight modeled loops is 1 A root mean square deviation
+                 (rmsd) for the backbone atoms and 2.3 A rmsd for all
+                 heavy atoms.",
+  keywords =     "Algorithms *Computer Simulation Crystallography, X-Ray
+                 Hydrogen Bonding Immunoglobulins/chemistry Models,
+                 Molecular *Protein Conformation Research Support,
+                 Non-U.S. Gov't Trypsin/chemistry Trypsin Inhibitor,
+                 Kazal Pancreatic/chemistry",
+  year =         "1993",
+}
+
+
+
+
+
+@Article{ADM:Das2001,
+  author =       "B. Das and H. Meirovitch",
+  title =        "Optimization of solvation models for predicting the
+                 structure of surface loops in proteins",
+  journal =      "Proteins",
+  volume =       "43",
+  number =       "3",
+  pages =        "303--14",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "A novel procedure for optimizing the atomic solvation
+                 parameters (ASPs) sigma(i) developed recently for
+                 cyclic peptides is extended to surface loops in
+                 proteins. The loop is free to move, whereas the protein
+                 template is held fixed in its X-ray structure. The
+                 energy is E(tot) = E(FF)(epsilon = nr) + summation
+                 operator sigma(i)A(i), where E(FF)(epsilon = nr) is the
+                 force-field energy of the loop-loop and loop-template
+                 interactions, epsilon = nr is a distance-dependent
+                 dielectric constant, and n is an additional parameter
+                 to be optimized. A(i) is the solvent-accessible surface
+                 area of atom i. The optimal sigma(i) and n are those
+                 for which the loop structure with the global minimum of
+                 E(tot)(n, sigma(i)) becomes the experimental X-ray
+                 structure. Thus, the ASPs depend on the force field and
+                 are optimized in the protein environment, unlike
+                 commonly used ASPs such as those of Wesson and
+                 Eisenberg (Protein Sci 1992;1:227-235). The latter are
+                 based on the free energy of transfer of small molecules
+                 from the gas phase to water and have been traditionally
+                 combined with various force fields without further
+                 calibration. We found that for loops the all-atom AMBER
+                 force field performed better than OPLS and CHARMM22.
+                 Two sets of ASPs [based on AMBER (n = 2)], optimized
+                 independently for loops 64-71 and 89-97 of ribonuclease
+                 A, were similar and thus enabled the definition of a
+                 best-fit set. All these ASPs were negative
+                 (hydrophilic), including those for carbon. Very good
+                 (i.e., small) root-mean-square-deviation values from
+                 the X-ray loop structure were obtained with the three
+                 sets of ASPs, suggesting that the best-fit set would be
+                 transferable to loops in other proteins as well. The
+                 structure of loop 13-24 is relatively stretched and was
+                 insensitive to the effect of the ASPs.",
+  keywords =     "Hydrogen *Models, Molecular Protein Conformation
+                 Proteins/*chemistry Research Support, U.S. Gov't,
+                 Non-P.H.S. Software Solvents",
+  year =         "2001",
+}
+
+@Article{ADM:de2003,
+  Author = {de Bakker, P. I. and DePristo, M. A. and Burke, D. F. and Blundell, T. L.},
+  Title = {Ab initio construction of polypeptide fragments: Accuracy of loop decoy discrimination by an all-atom statistical potential and the AMBER force field with the Generalized Born solvation model},
+  Journal = {Proteins},
+  Volume = {51},
+  Number = {1},
+  Pages = {21-40},
+  journal_note = {1097-0134
+Evaluation Studies
+Journal Article},
+  Abstract = {The accuracy of model selection from decoy ensembles of protein loop conformations was explored by comparing the performance of the Samudrala-Moult all-atom statistical potential (RAPDF) and the AMBER molecular mechanics force field, including the Generalized Born/surface area solvation model. Large ensembles of consistent loop conformations, represented at atomic detail with idealized geometry, were generated for a large test set of protein loops of 2 to 12 residues long by a novel ab initio method called RAPPER that relies on fine-grained residue-specific phi/psi propensity tables for conformational sampling. Ranking the conformers on the basis of RAPDF scores resulted in selected conformers that had an average global, non-superimposed RMSD for all heavy mainchain atoms ranging from 1.2 A for 4-mers to 2.9 A for 8-mers to 6.2 A for 12-mers. After filtering on the basis of anchor geometry and RAPDF scores, ranking by energy minimization of the AMBER/GBSA potential energy function selected conformers that had global RMSD values of 0.5 A for 4-mers, 2.3 A for 8-mers, and 5.0 A for 12-mers. Minimized fragments had, on average, consistently lower RMSD values (by 0.1 A) than their initial conformations. The importance of the Generalized Born solvation energy term is reflected by the observation that the average RMSD accuracy for all loop lengths was worse when this term is omitted. There are, however, still many cases where the AMBER gas-phase minimization selected conformers of lower RMSD than the AMBER/GBSA minimization. The AMBER/GBSA energy function had better correlation with RMSD to native than the RAPDF. When the ensembles were supplemented with conformations extracted from experimental structures, a dramatic improvement in selection accuracy was observed at longer lengths (average RMSD of 1.3 A for 8-mers) when scoring with the AMBER/GBSA force field. This work provides the basis for a promising hybrid approach of ab initio and knowledge-based methods for loop modeling.},
+  Keywords = {Algorithms
+Amino Acid Sequence
+Comparative Study
+Computational Biology
+*Models, Molecular
+*Models, Statistical
+Molecular Structure
+Nucleoside-Phosphate Kinase/chemistry
+Peptide Fragments/*chemistry
+*Protein Conformation
+Reproducibility of Results
+Research Support, Non-U.S. Gov't
+Solvents/chemistry
+Thymidylate Synthase/chemistry},
+  Year = {2003}, }
+
+
+
+
+
+
+@Article{ADM:DeP2003,
+  author =       "M. A. DePristo and P. I. de Bakker and S. C. Lovell
+                 and T. L. Blundell",
+  title =        "Ab initio construction of polypeptide fragments:
+                 efficient generation of accurate, representative
+                 ensembles",
+  journal =      "Proteins",
+  volume =       "51",
+  number =       "1",
+  pages =        "41--55",
+  journal_note =         "1097-0134 Evaluation Studies Journal Article",
+  abstract =     "We describe a novel method to generate ensembles of
+                 conformations of the main-chain atoms [N, C(alpha), C,
+                 O, Cbeta] for a sequence of amino acids within the
+                 context of a fixed protein framework. Each conformation
+                 satisfies fundamental stereo-chemical restraints such
+                 as idealized geometry, favorable phi/psi angles, and
+                 excluded volume. The ensembles include conformations
+                 both near and far from the native structure. Algorithms
+                 for effective conformational sampling and constant time
+                 overlap detection permit the generation of thousands of
+                 distinct conformations in minutes. Unlike previous
+                 approaches, our method samples dihedral angles from
+                 fine-grained phi/psi state sets, which we demonstrate
+                 is superior to exhaustive enumeration from coarse
+                 phi/psi sets. Applied to a large set of loop
+                 structures, our method samples consistently near-native
+                 conformations, averaging 0.4, 1.1, and 2.2 A main-chain
+                 root-mean-square deviations for four, eight, and twelve
+                 residue long loops, respectively. The ensembles make
+                 ideal decoy sets to assess the discriminatory power of
+                 a selection method. Using these decoy sets, we conclude
+                 that quality of anchor geometry cannot reliably
+                 identify near-native conformations, though the
+                 selection results are comparable to previous loop
+                 prediction methods. In a subsequent study (de Bakker et
+                 al.: Proteins 2003;51:21-40), we demonstrate that the
+                 AMBER forcefield with the Generalized Born solvation
+                 model identifies near-native conformations
+                 significantly better than previous methods.",
+  keywords =     "Algorithms Amino Acid Sequence Comparative Study
+                 *Models, Molecular Molecular Structure Peptide
+                 Fragments/*chemistry *Protein Conformation
+                 Proteins/chemistry Reproducibility of Results Research
+                 Support, Non-U.S. Gov't",
+  year =         "2003",
+}
+
+
+@Article{ADM:Di97,
+  Author = {Di Qiu, Peter S. Shenkin, Frank P. Hollinger, and W. Clark Still},
+  Title = {The GB/SA Continuum Model for Solvation. A Fast Analytical Method for the Calculation of Approximate Born Radii},
+  Journal = {J. Phys. Chem. A},
+  Volume = {101},
+  Number = {16},
+  Pages = {3005 -3014},
+   Year = {1997}, }
+
+
+@Article{ADM:Don96,
+  author =       "L. E. Donate and S. D. Rufino and L. H. Canard and T.
+                 L. Blundell",
+  title =        "Conformational analysis and clustering of short and
+                 medium size loops connecting regular secondary
+                 structures: a database for modeling and prediction",
+  journal =      "Protein Sci",
+  volume =       "5",
+  number =       "12",
+  pages =        "2600--16",
+  journal_note =         "0961-8368 Journal Article",
+  abstract =     "Loops are regions of nonrepetitive conformation
+                 connecting regular secondary structures. We identified
+                 2,024 loops of one to eight residues in length, with
+                 acceptable main-chain bond lengths and peptide bond
+                 angles, from a database of 223 protein and
+                 protein-domain structures. Each loop is characterized
+                 by its sequence, main-chain conformation, and relative
+                 disposition of its bounding secondary structures as
+                 described by the separation between the tips of their
+                 axes and the angle between them. Loops, grouped
+                 according to their length and type of their bounding
+                 secondary structures, were superposed and clustered
+                 into 161 conformational classes, corresponding to 63\%
+                 of all loops. Of these, 109 (51\% of the loops) were
+                 populated by at least four nonhomologous loops or four
+                 loops sharing a low sequence identity. Another 52
+                 classes, including 12\% of the loops, were populated by
+                 at least three loops of low sequence similarity from
+                 three or fewer nonhomologous groups. Loop class
+                 suprafamilies resulting from variations in the termini
+                 of secondary structures are discussed in this article.
+                 Most previously described loop conformations were found
+                 among the classes. New classes included a 2:4 type IV
+                 hairpin, a helix-capping loop, and a loop that mediates
+                 dinucleotide-binding. The relative disposition of
+                 bounding secondary structures varies among loop
+                 classes, with some classes such as beta-hairpins being
+                 very restrictive. For each class, sequence preferences
+                 as key residues were identified; those most frequently
+                 at these conserved positions than in proteins were Gly,
+                 Asp, Pro, Phe, and Cys. Most of these residues are
+                 involved in stabilizing loop conformation, often
+                 through a positive phi conformation or secondary
+                 structure capping. Identification of helix-capping
+                 residues and beta-breakers among the highly conserved
+                 positions supported our decision to group loops
+                 according to their bounding secondary structures.
+                 Several of the identified loop classes were associated
+                 with specific functions, and all of the member loops
+                 had the same function; key residues were conserved for
+                 this purpose, as is the case for the parvalbumin-like
+                 calcium-binding loops. A significant number, but not
+                 all, of the member loops of other loop classes had the
+                 same function, as is the case for the helix-turn-helix
+                 DNA-binding loops. This article provides a systematic
+                 and coherent conformational classification of loops,
+                 covering a broad range of lengths and all four
+                 combinations of bounding secondary structure types, and
+                 supplies a useful basis for modelling of loop
+                 conformations where the bounding secondary structures
+                 are known or reliably predicted.",
+  keywords =     "*Databases, Factual *Models, Molecular Protein
+                 Conformation Protein Structure, Secondary
+                 Proteins/*chemistry Research Support, Non-U.S. Gov't",
+  year =         "1996",
+}
+
+@Article{ADM:Dri91,
+  author =       "P. C. Driscoll and J. G. Cyster and I. D. Campbell and
+                 A. F. Williams",
+  title =        "Structure of domain 1 of rat {T} lymphocyte {CD2}
+                 antigen",
+  journal =      "Nature",
+  volume =       "353",
+  number =       "6346",
+  pages =        "762--5",
+  journal_note =         "0028-0836 Journal Article",
+  abstract =     "The CD2 antigen is largely restricted to cells of the
+                 T-lymphocyte lineage and has been established as an
+                 important adhesion molecule in interactions between
+                 human T lymphocytes and accessory cells. In the
+                 adhesion reaction, CD2 on T cells binds to LFA-3 on
+                 other cells, with binding through domain 1 of CD2. CD2
+                 can also be a target for the delivery of mitogenic
+                 signals to T lymphocytes cultured with combinations of
+                 anti-CD2 antibodies. Two predictions that are
+                 contradictory have been made for the structure of CD2
+                 domain 1. One suggests an immunoglobulin (Ig) fold, on
+                 the basis of sequence patterns conserved in the
+                 Ig-superfamily (IgSF), whilst the other proposes a
+                 pattern of alternating alpha-helices and beta-strands,
+                 on the basis of secondary structure predictions. Thus
+                 CD2 domain 1 is an important test case for the validity
+                 of IgSF assignments based on sequence patterns. We
+                 report here the expression of domain 1 of rat CD2 in an
+                 Escherichia coli expression system and have determined
+                 a low-resolution solution structure by NMR
+                 spectroscopy.",
+  keywords =     "Amino Acid Sequence Animals Antigens,
+                 CD/*chemistry/genetics Antigens, CD2 Antigens,
+                 Differentiation, T-Lymphocyte/*chemistry/genetics
+                 Escherichia coli/genetics Gene Expression Glutathione
+                 Transferase/genetics Magnetic Resonance Spectroscopy
+                 Molecular Sequence Data Molecular Structure Protein
+                 Conformation Rats Receptors,
+                 Immunologic/*chemistry/genetics Recombinant Fusion
+                 Proteins Research Support, Non-U.S. Gov't
+                 T-Lymphocytes/*immunology Transformation, Bacterial",
+  year =         "1991",
+}
+
+@Article{ADM:Dua2003,
+  author =       "Duan Y.",
+  title =        "A Point-Charge Force Field for Molecular Mechancis
+                 Simulations of Proteins Based on Condensed-Phase
+                 Quantum Mechanical Calculations",
+  journal =      "J. Comp. Chem.",
+  volume =       "24",
+  pages =        "1999--2012",
+  year =         "2003",
+}
+
+@Article{ADM:Dud90,
+  author =       " Dudek M. J. and Scheraga H. A.",
+  title =        "Protein structure prediction using a combination of
+                 sequence homology and global energy minimization. {I}.
+                 Global energy minimization of surface loops",
+  journal =      "J. Comp. Chem.",
+  volume =       "11",
+  pages =        "121--151",
+  year =         "1990",
+}
+
+@Article{ADM:Dun2002,
+  author =       "Roland L. {Dunbrack, Jr.}",
+  title =        "Rotamer Libraries in the 21st Century",
+  journal =      "Current Opinion in Structural Biology",
+  volume =       "12",
+  number =       "4",
+  pages =        "431--440",
+  journal_note =         "TY - JOUR",
+  year =         "2002",
+}
+
+
+
+@Article{ADM:Dun96,
+  author =       "C. R. Dunn and M. J. Banfield and J. J. Barker and C.
+                 W. Higham and K. M. Moreton and D. Turgut-Balik and R.
+                 L. Brady and J. J. Holbrook",
+  title =        "The structure of lactate dehydrogenase from Plasmodium
+                 falciparum reveals a new target for anti-malarial
+                 design",
+  journal =      "Nat Struct Biol",
+  volume =       "3",
+  number =       "11",
+  pages =        "912--5",
+  journal_note =         "1072-8368 Letter",
+  keywords =     "Animals Antimalarials Drug Design Enzyme Inhibitors
+                 L-Lactate Dehydrogenase/antagonists &
+                 inhibitors/*chemistry Models, Molecular
+                 NAD/*chemistry/metabolism Oxamic Acid/chemistry
+                 Plasmodium falciparum/*enzymology *Protein
+                 Conformation",
+  year =         "1996",
+}
+
+
+
+
+
+
+
+@Article{ADM:Fel85,
+  author =       "J. Felsenstein",
+  title =        "Confidence-Limits on Phylogenies - an Approach Using
+                 the Bootstrap",
+  journal =      "Evolution",
+  volume =       "39",
+  number =       "4",
+  pages =        "783--791",
+  journal_note =         "Apj81 Times Cited:8885 Cited References Count:12",
+  year =         "1985",
+}
+
+
+
+
+
+
+
+@Article{ADM:Fit2005,
+  author =       "N. C. Fitzkee and P. J. Fleming and G. D. Rose",
+  title =        "The Protein Coil Library: a structural database of
+                 nonhelix, nonstrand fragments derived from the {PDB}",
+  journal =      "Proteins",
+  volume =       "58",
+  number =       "4",
+  pages =        "852--4",
+  journal_note =         "1097-0134 Journal Article",
+  abstract =     "Approximately half the structure of folded proteins is
+                 either alpha-helix or beta-strand. We have developed a
+                 convenient repository of all remaining structure after
+                 these two regular secondary structure elements are
+                 removed. The Protein Coil Library
+                 (http://roselab.jhu.edu/coil/) allows rapid and
+                 comprehensive access to non-alpha-helix and
+                 non-beta-strand fragments contained in the Protein Data
+                 Bank (PDB). The library contains both sequence and
+                 structure information together with calculated torsion
+                 angles for both the backbone and side chains. Several
+                 search options are implemented, including a query
+                 function that uses output from popular PDB-culling
+                 servers directly. Additionally, several popular
+                 searches are stored and updated for immediate access.
+                 The library is a useful tool for exploring
+                 conformational propensities, turn motifs, and a recent
+                 model of the unfolded state.",
+  year =         "2005",
+}
+
+@Article{ADM:Fle96,
+  author =       "McMeeking R. F. Fletcher D. A. and Parkin D.",
+  title =        "The United Kingdom Checmical Database Service",
+  journal =      "J. Chem. Inf. Comput. Sci.",
+  volume =       "36",
+  pages =        "746--749",
+  year =         "1996",
+}
+
+@Article{ADM:For96,
+  author =       " {Foresman J. B., T. A. Keith, K. B. Wiberg, J.
+                 Snoonian} and  M. J. Frisch",
+  title =        "A Self-Consistent Isodensity {PCM} ({SCI}-{PCM})
+                 model",
+  journal =      "J. Phys. Chem.",
+  volume =       "100",
+  pages =        "16098",
+  year =         "1996",
+}
+
+@Article{ADM:For2003,
+  author =       "L. R. Forrest and T. B. Woolf",
+  title =        "Discrimination of native loop conformations in
+                 membrane proteins: decoy library design and evaluation
+                 of effective energy scoring functions",
+  journal =      "Proteins",
+  volume =       "52",
+  number =       "4",
+  pages =        "492--509",
+  journal_note =         "1097-0134 Journal Article",
+  abstract =     "The recent determination of crystal structures for
+                 several important membrane proteins opens the way for
+                 comparative modeling of their membrane-spanning
+                 regions. However, the ability to predict correctly the
+                 structures of loop regions, which may be critical, for
+                 example, in ligand binding, remains a considerable
+                 challenge. To meet this challenge, accurate scoring
+                 methods have to discriminate between candidate
+                 conformations of an unknown loop structure. Some
+                 success in loop prediction has been reported for
+                 globular proteins; however, the proximity of membrane
+                 protein loops to the lipid bilayer casts doubt on the
+                 applicability of the same scoring methods to this
+                 problem. In this work, we develop decoy libraries of
+                 non-native folds generated, using the structures of two
+                 membrane proteins, with molecular dynamics and Monte
+                 Carlo techniques over a range of temperatures. We
+                 introduce a new approach for decoy library generation
+                 by constructing a flat distribution of conformations
+                 covering a wide range of Calpha-root-mean-square
+                 deviation (RMSD) from the native structure; this
+                 removes possible bias in subsequent scoring stages. We
+                 then score these decoy conformations with effective
+                 energy functions, using increasingly more cpu-intensive
+                 implicit solvent models, including (1) simple Coulombic
+                 electrostatics with constant or distance-dependent
+                 dielectrics; (2) atomic solvation parameters; (3) the
+                 effective energy function (EEF1) of Lazaridis and
+                 Karplus; (4) generalized Born/Analytical Continuum
+                 Solvent; and (5) finite-difference Poisson-Boltzmann
+                 energy functions. We show that distinction of
+                 native-like membrane protein loops may be achieved
+                 using effective energies with the assumption of a
+                 homogenous environment; thus, the absence of the
+                 adjacent lipid bilayer does not affect the scoring
+                 ability. In particular, the Analytical Continuum
+                 Solvent and finite-difference Poisson-Boltzmann energy
+                 functions are seen to be the most powerful scoring
+                 functions. Interestingly, the use of the uncharged
+                 states of ionizable sidechains is shown to aid
+                 prediction, particularly for the simplest energy
+                 functions.",
+  keywords =     "Algorithms Animals Ca(2+)-Transporting
+                 ATPase/chemistry Cattle Computer Simulation
+                 Crystallography, X-Ray Databases, Protein
+                 Electrostatics Membrane Proteins/*chemistry *Protein
+                 Conformation Research Support, Non-U.S. Gov't Research
+                 Support, U.S. Gov't, P.H.S. Rhodopsin/chemistry
+                 Thermodynamics",
+  year =         "2003",
+}
+
+@Article{ADM:Fri2003,
+  author =       " {Frisch M.J., Trucks G.W., Schlegel H. B., Scuseria
+                 G.E., Robb M.A., Cheeseman J.R., Montgomery Jr. J.A.,
+                 Vreven T.}",
+  title =        "The Gaussian '03 Suite Revision {A}.1 - Website :
+                 http://www.gaussian.com/",
+  year =         "2003",
+}
+
+
+
+
+
+
+
+
+@Article{ADM:Gou2001,
+  author =       "R. {Gough, J., Karplus, K., Hughey} and Chothia C.",
+  title =        "Assignment of Homology to Genome Sequences using a
+                 Library of Hidden Markov Models that Represent all
+                 Proteins of Known Structure",
+  journal =      "J. Mol. Biol.",
+  volume =       "313",
+  number =       "4",
+  pages =        "903--919",
+  year =         "2001",
+}
+
+@Article{ADM:Hal99,
+  author =       "D. M. Halaby and A. Poupon and J. Mornon",
+  title =        "The immunoglobulin fold family: sequence analysis and
+                 3{D} structure comparisons",
+  journal =      "Protein Eng",
+  volume =       "12",
+  number =       "7",
+  pages =        "563--71",
+  journal_note =         "0269-2139 Journal Article",
+  abstract =     "Fifty-two 3D structures of Ig-like domains covering
+                 the immunoglobulin fold family (IgFF) were compared and
+                 classified according to the conservation of their
+                 secondary structures. Members of the IgFF are distantly
+                 related proteins or evolutionarily unrelated proteins
+                 with a similar fold, the Ig fold. In this paper, a
+                 multiple structural alignment of the conserved common
+                 core is described and the correlation between
+                 corresponding sequences is discussed. While the members
+                 of the IgFF exhibit wide heterogeneity in terms of
+                 tissue and species distribution or functional
+                 implications, the 3D structures of these domains are
+                 far more conserved than their sequences. We define
+                 topologically equivalent residues in the Ig-like
+                 domains, describe the hydrophobic common cores and
+                 discuss the presence of additional strands. The
+                 disulfide bridges, not necessary for the stability of
+                 the Ig fold, may have an effect on the compactness of
+                 the domains. Based upon sequence and structure
+                 analysis, we propose the introduction of two new
+                 subtypes (C3 and C4) to the previous classifications,
+                 in addition to a new global structural classification.
+                 The very low mean sequence identity between subgroups
+                 of the IgFF suggests the occurrence of both divergent
+                 and convergent evolutionary processes, explaining the
+                 wide diversity of the superfamily. Finally, this review
+                 suggest that hydrophobic residues constituting the
+                 common hydrophobic cores are important clues to explain
+                 how highly divergent sequences can adopt a similar
+                 fold.",
+  keywords =     "Amino Acid Sequence Comparative Study Conserved
+                 Sequence Databases, Factual Disulfides/chemistry
+                 Hydrogen Bonding
+                 Immunoglobulins/*chemistry/classification Models,
+                 Molecular *Protein Conformation Protein Folding
+                 Sequence Analysis Sequence Homology, Amino Acid",
+  year =         "1999",
+}
+
+
+
+
+@Article{ADM:Hig92,
+  author =       "J. Higo and V. Collura and J. Garnier",
+  title =        "Development of an extended simulated annealing method:
+                 application to the modeling of complementary
+                 determining regions of immunoglobulins",
+  journal =      "Biopolymers",
+  volume =       "32",
+  number =       "1",
+  pages =        "33--43",
+  journal_note =         "0006-3525 Journal Article",
+  abstract =     "An extended simulated annealing process (ESAP) has
+                 been developed in order to obtain an ensemble of
+                 conformations of a peptide segment from a protein
+                 fluctuating at a given temperature. The annealing
+                 process was performed with a fast Monte Carlo method
+                 using the scaled collective variables developed by
+                 Noguti and Go. The system was divided into two parts:
+                 one consists of one or more peptide segments and is
+                 flexible around the main-chain and side-chain torsional
+                 angles; the other represents the rest of the molecule
+                 and was maintained fixed at the atomic positions
+                 determined by x-ray experiments. The target function
+                 included the nonbonding atomic interactions and a
+                 distance function to anchor the N and C terminal ends
+                 of each segment to the fixed part. Three systems of
+                 complementary determining regions (CDR) of antibodies
+                 were tested and compared to x-ray data: L2 loop (7
+                 residues) of the light chain of lambda-type Bence-Jones
+                 protein, H1 and the H2 loops (14 residues) of McPC603,
+                 and H1 and H2 loops (12 residues) of HyHEL-5. Each
+                 state of CDR conformations was characterized at room
+                 temperature by the average of their coordinates
+                 (average conformation) and the internal energy. With a
+                 limited number of annealing processes (10), starting
+                 from the extended conformation, we have obtained states
+                 with conformations close to the observed x-ray
+                 structures, from 1.1 to 1.7 A root mean square
+                 deviation (rmsd) of main-chain atoms depending on the
+                 system. These states were identical or within 0.25 A
+                 rmsd of those of lowest internal energy. For unknown
+                 CDR structures the criteria of lowest internal energies
+                 from ESAP can be used to predict hypervariable loop
+                 structures in antibodies with an accuracy comparable to
+                 other methods.",
+  keywords =     "Amino Acid Sequence Amino Acids/chemistry Bence Jones
+                 Protein Immunoglobulin Variable
+                 Region/*chemistry/immunology
+                 Immunoglobulins/*chemistry/immunology Immunoglobulins,
+                 lambda-Chain/*chemistry/immunology Mathematics
+                 Molecular Sequence Data Molecular Structure Monte Carlo
+                 Method Peptides/chemistry Protein Conformation Research
+                 Support, Non-U.S. Gov't X-Ray Diffraction",
+  year =         "1992",
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@Article{ADM:Jon92,
+  author =       "E. Y. Jones and S. J. Davis and A. F. Williams and K.
+                 Harlos and D. I. Stuart",
+  title =        "Crystal structure at 2.8 {A} resolution of a soluble
+                 form of the cell adhesion molecule {CD2}",
+  journal =      "Nature",
+  volume =       "360",
+  number =       "6401",
+  pages =        "232--9",
+  journal_note =         "0028-0836 Journal Article",
+  abstract =     "The crystal structure of a soluble form of the T
+                 lymphocyte antigen CD2 provides the first complete view
+                 of the extracellular region of a cell adhesion
+                 molecule. The topology of the molecule, which comprises
+                 two immunoglobulin-like domains, is the same as that of
+                 the first two domains of CD4 but the relative domain
+                 orientation is altered by a fairly flexible linker
+                 region. The putative ligand-binding beta-sheet forms a
+                 flat surface towards the top of the molecule. Crystal
+                 contacts between these surfaces suggest a plausible
+                 model for the adhesive interaction.",
+  keywords =     "Amino Acid Sequence Animals Antigens, CD2 Antigens,
+                 Differentiation, T-Lymphocyte/*chemistry Cell Adhesion
+                 Molecules/*chemistry Crystallization Epitopes/chemistry
+                 Glycosylation Models, Molecular Molecular Sequence Data
+                 Peptide Fragments/chemistry Protein Structure, Tertiary
+                 Rats Receptors, Immunologic/*chemistry Research
+                 Support, Non-U.S. Gov't X-Ray Diffraction",
+  year =         "1992",
+}
+
+
+
+
+
+@Article{ADM:Kar2003,
+  author =       " {Karplus K., Karchin R., Draper J., Casper J.,
+                 Mandel-Gutfreund Y., Diekhans M., Hughey R.}",
+  title =        "Combining local-structure, fold-recognition, and
+                 new-fold methods for protein structure prediction",
+  journal =      "Protein Structure Function and Genetics",
+  volume =       "53",
+  number =       "6",
+  pages =        "491--496",
+  year =         "2003",
+}
+
+@Article{ADM:Kaw2000,
+  author =       "S. Kawashima and M. Kanehisa",
+  title =        "{AA}index: amino acid index database",
+  journal =      "Nucleic Acids Res",
+  volume =       "28",
+  number =       "1",
+  pages =        "374",
+  journal_note =         "0305-1048 Journal Article",
+  abstract =     "AAindex is a database of amino acid indices and amino
+                 acid mutation matrices. An amino acid index is a set of
+                 20 numerical values representing various
+                 physico--chemical and biochemical properties of amino
+                 acids. An amino acid mutation matrix is generally 20 x
+                 20 numerical values representing similarity of amino
+                 acids. AAindex consists of two sections: AAindex1 for
+                 the collection of published amino acid indices and
+                 AAindex2 for the collection of published amino acid
+                 mutation matrices. Each entry of either AAindex1 or
+                 AAindex2 consists of the definition, the reference
+                 information, a list of related entries in terms of the
+                 correlation coefficient and the actual data. The
+                 database may be accessed through the DBGET/LinkDB
+                 system at GenomeNet (http://www. genome.ad.jp/aaindex/
+                 ) or may be downloaded by anonymous FTP
+                 (ftp://ftp.genome.ad.jp/db/genomenet/aaindex/ ).",
+  keywords =     "Amino Acid Substitution Amino Acids/*chemistry
+                 *Databases, Factual Internet Mutation Research Support,
+                 Non-U.S. Gov't",
+  year =         "2000",
+}
+
+@Article{ADM:Kes2004,
+  author =       "O. Keskin and D. Yuret and A. Gursoy and M. Turkay and
+                 B. Erman",
+  title =        "Relationships between amino acid sequence and backbone
+                 torsion angle preferences",
+  journal =      "Proteins: Structure, Function, and Bioinformatics",
+  volume =       "55",
+  number =       "4",
+  pages =        "992--998",
+  year =         "2004",
+}
+
+
+
+
+
+@Article{ADM:Kol2004,
+  author =       "A. Kolinski",
+  title =        "Protein modeling and structure prediction with a
+                 reduced representation",
+  journal =      "Acta Biochim Pol",
+  volume =       "51",
+  number =       "2",
+  pages =        "349--71",
+  journal_note =         "0001-527x Journal Article Review Review, Tutorial",
+  abstract =     "Protein modeling could be done on various levels of
+                 structural details, from simplified lattice or
+                 continuous representations, through high resolution
+                 reduced models, employing the united atom
+                 representation, to all-atom models of the molecular
+                 mechanics. Here I describe a new high resolution
+                 reduced model, its force field and applications in the
+                 structural proteomics. The model uses a lattice
+                 representation with 800 possible orientations of the
+                 virtual alpha carbon-alpha carbon bonds. The sampling
+                 scheme of the conformational space employs the Replica
+                 Exchange Monte Carlo method. Knowledge-based potentials
+                 of the force field include: generic protein-like
+                 conformational biases, statistical potentials for the
+                 short-range conformational propensities, a model of the
+                 main chain hydrogen bonds and context-dependent
+                 statistical potentials describing the side group
+                 interactions. The model is more accurate than the
+                 previously designed lattice models and in many
+                 applications it is complementary and competitive in
+                 respect to the all-atom techniques. The test
+                 applications include: the ab initio structure
+                 prediction, multitemplate comparative modeling and
+                 structure prediction based on sparse experimental data.
+                 Especially, the new approach to comparative modeling
+                 could be a valuable tool of the structural proteomics.
+                 It is shown that the new approach goes beyond the range
+                 of applicability of the traditional methods of the
+                 protein comparative modeling.",
+  keywords =     "Amino Acid Sequence Animals Carbon/chemistry
+                 Crystallography, X-Ray Databases Humans Hydrogen
+                 Bonding Mathematics Models, Molecular Models,
+                 Theoretical Molecular Sequence Data Protein
+                 Conformation Protein Structure, Tertiary
+                 Proteins/*chemistry Proteomics/*methods",
+  year =         "2004",
+}
+
+
+
+
+
+@Article{ADM:Kor2003,
+  author =       "T. Kortemme and A. V. Morozov and D. Baker",
+  title =        "An orientation-dependent hydrogen bonding potential
+                 improves prediction of specificity and structure for
+                 proteins and protein-protein complexes",
+  journal =      "J Mol Biol",
+  volume =       "326",
+  number =       "4",
+  pages =        "1239--59",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "Hydrogen bonding is a key contributor to the
+                 specificity of intramolecular and intermolecular
+                 interactions in biological systems. Here, we develop an
+                 orientation-dependent hydrogen bonding potential based
+                 on the geometric characteristics of hydrogen bonds in
+                 high-resolution protein crystal structures, and
+                 evaluate it using four tests related to the prediction
+                 and design of protein structures and protein-protein
+                 complexes. The new potential is superior to the widely
+                 used Coulomb model of hydrogen bonding in prediction of
+                 the sequences of proteins and protein-protein
+                 interfaces from their structures, and improves
+                 discrimination of correctly docked protein-protein
+                 complexes from large sets of alternative structures.",
+  keywords =     "Amino Acid Sequence Amino Acids/chemistry *Hydrogen
+                 Bonding Mathematics *Protein Conformation
+                 Proteins/*chemistry/metabolism Research Support,
+                 Non-U.S. Gov't Research Support, U.S. Gov't, P.H.S.",
+  year =         "2003",
+}
+
+@Article{ADM:Kua2004,
+  author =       "R. Kuang and C. S. Leslie and A. S. Yang",
+  title =        "Protein backbone angle prediction with machine
+                 learning approaches",
+  journal =      "Bioinformatics",
+  volume =       "20",
+  number =       "10",
+  pages =        "1612--21",
+  journal_note =         "1367-4803 Evaluation Studies Journal Article
+                 Validation Studies",
+  abstract =     "MOTIVATION: Protein backbone torsion angle prediction
+                 provides useful local structural information that goes
+                 beyond conventional three-state (alpha, beta and coil)
+                 secondary structure predictions. Accurate prediction of
+                 protein backbone torsion angles will substantially
+                 improve modeling procedures for local structures of
+                 protein sequence segments, especially in modeling loop
+                 conformations that do not form regular structures as in
+                 alpha-helices or beta-strands. RESULTS: We have devised
+                 two novel automated methods in protein backbone
+                 conformational state prediction: one method is based on
+                 support vector machines (SVMs); the other method
+                 combines a standard feed-forward back-propagation
+                 artificial neural network (NN) with a local
+                 structure-based sequence profile database (LSBSP1).
+                 Extensive benchmark experiments demonstrate that both
+                 methods have improved the prediction accuracy rate over
+                 the previously published methods for conformation state
+                 prediction when using an alphabet of three or four
+                 states. AVAILABILITY: LSBSP1 and the NN algorithm have
+                 been implemented in PrISM.1, which is available from
+                 www.columbia.edu/~ay1/. SUPPLEMENTARY INFORMATION:
+                 Supplementary data for the SVM method can be downloaded
+                 from the Website
+                 www.cs.columbia.edu/compbio/backbone.",
+  keywords =     "*Algorithms Amino Acid Sequence *Artificial
+                 Intelligence Comparative Study Computer Simulation
+                 Models, Chemical *Models, Molecular Molecular Sequence
+                 Data Neural Networks (Computer) Protein Conformation
+                 *Protein Structure, Secondary
+                 Proteins/analysis/*chemistry Research Support, Non-U.S.
+                 Gov't Research Support, U.S. Gov't, P.H.S. Sequence
+                 Alignment/*methods Sequence Analysis, Protein/*methods
+                 Sequence Homology, Amino Acid Statistics",
+  year =         "2004",
+}
+
+@Article{ADM:Les97,
+  author =       "U. Lessel and D. Schomburg",
+  title =        "Creation and characterization of a new, non-redundant
+                 fragment data bank",
+  journal =      "Protein Eng",
+  volume =       "10",
+  number =       "6",
+  pages =        "659--64",
+  journal_note =         "0269-2139 Journal Article",
+  abstract =     "The success achieved for protein structure prediction
+                 of loop regions with insertions and deletions by
+                 knowledge-based methods depends on the quality of the
+                 underlying information, i.e. a fragment data bank as
+                 complete as possible is needed. However, the greater
+                 the number of proteins contributing to the data base
+                 the more redundant information is included, which leads
+                 to structurally similar proposals in loop predictions
+                 and to longer times for extracting fragments. So it is
+                 not only necessary to increase the number of proteins
+                 for building the loop data base but also to cluster the
+                 resulting fragments according to their structural
+                 similarities in order to remove redundancy. Here, a
+                 new, non-redundant fragment data bank is described,
+                 which is based on all proteins in the Brookhaven
+                 Protein Data Bank (release 7/95) with a resolution > or
+                 = 2.0 A and which can be updated easily by including
+                 new information from structures to be solved in the
+                 future. In the clustering process presented, the
+                 resulting clusters are optimized in several cycles
+                 until self-consistency. In this way all redundant
+                 information is removed without loosing any
+                 significantly different fragments. Finally the
+                 resulting fragment data bank is analysed with respect
+                 to its completeness.",
+  keywords =     "Algorithms Amino Acid Sequence Cluster Analysis
+                 Computational Biology/*methods *Databases, Factual
+                 Peptide Fragments/*analysis Protein Structure,
+                 Secondary Protein Structure, Tertiary Sequence
+                 Homology, Amino Acid Structure-Activity Relationship",
+  year =         "1997",
+}
+
+@Article{ADM:Les99,
+  author =       "U. Lessel and D. Schomburg",
+  title =        "Importance of anchor group positioning in protein loop
+                 prediction",
+  journal =      "Proteins",
+  volume =       "37",
+  number =       "1",
+  pages =        "56--64",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "The aim of loop prediction in protein homology
+                 modeling is to connect the main chain ends of two
+                 successive regions, conserved in template and target
+                 structures by protein fragments that are as similar to
+                 the target as possible. For the development of a new
+                 loop prediction method, examples of insertions and
+                 deletions were searched automatically in data sets of
+                 structurally aligned protein pairs. Three different
+                 criteria were applied for the determination of the
+                 positions where the main chain conformations of the
+                 proteins begin to differ, i.e., the anchoring groups of
+                 the insertions and deletions, giving three test data
+                 sets. The target structures in these data sets were
+                 predicted by inserting fragments from different
+                 fragment data banks between the anchoring groups of the
+                 templates. The proposals of matching fragments were
+                 sorted with decreasing correspondence in the geometry
+                 of the anchoring groups. For assessment of the
+                 prediction quality, the template loops were substituted
+                 by the proposed ones, and their root mean square
+                 deviations to the target structures were determined. In
+                 addition, the best 20 fragments in the whole loop data
+                 bank used-those with the lowest deviations from the
+                 target structures after insertion into the
+                 templates-were determined and compared with the
+                 proposals. The analysis of the results shows
+                 limitations of knowledge-based loop prediction. It is
+                 demonstrated that the selection of the anchoring groups
+                 is the most important step in the whole procedure.
+                 Proteins 1999;37:56-64.",
+  keywords =     "Algorithms Amino Acid Sequence Molecular Sequence Data
+                 *Protein Conformation Sequence Alignment",
+  year =         "1999",
+}
+
+
+
+@Article{ADM:Lev68,
+  author =       "Levinthal",
+  title =        "Levinthal's Paradox (Unknown Title)",
+  journal =      "J. Chim. Phys.",
+  volume =       "84",
+  pages =        "44",
+  year =         "1968",
+}
+
+
+
+
+
+@Article{ADM:Li99,
+  author =       "W. Li and S. Liang and R. Wang and L. Lai and Y. Han",
+  title =        "Exploring the conformational diversity of loops on
+                 conserved frameworks",
+  journal =      "Protein Eng",
+  volume =       "12",
+  number =       "12",
+  pages =        "1075--86",
+  journal_note =         "0269-2139 Journal Article",
+  abstract =     "Loops are structurally variable regions, but the
+                 secondary structural elements bracing loops are often
+                 conserved. Motifs with similar secondary structures
+                 exist in the same and different protein families. In
+                 this study, we made an all-PDB-based analysis and
+                 produced 495 motif families accessible from the
+                 Internet. Every motif family contains some variable
+                 loops spanning a common framework (a pair of secondary
+                 structures). The diversity of loops and the convergence
+                 of frameworks were examined. In addition, we also
+                 identified 119 loops with conformational changes in
+                 different PDB files. These materials can give some
+                 directions for functional loop design and flexible
+                 docking.",
+  keywords =     "Computer Simulation Databases, Factual
+                 Immunoglobulins/chemistry Internet Models, Molecular
+                 *Protein Conformation Protein Structure, Secondary
+                 Research Support, Non-U.S. Gov't",
+  year =         "1999",
+}
+
+@Article{ADM:Li99,
+  author =       "W. Li and Z. Liu and L. Lai",
+  title =        "Protein loops on structurally similar scaffolds:
+                 database and conformational analysis",
+  journal =      "Biopolymers",
+  volume =       "49",
+  number =       "6",
+  pages =        "481--95",
+  journal_note =         "0006-3525 Journal Article",
+  abstract =     "A general problem in comparative modeling and protein
+                 design is the conformational evaluation of loops with a
+                 certain sequence in specific environmental protein
+                 frameworks. Loops of different sequences and structures
+                 on similar scaffolds are common in the Protein Data
+                 Bank (PDB). In order to explore both structural and
+                 sequential diversity of them, a data base of loops
+                 connecting similar secondary structure fragments is
+                 constructed by searching the data base of families of
+                 structurally similar proteins and PDB. A total of 84
+                 loop families having 2-13 residues are found among the
+                 well-determined structures of resolution better than
+                 2.5 A. Eight alpha-alpha, 20 alpha-beta, 19 beta-alpha,
+                 and 37 beta-beta families are identified. Every family
+                 contains more than 5 loop motifs. In each family, no
+                 loops share same sequence and all the frameworks are
+                 well superimposed. Forty-three new loop classes are
+                 distinguished in the data base. The structural
+                 variability of loops in homologous proteins are
+                 examined and shown in 44 families. Motif families are
+                 characterized with geometric parameters and sequence
+                 patterns. The conformations of loops in each family are
+                 clustered into subfamilies using average linkage
+                 cluster analysis method. Information such as geometric
+                 properties, sequence profile, sequential and structural
+                 variability in loop, structural alignment parameters,
+                 sequence similarities, and clustering results are
+                 provided. Correlations between the conformation of
+                 loops and loop sequence, motif sequence, and global
+                 sequence of PDB chain are examined in order to find how
+                 loop structures depend on their sequences and how they
+                 are affected by the local and global environment.
+                 Strong correlations (R > 0.75) are only found in 24
+                 families. The best R value is 0.98. The data base is
+                 available through the Internet.",
+  keywords =     "Amino Acid Sequence Comparative Study *Databases,
+                 Factual Models, Molecular Molecular Sequence Data
+                 Protein Conformation Protein Structure, Secondary
+                 Proteins/*chemistry Research Support, Non-U.S. Gov't
+                 Sequence Alignment",
+  year =         "1999",
+}
+
+
+
+
+
+@Article{ADM:Mac98,
+  author =       "A. D. MacKerell and D. Bashford and M. Bellott and R.
+                 L. Dunbrack Jr. and J. D. Evanseck and M. J. Field and
+                 S. Fischer and J. Gao and H. Guo and S. Ha and D.
+                 Joseph-McCarthy and L. Kuchnir and K. Kuczera and F. T.
+                 K. Lau and C. Mattos and S. Michnick and T. Ngo and D.
+                 T. Nguyen and B. Prodhom and W. E. Reiher III and M.
+                 Roux and B. Schlenkrich and J. C. Smith and J. Stote
+                 and R. Straub and M. Watanabe and J.
+                 Wiorkiewicz-Kuczera and D. Yin and M. Karplus",
+  title =        "All-atom empirical potential for molecular modeling
+                 and dynamics studies of proteins",
+  journal =      "J. Phys. Chem. B",
+  volume =       "102",
+  pages =        "3586--3616",
+  year =         "1998",
+}
+
+@Article{ADM:Mai92,
+  author =       "A. L. Main and T. S. Harvey and M. Baron and J. Boyd
+                 and I. D. Campbell",
+  title =        "The three-dimensional structure of the tenth type
+                 {III} module of fibronectin: an insight into
+                 {RGD}-mediated interactions",
+  journal =      "Cell",
+  volume =       "71",
+  number =       "4",
+  pages =        "671--8",
+  journal_note =         "0092-8674 Journal Article",
+  abstract =     "The solution structure of the tenth type III module of
+                 fibronectin has been determined using nuclear magnetic
+                 resonance techniques. The molecule has a fold similar
+                 to that of immunoglobulin domains, with seven beta
+                 strands forming two antiparallel beta sheets, which
+                 pack against each other. Both beta sheets contribute
+                 conserved hydrophobic residues to a compact core. The
+                 topology is more similar to that of domain 2 of CD4,
+                 PapD, and the extracellular domain of the human growth
+                 hormone receptor than to that of immunoglobulin C
+                 domains. The module contains an Arg-Gly-Asp sequence
+                 known to be involved in cell adhesion. This tripeptide
+                 is solvent exposed and lies on a conformationally
+                 mobile loop between strands F and G, consistent with
+                 its cell adhesion function.",
+  keywords =     "Amino Acid Sequence Fibronectins/*chemistry Magnetic
+                 Resonance Spectroscopy Molecular Sequence Data
+                 Oligopeptides/*chemistry *Protein Structure, Tertiary
+                 Receptors, Immunologic/*chemistry Research Support,
+                 Non-U.S. Gov't",
+  year =         "1992",
+}
+
+
+
+@Article{ADM:McA66,
+  author =       "McAuliffe C.",
+  title =        "Solubility in Water of Paraffin, Cycloparaffin,
+                 Olefin, Acetylene, Cycloolefin, and Aromatic
+                 Hydrocarbons",
+  journal =      "J. Phys. Chem.",
+  volume =       "70",
+  number =       "4",
+  pages =        "1267--1275",
+  year =         "1966",
+}
+
+
+
+
+
+
+
+
+
+
+@Article{ADM:Min2005,
+  author =       "Z. Minuchehr and B. Goliaei",
+  title =        "Propensity of amino acids in loop regions connecting
+                 beta-strands",
+  journal =      "Protein Pept Lett",
+  volume =       "12",
+  number =       "4",
+  pages =        "379--82",
+  journal_note =         "0929-8665 Journal Article",
+  abstract =     "The fact that loops assume important roles in
+                 molecular functions and biological recognition is well
+                 known. In this study the Propensity and the Relative
+                 entropy of amino-acids in loop structures connecting
+                 beta-strands are calculated. Results showed that Asn is
+                 the most frequently occurring amino-acid in loop
+                 regions connecting beta-strands, followed by Gly, Asp,
+                 Ser, and Thr. Results presented here can serve for
+                 modeling loop structures connecting beta-strands in
+                 proteins.",
+  keywords =     "Amino Acids/*chemistry Entropy Models, Chemical
+                 *Protein Structure, Secondary Proteins/*chemistry
+                 Research Support, Non-U.S. Gov't",
+  year =         "2005",
+}
+
+
+
+
+
+
+
+@Article{ADM:Nag92,
+  author =       "H. A. Nagarajaram and P. K. Paul and K. Ramanarayanan
+                 and K. V. Soman and C. Ramakrishnan",
+  title =        "Conformational studies on beta-bend containing a cis
+                 peptide unit",
+  journal =      "Int J Pept Protein Res",
+  volume =       "40",
+  number =       "5",
+  pages =        "383--94",
+  journal_note =         "0367-8377 Journal Article",
+  abstract =     "Conformational studies have been carried out on the
+                 X-cis-Pro tripeptide system (a system of three linked
+                 peptide units, in the trans-cis-trans configuration)
+                 using energy minimization techniques. For X, residues
+                 Gly, L-Ala, D-Ala and L-Pro have been used. The energy
+                 minima have been classified into different groups based
+                 upon the conformational similarity. There are 15, 20,
+                 18 and 6 minima that are possible for the four cases
+                 respectively and these fall into 11 different groups. A
+                 study of these minima shows that, (i) some minima
+                 contain hydrogen bonds--either 4-->1 or 1-->2 type,
+                 (ii) the low energy minima qualify themselves as bend
+                 conformations, (iii) cis' and trans' conformations are
+                 possible for the prolyl residue as also the C
+                 gamma-endo and C gamma-exo puckerings, and (iv) for
+                 Pro-cis-Pro, cis' at the first prolyl residue is ruled
+                 out, due to the high energy. The available crystal
+                 structure data on proteins and peptides, containing
+                 cis-Pro segment have been examined with a view to find
+                 the minima that occur in solid state. The data from
+                 protein show that they fall under two groups. The
+                 conformation at X in X-cis-Pro is near extended when it
+                 is a non-glycyl residue. In both peptides and proteins
+                 there exists a preference for trans' conformation at
+                 prolyl residue over cis' when X is a non-glycyl
+                 residue. The minima obtained can be useful in modelling
+                 studies.",
+  keywords =     "Alanine/chemistry Amino Acid Sequence Comparative
+                 Study Glycine/chemistry Isomerism Models, Molecular
+                 Molecular Conformation Molecular Sequence Data
+                 Oligopeptides/*chemistry Proline/*chemistry Protein
+                 Conformation Protein Structure, Secondary Research
+                 Support, U.S. Gov't, Non-P.H.S.",
+  year =         "1992",
+}
+
+
+
+@Article{ADM:Oli97,
+  author =       "B. Oliva and P. A. Bates and E. Querol and F. X.
+                 Aviles and M. J. Sternberg",
+  title =        "An automated classification of the structure of
+                 protein loops",
+  journal =      "J Mol Biol",
+  volume =       "266",
+  number =       "4",
+  pages =        "814--30",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "Conformational clusters and consensus sequences for
+                 protein loops have been derived by computational
+                 analysis of their structures in a non-redundant set of
+                 233 proteins with less than 25\% sequence homology
+                 (X-ray resolution better than 2.5 A). Loops have been
+                 classified into five types (alpha-alpha, beta-beta
+                 links, beta-beta hairpins, alpha-beta and beta-alpha)
+                 according to the secondary structures they embrace.
+                 Four variables have been used to describe the loop
+                 geometry, three angles and one distance between the
+                 secondary structure elements embracing the loop.
+                 Ramachandran angles (phi, psi) are used to define the
+                 loop conformations within each brace geometry. All
+                 loops from the non-redundant set have been clustered by
+                 means of these geometric features. A total of 56
+                 classes (9 alpha-alpha, 11 beta-beta links, 14
+                 beta-beta hairpins, 13 alpha-beta and 9 beta-alpha)
+                 were identified with consensus Ramachandran angles in
+                 the loops. These classes were divided into subclasses
+                 based on the brace geometry. This clustering procedure
+                 captures most of the clusters analysed by predominantly
+                 visual inspection methods and finds other clusters that
+                 have hitherto not been described. Consensus sequence
+                 patterns were identified for the subclasses. An
+                 extensive characterisation of loop conformations has
+                 therefore been achieved and the computational approach
+                 is readily open to the incorporation of information
+                 from newly determined structures. These clusters should
+                 also enhance model building by comparison studies.",
+  keywords =     "Crystallography, X-Ray Models, Molecular
+                 Peptides/chemistry Protein Conformation *Protein
+                 Structure, Secondary Proteins/*chemistry Research
+                 Support, Non-U.S. Gov't",
+  year =         "1997",
+}
+
+@Article{ADM:Oli98,
+  author =       "B. Oliva and P. A. Bates and E. Querol and F. X.
+                 Aviles and M. J. Sternberg",
+  title =        "Automated classification of antibody complementarity
+                 determining region 3 of the heavy chain ({H3}) loops
+                 into canonical forms and its application to protein
+                 structure prediction",
+  journal =      "J Mol Biol",
+  volume =       "279",
+  number =       "5",
+  pages =        "1193--210",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "A computer-based algorithm was used to cluster the
+                 loops forming the complementarity determining region
+                 (CDR) 3 of the heavy chain (H3) into canonical classes.
+                 Previous analyses of the three-dimensional structures
+                 of CDR loops (also known as the hypervariable regions)
+                 within antibody immunoglobulin variable domains have
+                 shown that for five of the six CDRs there are only a
+                 few main-chain conformations (known as canonical forms)
+                 that show clear relationships between sequence and
+                 structure. However, the larger variation in length and
+                 conformation of loops within H3 has limited the
+                 classification of these loops into canonical forms. The
+                 clustering procedure presented here is based on
+                 aligning the Ramachandran-coded main-chain conformation
+                 of the residues using a dynamic algorithm that allows
+                 the insertion of gaps to obtain an optimum alignment. A
+                 total of 41 H3 loops out of 62 non-identical loops,
+                 extracted from the Brookhaven Protein Data Bank, have
+                 been automatically grouped into 22 clusters. Inspection
+                 of the clusters for consensus sequences or intra-loop
+                 interactions or invariant conformation led to the
+                 proposal of 13 canonical forms representing 31 loops.
+                 These canonical forms include a consideration of the
+                 geometry of both the take-off region adjacent to the
+                 bracing beta-strands and the remaining loop apex.
+                 Subsequently a new set of 15 H3 loops not included in
+                 the initial analysis was considered. The clustering
+                 procedure was repeated and nine of these 15 loops could
+                 be assigned to original clusters, including seven to
+                 canonical forms. A sequence profile was generated for
+                 each canonical form from the original set of loops and
+                 matched against the sequences of the new H3 loops. For
+                 five out of the seven new H3 loops that were in a
+                 canonical form, the correct form was identified at
+                 first rank by this predictive scheme.",
+  keywords =     "Amino Acid Sequence Binding Sites, Antibody
+                 Computational Biology Immunoglobulin Variable
+                 Region/chemistry/*classification Immunoglobulins,
+                 Heavy-Chain/*chemistry Models, Molecular Molecular
+                 Sequence Data Protein Conformation Research Support,
+                 Non-U.S. Gov't Sequence Alignment Sequence Homology,
+                 Amino Acid",
+  year =         "1998",
+}
+
+@Article{ADM:Ols2004,
+  author =       "M. A. Olson",
+  title =        "Modeling loop reorganization free energies of
+                 acetylcholinesterase: a comparison of explicit and
+                 implicit solvent models",
+  journal =      "Proteins",
+  volume =       "57",
+  number =       "4",
+  pages =        "645--50",
+  journal_note =         "1097-0134 Journal Article",
+  abstract =     "The treatment of hydration effects in protein dynamics
+                 simulations varies in model complexity and spans the
+                 range from the computationally intensive microscopic
+                 evaluation to simple dielectric screening of
+                 charge-charge interactions. This paper compares
+                 different solvent models applied to the problem of
+                 estimating the free-energy difference between two loop
+                 conformations in acetylcholinesterase. Molecular
+                 dynamics (MD) simulations were used to sample potential
+                 energy surfaces of the two basins with solvent treated
+                 by means of explicit and implicit methods. Implicit
+                 solvent methods studied include the generalized Born
+                 (GB) model, atomic solvation potential (ASP), and the
+                 distance-dependent dieletric constant. By using the
+                 linear response approximation (LRA), the explicit
+                 solvent calculations determined a free-energy
+                 difference that is in excellent agreement with the
+                 experimental estimate, while rescoring the protein
+                 conformations with GB or the Poisson equation showed
+                 inconsistent and inferior results. While the approach
+                 of rescoring conformations from explicit water
+                 simulations with implicit solvent models is popular
+                 among many applications, it perturbs the energy
+                 landscape by changing the solvent contribution to
+                 microstates without conformational relaxation, thus
+                 leading to non-optimal solvation free energies.
+                 Calculations applying MD with a GB solvent model
+                 produced results of comparable accuracy as observed
+                 with LRA, yet the electrostatic free-energy terms were
+                 significantly different due to optimization on a
+                 potential energy surface favored by an implicit solvent
+                 reaction field. The simpler methods of ASP and the
+                 distance-dependent scaling of the dielectric constant
+                 both produced considerable distortions in the protein
+                 internal free-energy terms and are consequently
+                 unreliable.",
+  year =         "2004",
+}
+
+
+
+
+
+
+@Article{ADM:Ove92,
+  author =       "J. Overington and D. Donnelly and M. S. Johnson and A.
+                 Sali and T. L. Blundell",
+  title =        "Environment-specific amino acid substitution tables:
+                 tertiary templates and prediction of protein folds",
+  journal =      "Protein Sci",
+  volume =       "1",
+  number =       "2",
+  pages =        "216--26",
+  journal_note =         "0961-8368 Journal Article",
+  abstract =     "The local environment of an amino acid in a folded
+                 protein determines the acceptability of mutations at
+                 that position. In order to characterize and quantify
+                 these structural constraints, we have made a
+                 comparative analysis of families of homologous
+                 proteins. Residues in each structure are classified
+                 according to amino acid type, secondary structure,
+                 accessibility of the side chain, and existence of
+                 hydrogen bonds from the side chains. Analysis of the
+                 pattern of observed substitutions as a function of
+                 local environment shows that there are distinct
+                 patterns, especially for buried polar residues. The
+                 substitution data tables are available on diskette with
+                 Protein Science. Given the fold of a protein, one is
+                 able to predict sequences compatible with the fold
+                 (profiles or templates) and potentially to discriminate
+                 between a correctly folded and misfolded protein.
+                 Conversely, analysis of residue variation across a
+                 family of aligned sequences in terms of substitution
+                 profiles can allow prediction of secondary structure or
+                 tertiary environment.",
+  keywords =     "Amino Acid Sequence Amino Acids/*chemistry/genetics
+                 Comparative Study Conserved Sequence Databases, Factual
+                 Mathematical Computing Molecular Sequence Data Pattern
+                 Recognition, Automated Probability *Protein Folding
+                 *Protein Structure, Tertiary
+                 Proteins/*chemistry/genetics Reference Values Research
+                 Support, Non-U.S. Gov't Sequence Alignment/*methods
+                 Sequence Homology, Amino Acid",
+  year =         "1992",
+}
+
+@Article{ADM:Pab84,
+  author =       "C. O. Pabo and R. T. Sauer",
+  title =        "Protein-{DNA} Recognition",
+  journal =      "Annual Review of Biochemistry",
+  volume =       "53",
+  number =       "1",
+  pages =        "293--321",
+  year =         "1984",
+}
+
+
+
+@Article{ADM:Pal2002,
+  author =       "Lipika Pal and Gautam Basu and Pinak Chakrabarti",
+  title =        "Variants of 310-helices in proteins",
+  journal =      "Proteins: Structure, Function, and Genetics",
+  volume =       "48",
+  number =       "3",
+  pages =        "571--579",
+  year =         "2002",
+}
+
+
+
+@Article{ADM:Par98,
+  author =       "Hubbard T {Park J, Karplus K, Barrett C, Hughey R,
+                 Haussler D} and Chothia C",
+  title =        "Sequence Comparisons Using Multiple Sequences Detect
+                 Three Times as Many Remote Homologues as Pairwise
+                 Methods",
+  journal =      "J. Mol. Biol.",
+  volume =       "284",
+  pages =        "1201--1210",
+  year =         "1998",
+}
+
+
+
+
+@Article{ADM:Pea2000,
+  author =       "J. M. {Pearl, F.M.G, Lee, D., Bray, J.E, Sillitoe, I.,
+                 Todd, A.E., Harrison, A.P., Thornton} and C. A.
+                 Orengo",
+  title =        "Assigning genomic sequences to {CATH}",
+  journal =      "Nucleic Acids Research",
+  volume =       "28",
+  number =       "1",
+  year =         "2000",
+}
+
+
+
+@Article{ADM:Pel97,
+  author =       "J. L. Pellequer and S. W. Chen",
+  title =        "Does conformational free energy distinguish loop
+                 conformations in proteins?",
+  journal =      "Biophys J",
+  volume =       "73",
+  number =       "5",
+  pages =        "2359--75",
+  journal_note =         "0006-3495 Journal Article",
+  abstract =     "Limitations in protein homology modeling often arise
+                 from the inability to adequately model loops. In this
+                 paper we focus on the selection of loop conformations.
+                 We present a complete computational treatment that
+                 allows the screening of loop conformations to identify
+                 those that best fit a molecular model. The stability of
+                 a loop in a protein is evaluated via computations of
+                 conformational free energies in solution, i.e., the
+                 free energy difference between the reference structure
+                 and the modeled one. A thermodynamic cycle is used for
+                 calculation of the conformational free energy, in which
+                 the total free energy of the reference state (i.e., gas
+                 phase) is the CHARMm potential energy. The
+                 electrostatic contribution of the solvation free energy
+                 is obtained from solving the finite-difference
+                 Poisson-Boltzmann equation. The nonpolar contribution
+                 is based on a surface area-based expression. We applied
+                 this computational scheme to a simple but
+                 well-characterized system, the antibody hypervariable
+                 loop (complementarity-determining region, CDR). Instead
+                 of creating loop conformations, we generated a database
+                 of loops extracted from high-resolution crystal
+                 structures of proteins, which display geometrical
+                 similarities with antibody CDRs. We inserted loops from
+                 our database into a framework of an antibody; then we
+                 calculated the conformational free energies of each
+                 loop. Results show that we successfully identified
+                 loops with a reference-like CDR geometry, with the
+                 lowest conformational free energy in gas phase only.
+                 Surprisingly, the solvation energy term plays a
+                 confusing role, sometimes discriminating reference-like
+                 CDR geometry and many times allowing non-reference-like
+                 conformations to have the lowest conformational free
+                 energies (for short loops). Most reference-like loop
+                 conformations are separated from others by a gap in the
+                 gas phase conformational free energy scale. Naturally,
+                 loops from antibody molecules are found to be the best
+                 models for long CDRs (> or = 6 residues), mainly
+                 because of a better packing of backbone atoms into the
+                 framework of the antibody model.",
+  keywords =     "Antibodies/chemistry Crystallography, X-Ray Databases,
+                 Factual Immunoglobulin Variable Region/*chemistry
+                 Models, Molecular *Protein Conformation Protein
+                 Structure, Secondary Research Support, U.S. Gov't,
+                 Non-P.H.S. Thermodynamics",
+  year =         "1997",
+}
+
+@Article{ADM:Pod2005,
+  author =       "A. A. Podtelezhnikov and D. L. Wild",
+  title =        "Exhaustive Metropolis Monte Carlo sampling and
+                 analysis of polyalanine conformations adopted under the
+                 influence of hydrogen bonds",
+  journal =      "Proteins",
+  volume =       "61",
+  number =       "1",
+  pages =        "94--104",
+  journal_note =         "1097-0134 Journal Article",
+  abstract =     "We propose a novel Metropolis Monte Carlo procedure
+                 for protein modeling and analyze the influence of
+                 hydrogen bonding on the distribution of polyalanine
+                 conformations. We use an atomistic model of the
+                 polyalanine chain with rigid and planar polypeptide
+                 bonds, and elastic alpha carbon valence geometry. We
+                 adopt a simplified energy function in which only
+                 hard-sphere repulsion and hydrogen bonding interactions
+                 between the atoms are considered. Our Metropolis Monte
+                 Carlo procedure utilizes local crankshaft moves and is
+                 combined with parallel tempering to exhaustively sample
+                 the conformations of 16-mer polyalanine. We confirm
+                 that Flory's isolated-pair hypothesis (the steric
+                 independence between the dihedral angles of individual
+                 amino acids) does not hold true in long polypeptide
+                 chains. In addition to 3(10)- and alpha-helices, we
+                 identify a kink stabilized by 2 hydrogen bonds with a
+                 shared acceptor as a common structural motif. Varying
+                 the strength of hydrogen bonds, we induce the
+                 helix-coil transition in the model polypeptide chain.
+                 We compare the propensities for various hydrogen
+                 bonding patterns and determine the degree of
+                 cooperativity of hydrogen bond formation in terms of
+                 the Hill coefficient. The observed helix-coil
+                 transition is also quantified according to Zimm-Bragg
+                 theory.",
+  year =         "2005",
+}
+
+
+
+
+
+
+
+@Article{ADM:Ram63,
+  author =       "G. N. Ramachandran and C. Ramakrishnan and V.
+                 Sasisekharan",
+  title =        "Stereochemistry of polypeptide chain configurations",
+  journal =      "J Mol Biol",
+  volume =       "7",
+  pages =        "95--9",
+  journal_note =         "0022-2836 Journal Article",
+  year =         "1963",
+}
+
+
+
+
+
+
+
+@Article{ADM:Roh2004,
+  author =       "C. A. Rohl and C. E. Strauss and D. Chivian and D.
+                 Baker",
+  title =        "Modeling structurally variable regions in homologous
+                 proteins with Rosetta",
+  journal =      "Proteins",
+  volume =       "55",
+  number =       "3",
+  pages =        "656--77",
+  journal_note =         "1097-0134 Evaluation Studies Journal Article",
+  abstract =     "A major limitation of current comparative modeling
+                 methods is the accuracy with which regions that are
+                 structurally divergent from homologues of known
+                 structure can be modeled. Because structural
+                 differences between homologous proteins are responsible
+                 for variations in protein function and specificity, the
+                 ability to model these differences has important
+                 functional consequences. Although existing methods can
+                 provide reasonably accurate models of short loop
+                 regions, modeling longer structurally divergent regions
+                 is an unsolved problem. Here we describe a method based
+                 on the de novo structure prediction algorithm, Rosetta,
+                 for predicting conformations of structurally divergent
+                 regions in comparative models. Initial conformations
+                 for short segments are selected from the protein
+                 structure database, whereas longer segments are built
+                 up by using three- and nine-residue fragments drawn
+                 from the database and combined by using the Rosetta
+                 algorithm. A gap closure term in the potential in
+                 combination with modified Newton's method for gradient
+                 descent minimization is used to ensure continuity of
+                 the peptide backbone. Conformations of variable regions
+                 are refined in the context of a fixed template
+                 structure using Monte Carlo minimization together with
+                 rapid repacking of side-chains to iteratively optimize
+                 backbone torsion angles and side-chain rotamers. For
+                 short loops, mean accuracies of 0.69, 1.45, and 3.62 A
+                 are obtained for 4, 8, and 12 residue loops,
+                 respectively. In addition, the method can provide
+                 reasonable models of conformations of longer protein
+                 segments: predicted conformations of 3A
+                 root-mean-square deviation or better were obtained for
+                 5 of 10 examples of segments ranging from 13 to 34
+                 residues. In combination with a sequence alignment
+                 algorithm, this method generates complete, ungapped
+                 models of protein structures, including regions both
+                 similar to and divergent from a homologous structure.
+                 This combined method was used to make predictions for
+                 28 protein domains in the Critical Assessment of
+                 Protein Structure 4 (CASP 4) and 59 domains in CASP 5,
+                 where the method ranked highly among comparative
+                 modeling and fold recognition methods. Model accuracy
+                 in these blind predictions is dominated by alignment
+                 quality, but in the context of accurate alignments,
+                 long protein segments can be accurately modeled.
+                 Notably, the method correctly predicted the local
+                 structure of a 39-residue insertion into a TIM barrel
+                 in CASP 5 target T0186.",
+  keywords =     "*Algorithms Amino Acid Sequence *Models, Molecular
+                 Protein Conformation Proteins/chemistry Reproducibility
+                 of Results Research Support, Non-U.S. Gov't Research
+                 Support, U.S. Gov't, P.H.S. *Structural Homology,
+                 Protein",
+  year =         "2004",
+}
+
+
+
+@Article{ADM:Ros95,
+  author =       "D. Rosenbach and R. Rosenfeld",
+  title =        "Simultaneous modeling of multiple loops in proteins",
+  journal =      "Protein Sci",
+  volume =       "4",
+  number =       "3",
+  pages =        "496--505",
+  journal_note =         "0961-8368 Journal Article",
+  abstract =     "The most reliable methods for predicting protein
+                 structure are by way of homologous extension, using
+                 structural information from a closely related protein,
+                 or by threading through a set of predefined protein
+                 folds (inverse folding). Both sets of methods provide a
+                 model for the core of the protein--the structurally
+                 conserved secondary structures. Due to the large
+                 variability both in sequence and size of the loops that
+                 connect these secondary structures, they generally
+                 cannot be modeled using these techniques. Loop-closure
+                 algorithms are aimed at predicting loop structures,
+                 given their end-to-end distance. Various such
+                 algorithms have been described, and all have been
+                 tested by predicting the structure of a single loop in
+                 a known protein. In this paper we propose a method,
+                 which is based on the bond-scaling-relaxation
+                 loop-closure algorithm, for simultaneously predicting
+                 the structures of multiple loops, and demonstrate that,
+                 for two spatially close loops, simultaneous closure
+                 invariably leads to more accurate predictions than
+                 sequential closure. The accuracy of the predictions
+                 obtained for pairs of loops in the size range of 5-7
+                 residues each is comparable to that obtained by other
+                 methods, when predicting the structures of single
+                 loops: the RMS deviations from the native conformations
+                 of various test cases modeled are approximately 0.6-1.7
+                 A for backbone atoms and 1.1-3.3 A for all-atoms.",
+  keywords =     "Algorithms Amino Acid Sequence Aprotinin/chemistry
+                 Comparative Study *Computer Simulation *Models,
+                 Molecular Molecular Sequence Data Phosphoenolpyruvate
+                 Sugar Phosphotransferase System/chemistry *Protein
+                 Structure, Tertiary Reproducibility of Results Research
+                 Support, U.S. Gov't, P.H.S. Ubiquitins/chemistry",
+  year =         "1995",
+}
+
+
+
+
+
+
+
+
+@Article{ADM:Sam2000,
+  author =       "R. Samudrala and E. S. Huang and P. Koehl and M.
+                 Levitt",
+  title =        "Constructing side chains on near-native main chains
+                 for ab initio protein structure prediction",
+  journal =      "Protein Eng",
+  volume =       "13",
+  number =       "7",
+  pages =        "453--7",
+  journal_note =         "0269-2139 Journal Article",
+  abstract =     "Is there value in constructing side chains while
+                 searching protein conformational space during an ab
+                 initio simulation? If so, what is the most
+                 computationally efficient method for constructing these
+                 side chains? To answer these questions, four published
+                 approaches were used to construct side chain
+                 conformations on a range of near-native main chains
+                 generated by ab initio protein structure prediction
+                 methods. The accuracy of these approaches was compared
+                 with a naive approach that selects the most frequently
+                 observed rotamer for a given amino acid to construct
+                 side chains. An all-atom conditional probability
+                 discriminatory function is useful at selecting
+                 conformations with overall low all-atom root mean
+                 square deviation (r.m.s.d.) and the discrimination
+                 improves on sets that are closer to the native
+                 conformation. In addition, the naive approach performs
+                 as well as more sophisticated methods in terms of the
+                 percentage of chi(1) angles built accurately and the
+                 all-atom r. m.s.d., between the native and near-native
+                 conformations. The results suggest that the naive
+                 method would be extremely useful for fast and efficient
+                 side chain construction on vast numbers of
+                 conformations for ab initio prediction of protein
+                 structure.",
+  keywords =     "Amino Acids/chemistry Comparative Study *Computer
+                 Simulation *Models, Molecular Probability *Protein
+                 Conformation Research Support, Non-U.S. Gov't Research
+                 Support, U.S. Gov't, P.H.S.",
+  year =         "2000",
+}
+
+@Article{ADM:Sam98,
+  author =       "R. Samudrala and J. Moult",
+  title =        "A graph-theoretic algorithm for comparative modeling
+                 of protein structure",
+  journal =      "J Mol Biol",
+  volume =       "279",
+  number =       "1",
+  pages =        "287--302",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "The interconnected nature of interactions in protein
+                 structures appears to be the major hurdle in preventing
+                 the construction of accurate comparative models. We
+                 present an algorithm that uses graph theory to handle
+                 this problem. Each possible conformation of a residue
+                 in an amino acid sequence is represented using the
+                 notion of a node in a graph. Each node is given a
+                 weight based on the degree of the interaction between
+                 its side-chain atoms and the local main-chain atoms.
+                 Edges are then drawn between pairs of residue
+                 conformations/nodes that are consistent with each other
+                 (i.e. clash-free and satisfying geometrical
+                 constraints). The edges are weighted based on the
+                 interactions between the atoms of the two nodes. Once
+                 the entire graph is constructed, all the maximal sets
+                 of completely connected nodes (cliques) are found using
+                 a clique-finding algorithm. The cliques with the best
+                 weights represent the optimal combinations of the
+                 various main-chain and side-chain possibilities, taking
+                 the respective environments into account. The algorithm
+                 is used in a comparative modeling scenario to build
+                 side-chains, regions of main chain, and mix and match
+                 between different homologs in a context-sensitive
+                 manner. The predictive power of this method is assessed
+                 by applying it to cases where the experimental
+                 structure is not known in advance.",
+  keywords =     "*Algorithms Comparative Study Databases *Models,
+                 Chemical *Protein Conformation Research Support,
+                 Non-U.S. Gov't Research Support, U.S. Gov't, P.H.S.",
+  year =         "1998",
+}
+
+@Article{ADM:Sam99,
+  author =       "R. Samudrala and Y. Xia and E. Huang and M. Levitt",
+  title =        "Ab initio protein structure prediction using a
+                 combined hierarchical approach",
+  journal =      "Proteins",
+  volume =       "Suppl 3",
+  pages =        "194--8",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "As part of the third Critical Assessment of Structure
+                 Prediction meeting (CASP3), we predict the
+                 three-dimensional structures for 13 proteins using a
+                 hierarchical approach. First, all possible compact
+                 conformations of a protein sequence are enumerated
+                 using a highly simplified tetrahedral lattice model. We
+                 select a large subset of these conformations using a
+                 lattice-based scoring function and build detailed
+                 all-atom models incorporating predicted secondary
+                 structure. A combined all-atom knowledge-based scoring
+                 function is then used to select three smaller subsets
+                 from these all-atom models. Finally, a consensus-based
+                 distance geometry procedure is used to generate the
+                 best conformations from each of the all-atom subsets.
+                 With this method, we are able to predict the global
+                 topology/shape for all or a large part of the sequence
+                 for six out of the thirteen proteins. For two other
+                 proteins, the topology/shape for shorter fragments are
+                 predicted. This represents a marked improvement in ab
+                 initio prediction since CASP was first instigated in
+                 1994.",
+  keywords =     "Algorithms Internet Models, Molecular *Protein
+                 Structure, Tertiary Proteins/*chemistry Research
+                 Support, Non-U.S. Gov't Research Support, U.S. Gov't,
+                 P.H.S.",
+  year =         "1999",
+}
+
+@Article{ADM:Sch2004,
+  author =       "H. A. Scheraga and A. Liwo and S. Oldziej and C.
+                 Czaplewski and J. Pillardy and D. R. Ripoll and J. A.
+                 Vila and R. Kazmierkiewicz and J. A. Saunders and Y. A.
+                 Arnautova and A. Jagielska and M. Chinchio and M.
+                 Nanias",
+  title =        "The protein folding problem: global optimization of
+                 the force fields",
+  journal =      "Front Biosci",
+  volume =       "9",
+  pages =        "3296--323",
+  journal_note =         "1093-4715 Journal Article",
+  abstract =     "The evolutionary development of a theoretical approach
+                 to the protein folding problem, in our laboratory, is
+                 traced. The theoretical foundations and the development
+                 of a suitable empirical all-atom potential energy
+                 function and a global optimization search are examined.
+                 Whereas the all-atom approach has thus far succeeded
+                 for relatively small molecules and for alpha-helical
+                 proteins containing up to 46 residues, it has been
+                 necessary to develop a hierarchical approach to treat
+                 larger proteins. In the hierarchical approach to
+                 single- and multiple-chain proteins, global
+                 optimization is carried out for a simplified united
+                 residue (UNRES) description of a polypeptide chain to
+                 locate the region in which the global minimum lies.
+                 Conversion of the UNRES structures in this region to
+                 all-atom structures is followed by a local search in
+                 this region. The performance of this approach in
+                 successive CASP blind tests for predicting protein
+                 structure by an ab initio physics-based method is
+                 described. Finally, a recent attempt to compute a
+                 folding pathway is discussed.",
+  year =         "2004",
+}
+
+@Article{ADM:Sch93,
+  author =       " {Schrauber H., Eisenhaber F.} and Argos. P.",
+  title =        "Rotamers: To be or not to be? An analysis of amino
+                 acid side-chain conformations in globular proteins",
+  volume =       "230",
+  pages =        "592--612",
+  year =         "1993",
+}
+
+@Article{ADM:Sco84,
+  author =       " {Scott J. Weiner, Peter A. Kollman, David A. Case, U.
+                 Chandra Singh, Caterina Ghio} and  {Giuliano Alagona,
+                 Salvatore Profeta Jr} and Paul Weiner",
+  title =        "A New Force Field for Molecular Mechanical Simulation
+                 of Nucleic Acids and Proteins",
+  journal =      "J. Am. Chem. Soc.",
+  volume =       "106",
+  pages =        "765--784",
+  year =         "1984",
+}
+
+@Article{ADM:She2003,
+  author =       "R. P. Shetty and P. I. De Bakker and M. A. DePristo
+                 and T. L. Blundell",
+  title =        "Advantages of fine-grained side chain conformer
+                 libraries",
+  journal =      "Protein Eng",
+  volume =       "16",
+  number =       "12",
+  pages =        "963--9",
+  journal_note =         "0269-2139 Journal Article",
+  abstract =     "We compare the modelling accuracy of two common
+                 rotamer libraries, the Dunbrack-Cohen and the
+                 'Penultimate' rotamer libraries, with that of a novel
+                 library of discrete side chain conformations extracted
+                 from the Protein Data Bank. These side chain conformer
+                 libraries are extracted automatically from high-quality
+                 protein structures using stringent filters and maintain
+                 crystallographic bond lengths and angles. This
+                 contrasts with traditional rotamer libraries defined in
+                 terms of chi angles under the assumption of idealized
+                 covalent geometry. We demonstrate that side chain
+                 modelling onto native and near-native main chain
+                 conformations is significantly more successful with the
+                 conformer libraries than with the rotamer libraries
+                 when solely considering excluded-volume interactions.
+                 The rotamer libraries are inadequate to model side
+                 chains without atomic clashes on over 20\% of targets
+                 if the backbone is held fixed in the native
+                 conformation. An algorithm is described for
+                 simultaneously modelling both main chain and side chain
+                 atoms during discrete ab initio sampling. The resulting
+                 models have equivalent root mean square deviations from
+                 the experimentally determined protein loops as models
+                 from backbone-only ensembles, indicating that all-atom
+                 modelling does not detract from the accuracy of
+                 conformational sampling.",
+  keywords =     "Amino Acids/*chemistry Computational Biology *Protein
+                 Conformation Research Support, Non-U.S. Gov't",
+  year =         "2003",
+}
+
+
+
+
+
+
+
+
+
+@Article{ADM:Sin2005,
+  author =       "R. Singh and B. Bergert",
+  title =        "Chaintweak: sampling from the neighbourhood of a
+                 protein conformation",
+  journal =      "Pac Symp Biocomput",
+  pages =        "52--63",
+  journal_note =         "Journal Article",
+  abstract =     "When searching for an optimal protein structure, it is
+                 often necessary to generate a set of structures
+                 similar, e.g., within 4A Root Mean Square Deviation
+                 (RMSD), to some base structure. Current methods to do
+                 this are designed to produce only small deviations (<
+                 0.1A RMSD) and are inefficient for larger deviations.
+                 The method proposed in this paper, ChainTweak, can
+                 generate conformations with larger deviations from the
+                 base much more efficiently. For example, in 18 seconds
+                 it can generate 100 backbone conformations, each within
+                 1-4A RMSD of a given 45-residue conformation. Moreover,
+                 each conformation has correct bond lengths, angles and
+                 omega torsional angles; its phi-psi angles have
+                 energetically favorable values; and there are rarely
+                 any backbone steric clashes. The method uses the
+                 insight that loop closure techniques can be used to
+                 perform compensatory changes of dihedral angles so that
+                 only a part of the conformation is changed. It is
+                 demonstrated, using decoys from the Decoys 'R Us
+                 data-set, that ChainTweak can be used to construct good
+                 decoys. It also provides a novel and intuitive way of
+                 analyzing the energy landscape of a protein. In
+                 addition, ChainTweak can improve the accuracy and
+                 performance of the loop modeling program RAPPER by an
+                 order of magnitude (1.1 min. vs. 36 min. for an
+                 8-residue chain).",
+  keywords =     "Computational Biology/methods Models, Molecular
+                 Protein Conformation Protein Structure, Secondary
+                 Proteins/*chemistry Thermodynamics",
+  year =         "2005",
+}
+
+
+
+
+
+
+
+@Article{ADM:Smi94,
+  author =       "K. C. Smith and B. Honig",
+  title =        "Evaluation of the conformational free energies of
+                 loops in proteins",
+  journal =      "Proteins",
+  volume =       "18",
+  number =       "2",
+  pages =        "119--32",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "In this paper we discuss the problem of including
+                 solvation free energies in evaluating the relative
+                 stabilities of loops in proteins. A conformational
+                 search based on a gas-phase potential function is used
+                 to generate a large number of trial conformations. As
+                 has been found previously, the energy minimization step
+                 in this process tends to pack charged and polar side
+                 chains against the protein surface, resulting in
+                 conformations which are unstable in the aqueous phase.
+                 Various solvation models can easily identify such
+                 structures. In order to provide a more severe test of
+                 solvation models, gas-phase conformations were
+                 generated in which side chains were kept extended so as
+                 to maximize their interaction with the solvent. The
+                 free energies of these conformations were compared to
+                 that calculated for the crystal structure in three
+                 loops of the protein E. coli RNase H, with lengths of
+                 7, 8, and 9 residues. Free energies were evaluated with
+                 a finite difference Poisson-Boltzmann (FDPB)
+                 calculation for electrostatics and a surface area-based
+                 term for nonpolar contributions. These were added to a
+                 gas-phase potential function. A free energy function
+                 based on atomic solvation parameters was also tested.
+                 Both functions were quite successful in selecting,
+                 based on a free energy criterion, conformations quite
+                 close to the crystal structure for two of the three
+                 loops. For one loop, which is involved in crystal
+                 contacts, conformations that are quite different from
+                 the crystal structure were also selected. A method to
+                 avoid precision problems associated with using the FDPB
+                 method to evaluate conformational free energies in
+                 proteins is described.",
+  keywords =     "Amino Acid Sequence Computers Crystallization Drug
+                 Stability Electrochemistry Escherichia
+                 coli/enzymology/genetics Models, Chemical Molecular
+                 Sequence Data Molecular Structure Protein Conformation
+                 Proteins/*chemistry Research Support, U.S. Gov't,
+                 Non-P.H.S. Research Support, U.S. Gov't, P.H.S.
+                 Ribonuclease H, Calf Thymus/chemistry/genetics
+                 Solubility Thermodynamics",
+  year =         "1994",
+}
+
+@Article{ADM:Smi96,
+  author =       "Lorna J. Smith and Kimberly A. Bolin and Harald
+                 Schwalbe and Malcolm W. MacArthur and Janet M. Thornton
+                 and Christopher M. Dobson",
+  title =        "Analysis of Main Chain Torsion Angles in Proteins:
+                 Prediction of {NMR} Coupling Constants for Native and
+                 Random Coil Conformations",
+  journal =      "Journal of Molecular Biology",
+  volume =       "255",
+  number =       "3",
+  pages =        "494--506",
+  journal_note =         "TY - JOUR",
+  year =         "1996",
+}
+
+@Article{ADM:Sri99,
+  author =       "R. Srinivasan and G. D. Rose",
+  title =        "A physical basis for protein secondary structure",
+  journal =      "Proc Natl Acad Sci U S A",
+  volume =       "96",
+  number =       "25",
+  pages =        "14258--63",
+  journal_note =         "0027-8424 Journal Article",
+  abstract =     "A physical theory of protein secondary structure is
+                 proposed and tested by performing exceedingly simple
+                 Monte Carlo simulations. In essence, secondary
+                 structure propensities are predominantly a consequence
+                 of two competing local effects, one favoring hydrogen
+                 bond formation in helices and turns, the other opposing
+                 the attendant reduction in sidechain conformational
+                 entropy on helix and turn formation. These sequence
+                 specific biases are densely dispersed throughout the
+                 unfolded polypeptide chain, where they serve to
+                 preorganize the folding process and largely, but
+                 imperfectly, anticipate the native secondary
+                 structure.",
+  keywords =     "Protein Conformation Protein Folding *Protein
+                 Structure, Secondary Research Support, Non-U.S. Gov't
+                 Research Support, U.S. Gov't, P.H.S.",
+  year =         "1999",
+}
+
+
+
+
+
+
+
+@Article{ADM:Swi95,
+  author =       "M. B. Swindells and M. W. MacArthur and J. M.
+                 Thornton",
+  title =        "Intrinsic phi, psi propensities of amino acids,
+                 derived from the coil regions of known structures",
+  journal =      "Nat Struct Biol",
+  volume =       "2",
+  number =       "7",
+  pages =        "596--603",
+  journal_note =         "1072-8368 Journal Article",
+  abstract =     "Many different factors contribute to secondary
+                 structure propensities, including phi, psi preferences,
+                 side-chain interactions, steric effects and hydrophobic
+                 tertiary contacts. To deconvolute these competing
+                 factors, we have adopted a novel approach which
+                 quantifies the intrinsic phi, psi propensities for
+                 residues in coil regions (that is, residues not in
+                 alpha-helix and not in beta-strand). Comparisons of
+                 intrinsic phi, psi propensities with their equivalent
+                 secondary structure propensities show that while
+                 correlations for helix are relatively weak, those for
+                 strand are much stronger. This paper describes our new
+                 phi, psi propensities and provides an explanation for
+                 the variations observed.",
+  keywords =     "Amino Acids/*chemistry Hydrogen Bonding Models,
+                 Molecular *Protein Structure, Secondary
+                 Structure-Activity Relationship",
+  year =         "1995",
+}
+
+
+
+
+
+@Article{ADM:Tho88,
+  author =       "J. M. Thornton and B. L. Sibanda and M. S. Edwards and
+                 D. J. Barlow",
+  title =        "Analysis, design and modification of loop regions in
+                 proteins",
+  journal =      "Bioessays",
+  volume =       "8",
+  number =       "2",
+  pages =        "63--9",
+  journal_note =         "0265-9247 Journal Article Review Review, Tutorial",
+  keywords =     "Models, Molecular *Protein Conformation *Proteins",
+  year =         "1988",
+}
+
+
+
+@Article{ADM:Top93,
+  author =       "C. M. Topham and A. McLeod and F. Eisenmenger and J.
+                 P. Overington and M. S. Johnson and T. L. Blundell",
+  title =        "Fragment ranking in modelling of protein structure.
+                 Conformationally constrained environmental amino acid
+                 substitution tables",
+  journal =      "J Mol Biol",
+  volume =       "229",
+  number =       "1",
+  pages =        "194--220",
+  journal_note =         "0022-2836 Journal Article",
+  abstract =     "Conformationally constrained environment-dependent
+                 amino acid residue substitution tables have been
+                 constructed from a database comprising 33 homologous
+                 families of protein sequences aligned on the basis of
+                 their three-dimensional structures. Residues are
+                 allotted to one of 216 (or 54) classes of combinations
+                 of structural features. These include nine main-chain
+                 conformation classes, three classes of side-chain
+                 accessibility and eight (or two) classes of side-chain
+                 involvement in three types of hydrogen bond. Seven
+                 different main-chain conformational classes outside of
+                 regions of regular structure were identified in an
+                 analysis of the distributions of phi-psi torsion angles
+                 in 84 high-resolution crystallographic structures.
+                 Residue substitutions at equivalent positions in the
+                 structural alignments are included where the main-chain
+                 conformational class is conserved. Frequency data in
+                 the form of 216 (or 54) environment specific (20 x 20
+                 residue type) matrices are then converted to
+                 probabilities. Two smoothing regimes incorporating
+                 entropy-driven weights were applied to the set of 54
+                 tables. Predicted residue substitutions have been
+                 generated for individual residue positions in
+                 beta-hairpins and the hypervariable regions of the
+                 immunoglobulins. These have been compared with the
+                 observed sequence variation at the same positions using
+                 rank correlation methods. Measurements of chi 2
+                 distances demonstrate the considerable improvement in
+                 predictive power at key residue positions identified
+                 from interactive graphics studies when compared to the
+                 Dayhoff MDM250 mutation matrix. An illustrative example
+                 is given of an application of the method in the ranking
+                 of loop fragments in model building studies of
+                 structurally variable regions in two subtilisins. A
+                 combined template scoring procedure is found to be
+                 26-fold more discriminatory than the Dayhoff matrix.
+                 The success rate is approximately 85\%.",
+  keywords =     "Amino Acid Sequence Amino Acids Databases, Factual
+                 Models, Molecular Models, Statistical Molecular
+                 Sequence Data Probability Protein Structure, Secondary
+                 *Protein Structure, Tertiary Research Support, Non-U.S.
+                 Gov't Software Templates, Genetic",
+  year =         "1993",
+}
+
+
+
+
+
+
+
+
+
+
+
+@Article{ADM:Wan2003,
+  author =       "G. Wang and Jr. {Dunbrack, R. L.}",
+  title =        "{PISCES}: a protein sequence culling server",
+  journal =      "Bioinformatics",
+  volume =       "19",
+  number =       "12",
+  pages =        "1589--91",
+  journal_note =         "1367-4803 Festschrift Journal Article",
+  abstract =     "PISCES is a public server for culling sets of protein
+                 sequences from the Protein Data Bank (PDB) by sequence
+                 identity and structural quality criteria. PISCES can
+                 provide lists culled from the entire PDB or from lists
+                 of PDB entries or chains provided by the user. The
+                 sequence identities are obtained from PSI-BLAST
+                 alignments with position-specific substitution matrices
+                 derived from the non-redundant protein sequence
+                 database. PISCES therefore provides better lists than
+                 servers that use BLAST, which is unable to identify
+                 many relationships below 40\% sequence identity and
+                 often overestimates sequence identity by aligning only
+                 well-conserved fragments. PDB sequences are updated
+                 weekly. PISCES can also cull non-PDB sequences provided
+                 by the user as a list of GenBank identifiers, a FASTA
+                 format file, or BLAST/PSI-BLAST output.",
+  keywords =     "*Algorithms Comparative Study Computing Methodologies
+                 Conserved Sequence *Database Management Systems
+                 *Databases, Protein Information Storage and
+                 Retrieval/*methods Research Support, U.S. Gov't, P.H.S.
+                 Sequence Alignment/*methods Sequence Analysis,
+                 Protein/*methods *Sequence Homology, Amino Acid
+                 *Software",
+  year =         "2003",
+}
+
+@Article{ADM:Wan2005,
+  author =       "G. Wang and Jr. {Dunbrack, R. L.}",
+  title =        "{PISCES}: recent improvements to a {PDB} sequence
+                 culling server",
+  journal =      "Nucleic Acids Res",
+  volume =       "33",
+  number =       "Web Server issue",
+  pages =        "W94--8",
+  journal_note =         "1362-4962 Journal Article",
+  abstract =     "PISCES is a database server for producing lists of
+                 sequences from the Protein Data Bank (PDB) using a
+                 number of entry- and chain-specific criteria and mutual
+                 sequence identity. Our goal in culling the PDB is to
+                 provide the longest list possible of the highest
+                 resolution structures that fulfill the sequence
+                 identity and structural quality cut-offs. The new
+                 PISCES server uses a combination of PSI-BLAST and
+                 structure-based alignments to determine sequence
+                 identities. Structure alignment produces more complete
+                 alignments and therefore more accurate sequence
+                 identities than PSI-BLAST. PISCES now allows a user to
+                 cull the PDB by-entry in addition to the standard
+                 culling by individual chains. In this scenario, a list
+                 will contain only entries that do not have a chain that
+                 has a sequence identity to any chain in any other entry
+                 in the list over the sequence identity cut-off. PISCES
+                 also provides fully annotated sequences including gene
+                 name and species. The server allows a user to cull an
+                 input list of entries or chains, so that other
+                 criteria, such as function, can be used. Results from a
+                 search on the re-engineered RCSB's site for the PDB can
+                 be entered into the PISCES server by a single click,
+                 combining the powerful searching abilities of the PDB
+                 with PISCES's utilities for sequence culling. The
+                 server's data are updated weekly. The server is
+                 available at http://dunbrack.fccc.edu/pisces.",
+  keywords =     "*Databases, Protein Internet Protein Conformation
+                 Research Support, N.I.H., Extramural Research Support,
+                 Non-U.S. Gov't Research Support, U.S. Gov't, P.H.S.
+                 Sequence Alignment/methods *Sequence Analysis, Protein
+                 *Software",
+  year =         "2005",
+}
+
+
+
+
+
+@Article{ADM:Wen95,
+  author =       " {Wendy D. Cornell, Piotr Cieplak, Christopher I.
+                 Bayly, Ian R. Gould, Kenneth M. Merz Jr., David M.
+                 Ferguson, David C. Spellmeyer: Thomas Fox, James W.
+                 Caldwell} and Peter A. Kollman",
+  title =        "A Second Generation Force Field for the Simulation of
+                 Proteins, Nucleic Acids, and Organic Molecules",
+  journal =      "J. Am. Chem. Soc.",
+  volume =       "117",
+  pages =        "5179--5197",
+  year =         "1995",
+}
+
+@Article{ADM:Wib90,
+  author =       "Breneman and Wiberg",
+  title =        "The {CHELPG} scheme ({CH}arges from {EL}ectrostatic
+                 Potentials)",
+  journal =      "J. Comp. Chem.",
+  volume =       "11",
+  pages =        "361",
+  year =         "1990",
+}
+
+
+
+
+
+@Article{ADM:Woh2002,
+  author =       "G. Wohlfahrt and V. Hangoc and D. Schomburg",
+  title =        "Positioning of anchor groups in protein loop
+                 prediction: the importance of solvent accessibility and
+                 secondary structure elements",
+  journal =      "Proteins",
+  volume =       "47",
+  number =       "3",
+  pages =        "370--8",
+  journal_note =         "1097-0134 Journal Article",
+  abstract =     "The prediction of loop regions in the process of
+                 protein structure prediction by homology is still an
+                 unsolved problem. In an earlier publication, we could
+                 show that the correct placement of the amino acids
+                 serving as an anchor group to be connected by a loop
+                 fragment with a predicted geometry is a highly
+                 important step and an essential requirement within the
+                 process (Lessel and Schomburg, Proteins 1999;
+                 37:56-64). In this article, we present an analysis of
+                 the quality of possible loop predictions with respect
+                 to gap length, fragment length, amino acid type,
+                 secondary structure, and solvent accessibility. For 550
+                 insertions and 544 deletions, we test all possible
+                 positions for anchor groups with an inserted loop of a
+                 length between 3 and 12 amino acids. We could show that
+                 approximately 80\% of the indel regions could be
+                 predicted within 1.5 A RMSD from a knowledge-based loop
+                 data base if criteria for the correct localization of
+                 anchor groups could be found and the loops can be
+                 sorted correctly. From our analysis, several
+                 conclusions regarding the optimal placement of anchor
+                 groups become obvious: (1) The correct placement of
+                 anchor groups is even more important for longer gap
+                 lengths, (2) medium length fragments (length 5-8)
+                 perform better than short or long ones, (3) the
+                 placement of anchor groups at hydrophobic amino acids
+                 gives a higher chance to include the best possible
+                 loop, (4) anchor groups within secondary structure
+                 elements, in particular beta-sheets are suitable, (5)
+                 amino acids with lower solvent accessibility are better
+                 anchor group. A preliminary test using a combination of
+                 the anchor group positioning criteria deduced from our
+                 analysis shows very promising results.",
+  keywords =     "Algorithms Amino Acids/chemistry *Models, Molecular
+                 Peptide Fragments/chemistry Protein Structure,
+                 Secondary Proteins/*chemistry Solvents/chemistry",
+  year =         "2002",
+}
+
+@Article{ADM:Wol81,
+  author =       " {Wolfenden R., Andersson L., Cullis P. M.} and
+                 Southgate C. C. B.",
+  title =        "Affinities of Amino Acid Side Chains for Solvent
+                 Water",
+  journal =      "Biochemistry",
+  volume =       "20",
+  pages =        "849--855",
+  year =         "1981",
+}
+
+@Article{ADM:Yon2003,
+  author =       "Peter Kollman {Yong Duan, Chun Wu, Shibasish
+                 Chowdhury, Mathew C. Lee, Guoming Xiong, Wei Zhang,
+                 Rong Yang, Piotr Cieplak, Ray Luo, Taisung Lee, James
+                 Caldwell, Junmei Wang}",
+  title =        "A point-charge force field for molecular mechanics
+                 simulations of proteins based on condensed-phase
+                 quantum mechanical calculations",
+  journal =      "J. Comput. Chem.",
+  volume =       "24",
+  number =       "16",
+  pages =        "1999--2012",
+  year =         "2003",
+}
+
+
+
+
+
+@Article{ADM:Zhe94,
+  author =       "Q. Zheng and D. J. Kyle",
+  title =        "Multiple copy sampling: rigid versus flexible
+                 protein",
+  journal =      "Proteins",
+  volume =       "19",
+  number =       "4",
+  pages =        "324--9",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "Effects of protein flexibility on multiple copy
+                 conformational sampling were systematically evaluated
+                 by studying the side-chain placement of Phe-14 in
+                 protein Zif268. The multiple copy sampling is shown to
+                 be significantly more efficient when a flexible but
+                 harmonically constrained protein is used instead of a
+                 rigid protein. A range of constraint force from 1 to 25
+                 kcal/mol.A per atom is determined to be sufficient to
+                 prevent the protein from distortion while allowing the
+                 protein to fluctuate for enhanced sampling. The protein
+                 fluctuations are essential in smoothing the effective
+                 energy surface as shown by the opening-closing of a
+                 protein hydrophobic pocket during a multiple copy
+                 energy minimization, a phenomenon that has been
+                 previously observed only in molecular dynamics. These
+                 results provide a practical guidance for applying the
+                 multiple copy techniques to molecular modeling and
+                 computer-aided drug design.",
+  keywords =     "Aprotinin/chemistry Computer Simulation DNA-Binding
+                 Proteins/*chemistry Drug Design Kallikreins/chemistry
+                 Models, Molecular Protein Conformation Transcription
+                 Factors/*chemistry *Zinc Fingers",
+  year =         "1994",
+}
+
+@Article{ADM:Zhe96,
+  author =       "Q. Zheng and D. J. Kyle",
+  title =        "Accuracy and reliability of the scaling-relaxation
+                 method for loop closure: an evaluation based on
+                 extensive and multiple copy conformational samplings",
+  journal =      "Proteins",
+  volume =       "24",
+  number =       "2",
+  pages =        "209--17",
+  journal_note =         "0887-3585 Journal Article",
+  abstract =     "The accuracy and reliability of the recently proposed
+                 scaling-relaxation method for loop closure were
+                 examined by using extensive conformational sampling.
+                 For each of the eight heptapeptides chosen to represent
+                 a variety of protein conformations, 1,000-2,000
+                 conformations were sampled. Each segment contained 14
+                 rotatable backbone dihedral angles. The average root
+                 mean square deviations (RMSDs) between the predicted
+                 and the native conformations were 0.7 angstrom for the
+                 backbone and 1.2 angstroms for the side chain atoms.
+                 These predictions were substantially more accurate than
+                 the previous predictions (1.1 angstroms for the
+                 backbone and 2.2 angstroms for the side chain atoms) of
+                 the same eight protein segments based on limited
+                 conformational sampling (100 conformations for each
+                 segment). Large prediction errors mostly occurred at
+                 polar and surface side chains that are unlikely to have
+                 any meaningful conformation. Moreover, the reliability
+                 of seven of the eight predictions was demonstrated with
+                 their energy-RMSD and stability-RMSD correlations of
+                 the low-energy conformations, where the conformational
+                 stability was estimated by using the multiple copy
+                 simultaneous sampling method.",
+  keywords =     "Amino Acid Sequence *Computer Simulation Forecasting
+                 Mathematical Computing *Models, Molecular Molecular
+                 Sequence Data Peptides/*chemistry Protein Conformation
+                 Proteins/*chemistry Reproducibility of Results
+                 Thermodynamics",
+  year =         "1996",
+}
+
+

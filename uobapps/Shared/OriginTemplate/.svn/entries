@@ -1,0 +1,54 @@
+8
+
+dir
+81
+https://compbio.bris.ac.uk/svn/uobapps/Shared/OriginTemplate
+https://compbio.bris.ac.uk/svn/uobapps
+
+
+
+2007-05-29T13:38:34.077500Z
+66
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b2db915f-9ffc-c44a-a647-190d8a5868da
+
+histogram.opj
+file
+
+
+
+
+2007-05-30T17:05:16.453125Z
+d2a397f0c196b2c87f40eccd143757ec
+2007-05-29T13:38:34.077500Z
+66
+jr0407
+has-props
+
+scatter.opj
+file
+
+
+
+
+2007-04-17T08:59:14.025867Z
+959ffc8c7394100b07e00a7a8d178a84
+2007-04-18T12:07:24.864250Z
+49
+jr0407
+has-props
+

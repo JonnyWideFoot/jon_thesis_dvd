@@ -1,0 +1,54 @@
+8
+
+dir
+206
+https://compbio.bris.ac.uk/svn/jon_thesis/thesis/01-ProteinStructure/ramachandran/ram
+https://compbio.bris.ac.uk/svn/jon_thesis
+
+
+
+2007-05-06T17:44:47.430875Z
+33
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6a3a5146-d63f-114c-83c7-fcf081cdb853
+
+Ram_Contour.opj
+file
+
+
+
+
+2007-11-26T00:18:25.640625Z
+b9ea84780b6255f11b681153fc8c1cda
+2007-05-06T17:44:47.430875Z
+33
+jr0407
+has-props
+
+Ram_Scatter.opj
+file
+
+
+
+
+2007-11-26T00:18:25.703125Z
+ea52449e8c7ec5ede1f58b9bf6bf5207
+2007-05-06T17:44:47.430875Z
+33
+jr0407
+has-props
+

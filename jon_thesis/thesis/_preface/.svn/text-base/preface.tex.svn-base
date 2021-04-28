@@ -1,0 +1,18 @@
+% Reinitialise page numbering
+\pagenumbering{roman} \setcounter{page}{1}
+
+\input _preface/abstract.tex \clearpage
+\input _preface/dedication.tex \clearpage
+\input _preface/acknowledgements.tex \clearpage
+\input _preface/authordec.tex \clearpage
+
+\tableofcontents
+\listoffigures
+\listoftables   
+        
+\input _preface/abbreviations.tex \clearpage
+                
+\onehalfspace
+\cleardoublepage % somehow the page counting is screwed below if this isn't done...
+\pagenumbering{arabic} \setcounter{page}{1}
+

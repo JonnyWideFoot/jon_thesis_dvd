@@ -1,0 +1,52 @@
+8
+
+dir
+62
+https://compbio.bris.ac.uk/svn/uobframework/trunk/External/Minimisation
+https://compbio.bris.ac.uk/svn/uobframework
+
+
+
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f13fe0b0-1272-1745-89c1-318d94512788
+
+MinimisationInterface.resx
+file
+
+
+
+
+2007-11-26T00:23:05.312500Z
+cd81a8dcab0d24d9460441d1081074a2
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+
+MinimisationInterface.cs
+file
+
+
+
+
+2007-11-26T00:23:05.312500Z
+56a1c6a038fd4d2425f9c05ff639b098
+2005-10-04T18:28:09.875000Z
+1
+jr0407
+

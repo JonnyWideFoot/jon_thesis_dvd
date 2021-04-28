@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/pdPrime/!svn/ver/55/src/mmlib/sequence
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/37/src/mmlib/sequence/Makefile.in
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/pdPrime/!svn/ver/37/src/mmlib/sequence/Makefile.am
+END
+sequence.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/pdPrime/!svn/ver/55/src/mmlib/sequence/sequence.cpp
+END

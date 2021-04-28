@@ -1,0 +1,52 @@
+8
+
+dir
+9
+https://compbio.bris.ac.uk/svn/miniapps/Networking/OldUoBComms/Comms/ServerSide
+https://compbio.bris.ac.uk/svn/miniapps
+
+
+
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+
+svn:special svn:externals svn:needs-lock
+
+CommWindow.resx
+file
+
+
+
+
+2004-01-20T13:20:00.000000Z
+0a97065870075414504e77293687dbdd
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+CommWindow.cs
+file
+
+
+
+
+2004-04-12T19:29:00.000000Z
+5f0d6099fd0a0a96c6924b3992865928
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+
+ServerComms.cs
+file
+
+
+
+
+2004-05-04T03:49:00.000000Z
+94ad1f765a5526c86e50cbfbd6b29363
+2006-03-08T12:41:26.500000Z
+1
+jr0407
+

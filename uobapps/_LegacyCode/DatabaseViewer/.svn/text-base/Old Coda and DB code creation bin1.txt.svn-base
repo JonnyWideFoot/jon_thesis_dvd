@@ -1,0 +1,219 @@
+			DataTable dtParents = ds.Tables["PDBParents"];
+			DataTable dtDomains = ds.Tables["IGDomains"];
+			DataTable dtDimers = ds.Tables["IGDimers"];
+
+			DataRelation d1 = new DataRelation( "ExtractedDomains", dtParents.Columns["SourcePDBFileID"], dtDomains.Columns["ParentID"] );
+			ds.Relations.Add( d1 );
+
+            ds.WriteXmlSchema( m_DatabasePath + "bla.xsd" );
+
+//			DataSet ds2 = new DataSet("IGDatabase");
+//			DataTable dtParents = new DataTable("PDBParents");
+//			DataTable dtDomains = new DataTable("IGDomains");
+//			DataTable dtDimers = new DataTable("IGDimers");
+//			//DataTable dtTetramers = new DataTable("IGDomainList");
+//			//DataTable dtStrings = new DataTable("IGDomainList");
+//
+//			dtParents.Columns.Add("SourcePDBFileID",typeof(string));
+//			dtParents.Columns.Add("DBSource",typeof(DBSource));
+//			dtParents.Columns.Add("ComplexType",typeof(ComplexType));
+//			dtParents.Columns.Add("SourceHeader",typeof(string));
+//			dtParents.Columns.Add("ExperimentalMethod",typeof(PDBExpRslnMethod));
+//			dtParents.Columns.Add("Resolution",typeof(float));
+//			dtParents.Columns.Add("Comments",typeof(string));
+//
+//			dtParents.PrimaryKey = new DataColumn[] { dtParents.Columns["SourcePDBFileID"] };
+//           
+//			dtDomains.Columns.Add("DatabaseID",typeof(string));
+//			dtDomains.Columns.Add("ParentID",typeof(string));
+//			dtDomains.Columns.Add("SourceChainID",typeof(char));
+//			dtDomains.Columns.Add("WasBound",typeof(bool));
+//			dtDomains.Columns.Add("Truncated",typeof(bool));
+//			dtDomains.Columns.Add("AAStart",typeof(int));
+//			dtDomains.Columns.Add("AAEnd",typeof(int));
+//			dtDomains.Columns.Add("Length",typeof(int));
+//			dtDomains.Columns.Add("Sequence",typeof(string));
+//
+//			dtDomains.PrimaryKey = new DataColumn[] { dtDomains.Columns["DatabaseID"] };
+//
+//			dtDimers.Columns.Add("ID1",typeof(string));
+//			dtDimers.Columns.Add("ID2",typeof(string));
+//			dtDimers.Columns.Add("DimerType",typeof(DimerType));
+//
+
+//
+//			ds2.Tables.Add( dtDomains );
+//			ds2.Tables.Add( dtParents );
+//			ds2.Tables.Add( dtDimers );
+//			//ds2.Relations.Add( dataLink );
+//
+//
+//            
+//			// now add some data
+//
+//			DataRowCollection oldRows = dt.Rows;
+//			for( int i = 0; i < oldRows.Count; i++ )
+//			{
+//                string oldPDBID = (string)oldRows[i]["SourcePDBFileID"];
+//
+//
+//				DataRow newDomainRow = dtDomains.NewRow();
+//
+//				newDomainRow["DatabaseID"] = oldRows[i]["DatabaseID"];
+//				newDomainRow["ParentID"] = oldRows[i]["SourcePDBFileID"];
+//				newDomainRow["SourceChainID"] = oldRows[i]["SourceChainID"];
+//				newDomainRow["WasBound"] = false;
+//				newDomainRow["Truncated"] = oldRows[i]["WasTruncated"];
+//				newDomainRow["AAStart"] = oldRows[i]["AAStart"];
+//				newDomainRow["AAEnd"] = oldRows[i]["AAEnd"];
+//				newDomainRow["Length"] = ((string)oldRows[i]["Sequence"]).Length;
+//				newDomainRow["Sequence"] = oldRows[i]["Sequence"];
+//
+//				dtDomains.Rows.Add( newDomainRow );
+//
+//
+//
+//				if( oldRows[i]["DimerPartnerDBID"] != System.DBNull.Value )
+//				{
+//					string oldID1 = (string)oldRows[i]["DatabaseID"];
+//					string oldID2 = (string)oldRows[i]["DimerPartnerDBID"];
+//
+//					bool isThereDimer = false;
+//
+//					DataRowCollection setDimerRows = dtDimers.Rows;
+//					for( int j = 0; j < setDimerRows.Count; j++ )
+//					{
+//						string setID1 = (string)setDimerRows[j]["ID1"];
+//						string setID2 = (string)setDimerRows[j]["ID2"];
+//						if( oldID1 == setID2 && setID1 == oldID2 )
+//						{
+//							isThereDimer = true;
+//							break;
+//						}
+//					}
+//
+//					if( !isThereDimer )
+//					{
+//						DataRow dimerDef = dtDimers.NewRow();
+//						dimerDef["ID1"] = oldID1;
+//						dimerDef["ID2"] = oldID2;
+//						SegReason reason = (SegReason) oldRows[i]["ReasonForSegregation"];
+//
+//						DimerType type = DimerType.Undefined;
+//						if( reason == SegReason.TrueEndToEndDimer )
+//						{
+//							type = DimerType.EndToEndDimer;
+//						}
+//						else if ( reason == SegReason.TrueSideToSideDimer )
+//						{
+//							type = DimerType.SideToSideDimer;
+//						}
+//						else
+//						{
+//						}
+//						dimerDef["DimerType"] = type;
+//
+//						dtDimers.Rows.Add( dimerDef );
+//					}
+//				}
+//
+//
+//				bool isThereParent = false;
+//				DataRowCollection parentRows = dtParents.Rows;
+//				for( int j = 0; j < parentRows.Count; j++ )
+//				{
+//					string newPDBID = (string)parentRows[j]["SourcePDBFileID"];
+//					if( oldPDBID == newPDBID )
+//					{
+//						isThereParent = true;
+//						break;
+//					}
+//				}
+//
+//				if( !isThereParent ) // add a new parent row
+//				{
+//					DataRow newRow = dtParents.NewRow();
+//			
+//					string thePDBID = (string) oldRows[i]["SourcePDBFileID"];
+//					newRow["SourcePDBFileID"] = thePDBID;
+//					newRow["DBSource"] = DBSource.CATH;
+//					//newRow["ComplexType"] = ????
+//					newRow["SourceHeader"] = (string)oldRows[i]["SourceHeader"];
+//					newRow["Comments"] = (string)oldRows[i]["Comments"];
+//					
+//					PDB file = new PDB( m_SourcePDBPath + thePDBID + ".pdb", false );
+//					
+//					PDBExpRslnMethod expmethd = file.info.ResolutionMethod;
+//					newRow["ExperimentalMethod"] = expmethd; 
+//					if( expmethd == PDBExpRslnMethod.NMR || expmethd == PDBExpRslnMethod.NMRAveraged )
+//					{
+//						newRow["Resolution"] = -999.0;
+//					}
+//					else
+//					{
+//						newRow["Resolution"] = file.info.resolution;
+//					}
+//
+//					dtParents.Rows.Add( newRow );
+//				}
+//			}
+//
+//			dtDomains.AcceptChanges();
+//			dtParents.AcceptChanges();
+//			dtDimers.AcceptChanges();
+//
+//			ds2.WriteXml( m_DatabasePath + "newData.xml" );
+//			ds2.WriteXmlSchema( m_DatabasePath + "newSchema.xsd" );
+//
+//
+//
+//			StreamReader re = new StreamReader( m_DatabasePath + "CATH IG Domain List - PDB Code only.txt" );
+////			string line;
+////			ArrayList missing = new ArrayList();
+////			while( ( line =  re.ReadLine() ) != null )
+////			{
+////				DataRowCollection rows = dt.Rows;
+////				bool isThere = false;
+////				for( int i = 0; i < rows.Count; i++ )
+////				{
+////					string rowID = (string)rows[i]["SourcePDBFileID"];
+////					if( rowID == line )
+////					{
+////						isThere	= true;
+////						break;
+////					}
+////				}
+////				if( !isThere )
+////				{
+////					missing.Add(line);
+////				}
+////			}
+//			re.Close();
+
+
+
+
+old old old
+
+			// set up the datagrid
+			// IsValid,Filename,SourcePDBFileID,DatabaseID,DimerPartnerDBID,ExperimentalMethod,SourceHeader,SourceChainID,WasTruncated,AAStart,AAEnd,Sequence,ReasonForSegregation,Comments
+
+//			dt = new DataTable("IGDomainTable");
+//			dt.Columns.Add("IsValid",typeof(bool));
+//			dt.Columns.Add("FileName",typeof(FileInfo));
+//			dt.Columns.Add("SourcePDBFileID",typeof(string));
+//			dt.Columns.Add("DatabaseID",typeof(string));
+//			dt.Columns.Add("DimerPartnerDBID",typeof(string));
+//			dt.Columns.Add("ExperimentalMethod",typeof(PDBExpRslnMethod));
+//			dt.Columns.Add("SourceHeader",typeof(string));
+//			dt.Columns.Add("SourceChainID",typeof(char));
+//			dt.Columns.Add("WasTruncated",typeof(bool));
+//			dt.Columns.Add("AAStart",typeof(int));
+//			dt.Columns.Add("AAEnd",typeof(int));
+//			dt.Columns.Add("Sequence",typeof(string));
+//			dt.Columns.Add("ReasonForSegregation",typeof(SegReason));
+//			dt.Columns.Add("Comments",typeof(string));
+//
+//			ds = new DataSet("IGDatabase");
+//			ds.Tables.Add( dt );
+//			dataGrid.DataSource = ds;	
